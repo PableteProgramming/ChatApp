@@ -1,3 +1,4 @@
 /home/pablo/Documents/Programming/C++/ChatApp/build/CMakeFiles/rebuild_cache.dir
 /home/pablo/Documents/Programming/C++/ChatApp/build/CMakeFiles/edit_cache.dir
-/home/pablo/Documents/Programming/C++/ChatApp/build/CMakeFiles/ChatApp.dir
+/home/pablo/Documents/Programming/C++/ChatApp/build/CMakeFiles/client.dir
+/home/pablo/Documents/Programming/C++/ChatApp/build/CMakeFiles/server.dir

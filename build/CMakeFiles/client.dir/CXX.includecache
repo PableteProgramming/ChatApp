@@ -7,8 +7,6 @@
 #IncludeRegexTransform: 
 
 ../include/main.hpp
-iostream
--
 unistd.h
 -
 stdio.h
@@ -19,10 +17,14 @@ stdlib.h
 -
 netinet/in.h
 -
+string
+-
 string.h
 -
+arpa/inet.h
+-
 
-/home/pablo/Documents/Programming/C++/ChatApp/src/main.cpp
+/home/pablo/Documents/Programming/C++/ChatApp/src/client.cpp
 main.hpp
 -
 
