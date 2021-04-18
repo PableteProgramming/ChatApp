@@ -1,11 +1,21 @@
 #include <main.hpp>
 
+void* Listen(int client)
+{
+	std::cout << "Listening ..." << std::endl;
+	char receivedMessage[1024] = {0};
+	read( client , receivedMessage, sizeof(receivedMessage));
+	printf("%s\n", receivedMessage);
+}
+
 int main(){
+	std::vector<int> clients;
+	clients.clear();
+
 	int server_fd, client;
 	struct sockaddr_in socketObj;
 	int opt = 1;
 	int socketObjSize = sizeof(socketObj);
-	char receivedMessage[1024] = {0};
 	std::string message = "Hello from server";
 
 	// Creating socket file descriptor
@@ -34,23 +44,36 @@ int main(){
 		exit(EXIT_FAILURE);
 	}
 
-
-
 	if (listen(server_fd, 3) < 0)
 	{
 		perror("listen");
 		exit(EXIT_FAILURE);
 	}
 
-	if ((client = accept(server_fd, (struct sockaddr *)&socketObj, (socklen_t*)&socketObjSize))<0)
+	
+	bool running = true;
+	while (running)
 	{
-		perror("accept");
-		exit(EXIT_FAILURE);
-	}
+		pthread_t threads[clients.size()];
+		for (int i = 0; i < clients.size(); i++)
+		{
+			pthread_create(&threads[i], NULL, &Listen, clients[i]);
+		}
+		client = accept(server_fd, (struct sockaddr *)&socketObj, (socklen_t*)&socketObjSize);
+		if (client < 0)
+		{
+			perror("accept");
+			exit(EXIT_FAILURE);
+		}
+		else
+		{
+			clients.push_back(client);
+		}
 
-	read( client , receivedMessage, sizeof(receivedMessage));
-	printf("%s\n",receivedMessage );
-	send(client , message.c_str() , strlen(message.c_str()) , 0 );
-	printf("Hello message sent\n");	
+		std::cout << clients.size() << std::endl;
+
+		/*send(client , message.c_str() , strlen(message.c_str()) , 0 );
+		printf("Hello message sent\n");*/
+	}
 	return 0;
 }

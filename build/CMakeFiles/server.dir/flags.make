@@ -6,5 +6,5 @@ CXX_FLAGS =
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/pablo/Documents/Programming/C++/ChatApp/include 
+CXX_INCLUDES = -I/home/remi/Documents/Programming/ChatApp/include 
 

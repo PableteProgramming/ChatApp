@@ -4,7 +4,7 @@ int main()
 {
 	int sock = 0, valread;
 	struct sockaddr_in server_info;
-	std::string message = "Hello from client";
+	std::string message;
 	char messageBuffer[1024] = {0};
 	
 	if ((sock = socket(AF_INET, SOCK_STREAM, 0)) < 0)
@@ -29,9 +29,18 @@ int main()
 		return -1;
 	}
 	
-	send(sock , message.c_str() , strlen(message.c_str()) , 0 );
-	printf("Hello message sent\n");
-	valread = read( sock , messageBuffer, 1024);
-	printf("%s\n",messageBuffer );
+	bool running = true;
+	while (running)
+	{
+		std::getline(std::cin, message);
+
+		send(sock , message.c_str() , strlen(message.c_str()) , 0 );
+
+		if (message == "exit")
+			running = false;
+			
+		/*valread = read( sock , messageBuffer, 1024);
+		printf("%s\n",messageBuffer );*/
+	}
 	return 0;
 }

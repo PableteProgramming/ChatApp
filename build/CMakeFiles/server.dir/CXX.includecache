@@ -23,8 +23,16 @@ string.h
 -
 arpa/inet.h
 -
+iostream
+-
+vector
+-
+thread
+-
+pthread.h
+-
 
-/home/pablo/Documents/Programming/C++/ChatApp/src/server.cpp
+/home/remi/Documents/Programming/ChatApp/src/server.cpp
 main.hpp
 -
 

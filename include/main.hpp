@@ -6,5 +6,8 @@
 #include <string>
 #include <string.h>
 #include <arpa/inet.h>
+#include <iostream>
+#include <vector>
+#include <pthread.h>
 const int PORT = 8080;
 const std::string add= "127.0.0.1";

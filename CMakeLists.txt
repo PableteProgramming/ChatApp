@@ -19,3 +19,13 @@ target_include_directories(
 	client PUBLIC
 	${INCLUDE_DIR}	
 )
+
+#target_compile_options(
+	#server PUBLIC
+	#-lpthread
+#)
+
+target_link_options(
+	server PUBLIC
+	-pthread
+)
