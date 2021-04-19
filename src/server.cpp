@@ -1,17 +1,31 @@
 #include <main.hpp>
-
-void* Listen(int client)
+std::vector<int> clients;
+void Listen()
 {
-	std::cout << "Listening ..." << std::endl;
-	char receivedMessage[1024] = {0};
-	read( client , receivedMessage, sizeof(receivedMessage));
-	printf("%s\n", receivedMessage);
+	//std::cout << "Listening ..." << std::endl;
+	while(true){
+		std::vector<int> pendingToExit;
+		for(int i=0; i< clients.size();i++){
+			char receivedMessage[1024] = {0};
+			read( clients[i] , receivedMessage, sizeof(receivedMessage));
+			
+			std::string message(receivedMessage);
+			if(message=="exit"){
+				pendingToExit.push_back(i);
+			}
+			else{
+				if(message!=""){	
+					std::cout<<message<<std::endl;
+				}
+			}
+		}
+		for(int i=0; i< pendingToExit.size();i++){
+			clients.erase(clients.begin()+pendingToExit[i]);
+		}
+	}
 }
 
 int main(){
-	std::vector<int> clients;
-	clients.clear();
-
 	int server_fd, client;
 	struct sockaddr_in socketObj;
 	int opt = 1;
@@ -26,7 +40,7 @@ int main(){
 	}
 
 	// Forcefully attaching socket to the port 8080
-	if (setsockopt(server_fd, SOL_SOCKET, SO_REUSEADDR | SO_REUSEPORT,				  &opt, sizeof(opt)))
+	if (setsockopt(server_fd, SOL_SOCKET, SO_REUSEADDR | SO_REUSEPORT,&opt, sizeof(opt)))
 	{
 		perror("setsockopt");
 		exit(EXIT_FAILURE);
@@ -52,13 +66,9 @@ int main(){
 
 	
 	bool running = true;
+	std::thread listening(Listen);
 	while (running)
 	{
-		pthread_t threads[clients.size()];
-		for (int i = 0; i < clients.size(); i++)
-		{
-			pthread_create(&threads[i], NULL, &Listen, clients[i]);
-		}
 		client = accept(server_fd, (struct sockaddr *)&socketObj, (socklen_t*)&socketObjSize);
 		if (client < 0)
 		{

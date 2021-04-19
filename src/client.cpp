@@ -39,8 +39,6 @@ int main()
 		if (message == "exit")
 			running = false;
 			
-		/*valread = read( sock , messageBuffer, 1024);
-		printf("%s\n",messageBuffer );*/
 	}
 	return 0;
 }
