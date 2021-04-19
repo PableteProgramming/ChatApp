@@ -32,6 +32,7 @@ int main()
 	bool running = true;
 	while (running)
 	{
+		std::cout<<"\033[31m[input] > \033[0m";
 		std::getline(std::cin, message);
 
 		send(sock , message.c_str() , strlen(message.c_str()) , 0 );

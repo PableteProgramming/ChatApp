@@ -1,15 +1,14 @@
 #include <main.hpp>
 std::vector<int> clients;
-std::vector<std::thread*> threads;
+std::vector<std::thread> threads;
 void Read(int i){
 	while(true){
 		char receivedMessage[1024] = {0};
-		//read() blocs the program 
-		read( clients[i] , receivedMessage, sizeof(receivedMessage));
-		
+		read( clients[i] , receivedMessage, sizeof(receivedMessage));	
 		std::string message(receivedMessage);
 		if(message=="exit"){
 			clients.erase(clients.begin()+i);
+			threads.erase(threads.begin()+i);
 			break;
 		}
 		else{
@@ -72,15 +71,10 @@ int main(){
 		else
 		{
 			clients.push_back(client);
-			//std::cout<<"size: "<<clients.size()<<std::endl;
-			threads.push_back(new std::thread(Read,clients.size()-1));
-			//threads[threads.size()-1]->join();
+			threads.push_back(std::thread(Read,clients.size()-1));
 		}
 
-		//std::cout << clients.size() << std::endl;
 
-		/*send(client , message.c_str() , strlen(message.c_str()) , 0 );
-		printf("Hello message sent\n");*/
 	}
 	return 0;
 }
