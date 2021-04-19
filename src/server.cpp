@@ -1,26 +1,21 @@
 #include <main.hpp>
 std::vector<int> clients;
-void Listen()
-{
-	//std::cout << "Listening ..." << std::endl;
+std::vector<std::thread*> threads;
+void Read(int i){
 	while(true){
-		std::vector<int> pendingToExit;
-		for(int i=0; i< clients.size();i++){
-			char receivedMessage[1024] = {0};
-			read( clients[i] , receivedMessage, sizeof(receivedMessage));
-			
-			std::string message(receivedMessage);
-			if(message=="exit"){
-				pendingToExit.push_back(i);
-			}
-			else{
-				if(message!=""){	
-					std::cout<<message<<std::endl;
-				}
-			}
+		char receivedMessage[1024] = {0};
+		//read() blocs the program 
+		read( clients[i] , receivedMessage, sizeof(receivedMessage));
+		
+		std::string message(receivedMessage);
+		if(message=="exit"){
+			clients.erase(clients.begin()+i);
+			break;
 		}
-		for(int i=0; i< pendingToExit.size();i++){
-			clients.erase(clients.begin()+pendingToExit[i]);
+		else{
+			if(message!=""){	
+				std::cout<<message<<std::endl;
+			}
 		}
 	}
 }
@@ -66,7 +61,6 @@ int main(){
 
 	
 	bool running = true;
-	std::thread listening(Listen);
 	while (running)
 	{
 		client = accept(server_fd, (struct sockaddr *)&socketObj, (socklen_t*)&socketObjSize);
@@ -78,9 +72,12 @@ int main(){
 		else
 		{
 			clients.push_back(client);
+			//std::cout<<"size: "<<clients.size()<<std::endl;
+			threads.push_back(new std::thread(Read,clients.size()-1));
+			//threads[threads.size()-1]->join();
 		}
 
-		std::cout << clients.size() << std::endl;
+		//std::cout << clients.size() << std::endl;
 
 		/*send(client , message.c_str() , strlen(message.c_str()) , 0 );
 		printf("Hello message sent\n");*/
