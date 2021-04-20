@@ -20,6 +20,11 @@ target_include_directories(
 	${INCLUDE_DIR}	
 )
 
+target_sources(
+	server PUBLIC
+	${SRC_DIR}/ClientClass.cpp	
+)
+
 #target_compile_options(
 	#server PUBLIC
 	#-lpthread

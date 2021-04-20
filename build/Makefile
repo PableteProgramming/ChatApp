@@ -136,6 +136,33 @@ server/fast:
 	$(MAKE) -f CMakeFiles/server.dir/build.make CMakeFiles/server.dir/build
 .PHONY : server/fast
 
+src/ClientClass.o: src/ClientClass.cpp.o
+
+.PHONY : src/ClientClass.o
+
+# target to build an object file
+src/ClientClass.cpp.o:
+	$(MAKE) -f CMakeFiles/server.dir/build.make CMakeFiles/server.dir/src/ClientClass.cpp.o
+.PHONY : src/ClientClass.cpp.o
+
+src/ClientClass.i: src/ClientClass.cpp.i
+
+.PHONY : src/ClientClass.i
+
+# target to preprocess a source file
+src/ClientClass.cpp.i:
+	$(MAKE) -f CMakeFiles/server.dir/build.make CMakeFiles/server.dir/src/ClientClass.cpp.i
+.PHONY : src/ClientClass.cpp.i
+
+src/ClientClass.s: src/ClientClass.cpp.s
+
+.PHONY : src/ClientClass.s
+
+# target to generate assembly for a file
+src/ClientClass.cpp.s:
+	$(MAKE) -f CMakeFiles/server.dir/build.make CMakeFiles/server.dir/src/ClientClass.cpp.s
+.PHONY : src/ClientClass.cpp.s
+
 src/client.o: src/client.cpp.o
 
 .PHONY : src/client.o
@@ -200,6 +227,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... client"
 	@echo "... server"
+	@echo "... src/ClientClass.o"
+	@echo "... src/ClientClass.i"
+	@echo "... src/ClientClass.s"
 	@echo "... src/client.o"
 	@echo "... src/client.i"
 	@echo "... src/client.s"

@@ -6,7 +6,11 @@
 
 #IncludeRegexTransform: 
 
-../include/main.hpp
+../include/ClientClass.hpp
+includes.h
+../include/includes.h
+
+../include/includes.h
 unistd.h
 -
 stdio.h
@@ -32,7 +36,7 @@ thread
 pthread.h
 -
 
-/home/pablo/Documents/Programming/C++/Chatapp/src/server.cpp
-main.hpp
+/home/pablo/Documents/Programming/C++/Chatapp/src/ClientClass.cpp
+ClientClass.hpp
 -
 

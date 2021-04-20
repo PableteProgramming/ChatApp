@@ -1,20 +1,17 @@
 #include <main.hpp>
-std::vector<int> clients;
-std::vector<std::thread> threads;
-void Read(int i){
+std::vector<ClientClass> clients;
+
+void ExitClients(){
 	while(true){
-		char receivedMessage[1024] = {0};
-		read( clients[i] , receivedMessage, sizeof(receivedMessage));	
-		std::string message(receivedMessage);
-		if(message=="exit"){
-			clients.erase(clients.begin()+i);
-			threads.erase(threads.begin()+i);
-			break;
+		std::vector<int> pending;
+		pending.clear();
+		for(int i=0; i<clients.size();i++){
+			if(clients[i].GetExit()){
+				pending.push_back(i);
+			}	
 		}
-		else{
-			if(message!=""){	
-				std::cout<<message<<std::endl;
-			}
+		for(int i=0; i<pending.size();i++){
+			clients.erase(clients.begin()+pending[i]);
 		}
 	}
 }
@@ -60,6 +57,7 @@ int main(){
 
 	
 	bool running = true;
+	std::thread exitclients(ExitClients);
 	while (running)
 	{
 		client = accept(server_fd, (struct sockaddr *)&socketObj, (socklen_t*)&socketObjSize);
@@ -70,8 +68,7 @@ int main(){
 		}
 		else
 		{
-			clients.push_back(client);
-			threads.push_back(std::thread(Read,clients.size()-1));
+			clients.push_back(ClientClass(client));
 		}
 
 
