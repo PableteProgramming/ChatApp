@@ -36,7 +36,15 @@ thread
 pthread.h
 -
 
-/home/pablo/Documents/Programming/C++/Chatapp/src/ClientClass.cpp
+../include/main.hpp
 ClientClass.hpp
+../include/ClientClass.hpp
+
+/home/remi/Documents/Programming/ChatApp/src/ClientClass.cpp
+ClientClass.hpp
+-
+
+/home/remi/Documents/Programming/ChatApp/src/server.cpp
+main.hpp
 -
 

@@ -1,7 +1,18 @@
 #include <main.hpp>
 
-int main()
+int main(int argc, char** argv)
 {
+	std::string ipAddress;
+	if (argc < 2)
+	{
+		std::cout << "Please pass a parameter" << std::endl;
+		return 0;
+	}
+	else
+	{
+		ipAddress = argv[1];
+	}
+
 	int sock = 0, valread;
 	struct sockaddr_in server_info;
 	std::string message;
@@ -17,7 +28,7 @@ int main()
 	server_info.sin_port = htons(PORT);
 
 	// Convert IPv4 and IPv6 addresses from text to binary form
-	if(inet_pton(AF_INET, "127.0.0.1", &server_info.sin_addr)<=0) 
+	if(inet_pton(AF_INET, ipAddress.c_str(), &server_info.sin_addr)<=0) 
 	{
 		printf("\nInvalid address/ Address not supported \n");
 		return -1;
