@@ -1,12 +1,13 @@
 #include <ClientClass.hpp>
 
-ClientClass::ClientClass(int _id){
+ClientClass::ClientClass(int _id, std::string _name){
 	id=_id;
+	name = _name;
 	exit=false;
-	reading= new std::thread(Read,&exit,id);
+	reading= new std::thread(Read,&exit,id, name);
 }
 
-void Read(bool* exit,int id){
+void Read(bool* exit,int id, std::string name){
 	while(!(*exit)){
 		char receivedMessage[1024] = {0};
 		read( id , receivedMessage, sizeof(receivedMessage));	
@@ -16,7 +17,8 @@ void Read(bool* exit,int id){
 		}
 		else{
 			if(message!=""){	
-				std::cout<<message<<std::endl;
+				std::string toSend = "\033[34m[" + name + "] > \033[0m" + message;;
+				std::cout<<toSend<<std::endl;
 			}
 		}	
 	}

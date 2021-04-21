@@ -3,7 +3,8 @@
 int main(int argc, char** argv)
 {
 	std::string ipAddress;
-	if (argc < 2)
+	std::string name;
+	if (argc < 3)
 	{
 		std::cout << "Please pass a parameter" << std::endl;
 		return 0;
@@ -11,6 +12,7 @@ int main(int argc, char** argv)
 	else
 	{
 		ipAddress = argv[1];
+		name = argv[2];
 	}
 
 	int sock = 0, valread;
@@ -45,11 +47,12 @@ int main(int argc, char** argv)
 	std::string startMessage(receivedMessage);
 
 	std::cout << startMessage << std::endl;
+	send(sock, name.c_str(), strlen(name.c_str()), 0);
 	
 	bool running = true;
 	while (running)
 	{
-		std::cout<<"\033[31m[input] > \033[0m";
+		std::cout<<"\033[31m[You] > \033[0m";
 		std::getline(std::cin, message);
 
 		send(sock , message.c_str() , strlen(message.c_str()) , 0 );
