@@ -39,6 +39,12 @@ int main(int argc, char** argv)
 		printf("\nConnection Failed \n");
 		return -1;
 	}
+
+	char receivedMessage[1024] = {0};
+	read( sock , receivedMessage, sizeof(receivedMessage));	
+	std::string startMessage(receivedMessage);
+
+	std::cout << startMessage << std::endl;
 	
 	bool running = true;
 	while (running)

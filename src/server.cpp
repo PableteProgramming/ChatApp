@@ -68,6 +68,8 @@ int main(){
 		}
 		else
 		{
+			message = "\033[32mWelcome to the server!\033[0m";
+			send(client , message.c_str() , strlen(message.c_str()) , 0 );
 			clients.push_back(ClientClass(client));
 		}
 
