@@ -96,35 +96,9 @@ SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Cursor.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sfml-window.dir/Cursor.cpp.s"
 	cd /home/pablo/Documents/Programming/C++/ChatApp/build/SFML/src/SFML/Window && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pablo/Documents/Programming/C++/ChatApp/SFML/src/SFML/Window/Cursor.cpp -o CMakeFiles/sfml-window.dir/Cursor.cpp.s
 
-SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/EGLCheck.cpp.o: SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/flags.make
-SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/EGLCheck.cpp.o: ../SFML/src/SFML/Window/EGLCheck.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pablo/Documents/Programming/C++/ChatApp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/EGLCheck.cpp.o"
-	cd /home/pablo/Documents/Programming/C++/ChatApp/build/SFML/src/SFML/Window && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sfml-window.dir/EGLCheck.cpp.o -c /home/pablo/Documents/Programming/C++/ChatApp/SFML/src/SFML/Window/EGLCheck.cpp
-
-SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/EGLCheck.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sfml-window.dir/EGLCheck.cpp.i"
-	cd /home/pablo/Documents/Programming/C++/ChatApp/build/SFML/src/SFML/Window && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pablo/Documents/Programming/C++/ChatApp/SFML/src/SFML/Window/EGLCheck.cpp > CMakeFiles/sfml-window.dir/EGLCheck.cpp.i
-
-SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/EGLCheck.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sfml-window.dir/EGLCheck.cpp.s"
-	cd /home/pablo/Documents/Programming/C++/ChatApp/build/SFML/src/SFML/Window && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pablo/Documents/Programming/C++/ChatApp/SFML/src/SFML/Window/EGLCheck.cpp -o CMakeFiles/sfml-window.dir/EGLCheck.cpp.s
-
-SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/EglContext.cpp.o: SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/flags.make
-SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/EglContext.cpp.o: ../SFML/src/SFML/Window/EglContext.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pablo/Documents/Programming/C++/ChatApp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/EglContext.cpp.o"
-	cd /home/pablo/Documents/Programming/C++/ChatApp/build/SFML/src/SFML/Window && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sfml-window.dir/EglContext.cpp.o -c /home/pablo/Documents/Programming/C++/ChatApp/SFML/src/SFML/Window/EglContext.cpp
-
-SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/EglContext.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sfml-window.dir/EglContext.cpp.i"
-	cd /home/pablo/Documents/Programming/C++/ChatApp/build/SFML/src/SFML/Window && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pablo/Documents/Programming/C++/ChatApp/SFML/src/SFML/Window/EglContext.cpp > CMakeFiles/sfml-window.dir/EglContext.cpp.i
-
-SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/EglContext.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sfml-window.dir/EglContext.cpp.s"
-	cd /home/pablo/Documents/Programming/C++/ChatApp/build/SFML/src/SFML/Window && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pablo/Documents/Programming/C++/ChatApp/SFML/src/SFML/Window/EglContext.cpp -o CMakeFiles/sfml-window.dir/EglContext.cpp.s
-
 SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/GlContext.cpp.o: SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/flags.make
 SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/GlContext.cpp.o: ../SFML/src/SFML/Window/GlContext.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pablo/Documents/Programming/C++/ChatApp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/GlContext.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pablo/Documents/Programming/C++/ChatApp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/GlContext.cpp.o"
 	cd /home/pablo/Documents/Programming/C++/ChatApp/build/SFML/src/SFML/Window && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sfml-window.dir/GlContext.cpp.o -c /home/pablo/Documents/Programming/C++/ChatApp/SFML/src/SFML/Window/GlContext.cpp
 
 SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/GlContext.cpp.i: cmake_force
@@ -137,7 +111,7 @@ SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/GlContext.cpp.s: cmake_force
 
 SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/GlResource.cpp.o: SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/flags.make
 SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/GlResource.cpp.o: ../SFML/src/SFML/Window/GlResource.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pablo/Documents/Programming/C++/ChatApp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/GlResource.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pablo/Documents/Programming/C++/ChatApp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/GlResource.cpp.o"
 	cd /home/pablo/Documents/Programming/C++/ChatApp/build/SFML/src/SFML/Window && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sfml-window.dir/GlResource.cpp.o -c /home/pablo/Documents/Programming/C++/ChatApp/SFML/src/SFML/Window/GlResource.cpp
 
 SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/GlResource.cpp.i: cmake_force
@@ -150,7 +124,7 @@ SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/GlResource.cpp.s: cmake_force
 
 SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Joystick.cpp.o: SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/flags.make
 SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Joystick.cpp.o: ../SFML/src/SFML/Window/Joystick.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pablo/Documents/Programming/C++/ChatApp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Joystick.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pablo/Documents/Programming/C++/ChatApp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Joystick.cpp.o"
 	cd /home/pablo/Documents/Programming/C++/ChatApp/build/SFML/src/SFML/Window && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sfml-window.dir/Joystick.cpp.o -c /home/pablo/Documents/Programming/C++/ChatApp/SFML/src/SFML/Window/Joystick.cpp
 
 SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Joystick.cpp.i: cmake_force
@@ -163,7 +137,7 @@ SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Joystick.cpp.s: cmake_force
 
 SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/JoystickManager.cpp.o: SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/flags.make
 SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/JoystickManager.cpp.o: ../SFML/src/SFML/Window/JoystickManager.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pablo/Documents/Programming/C++/ChatApp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/JoystickManager.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pablo/Documents/Programming/C++/ChatApp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/JoystickManager.cpp.o"
 	cd /home/pablo/Documents/Programming/C++/ChatApp/build/SFML/src/SFML/Window && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sfml-window.dir/JoystickManager.cpp.o -c /home/pablo/Documents/Programming/C++/ChatApp/SFML/src/SFML/Window/JoystickManager.cpp
 
 SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/JoystickManager.cpp.i: cmake_force
@@ -176,7 +150,7 @@ SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/JoystickManager.cpp.s: cmake_for
 
 SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Keyboard.cpp.o: SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/flags.make
 SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Keyboard.cpp.o: ../SFML/src/SFML/Window/Keyboard.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pablo/Documents/Programming/C++/ChatApp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Keyboard.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pablo/Documents/Programming/C++/ChatApp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Keyboard.cpp.o"
 	cd /home/pablo/Documents/Programming/C++/ChatApp/build/SFML/src/SFML/Window && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sfml-window.dir/Keyboard.cpp.o -c /home/pablo/Documents/Programming/C++/ChatApp/SFML/src/SFML/Window/Keyboard.cpp
 
 SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Keyboard.cpp.i: cmake_force
@@ -189,7 +163,7 @@ SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Keyboard.cpp.s: cmake_force
 
 SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Mouse.cpp.o: SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/flags.make
 SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Mouse.cpp.o: ../SFML/src/SFML/Window/Mouse.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pablo/Documents/Programming/C++/ChatApp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Mouse.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pablo/Documents/Programming/C++/ChatApp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Mouse.cpp.o"
 	cd /home/pablo/Documents/Programming/C++/ChatApp/build/SFML/src/SFML/Window && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sfml-window.dir/Mouse.cpp.o -c /home/pablo/Documents/Programming/C++/ChatApp/SFML/src/SFML/Window/Mouse.cpp
 
 SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Mouse.cpp.i: cmake_force
@@ -202,7 +176,7 @@ SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Mouse.cpp.s: cmake_force
 
 SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Touch.cpp.o: SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/flags.make
 SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Touch.cpp.o: ../SFML/src/SFML/Window/Touch.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pablo/Documents/Programming/C++/ChatApp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Touch.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pablo/Documents/Programming/C++/ChatApp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Touch.cpp.o"
 	cd /home/pablo/Documents/Programming/C++/ChatApp/build/SFML/src/SFML/Window && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sfml-window.dir/Touch.cpp.o -c /home/pablo/Documents/Programming/C++/ChatApp/SFML/src/SFML/Window/Touch.cpp
 
 SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Touch.cpp.i: cmake_force
@@ -215,7 +189,7 @@ SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Touch.cpp.s: cmake_force
 
 SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Sensor.cpp.o: SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/flags.make
 SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Sensor.cpp.o: ../SFML/src/SFML/Window/Sensor.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pablo/Documents/Programming/C++/ChatApp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Sensor.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pablo/Documents/Programming/C++/ChatApp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Sensor.cpp.o"
 	cd /home/pablo/Documents/Programming/C++/ChatApp/build/SFML/src/SFML/Window && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sfml-window.dir/Sensor.cpp.o -c /home/pablo/Documents/Programming/C++/ChatApp/SFML/src/SFML/Window/Sensor.cpp
 
 SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Sensor.cpp.i: cmake_force
@@ -228,7 +202,7 @@ SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Sensor.cpp.s: cmake_force
 
 SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/SensorManager.cpp.o: SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/flags.make
 SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/SensorManager.cpp.o: ../SFML/src/SFML/Window/SensorManager.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pablo/Documents/Programming/C++/ChatApp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/SensorManager.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pablo/Documents/Programming/C++/ChatApp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/SensorManager.cpp.o"
 	cd /home/pablo/Documents/Programming/C++/ChatApp/build/SFML/src/SFML/Window && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sfml-window.dir/SensorManager.cpp.o -c /home/pablo/Documents/Programming/C++/ChatApp/SFML/src/SFML/Window/SensorManager.cpp
 
 SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/SensorManager.cpp.i: cmake_force
@@ -241,7 +215,7 @@ SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/SensorManager.cpp.s: cmake_force
 
 SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/VideoMode.cpp.o: SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/flags.make
 SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/VideoMode.cpp.o: ../SFML/src/SFML/Window/VideoMode.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pablo/Documents/Programming/C++/ChatApp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/VideoMode.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pablo/Documents/Programming/C++/ChatApp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/VideoMode.cpp.o"
 	cd /home/pablo/Documents/Programming/C++/ChatApp/build/SFML/src/SFML/Window && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sfml-window.dir/VideoMode.cpp.o -c /home/pablo/Documents/Programming/C++/ChatApp/SFML/src/SFML/Window/VideoMode.cpp
 
 SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/VideoMode.cpp.i: cmake_force
@@ -252,22 +226,9 @@ SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/VideoMode.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sfml-window.dir/VideoMode.cpp.s"
 	cd /home/pablo/Documents/Programming/C++/ChatApp/build/SFML/src/SFML/Window && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pablo/Documents/Programming/C++/ChatApp/SFML/src/SFML/Window/VideoMode.cpp -o CMakeFiles/sfml-window.dir/VideoMode.cpp.s
 
-SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Vulkan.cpp.o: SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/flags.make
-SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Vulkan.cpp.o: ../SFML/src/SFML/Window/Vulkan.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pablo/Documents/Programming/C++/ChatApp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Vulkan.cpp.o"
-	cd /home/pablo/Documents/Programming/C++/ChatApp/build/SFML/src/SFML/Window && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sfml-window.dir/Vulkan.cpp.o -c /home/pablo/Documents/Programming/C++/ChatApp/SFML/src/SFML/Window/Vulkan.cpp
-
-SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Vulkan.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sfml-window.dir/Vulkan.cpp.i"
-	cd /home/pablo/Documents/Programming/C++/ChatApp/build/SFML/src/SFML/Window && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pablo/Documents/Programming/C++/ChatApp/SFML/src/SFML/Window/Vulkan.cpp > CMakeFiles/sfml-window.dir/Vulkan.cpp.i
-
-SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Vulkan.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sfml-window.dir/Vulkan.cpp.s"
-	cd /home/pablo/Documents/Programming/C++/ChatApp/build/SFML/src/SFML/Window && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pablo/Documents/Programming/C++/ChatApp/SFML/src/SFML/Window/Vulkan.cpp -o CMakeFiles/sfml-window.dir/Vulkan.cpp.s
-
 SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Window.cpp.o: SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/flags.make
 SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Window.cpp.o: ../SFML/src/SFML/Window/Window.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pablo/Documents/Programming/C++/ChatApp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Window.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pablo/Documents/Programming/C++/ChatApp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Window.cpp.o"
 	cd /home/pablo/Documents/Programming/C++/ChatApp/build/SFML/src/SFML/Window && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sfml-window.dir/Window.cpp.o -c /home/pablo/Documents/Programming/C++/ChatApp/SFML/src/SFML/Window/Window.cpp
 
 SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Window.cpp.i: cmake_force
@@ -278,22 +239,9 @@ SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Window.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sfml-window.dir/Window.cpp.s"
 	cd /home/pablo/Documents/Programming/C++/ChatApp/build/SFML/src/SFML/Window && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pablo/Documents/Programming/C++/ChatApp/SFML/src/SFML/Window/Window.cpp -o CMakeFiles/sfml-window.dir/Window.cpp.s
 
-SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/WindowBase.cpp.o: SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/flags.make
-SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/WindowBase.cpp.o: ../SFML/src/SFML/Window/WindowBase.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pablo/Documents/Programming/C++/ChatApp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/WindowBase.cpp.o"
-	cd /home/pablo/Documents/Programming/C++/ChatApp/build/SFML/src/SFML/Window && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sfml-window.dir/WindowBase.cpp.o -c /home/pablo/Documents/Programming/C++/ChatApp/SFML/src/SFML/Window/WindowBase.cpp
-
-SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/WindowBase.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sfml-window.dir/WindowBase.cpp.i"
-	cd /home/pablo/Documents/Programming/C++/ChatApp/build/SFML/src/SFML/Window && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pablo/Documents/Programming/C++/ChatApp/SFML/src/SFML/Window/WindowBase.cpp > CMakeFiles/sfml-window.dir/WindowBase.cpp.i
-
-SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/WindowBase.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sfml-window.dir/WindowBase.cpp.s"
-	cd /home/pablo/Documents/Programming/C++/ChatApp/build/SFML/src/SFML/Window && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pablo/Documents/Programming/C++/ChatApp/SFML/src/SFML/Window/WindowBase.cpp -o CMakeFiles/sfml-window.dir/WindowBase.cpp.s
-
 SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/WindowImpl.cpp.o: SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/flags.make
 SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/WindowImpl.cpp.o: ../SFML/src/SFML/Window/WindowImpl.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pablo/Documents/Programming/C++/ChatApp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/WindowImpl.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pablo/Documents/Programming/C++/ChatApp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/WindowImpl.cpp.o"
 	cd /home/pablo/Documents/Programming/C++/ChatApp/build/SFML/src/SFML/Window && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sfml-window.dir/WindowImpl.cpp.o -c /home/pablo/Documents/Programming/C++/ChatApp/SFML/src/SFML/Window/WindowImpl.cpp
 
 SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/WindowImpl.cpp.i: cmake_force
@@ -306,7 +254,7 @@ SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/WindowImpl.cpp.s: cmake_force
 
 SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Unix/CursorImpl.cpp.o: SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/flags.make
 SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Unix/CursorImpl.cpp.o: ../SFML/src/SFML/Window/Unix/CursorImpl.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pablo/Documents/Programming/C++/ChatApp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Unix/CursorImpl.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pablo/Documents/Programming/C++/ChatApp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Unix/CursorImpl.cpp.o"
 	cd /home/pablo/Documents/Programming/C++/ChatApp/build/SFML/src/SFML/Window && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sfml-window.dir/Unix/CursorImpl.cpp.o -c /home/pablo/Documents/Programming/C++/ChatApp/SFML/src/SFML/Window/Unix/CursorImpl.cpp
 
 SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Unix/CursorImpl.cpp.i: cmake_force
@@ -319,7 +267,7 @@ SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Unix/CursorImpl.cpp.s: cmake_for
 
 SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Unix/ClipboardImpl.cpp.o: SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/flags.make
 SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Unix/ClipboardImpl.cpp.o: ../SFML/src/SFML/Window/Unix/ClipboardImpl.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pablo/Documents/Programming/C++/ChatApp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Unix/ClipboardImpl.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pablo/Documents/Programming/C++/ChatApp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Unix/ClipboardImpl.cpp.o"
 	cd /home/pablo/Documents/Programming/C++/ChatApp/build/SFML/src/SFML/Window && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sfml-window.dir/Unix/ClipboardImpl.cpp.o -c /home/pablo/Documents/Programming/C++/ChatApp/SFML/src/SFML/Window/Unix/ClipboardImpl.cpp
 
 SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Unix/ClipboardImpl.cpp.i: cmake_force
@@ -332,7 +280,7 @@ SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Unix/ClipboardImpl.cpp.s: cmake_
 
 SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Unix/Display.cpp.o: SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/flags.make
 SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Unix/Display.cpp.o: ../SFML/src/SFML/Window/Unix/Display.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pablo/Documents/Programming/C++/ChatApp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Unix/Display.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pablo/Documents/Programming/C++/ChatApp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Unix/Display.cpp.o"
 	cd /home/pablo/Documents/Programming/C++/ChatApp/build/SFML/src/SFML/Window && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sfml-window.dir/Unix/Display.cpp.o -c /home/pablo/Documents/Programming/C++/ChatApp/SFML/src/SFML/Window/Unix/Display.cpp
 
 SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Unix/Display.cpp.i: cmake_force
@@ -345,7 +293,7 @@ SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Unix/Display.cpp.s: cmake_force
 
 SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Unix/InputImpl.cpp.o: SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/flags.make
 SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Unix/InputImpl.cpp.o: ../SFML/src/SFML/Window/Unix/InputImpl.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pablo/Documents/Programming/C++/ChatApp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Unix/InputImpl.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pablo/Documents/Programming/C++/ChatApp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Unix/InputImpl.cpp.o"
 	cd /home/pablo/Documents/Programming/C++/ChatApp/build/SFML/src/SFML/Window && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sfml-window.dir/Unix/InputImpl.cpp.o -c /home/pablo/Documents/Programming/C++/ChatApp/SFML/src/SFML/Window/Unix/InputImpl.cpp
 
 SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Unix/InputImpl.cpp.i: cmake_force
@@ -358,7 +306,7 @@ SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Unix/InputImpl.cpp.s: cmake_forc
 
 SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Unix/SensorImpl.cpp.o: SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/flags.make
 SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Unix/SensorImpl.cpp.o: ../SFML/src/SFML/Window/Unix/SensorImpl.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pablo/Documents/Programming/C++/ChatApp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Unix/SensorImpl.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pablo/Documents/Programming/C++/ChatApp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Unix/SensorImpl.cpp.o"
 	cd /home/pablo/Documents/Programming/C++/ChatApp/build/SFML/src/SFML/Window && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sfml-window.dir/Unix/SensorImpl.cpp.o -c /home/pablo/Documents/Programming/C++/ChatApp/SFML/src/SFML/Window/Unix/SensorImpl.cpp
 
 SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Unix/SensorImpl.cpp.i: cmake_force
@@ -371,7 +319,7 @@ SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Unix/SensorImpl.cpp.s: cmake_for
 
 SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Unix/VideoModeImpl.cpp.o: SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/flags.make
 SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Unix/VideoModeImpl.cpp.o: ../SFML/src/SFML/Window/Unix/VideoModeImpl.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pablo/Documents/Programming/C++/ChatApp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Unix/VideoModeImpl.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pablo/Documents/Programming/C++/ChatApp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Unix/VideoModeImpl.cpp.o"
 	cd /home/pablo/Documents/Programming/C++/ChatApp/build/SFML/src/SFML/Window && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sfml-window.dir/Unix/VideoModeImpl.cpp.o -c /home/pablo/Documents/Programming/C++/ChatApp/SFML/src/SFML/Window/Unix/VideoModeImpl.cpp
 
 SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Unix/VideoModeImpl.cpp.i: cmake_force
@@ -382,22 +330,9 @@ SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Unix/VideoModeImpl.cpp.s: cmake_
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sfml-window.dir/Unix/VideoModeImpl.cpp.s"
 	cd /home/pablo/Documents/Programming/C++/ChatApp/build/SFML/src/SFML/Window && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pablo/Documents/Programming/C++/ChatApp/SFML/src/SFML/Window/Unix/VideoModeImpl.cpp -o CMakeFiles/sfml-window.dir/Unix/VideoModeImpl.cpp.s
 
-SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Unix/VulkanImplX11.cpp.o: SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/flags.make
-SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Unix/VulkanImplX11.cpp.o: ../SFML/src/SFML/Window/Unix/VulkanImplX11.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pablo/Documents/Programming/C++/ChatApp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Unix/VulkanImplX11.cpp.o"
-	cd /home/pablo/Documents/Programming/C++/ChatApp/build/SFML/src/SFML/Window && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sfml-window.dir/Unix/VulkanImplX11.cpp.o -c /home/pablo/Documents/Programming/C++/ChatApp/SFML/src/SFML/Window/Unix/VulkanImplX11.cpp
-
-SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Unix/VulkanImplX11.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sfml-window.dir/Unix/VulkanImplX11.cpp.i"
-	cd /home/pablo/Documents/Programming/C++/ChatApp/build/SFML/src/SFML/Window && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pablo/Documents/Programming/C++/ChatApp/SFML/src/SFML/Window/Unix/VulkanImplX11.cpp > CMakeFiles/sfml-window.dir/Unix/VulkanImplX11.cpp.i
-
-SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Unix/VulkanImplX11.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sfml-window.dir/Unix/VulkanImplX11.cpp.s"
-	cd /home/pablo/Documents/Programming/C++/ChatApp/build/SFML/src/SFML/Window && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pablo/Documents/Programming/C++/ChatApp/SFML/src/SFML/Window/Unix/VulkanImplX11.cpp -o CMakeFiles/sfml-window.dir/Unix/VulkanImplX11.cpp.s
-
 SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Unix/WindowImplX11.cpp.o: SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/flags.make
 SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Unix/WindowImplX11.cpp.o: ../SFML/src/SFML/Window/Unix/WindowImplX11.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pablo/Documents/Programming/C++/ChatApp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Unix/WindowImplX11.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pablo/Documents/Programming/C++/ChatApp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Unix/WindowImplX11.cpp.o"
 	cd /home/pablo/Documents/Programming/C++/ChatApp/build/SFML/src/SFML/Window && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sfml-window.dir/Unix/WindowImplX11.cpp.o -c /home/pablo/Documents/Programming/C++/ChatApp/SFML/src/SFML/Window/Unix/WindowImplX11.cpp
 
 SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Unix/WindowImplX11.cpp.i: cmake_force
@@ -410,7 +345,7 @@ SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Unix/WindowImplX11.cpp.s: cmake_
 
 SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Unix/GlxContext.cpp.o: SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/flags.make
 SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Unix/GlxContext.cpp.o: ../SFML/src/SFML/Window/Unix/GlxContext.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pablo/Documents/Programming/C++/ChatApp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building CXX object SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Unix/GlxContext.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pablo/Documents/Programming/C++/ChatApp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Unix/GlxContext.cpp.o"
 	cd /home/pablo/Documents/Programming/C++/ChatApp/build/SFML/src/SFML/Window && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sfml-window.dir/Unix/GlxContext.cpp.o -c /home/pablo/Documents/Programming/C++/ChatApp/SFML/src/SFML/Window/Unix/GlxContext.cpp
 
 SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Unix/GlxContext.cpp.i: cmake_force
@@ -421,9 +356,22 @@ SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Unix/GlxContext.cpp.s: cmake_for
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sfml-window.dir/Unix/GlxContext.cpp.s"
 	cd /home/pablo/Documents/Programming/C++/ChatApp/build/SFML/src/SFML/Window && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pablo/Documents/Programming/C++/ChatApp/SFML/src/SFML/Window/Unix/GlxContext.cpp -o CMakeFiles/sfml-window.dir/Unix/GlxContext.cpp.s
 
+SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Unix/GlxExtensions.cpp.o: SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/flags.make
+SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Unix/GlxExtensions.cpp.o: ../SFML/src/SFML/Window/Unix/GlxExtensions.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pablo/Documents/Programming/C++/ChatApp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Unix/GlxExtensions.cpp.o"
+	cd /home/pablo/Documents/Programming/C++/ChatApp/build/SFML/src/SFML/Window && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sfml-window.dir/Unix/GlxExtensions.cpp.o -c /home/pablo/Documents/Programming/C++/ChatApp/SFML/src/SFML/Window/Unix/GlxExtensions.cpp
+
+SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Unix/GlxExtensions.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sfml-window.dir/Unix/GlxExtensions.cpp.i"
+	cd /home/pablo/Documents/Programming/C++/ChatApp/build/SFML/src/SFML/Window && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pablo/Documents/Programming/C++/ChatApp/SFML/src/SFML/Window/Unix/GlxExtensions.cpp > CMakeFiles/sfml-window.dir/Unix/GlxExtensions.cpp.i
+
+SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Unix/GlxExtensions.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sfml-window.dir/Unix/GlxExtensions.cpp.s"
+	cd /home/pablo/Documents/Programming/C++/ChatApp/build/SFML/src/SFML/Window && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pablo/Documents/Programming/C++/ChatApp/SFML/src/SFML/Window/Unix/GlxExtensions.cpp -o CMakeFiles/sfml-window.dir/Unix/GlxExtensions.cpp.s
+
 SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Unix/JoystickImpl.cpp.o: SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/flags.make
 SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Unix/JoystickImpl.cpp.o: ../SFML/src/SFML/Window/Unix/JoystickImpl.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pablo/Documents/Programming/C++/ChatApp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building CXX object SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Unix/JoystickImpl.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pablo/Documents/Programming/C++/ChatApp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Unix/JoystickImpl.cpp.o"
 	cd /home/pablo/Documents/Programming/C++/ChatApp/build/SFML/src/SFML/Window && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sfml-window.dir/Unix/JoystickImpl.cpp.o -c /home/pablo/Documents/Programming/C++/ChatApp/SFML/src/SFML/Window/Unix/JoystickImpl.cpp
 
 SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Unix/JoystickImpl.cpp.i: cmake_force
@@ -439,8 +387,6 @@ sfml__window_OBJECTS = \
 "CMakeFiles/sfml-window.dir/Clipboard.cpp.o" \
 "CMakeFiles/sfml-window.dir/Context.cpp.o" \
 "CMakeFiles/sfml-window.dir/Cursor.cpp.o" \
-"CMakeFiles/sfml-window.dir/EGLCheck.cpp.o" \
-"CMakeFiles/sfml-window.dir/EglContext.cpp.o" \
 "CMakeFiles/sfml-window.dir/GlContext.cpp.o" \
 "CMakeFiles/sfml-window.dir/GlResource.cpp.o" \
 "CMakeFiles/sfml-window.dir/Joystick.cpp.o" \
@@ -451,9 +397,7 @@ sfml__window_OBJECTS = \
 "CMakeFiles/sfml-window.dir/Sensor.cpp.o" \
 "CMakeFiles/sfml-window.dir/SensorManager.cpp.o" \
 "CMakeFiles/sfml-window.dir/VideoMode.cpp.o" \
-"CMakeFiles/sfml-window.dir/Vulkan.cpp.o" \
 "CMakeFiles/sfml-window.dir/Window.cpp.o" \
-"CMakeFiles/sfml-window.dir/WindowBase.cpp.o" \
 "CMakeFiles/sfml-window.dir/WindowImpl.cpp.o" \
 "CMakeFiles/sfml-window.dir/Unix/CursorImpl.cpp.o" \
 "CMakeFiles/sfml-window.dir/Unix/ClipboardImpl.cpp.o" \
@@ -461,9 +405,9 @@ sfml__window_OBJECTS = \
 "CMakeFiles/sfml-window.dir/Unix/InputImpl.cpp.o" \
 "CMakeFiles/sfml-window.dir/Unix/SensorImpl.cpp.o" \
 "CMakeFiles/sfml-window.dir/Unix/VideoModeImpl.cpp.o" \
-"CMakeFiles/sfml-window.dir/Unix/VulkanImplX11.cpp.o" \
 "CMakeFiles/sfml-window.dir/Unix/WindowImplX11.cpp.o" \
 "CMakeFiles/sfml-window.dir/Unix/GlxContext.cpp.o" \
+"CMakeFiles/sfml-window.dir/Unix/GlxExtensions.cpp.o" \
 "CMakeFiles/sfml-window.dir/Unix/JoystickImpl.cpp.o"
 
 # External object files for target sfml-window
@@ -472,8 +416,6 @@ sfml__window_EXTERNAL_OBJECTS =
 SFML/lib/libsfml-window.a: SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Clipboard.cpp.o
 SFML/lib/libsfml-window.a: SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Context.cpp.o
 SFML/lib/libsfml-window.a: SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Cursor.cpp.o
-SFML/lib/libsfml-window.a: SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/EGLCheck.cpp.o
-SFML/lib/libsfml-window.a: SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/EglContext.cpp.o
 SFML/lib/libsfml-window.a: SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/GlContext.cpp.o
 SFML/lib/libsfml-window.a: SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/GlResource.cpp.o
 SFML/lib/libsfml-window.a: SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Joystick.cpp.o
@@ -484,9 +426,7 @@ SFML/lib/libsfml-window.a: SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Touch
 SFML/lib/libsfml-window.a: SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Sensor.cpp.o
 SFML/lib/libsfml-window.a: SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/SensorManager.cpp.o
 SFML/lib/libsfml-window.a: SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/VideoMode.cpp.o
-SFML/lib/libsfml-window.a: SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Vulkan.cpp.o
 SFML/lib/libsfml-window.a: SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Window.cpp.o
-SFML/lib/libsfml-window.a: SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/WindowBase.cpp.o
 SFML/lib/libsfml-window.a: SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/WindowImpl.cpp.o
 SFML/lib/libsfml-window.a: SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Unix/CursorImpl.cpp.o
 SFML/lib/libsfml-window.a: SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Unix/ClipboardImpl.cpp.o
@@ -494,13 +434,13 @@ SFML/lib/libsfml-window.a: SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Unix/
 SFML/lib/libsfml-window.a: SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Unix/InputImpl.cpp.o
 SFML/lib/libsfml-window.a: SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Unix/SensorImpl.cpp.o
 SFML/lib/libsfml-window.a: SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Unix/VideoModeImpl.cpp.o
-SFML/lib/libsfml-window.a: SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Unix/VulkanImplX11.cpp.o
 SFML/lib/libsfml-window.a: SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Unix/WindowImplX11.cpp.o
 SFML/lib/libsfml-window.a: SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Unix/GlxContext.cpp.o
+SFML/lib/libsfml-window.a: SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Unix/GlxExtensions.cpp.o
 SFML/lib/libsfml-window.a: SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Unix/JoystickImpl.cpp.o
 SFML/lib/libsfml-window.a: SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/build.make
 SFML/lib/libsfml-window.a: SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/pablo/Documents/Programming/C++/ChatApp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Linking CXX static library ../../../lib/libsfml-window.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/pablo/Documents/Programming/C++/ChatApp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Linking CXX static library ../../../lib/libsfml-window.a"
 	cd /home/pablo/Documents/Programming/C++/ChatApp/build/SFML/src/SFML/Window && $(CMAKE_COMMAND) -P CMakeFiles/sfml-window.dir/cmake_clean_target.cmake
 	cd /home/pablo/Documents/Programming/C++/ChatApp/build/SFML/src/SFML/Window && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/sfml-window.dir/link.txt --verbose=$(VERBOSE)
 

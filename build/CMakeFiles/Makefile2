@@ -237,12 +237,12 @@ TicTacToe/clean: TicTacToe/CMakeFiles/server.dir/clean
 SFML/src/SFML/System/CMakeFiles/sfml-system.dir/all:
 	$(MAKE) -f SFML/src/SFML/System/CMakeFiles/sfml-system.dir/build.make SFML/src/SFML/System/CMakeFiles/sfml-system.dir/depend
 	$(MAKE) -f SFML/src/SFML/System/CMakeFiles/sfml-system.dir/build.make SFML/src/SFML/System/CMakeFiles/sfml-system.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/pablo/Documents/Programming/C++/ChatApp/build/CMakeFiles --progress-num=59,60,61,62,63,64,65,66,67,68,69,70,71,72 "Built target sfml-system"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/pablo/Documents/Programming/C++/ChatApp/build/CMakeFiles --progress-num=61,62,63,64,65,66,67,68,69,70,71,72,73,74,75 "Built target sfml-system"
 .PHONY : SFML/src/SFML/System/CMakeFiles/sfml-system.dir/all
 
 # Build rule for subdir invocation for target.
 SFML/src/SFML/System/CMakeFiles/sfml-system.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/pablo/Documents/Programming/C++/ChatApp/build/CMakeFiles 14
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/pablo/Documents/Programming/C++/ChatApp/build/CMakeFiles 15
 	$(MAKE) -f CMakeFiles/Makefile2 SFML/src/SFML/System/CMakeFiles/sfml-system.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/pablo/Documents/Programming/C++/ChatApp/build/CMakeFiles 0
 .PHONY : SFML/src/SFML/System/CMakeFiles/sfml-system.dir/rule
@@ -264,12 +264,12 @@ SFML/src/SFML/System/CMakeFiles/sfml-system.dir/clean:
 SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/all: SFML/src/SFML/System/CMakeFiles/sfml-system.dir/all
 	$(MAKE) -f SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/build.make SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/depend
 	$(MAKE) -f SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/build.make SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/pablo/Documents/Programming/C++/ChatApp/build/CMakeFiles --progress-num=73,74,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93,94,95,96,97,98 "Built target sfml-window"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/pablo/Documents/Programming/C++/ChatApp/build/CMakeFiles --progress-num=76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93,94,95,96,97,98 "Built target sfml-window"
 .PHONY : SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/all
 
 # Build rule for subdir invocation for target.
 SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/pablo/Documents/Programming/C++/ChatApp/build/CMakeFiles 40
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/pablo/Documents/Programming/C++/ChatApp/build/CMakeFiles 38
 	$(MAKE) -f CMakeFiles/Makefile2 SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/pablo/Documents/Programming/C++/ChatApp/build/CMakeFiles 0
 .PHONY : SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/rule
@@ -291,12 +291,12 @@ SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/clean:
 SFML/src/SFML/Network/CMakeFiles/sfml-network.dir/all: SFML/src/SFML/System/CMakeFiles/sfml-system.dir/all
 	$(MAKE) -f SFML/src/SFML/Network/CMakeFiles/sfml-network.dir/build.make SFML/src/SFML/Network/CMakeFiles/sfml-network.dir/depend
 	$(MAKE) -f SFML/src/SFML/Network/CMakeFiles/sfml-network.dir/build.make SFML/src/SFML/Network/CMakeFiles/sfml-network.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/pablo/Documents/Programming/C++/ChatApp/build/CMakeFiles --progress-num=49,50,51,52,53,54,55,56,57,58 "Built target sfml-network"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/pablo/Documents/Programming/C++/ChatApp/build/CMakeFiles --progress-num=51,52,53,54,55,56,57,58,59,60 "Built target sfml-network"
 .PHONY : SFML/src/SFML/Network/CMakeFiles/sfml-network.dir/all
 
 # Build rule for subdir invocation for target.
 SFML/src/SFML/Network/CMakeFiles/sfml-network.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/pablo/Documents/Programming/C++/ChatApp/build/CMakeFiles 24
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/pablo/Documents/Programming/C++/ChatApp/build/CMakeFiles 25
 	$(MAKE) -f CMakeFiles/Makefile2 SFML/src/SFML/Network/CMakeFiles/sfml-network.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/pablo/Documents/Programming/C++/ChatApp/build/CMakeFiles 0
 .PHONY : SFML/src/SFML/Network/CMakeFiles/sfml-network.dir/rule
@@ -319,7 +319,7 @@ SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/all: SFML/src/SFML/System/CM
 SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/all: SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/all
 	$(MAKE) -f SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/build.make SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/depend
 	$(MAKE) -f SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/build.make SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/pablo/Documents/Programming/C++/ChatApp/build/CMakeFiles --progress-num=23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48 "Built target sfml-graphics"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/pablo/Documents/Programming/C++/ChatApp/build/CMakeFiles --progress-num=23,24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44,45,46,47,48,49,50 "Built target sfml-graphics"
 .PHONY : SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/all
 
 # Build rule for subdir invocation for target.
@@ -351,7 +351,7 @@ SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/all: SFML/src/SFML/System/CMakeFil
 
 # Build rule for subdir invocation for target.
 SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/pablo/Documents/Programming/C++/ChatApp/build/CMakeFiles 32
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/pablo/Documents/Programming/C++/ChatApp/build/CMakeFiles 33
 	$(MAKE) -f CMakeFiles/Makefile2 SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/pablo/Documents/Programming/C++/ChatApp/build/CMakeFiles 0
 .PHONY : SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/rule

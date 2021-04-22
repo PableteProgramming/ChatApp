@@ -304,9 +304,22 @@ SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Vertex.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sfml-graphics.dir/Vertex.cpp.s"
 	cd /home/pablo/Documents/Programming/C++/ChatApp/build/SFML/src/SFML/Graphics && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pablo/Documents/Programming/C++/ChatApp/SFML/src/SFML/Graphics/Vertex.cpp -o CMakeFiles/sfml-graphics.dir/Vertex.cpp.s
 
+SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/GLLoader.cpp.o: SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/flags.make
+SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/GLLoader.cpp.o: ../SFML/src/SFML/Graphics/GLLoader.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pablo/Documents/Programming/C++/ChatApp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/GLLoader.cpp.o"
+	cd /home/pablo/Documents/Programming/C++/ChatApp/build/SFML/src/SFML/Graphics && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sfml-graphics.dir/GLLoader.cpp.o -c /home/pablo/Documents/Programming/C++/ChatApp/SFML/src/SFML/Graphics/GLLoader.cpp
+
+SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/GLLoader.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sfml-graphics.dir/GLLoader.cpp.i"
+	cd /home/pablo/Documents/Programming/C++/ChatApp/build/SFML/src/SFML/Graphics && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pablo/Documents/Programming/C++/ChatApp/SFML/src/SFML/Graphics/GLLoader.cpp > CMakeFiles/sfml-graphics.dir/GLLoader.cpp.i
+
+SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/GLLoader.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sfml-graphics.dir/GLLoader.cpp.s"
+	cd /home/pablo/Documents/Programming/C++/ChatApp/build/SFML/src/SFML/Graphics && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pablo/Documents/Programming/C++/ChatApp/SFML/src/SFML/Graphics/GLLoader.cpp -o CMakeFiles/sfml-graphics.dir/GLLoader.cpp.s
+
 SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Shape.cpp.o: SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/flags.make
 SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Shape.cpp.o: ../SFML/src/SFML/Graphics/Shape.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pablo/Documents/Programming/C++/ChatApp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Shape.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pablo/Documents/Programming/C++/ChatApp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Shape.cpp.o"
 	cd /home/pablo/Documents/Programming/C++/ChatApp/build/SFML/src/SFML/Graphics && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sfml-graphics.dir/Shape.cpp.o -c /home/pablo/Documents/Programming/C++/ChatApp/SFML/src/SFML/Graphics/Shape.cpp
 
 SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Shape.cpp.i: cmake_force
@@ -319,7 +332,7 @@ SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Shape.cpp.s: cmake_force
 
 SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/CircleShape.cpp.o: SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/flags.make
 SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/CircleShape.cpp.o: ../SFML/src/SFML/Graphics/CircleShape.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pablo/Documents/Programming/C++/ChatApp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/CircleShape.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pablo/Documents/Programming/C++/ChatApp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/CircleShape.cpp.o"
 	cd /home/pablo/Documents/Programming/C++/ChatApp/build/SFML/src/SFML/Graphics && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sfml-graphics.dir/CircleShape.cpp.o -c /home/pablo/Documents/Programming/C++/ChatApp/SFML/src/SFML/Graphics/CircleShape.cpp
 
 SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/CircleShape.cpp.i: cmake_force
@@ -332,7 +345,7 @@ SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/CircleShape.cpp.s: cmake_for
 
 SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/RectangleShape.cpp.o: SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/flags.make
 SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/RectangleShape.cpp.o: ../SFML/src/SFML/Graphics/RectangleShape.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pablo/Documents/Programming/C++/ChatApp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/RectangleShape.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pablo/Documents/Programming/C++/ChatApp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/RectangleShape.cpp.o"
 	cd /home/pablo/Documents/Programming/C++/ChatApp/build/SFML/src/SFML/Graphics && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sfml-graphics.dir/RectangleShape.cpp.o -c /home/pablo/Documents/Programming/C++/ChatApp/SFML/src/SFML/Graphics/RectangleShape.cpp
 
 SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/RectangleShape.cpp.i: cmake_force
@@ -345,7 +358,7 @@ SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/RectangleShape.cpp.s: cmake_
 
 SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/ConvexShape.cpp.o: SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/flags.make
 SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/ConvexShape.cpp.o: ../SFML/src/SFML/Graphics/ConvexShape.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pablo/Documents/Programming/C++/ChatApp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/ConvexShape.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pablo/Documents/Programming/C++/ChatApp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/ConvexShape.cpp.o"
 	cd /home/pablo/Documents/Programming/C++/ChatApp/build/SFML/src/SFML/Graphics && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sfml-graphics.dir/ConvexShape.cpp.o -c /home/pablo/Documents/Programming/C++/ChatApp/SFML/src/SFML/Graphics/ConvexShape.cpp
 
 SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/ConvexShape.cpp.i: cmake_force
@@ -358,7 +371,7 @@ SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/ConvexShape.cpp.s: cmake_for
 
 SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Sprite.cpp.o: SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/flags.make
 SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Sprite.cpp.o: ../SFML/src/SFML/Graphics/Sprite.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pablo/Documents/Programming/C++/ChatApp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Sprite.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pablo/Documents/Programming/C++/ChatApp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Sprite.cpp.o"
 	cd /home/pablo/Documents/Programming/C++/ChatApp/build/SFML/src/SFML/Graphics && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sfml-graphics.dir/Sprite.cpp.o -c /home/pablo/Documents/Programming/C++/ChatApp/SFML/src/SFML/Graphics/Sprite.cpp
 
 SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Sprite.cpp.i: cmake_force
@@ -371,7 +384,7 @@ SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Sprite.cpp.s: cmake_force
 
 SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Text.cpp.o: SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/flags.make
 SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Text.cpp.o: ../SFML/src/SFML/Graphics/Text.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pablo/Documents/Programming/C++/ChatApp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Text.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pablo/Documents/Programming/C++/ChatApp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Text.cpp.o"
 	cd /home/pablo/Documents/Programming/C++/ChatApp/build/SFML/src/SFML/Graphics && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sfml-graphics.dir/Text.cpp.o -c /home/pablo/Documents/Programming/C++/ChatApp/SFML/src/SFML/Graphics/Text.cpp
 
 SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Text.cpp.i: cmake_force
@@ -384,7 +397,7 @@ SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Text.cpp.s: cmake_force
 
 SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/VertexArray.cpp.o: SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/flags.make
 SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/VertexArray.cpp.o: ../SFML/src/SFML/Graphics/VertexArray.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pablo/Documents/Programming/C++/ChatApp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/VertexArray.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pablo/Documents/Programming/C++/ChatApp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/VertexArray.cpp.o"
 	cd /home/pablo/Documents/Programming/C++/ChatApp/build/SFML/src/SFML/Graphics && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sfml-graphics.dir/VertexArray.cpp.o -c /home/pablo/Documents/Programming/C++/ChatApp/SFML/src/SFML/Graphics/VertexArray.cpp
 
 SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/VertexArray.cpp.i: cmake_force
@@ -397,7 +410,7 @@ SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/VertexArray.cpp.s: cmake_for
 
 SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/VertexBuffer.cpp.o: SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/flags.make
 SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/VertexBuffer.cpp.o: ../SFML/src/SFML/Graphics/VertexBuffer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pablo/Documents/Programming/C++/ChatApp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/VertexBuffer.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pablo/Documents/Programming/C++/ChatApp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building CXX object SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/VertexBuffer.cpp.o"
 	cd /home/pablo/Documents/Programming/C++/ChatApp/build/SFML/src/SFML/Graphics && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sfml-graphics.dir/VertexBuffer.cpp.o -c /home/pablo/Documents/Programming/C++/ChatApp/SFML/src/SFML/Graphics/VertexBuffer.cpp
 
 SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/VertexBuffer.cpp.i: cmake_force
@@ -410,7 +423,7 @@ SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/VertexBuffer.cpp.s: cmake_fo
 
 SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/RenderTextureImpl.cpp.o: SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/flags.make
 SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/RenderTextureImpl.cpp.o: ../SFML/src/SFML/Graphics/RenderTextureImpl.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pablo/Documents/Programming/C++/ChatApp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building CXX object SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/RenderTextureImpl.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pablo/Documents/Programming/C++/ChatApp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building CXX object SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/RenderTextureImpl.cpp.o"
 	cd /home/pablo/Documents/Programming/C++/ChatApp/build/SFML/src/SFML/Graphics && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sfml-graphics.dir/RenderTextureImpl.cpp.o -c /home/pablo/Documents/Programming/C++/ChatApp/SFML/src/SFML/Graphics/RenderTextureImpl.cpp
 
 SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/RenderTextureImpl.cpp.i: cmake_force
@@ -423,7 +436,7 @@ SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/RenderTextureImpl.cpp.s: cma
 
 SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/RenderTextureImplFBO.cpp.o: SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/flags.make
 SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/RenderTextureImplFBO.cpp.o: ../SFML/src/SFML/Graphics/RenderTextureImplFBO.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pablo/Documents/Programming/C++/ChatApp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building CXX object SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/RenderTextureImplFBO.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pablo/Documents/Programming/C++/ChatApp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building CXX object SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/RenderTextureImplFBO.cpp.o"
 	cd /home/pablo/Documents/Programming/C++/ChatApp/build/SFML/src/SFML/Graphics && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sfml-graphics.dir/RenderTextureImplFBO.cpp.o -c /home/pablo/Documents/Programming/C++/ChatApp/SFML/src/SFML/Graphics/RenderTextureImplFBO.cpp
 
 SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/RenderTextureImplFBO.cpp.i: cmake_force
@@ -436,7 +449,7 @@ SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/RenderTextureImplFBO.cpp.s: 
 
 SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/RenderTextureImplDefault.cpp.o: SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/flags.make
 SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/RenderTextureImplDefault.cpp.o: ../SFML/src/SFML/Graphics/RenderTextureImplDefault.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pablo/Documents/Programming/C++/ChatApp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building CXX object SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/RenderTextureImplDefault.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pablo/Documents/Programming/C++/ChatApp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building CXX object SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/RenderTextureImplDefault.cpp.o"
 	cd /home/pablo/Documents/Programming/C++/ChatApp/build/SFML/src/SFML/Graphics && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sfml-graphics.dir/RenderTextureImplDefault.cpp.o -c /home/pablo/Documents/Programming/C++/ChatApp/SFML/src/SFML/Graphics/RenderTextureImplDefault.cpp
 
 SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/RenderTextureImplDefault.cpp.i: cmake_force
@@ -468,6 +481,7 @@ sfml__graphics_OBJECTS = \
 "CMakeFiles/sfml-graphics.dir/Transformable.cpp.o" \
 "CMakeFiles/sfml-graphics.dir/View.cpp.o" \
 "CMakeFiles/sfml-graphics.dir/Vertex.cpp.o" \
+"CMakeFiles/sfml-graphics.dir/GLLoader.cpp.o" \
 "CMakeFiles/sfml-graphics.dir/Shape.cpp.o" \
 "CMakeFiles/sfml-graphics.dir/CircleShape.cpp.o" \
 "CMakeFiles/sfml-graphics.dir/RectangleShape.cpp.o" \
@@ -502,6 +516,7 @@ SFML/lib/libsfml-graphics.a: SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir
 SFML/lib/libsfml-graphics.a: SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Transformable.cpp.o
 SFML/lib/libsfml-graphics.a: SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/View.cpp.o
 SFML/lib/libsfml-graphics.a: SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Vertex.cpp.o
+SFML/lib/libsfml-graphics.a: SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/GLLoader.cpp.o
 SFML/lib/libsfml-graphics.a: SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Shape.cpp.o
 SFML/lib/libsfml-graphics.a: SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/CircleShape.cpp.o
 SFML/lib/libsfml-graphics.a: SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/RectangleShape.cpp.o
@@ -515,7 +530,7 @@ SFML/lib/libsfml-graphics.a: SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir
 SFML/lib/libsfml-graphics.a: SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/RenderTextureImplDefault.cpp.o
 SFML/lib/libsfml-graphics.a: SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/build.make
 SFML/lib/libsfml-graphics.a: SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/pablo/Documents/Programming/C++/ChatApp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Linking CXX static library ../../../lib/libsfml-graphics.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/pablo/Documents/Programming/C++/ChatApp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Linking CXX static library ../../../lib/libsfml-graphics.a"
 	cd /home/pablo/Documents/Programming/C++/ChatApp/build/SFML/src/SFML/Graphics && $(CMAKE_COMMAND) -P CMakeFiles/sfml-graphics.dir/cmake_clean_target.cmake
 	cd /home/pablo/Documents/Programming/C++/ChatApp/build/SFML/src/SFML/Graphics && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/sfml-graphics.dir/link.txt --verbose=$(VERBOSE)
 

@@ -8,6 +8,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/sfml-graphics.dir/Font.cpp.o"
   "CMakeFiles/sfml-graphics.dir/GLCheck.cpp.o"
   "CMakeFiles/sfml-graphics.dir/GLExtensions.cpp.o"
+  "CMakeFiles/sfml-graphics.dir/GLLoader.cpp.o"
   "CMakeFiles/sfml-graphics.dir/Glsl.cpp.o"
   "CMakeFiles/sfml-graphics.dir/Image.cpp.o"
   "CMakeFiles/sfml-graphics.dir/ImageLoader.cpp.o"

@@ -360,6 +360,33 @@ GLExtensions.cpp.s:
 	cd /home/pablo/Documents/Programming/C++/ChatApp/build && $(MAKE) -f SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/build.make SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/GLExtensions.cpp.s
 .PHONY : GLExtensions.cpp.s
 
+GLLoader.o: GLLoader.cpp.o
+
+.PHONY : GLLoader.o
+
+# target to build an object file
+GLLoader.cpp.o:
+	cd /home/pablo/Documents/Programming/C++/ChatApp/build && $(MAKE) -f SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/build.make SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/GLLoader.cpp.o
+.PHONY : GLLoader.cpp.o
+
+GLLoader.i: GLLoader.cpp.i
+
+.PHONY : GLLoader.i
+
+# target to preprocess a source file
+GLLoader.cpp.i:
+	cd /home/pablo/Documents/Programming/C++/ChatApp/build && $(MAKE) -f SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/build.make SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/GLLoader.cpp.i
+.PHONY : GLLoader.cpp.i
+
+GLLoader.s: GLLoader.cpp.s
+
+.PHONY : GLLoader.s
+
+# target to generate assembly for a file
+GLLoader.cpp.s:
+	cd /home/pablo/Documents/Programming/C++/ChatApp/build && $(MAKE) -f SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/build.make SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/GLLoader.cpp.s
+.PHONY : GLLoader.cpp.s
+
 Glsl.o: Glsl.cpp.o
 
 .PHONY : Glsl.o
@@ -1015,6 +1042,9 @@ help:
 	@echo "... GLExtensions.o"
 	@echo "... GLExtensions.i"
 	@echo "... GLExtensions.s"
+	@echo "... GLLoader.o"
+	@echo "... GLLoader.i"
+	@echo "... GLLoader.s"
 	@echo "... Glsl.o"
 	@echo "... Glsl.i"
 	@echo "... Glsl.s"

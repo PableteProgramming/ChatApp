@@ -7,8 +7,6 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/home/pablo/Documents/Programming/C++/ChatApp/SFML/src/SFML/Window/Clipboard.cpp" "/home/pablo/Documents/Programming/C++/ChatApp/build/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Clipboard.cpp.o"
   "/home/pablo/Documents/Programming/C++/ChatApp/SFML/src/SFML/Window/Context.cpp" "/home/pablo/Documents/Programming/C++/ChatApp/build/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Context.cpp.o"
   "/home/pablo/Documents/Programming/C++/ChatApp/SFML/src/SFML/Window/Cursor.cpp" "/home/pablo/Documents/Programming/C++/ChatApp/build/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Cursor.cpp.o"
-  "/home/pablo/Documents/Programming/C++/ChatApp/SFML/src/SFML/Window/EGLCheck.cpp" "/home/pablo/Documents/Programming/C++/ChatApp/build/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/EGLCheck.cpp.o"
-  "/home/pablo/Documents/Programming/C++/ChatApp/SFML/src/SFML/Window/EglContext.cpp" "/home/pablo/Documents/Programming/C++/ChatApp/build/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/EglContext.cpp.o"
   "/home/pablo/Documents/Programming/C++/ChatApp/SFML/src/SFML/Window/GlContext.cpp" "/home/pablo/Documents/Programming/C++/ChatApp/build/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/GlContext.cpp.o"
   "/home/pablo/Documents/Programming/C++/ChatApp/SFML/src/SFML/Window/GlResource.cpp" "/home/pablo/Documents/Programming/C++/ChatApp/build/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/GlResource.cpp.o"
   "/home/pablo/Documents/Programming/C++/ChatApp/SFML/src/SFML/Window/Joystick.cpp" "/home/pablo/Documents/Programming/C++/ChatApp/build/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Joystick.cpp.o"
@@ -22,16 +20,14 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/home/pablo/Documents/Programming/C++/ChatApp/SFML/src/SFML/Window/Unix/CursorImpl.cpp" "/home/pablo/Documents/Programming/C++/ChatApp/build/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Unix/CursorImpl.cpp.o"
   "/home/pablo/Documents/Programming/C++/ChatApp/SFML/src/SFML/Window/Unix/Display.cpp" "/home/pablo/Documents/Programming/C++/ChatApp/build/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Unix/Display.cpp.o"
   "/home/pablo/Documents/Programming/C++/ChatApp/SFML/src/SFML/Window/Unix/GlxContext.cpp" "/home/pablo/Documents/Programming/C++/ChatApp/build/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Unix/GlxContext.cpp.o"
+  "/home/pablo/Documents/Programming/C++/ChatApp/SFML/src/SFML/Window/Unix/GlxExtensions.cpp" "/home/pablo/Documents/Programming/C++/ChatApp/build/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Unix/GlxExtensions.cpp.o"
   "/home/pablo/Documents/Programming/C++/ChatApp/SFML/src/SFML/Window/Unix/InputImpl.cpp" "/home/pablo/Documents/Programming/C++/ChatApp/build/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Unix/InputImpl.cpp.o"
   "/home/pablo/Documents/Programming/C++/ChatApp/SFML/src/SFML/Window/Unix/JoystickImpl.cpp" "/home/pablo/Documents/Programming/C++/ChatApp/build/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Unix/JoystickImpl.cpp.o"
   "/home/pablo/Documents/Programming/C++/ChatApp/SFML/src/SFML/Window/Unix/SensorImpl.cpp" "/home/pablo/Documents/Programming/C++/ChatApp/build/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Unix/SensorImpl.cpp.o"
   "/home/pablo/Documents/Programming/C++/ChatApp/SFML/src/SFML/Window/Unix/VideoModeImpl.cpp" "/home/pablo/Documents/Programming/C++/ChatApp/build/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Unix/VideoModeImpl.cpp.o"
-  "/home/pablo/Documents/Programming/C++/ChatApp/SFML/src/SFML/Window/Unix/VulkanImplX11.cpp" "/home/pablo/Documents/Programming/C++/ChatApp/build/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Unix/VulkanImplX11.cpp.o"
   "/home/pablo/Documents/Programming/C++/ChatApp/SFML/src/SFML/Window/Unix/WindowImplX11.cpp" "/home/pablo/Documents/Programming/C++/ChatApp/build/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Unix/WindowImplX11.cpp.o"
   "/home/pablo/Documents/Programming/C++/ChatApp/SFML/src/SFML/Window/VideoMode.cpp" "/home/pablo/Documents/Programming/C++/ChatApp/build/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/VideoMode.cpp.o"
-  "/home/pablo/Documents/Programming/C++/ChatApp/SFML/src/SFML/Window/Vulkan.cpp" "/home/pablo/Documents/Programming/C++/ChatApp/build/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Vulkan.cpp.o"
   "/home/pablo/Documents/Programming/C++/ChatApp/SFML/src/SFML/Window/Window.cpp" "/home/pablo/Documents/Programming/C++/ChatApp/build/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Window.cpp.o"
-  "/home/pablo/Documents/Programming/C++/ChatApp/SFML/src/SFML/Window/WindowBase.cpp" "/home/pablo/Documents/Programming/C++/ChatApp/build/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/WindowBase.cpp.o"
   "/home/pablo/Documents/Programming/C++/ChatApp/SFML/src/SFML/Window/WindowImpl.cpp" "/home/pablo/Documents/Programming/C++/ChatApp/build/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/WindowImpl.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
@@ -45,8 +41,6 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "../SFML/include"
   "../SFML/src"
-  "../SFML/extlibs/headers/glad/include"
-  "../SFML/extlibs/headers/vulkan"
   )
 
 # Targets to which this target links.

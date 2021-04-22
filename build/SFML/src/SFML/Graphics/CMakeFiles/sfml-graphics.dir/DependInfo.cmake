@@ -11,6 +11,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "/home/pablo/Documents/Programming/C++/ChatApp/SFML/src/SFML/Graphics/Font.cpp" "/home/pablo/Documents/Programming/C++/ChatApp/build/SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Font.cpp.o"
   "/home/pablo/Documents/Programming/C++/ChatApp/SFML/src/SFML/Graphics/GLCheck.cpp" "/home/pablo/Documents/Programming/C++/ChatApp/build/SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/GLCheck.cpp.o"
   "/home/pablo/Documents/Programming/C++/ChatApp/SFML/src/SFML/Graphics/GLExtensions.cpp" "/home/pablo/Documents/Programming/C++/ChatApp/build/SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/GLExtensions.cpp.o"
+  "/home/pablo/Documents/Programming/C++/ChatApp/SFML/src/SFML/Graphics/GLLoader.cpp" "/home/pablo/Documents/Programming/C++/ChatApp/build/SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/GLLoader.cpp.o"
   "/home/pablo/Documents/Programming/C++/ChatApp/SFML/src/SFML/Graphics/Glsl.cpp" "/home/pablo/Documents/Programming/C++/ChatApp/build/SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Glsl.cpp.o"
   "/home/pablo/Documents/Programming/C++/ChatApp/SFML/src/SFML/Graphics/Image.cpp" "/home/pablo/Documents/Programming/C++/ChatApp/build/SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Image.cpp.o"
   "/home/pablo/Documents/Programming/C++/ChatApp/SFML/src/SFML/Graphics/ImageLoader.cpp" "/home/pablo/Documents/Programming/C++/ChatApp/build/SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/ImageLoader.cpp.o"
@@ -48,7 +49,6 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "../SFML/include"
   "../SFML/src"
   "../SFML/extlibs/headers/stb_image"
-  "../SFML/extlibs/headers/glad/include"
   "/usr/include/freetype2"
   )
 

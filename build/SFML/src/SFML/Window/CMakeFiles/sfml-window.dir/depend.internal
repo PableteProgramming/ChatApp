@@ -46,80 +46,7 @@ SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Cursor.cpp.o
  ../SFML/src/SFML/Window/Win32/CursorImpl.hpp
  ../SFML/src/SFML/Window/iOS/CursorImpl.hpp
  /home/pablo/Documents/Programming/C++/ChatApp/SFML/src/SFML/Window/Cursor.cpp
-SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/EGLCheck.cpp.o
- ../SFML/extlibs/headers/glad/include/glad/egl.h
- ../SFML/include/SFML/Config.hpp
- ../SFML/include/SFML/System/Err.hpp
- ../SFML/include/SFML/System/Export.hpp
- ../SFML/src/SFML/Window/EGLCheck.hpp
- /home/pablo/Documents/Programming/C++/ChatApp/SFML/src/SFML/Window/EGLCheck.cpp
-SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/EglContext.cpp.o
- ../SFML/extlibs/headers/glad/include/glad/egl.h
- ../SFML/include/SFML/Config.hpp
- ../SFML/include/SFML/System/Clock.hpp
- ../SFML/include/SFML/System/Err.hpp
- ../SFML/include/SFML/System/Export.hpp
- ../SFML/include/SFML/System/Lock.hpp
- ../SFML/include/SFML/System/Mutex.hpp
- ../SFML/include/SFML/System/NonCopyable.hpp
- ../SFML/include/SFML/System/Sleep.hpp
- ../SFML/include/SFML/System/String.hpp
- ../SFML/include/SFML/System/String.inl
- ../SFML/include/SFML/System/Time.hpp
- ../SFML/include/SFML/System/Utf.hpp
- ../SFML/include/SFML/System/Utf.inl
- ../SFML/include/SFML/System/Vector2.hpp
- ../SFML/include/SFML/System/Vector2.inl
- ../SFML/include/SFML/System/Vector3.hpp
- ../SFML/include/SFML/System/Vector3.inl
- ../SFML/include/SFML/Window/Context.hpp
- ../SFML/include/SFML/Window/ContextSettings.hpp
- ../SFML/include/SFML/Window/Cursor.hpp
- ../SFML/include/SFML/Window/Event.hpp
- ../SFML/include/SFML/Window/Export.hpp
- ../SFML/include/SFML/Window/GlResource.hpp
- ../SFML/include/SFML/Window/Joystick.hpp
- ../SFML/include/SFML/Window/Keyboard.hpp
- ../SFML/include/SFML/Window/Mouse.hpp
- ../SFML/include/SFML/Window/Sensor.hpp
- ../SFML/include/SFML/Window/VideoMode.hpp
- ../SFML/include/SFML/Window/Vulkan.hpp
- ../SFML/include/SFML/Window/Window.hpp
- ../SFML/include/SFML/Window/WindowBase.hpp
- ../SFML/include/SFML/Window/WindowHandle.hpp
- ../SFML/include/SFML/Window/WindowStyle.hpp
- ../SFML/src/SFML/System/Android/Activity.hpp
- ../SFML/src/SFML/Window/Android/CursorImpl.hpp
- ../SFML/src/SFML/Window/Android/JoystickImpl.hpp
- ../SFML/src/SFML/Window/Android/SensorImpl.hpp
- ../SFML/src/SFML/Window/CursorImpl.hpp
- ../SFML/src/SFML/Window/EGLCheck.hpp
- ../SFML/src/SFML/Window/EglContext.hpp
- ../SFML/src/SFML/Window/FreeBSD/JoystickImpl.hpp
- ../SFML/src/SFML/Window/GlContext.hpp
- ../SFML/src/SFML/Window/JoystickImpl.hpp
- ../SFML/src/SFML/Window/NetBSD/JoystickImpl.hpp
- ../SFML/src/SFML/Window/OSX/CursorImpl.hpp
- ../SFML/src/SFML/Window/OSX/JoystickImpl.hpp
- ../SFML/src/SFML/Window/OSX/SensorImpl.hpp
- ../SFML/src/SFML/Window/OpenBSD/JoystickImpl.hpp
- ../SFML/src/SFML/Window/SensorImpl.hpp
- ../SFML/src/SFML/Window/Unix/CursorImpl.hpp
- ../SFML/src/SFML/Window/Unix/JoystickImpl.hpp
- ../SFML/src/SFML/Window/Unix/SensorImpl.hpp
- ../SFML/src/SFML/Window/Win32/CursorImpl.hpp
- ../SFML/src/SFML/Window/Win32/JoystickImpl.hpp
- ../SFML/src/SFML/Window/Win32/SensorImpl.hpp
- ../SFML/src/SFML/Window/WindowImpl.hpp
- ../SFML/src/SFML/Window/iOS/CursorImpl.hpp
- ../SFML/src/SFML/Window/iOS/JoystickImpl.hpp
- ../SFML/src/SFML/Window/iOS/SensorImpl.hpp
- /home/pablo/Documents/Programming/C++/ChatApp/SFML/src/SFML/Window/EglContext.cpp
 SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/GlContext.cpp.o
- ../SFML/extlibs/headers/glad/include/glad/egl.h
- ../SFML/extlibs/headers/glad/include/glad/gl.h
- ../SFML/extlibs/headers/glad/include/glad/glx.h
- ../SFML/extlibs/headers/glad/include/glad/wgl.h
  ../SFML/include/SFML/Config.hpp
  ../SFML/include/SFML/System/Clock.hpp
  ../SFML/include/SFML/System/Err.hpp
@@ -172,7 +99,6 @@ SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Joystick.cpp.o
  ../SFML/src/SFML/Window/FreeBSD/JoystickImpl.hpp
  ../SFML/src/SFML/Window/JoystickImpl.hpp
  ../SFML/src/SFML/Window/JoystickManager.hpp
- ../SFML/src/SFML/Window/NetBSD/JoystickImpl.hpp
  ../SFML/src/SFML/Window/OSX/JoystickImpl.hpp
  ../SFML/src/SFML/Window/OpenBSD/JoystickImpl.hpp
  ../SFML/src/SFML/Window/Unix/JoystickImpl.hpp
@@ -193,7 +119,6 @@ SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/JoystickManager.cpp.o
  ../SFML/src/SFML/Window/FreeBSD/JoystickImpl.hpp
  ../SFML/src/SFML/Window/JoystickImpl.hpp
  ../SFML/src/SFML/Window/JoystickManager.hpp
- ../SFML/src/SFML/Window/NetBSD/JoystickImpl.hpp
  ../SFML/src/SFML/Window/OSX/JoystickImpl.hpp
  ../SFML/src/SFML/Window/OpenBSD/JoystickImpl.hpp
  ../SFML/src/SFML/Window/Unix/JoystickImpl.hpp
@@ -216,28 +141,16 @@ SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Keyboard.cpp.o
  /home/pablo/Documents/Programming/C++/ChatApp/SFML/src/SFML/Window/Keyboard.cpp
 SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Mouse.cpp.o
  ../SFML/include/SFML/Config.hpp
- ../SFML/include/SFML/System/Clock.hpp
  ../SFML/include/SFML/System/Export.hpp
  ../SFML/include/SFML/System/NonCopyable.hpp
- ../SFML/include/SFML/System/String.hpp
- ../SFML/include/SFML/System/String.inl
- ../SFML/include/SFML/System/Time.hpp
- ../SFML/include/SFML/System/Utf.hpp
- ../SFML/include/SFML/System/Utf.inl
  ../SFML/include/SFML/System/Vector2.hpp
  ../SFML/include/SFML/System/Vector2.inl
  ../SFML/include/SFML/Window/ContextSettings.hpp
- ../SFML/include/SFML/Window/Cursor.hpp
  ../SFML/include/SFML/Window/Export.hpp
  ../SFML/include/SFML/Window/GlResource.hpp
  ../SFML/include/SFML/Window/Keyboard.hpp
  ../SFML/include/SFML/Window/Mouse.hpp
- ../SFML/include/SFML/Window/VideoMode.hpp
- ../SFML/include/SFML/Window/Vulkan.hpp
  ../SFML/include/SFML/Window/Window.hpp
- ../SFML/include/SFML/Window/WindowBase.hpp
- ../SFML/include/SFML/Window/WindowHandle.hpp
- ../SFML/include/SFML/Window/WindowStyle.hpp
  ../SFML/src/SFML/Window/Android/InputImpl.hpp
  ../SFML/src/SFML/Window/InputImpl.hpp
  ../SFML/src/SFML/Window/OSX/InputImpl.hpp
@@ -330,10 +243,7 @@ SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Unix/Display.cpp.o
  ../SFML/src/SFML/Window/Unix/Display.hpp
  /home/pablo/Documents/Programming/C++/ChatApp/SFML/src/SFML/Window/Unix/Display.cpp
 SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Unix/GlxContext.cpp.o
- ../SFML/extlibs/headers/glad/include/glad/gl.h
- ../SFML/extlibs/headers/glad/include/glad/glx.h
  ../SFML/include/SFML/Config.hpp
- ../SFML/include/SFML/System/Clock.hpp
  ../SFML/include/SFML/System/Err.hpp
  ../SFML/include/SFML/System/Export.hpp
  ../SFML/include/SFML/System/Lock.hpp
@@ -359,9 +269,7 @@ SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Unix/GlxContext.cpp.o
  ../SFML/include/SFML/Window/Mouse.hpp
  ../SFML/include/SFML/Window/Sensor.hpp
  ../SFML/include/SFML/Window/VideoMode.hpp
- ../SFML/include/SFML/Window/Vulkan.hpp
  ../SFML/include/SFML/Window/Window.hpp
- ../SFML/include/SFML/Window/WindowBase.hpp
  ../SFML/include/SFML/Window/WindowHandle.hpp
  ../SFML/include/SFML/Window/WindowStyle.hpp
  ../SFML/src/SFML/Window/Android/CursorImpl.hpp
@@ -371,7 +279,6 @@ SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Unix/GlxContext.cpp.o
  ../SFML/src/SFML/Window/FreeBSD/JoystickImpl.hpp
  ../SFML/src/SFML/Window/GlContext.hpp
  ../SFML/src/SFML/Window/JoystickImpl.hpp
- ../SFML/src/SFML/Window/NetBSD/JoystickImpl.hpp
  ../SFML/src/SFML/Window/OSX/CursorImpl.hpp
  ../SFML/src/SFML/Window/OSX/JoystickImpl.hpp
  ../SFML/src/SFML/Window/OSX/SensorImpl.hpp
@@ -391,31 +298,29 @@ SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Unix/GlxContext.cpp.o
  ../SFML/src/SFML/Window/iOS/JoystickImpl.hpp
  ../SFML/src/SFML/Window/iOS/SensorImpl.hpp
  /home/pablo/Documents/Programming/C++/ChatApp/SFML/src/SFML/Window/Unix/GlxContext.cpp
+SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Unix/GlxExtensions.cpp.o
+ ../SFML/include/SFML/Config.hpp
+ ../SFML/include/SFML/System/Export.hpp
+ ../SFML/include/SFML/System/NonCopyable.hpp
+ ../SFML/include/SFML/Window/Context.hpp
+ ../SFML/include/SFML/Window/ContextSettings.hpp
+ ../SFML/include/SFML/Window/Export.hpp
+ ../SFML/include/SFML/Window/GlResource.hpp
+ ../SFML/src/SFML/Window/Unix/GlxExtensions.hpp
+ /home/pablo/Documents/Programming/C++/ChatApp/SFML/src/SFML/Window/Unix/GlxExtensions.cpp
 SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Unix/InputImpl.cpp.o
  ../SFML/include/SFML/Config.hpp
- ../SFML/include/SFML/System/Clock.hpp
  ../SFML/include/SFML/System/Err.hpp
  ../SFML/include/SFML/System/Export.hpp
  ../SFML/include/SFML/System/NonCopyable.hpp
- ../SFML/include/SFML/System/String.hpp
- ../SFML/include/SFML/System/String.inl
- ../SFML/include/SFML/System/Time.hpp
- ../SFML/include/SFML/System/Utf.hpp
- ../SFML/include/SFML/System/Utf.inl
  ../SFML/include/SFML/System/Vector2.hpp
  ../SFML/include/SFML/System/Vector2.inl
  ../SFML/include/SFML/Window/ContextSettings.hpp
- ../SFML/include/SFML/Window/Cursor.hpp
  ../SFML/include/SFML/Window/Export.hpp
  ../SFML/include/SFML/Window/GlResource.hpp
  ../SFML/include/SFML/Window/Keyboard.hpp
  ../SFML/include/SFML/Window/Mouse.hpp
- ../SFML/include/SFML/Window/VideoMode.hpp
- ../SFML/include/SFML/Window/Vulkan.hpp
  ../SFML/include/SFML/Window/Window.hpp
- ../SFML/include/SFML/Window/WindowBase.hpp
- ../SFML/include/SFML/Window/WindowHandle.hpp
- ../SFML/include/SFML/Window/WindowStyle.hpp
  ../SFML/src/SFML/Window/Unix/Display.hpp
  ../SFML/src/SFML/Window/Unix/InputImpl.hpp
  /home/pablo/Documents/Programming/C++/ChatApp/SFML/src/SFML/Window/Unix/InputImpl.cpp
@@ -432,7 +337,6 @@ SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Unix/JoystickImpl.cpp.o
  ../SFML/src/SFML/Window/Android/JoystickImpl.hpp
  ../SFML/src/SFML/Window/FreeBSD/JoystickImpl.hpp
  ../SFML/src/SFML/Window/JoystickImpl.hpp
- ../SFML/src/SFML/Window/NetBSD/JoystickImpl.hpp
  ../SFML/src/SFML/Window/OSX/JoystickImpl.hpp
  ../SFML/src/SFML/Window/OpenBSD/JoystickImpl.hpp
  ../SFML/src/SFML/Window/Unix/JoystickImpl.hpp
@@ -463,33 +367,8 @@ SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Unix/VideoModeImpl.cpp.o
  ../SFML/src/SFML/Window/Unix/Display.hpp
  ../SFML/src/SFML/Window/VideoModeImpl.hpp
  /home/pablo/Documents/Programming/C++/ChatApp/SFML/src/SFML/Window/Unix/VideoModeImpl.cpp
-SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Unix/VulkanImplX11.cpp.o
- ../SFML/extlibs/headers/vulkan/vk_platform.h
- ../SFML/extlibs/headers/vulkan/vulkan.h
- ../SFML/extlibs/headers/vulkan/vulkan_android.h
- ../SFML/extlibs/headers/vulkan/vulkan_core.h
- ../SFML/extlibs/headers/vulkan/vulkan_ios.h
- ../SFML/extlibs/headers/vulkan/vulkan_macos.h
- ../SFML/extlibs/headers/vulkan/vulkan_mir.h
- ../SFML/extlibs/headers/vulkan/vulkan_vi.h
- ../SFML/extlibs/headers/vulkan/vulkan_wayland.h
- ../SFML/extlibs/headers/vulkan/vulkan_win32.h
- ../SFML/extlibs/headers/vulkan/vulkan_xcb.h
- ../SFML/extlibs/headers/vulkan/vulkan_xlib.h
- ../SFML/extlibs/headers/vulkan/vulkan_xlib_xrandr.h
- ../SFML/include/SFML/Config.hpp
- ../SFML/include/SFML/Window/Export.hpp
- ../SFML/include/SFML/Window/Vulkan.hpp
- ../SFML/include/SFML/Window/WindowHandle.hpp
- ../SFML/src/SFML/Window/Unix/Display.hpp
- ../SFML/src/SFML/Window/Unix/VulkanImplX11.hpp
- /home/pablo/Documents/Programming/C++/ChatApp/SFML/src/SFML/Window/Unix/VulkanImplX11.cpp
 SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Unix/WindowImplX11.cpp.o
- ../SFML/extlibs/headers/glad/include/glad/egl.h
- ../SFML/extlibs/headers/glad/include/glad/gl.h
- ../SFML/extlibs/headers/glad/include/glad/glx.h
  ../SFML/include/SFML/Config.hpp
- ../SFML/include/SFML/System/Clock.hpp
  ../SFML/include/SFML/System/Err.hpp
  ../SFML/include/SFML/System/Export.hpp
  ../SFML/include/SFML/System/Lock.hpp
@@ -516,9 +395,7 @@ SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Unix/WindowImplX11.cpp.o
  ../SFML/include/SFML/Window/Mouse.hpp
  ../SFML/include/SFML/Window/Sensor.hpp
  ../SFML/include/SFML/Window/VideoMode.hpp
- ../SFML/include/SFML/Window/Vulkan.hpp
  ../SFML/include/SFML/Window/Window.hpp
- ../SFML/include/SFML/Window/WindowBase.hpp
  ../SFML/include/SFML/Window/WindowHandle.hpp
  ../SFML/include/SFML/Window/WindowStyle.hpp
  ../SFML/src/SFML/Window/Android/CursorImpl.hpp
@@ -530,7 +407,6 @@ SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Unix/WindowImplX11.cpp.o
  ../SFML/src/SFML/Window/FreeBSD/JoystickImpl.hpp
  ../SFML/src/SFML/Window/GlContext.hpp
  ../SFML/src/SFML/Window/JoystickImpl.hpp
- ../SFML/src/SFML/Window/NetBSD/JoystickImpl.hpp
  ../SFML/src/SFML/Window/OSX/CursorImpl.hpp
  ../SFML/src/SFML/Window/OSX/JoystickImpl.hpp
  ../SFML/src/SFML/Window/OSX/SensorImpl.hpp
@@ -558,17 +434,8 @@ SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/VideoMode.cpp.o
  ../SFML/include/SFML/Window/VideoMode.hpp
  ../SFML/src/SFML/Window/VideoModeImpl.hpp
  /home/pablo/Documents/Programming/C++/ChatApp/SFML/src/SFML/Window/VideoMode.cpp
-SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Vulkan.cpp.o
- ../SFML/include/SFML/Config.hpp
- ../SFML/include/SFML/Window/Export.hpp
- ../SFML/include/SFML/Window/Vulkan.hpp
- ../SFML/include/SFML/Window/WindowHandle.hpp
- ../SFML/src/SFML/Window/Unix/VulkanImplX11.hpp
- ../SFML/src/SFML/Window/Win32/VulkanImplWin32.hpp
- /home/pablo/Documents/Programming/C++/ChatApp/SFML/src/SFML/Window/Vulkan.cpp
 SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Window.cpp.o
  ../SFML/include/SFML/Config.hpp
- ../SFML/include/SFML/System/Clock.hpp
  ../SFML/include/SFML/System/Err.hpp
  ../SFML/include/SFML/System/Export.hpp
  ../SFML/include/SFML/System/NonCopyable.hpp
@@ -593,9 +460,7 @@ SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Window.cpp.o
  ../SFML/include/SFML/Window/Mouse.hpp
  ../SFML/include/SFML/Window/Sensor.hpp
  ../SFML/include/SFML/Window/VideoMode.hpp
- ../SFML/include/SFML/Window/Vulkan.hpp
  ../SFML/include/SFML/Window/Window.hpp
- ../SFML/include/SFML/Window/WindowBase.hpp
  ../SFML/include/SFML/Window/WindowHandle.hpp
  ../SFML/include/SFML/Window/WindowStyle.hpp
  ../SFML/src/SFML/Window/Android/CursorImpl.hpp
@@ -605,7 +470,6 @@ SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Window.cpp.o
  ../SFML/src/SFML/Window/FreeBSD/JoystickImpl.hpp
  ../SFML/src/SFML/Window/GlContext.hpp
  ../SFML/src/SFML/Window/JoystickImpl.hpp
- ../SFML/src/SFML/Window/NetBSD/JoystickImpl.hpp
  ../SFML/src/SFML/Window/OSX/CursorImpl.hpp
  ../SFML/src/SFML/Window/OSX/JoystickImpl.hpp
  ../SFML/src/SFML/Window/OSX/SensorImpl.hpp
@@ -622,63 +486,8 @@ SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Window.cpp.o
  ../SFML/src/SFML/Window/iOS/JoystickImpl.hpp
  ../SFML/src/SFML/Window/iOS/SensorImpl.hpp
  /home/pablo/Documents/Programming/C++/ChatApp/SFML/src/SFML/Window/Window.cpp
-SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/WindowBase.cpp.o
- ../SFML/include/SFML/Config.hpp
- ../SFML/include/SFML/System/Clock.hpp
- ../SFML/include/SFML/System/Err.hpp
- ../SFML/include/SFML/System/Export.hpp
- ../SFML/include/SFML/System/NonCopyable.hpp
- ../SFML/include/SFML/System/String.hpp
- ../SFML/include/SFML/System/String.inl
- ../SFML/include/SFML/System/Time.hpp
- ../SFML/include/SFML/System/Utf.hpp
- ../SFML/include/SFML/System/Utf.inl
- ../SFML/include/SFML/System/Vector2.hpp
- ../SFML/include/SFML/System/Vector2.inl
- ../SFML/include/SFML/System/Vector3.hpp
- ../SFML/include/SFML/System/Vector3.inl
- ../SFML/include/SFML/Window/ContextSettings.hpp
- ../SFML/include/SFML/Window/Cursor.hpp
- ../SFML/include/SFML/Window/Event.hpp
- ../SFML/include/SFML/Window/Export.hpp
- ../SFML/include/SFML/Window/GlResource.hpp
- ../SFML/include/SFML/Window/Joystick.hpp
- ../SFML/include/SFML/Window/Keyboard.hpp
- ../SFML/include/SFML/Window/Mouse.hpp
- ../SFML/include/SFML/Window/Sensor.hpp
- ../SFML/include/SFML/Window/VideoMode.hpp
- ../SFML/include/SFML/Window/Vulkan.hpp
- ../SFML/include/SFML/Window/Window.hpp
- ../SFML/include/SFML/Window/WindowBase.hpp
- ../SFML/include/SFML/Window/WindowHandle.hpp
- ../SFML/include/SFML/Window/WindowStyle.hpp
- ../SFML/src/SFML/Window/Android/CursorImpl.hpp
- ../SFML/src/SFML/Window/Android/JoystickImpl.hpp
- ../SFML/src/SFML/Window/Android/SensorImpl.hpp
- ../SFML/src/SFML/Window/CursorImpl.hpp
- ../SFML/src/SFML/Window/FreeBSD/JoystickImpl.hpp
- ../SFML/src/SFML/Window/JoystickImpl.hpp
- ../SFML/src/SFML/Window/NetBSD/JoystickImpl.hpp
- ../SFML/src/SFML/Window/OSX/CursorImpl.hpp
- ../SFML/src/SFML/Window/OSX/JoystickImpl.hpp
- ../SFML/src/SFML/Window/OSX/SensorImpl.hpp
- ../SFML/src/SFML/Window/OpenBSD/JoystickImpl.hpp
- ../SFML/src/SFML/Window/SensorImpl.hpp
- ../SFML/src/SFML/Window/Unix/CursorImpl.hpp
- ../SFML/src/SFML/Window/Unix/JoystickImpl.hpp
- ../SFML/src/SFML/Window/Unix/SensorImpl.hpp
- ../SFML/src/SFML/Window/Win32/CursorImpl.hpp
- ../SFML/src/SFML/Window/Win32/JoystickImpl.hpp
- ../SFML/src/SFML/Window/Win32/SensorImpl.hpp
- ../SFML/src/SFML/Window/WindowImpl.hpp
- ../SFML/src/SFML/Window/iOS/CursorImpl.hpp
- ../SFML/src/SFML/Window/iOS/JoystickImpl.hpp
- ../SFML/src/SFML/Window/iOS/SensorImpl.hpp
- /home/pablo/Documents/Programming/C++/ChatApp/SFML/src/SFML/Window/WindowBase.cpp
 SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/WindowImpl.cpp.o
- ../SFML/extlibs/headers/glad/include/glad/egl.h
  ../SFML/include/SFML/Config.hpp
- ../SFML/include/SFML/System/Clock.hpp
  ../SFML/include/SFML/System/Export.hpp
  ../SFML/include/SFML/System/Mutex.hpp
  ../SFML/include/SFML/System/NonCopyable.hpp
@@ -703,9 +512,7 @@ SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/WindowImpl.cpp.o
  ../SFML/include/SFML/Window/Mouse.hpp
  ../SFML/include/SFML/Window/Sensor.hpp
  ../SFML/include/SFML/Window/VideoMode.hpp
- ../SFML/include/SFML/Window/Vulkan.hpp
  ../SFML/include/SFML/Window/Window.hpp
- ../SFML/include/SFML/Window/WindowBase.hpp
  ../SFML/include/SFML/Window/WindowHandle.hpp
  ../SFML/include/SFML/Window/WindowStyle.hpp
  ../SFML/src/SFML/System/Android/Activity.hpp
@@ -720,7 +527,6 @@ SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/WindowImpl.cpp.o
  ../SFML/src/SFML/Window/GlContext.hpp
  ../SFML/src/SFML/Window/JoystickImpl.hpp
  ../SFML/src/SFML/Window/JoystickManager.hpp
- ../SFML/src/SFML/Window/NetBSD/JoystickImpl.hpp
  ../SFML/src/SFML/Window/OSX/CursorImpl.hpp
  ../SFML/src/SFML/Window/OSX/JoystickImpl.hpp
  ../SFML/src/SFML/Window/OSX/SensorImpl.hpp
@@ -732,12 +538,10 @@ SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/WindowImpl.cpp.o
  ../SFML/src/SFML/Window/Unix/CursorImpl.hpp
  ../SFML/src/SFML/Window/Unix/JoystickImpl.hpp
  ../SFML/src/SFML/Window/Unix/SensorImpl.hpp
- ../SFML/src/SFML/Window/Unix/VulkanImplX11.hpp
  ../SFML/src/SFML/Window/Unix/WindowImplX11.hpp
  ../SFML/src/SFML/Window/Win32/CursorImpl.hpp
  ../SFML/src/SFML/Window/Win32/JoystickImpl.hpp
  ../SFML/src/SFML/Window/Win32/SensorImpl.hpp
- ../SFML/src/SFML/Window/Win32/VulkanImplWin32.hpp
  ../SFML/src/SFML/Window/Win32/WindowImplWin32.hpp
  ../SFML/src/SFML/Window/WindowImpl.hpp
  ../SFML/src/SFML/Window/iOS/CursorImpl.hpp

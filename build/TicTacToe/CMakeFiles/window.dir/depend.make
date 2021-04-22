@@ -72,9 +72,7 @@ TicTacToe/CMakeFiles/window.dir/src/window.cpp.o: ../SFML/include/SFML/Window/Mo
 TicTacToe/CMakeFiles/window.dir/src/window.cpp.o: ../SFML/include/SFML/Window/Sensor.hpp
 TicTacToe/CMakeFiles/window.dir/src/window.cpp.o: ../SFML/include/SFML/Window/Touch.hpp
 TicTacToe/CMakeFiles/window.dir/src/window.cpp.o: ../SFML/include/SFML/Window/VideoMode.hpp
-TicTacToe/CMakeFiles/window.dir/src/window.cpp.o: ../SFML/include/SFML/Window/Vulkan.hpp
 TicTacToe/CMakeFiles/window.dir/src/window.cpp.o: ../SFML/include/SFML/Window/Window.hpp
-TicTacToe/CMakeFiles/window.dir/src/window.cpp.o: ../SFML/include/SFML/Window/WindowBase.hpp
 TicTacToe/CMakeFiles/window.dir/src/window.cpp.o: ../SFML/include/SFML/Window/WindowHandle.hpp
 TicTacToe/CMakeFiles/window.dir/src/window.cpp.o: ../SFML/include/SFML/Window/WindowStyle.hpp
 TicTacToe/CMakeFiles/window.dir/src/window.cpp.o: ../TicTacToe/include/window.hpp

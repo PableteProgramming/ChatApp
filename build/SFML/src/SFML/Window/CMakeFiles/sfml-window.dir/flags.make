@@ -6,5 +6,5 @@ CXX_FLAGS =   -fvisibility=hidden
 
 CXX_DEFINES = -DSFML_STATIC
 
-CXX_INCLUDES = -I/home/pablo/Documents/Programming/C++/ChatApp/SFML/include -I/home/pablo/Documents/Programming/C++/ChatApp/SFML/src -I/home/pablo/Documents/Programming/C++/ChatApp/SFML/extlibs/headers/glad/include -I/home/pablo/Documents/Programming/C++/ChatApp/SFML/extlibs/headers/vulkan 
+CXX_INCLUDES = -I/home/pablo/Documents/Programming/C++/ChatApp/SFML/include -I/home/pablo/Documents/Programming/C++/ChatApp/SFML/src 
 

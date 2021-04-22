@@ -86,10 +86,12 @@ TicTacToe/window: SFML/lib/libsfml-audio.a
 TicTacToe/window: /usr/lib/x86_64-linux-gnu/libOpenGL.so
 TicTacToe/window: /usr/lib/x86_64-linux-gnu/libGLX.so
 TicTacToe/window: /usr/lib/x86_64-linux-gnu/libGLU.so
+TicTacToe/window: /usr/lib/x86_64-linux-gnu/libudev.so
+TicTacToe/window: /usr/lib/x86_64-linux-gnu/libOpenGL.so
+TicTacToe/window: /usr/lib/x86_64-linux-gnu/libGLX.so
+TicTacToe/window: /usr/lib/x86_64-linux-gnu/libGLU.so
 TicTacToe/window: /usr/lib/x86_64-linux-gnu/libX11.so
 TicTacToe/window: /usr/lib/x86_64-linux-gnu/libXrandr.so
-TicTacToe/window: /usr/lib/x86_64-linux-gnu/libXcursor.so
-TicTacToe/window: /usr/lib/x86_64-linux-gnu/libudev.so
 TicTacToe/window: /usr/lib/x86_64-linux-gnu/libfreetype.so
 TicTacToe/window: SFML/lib/libsfml-system.a
 TicTacToe/window: /usr/lib/x86_64-linux-gnu/libopenal.so

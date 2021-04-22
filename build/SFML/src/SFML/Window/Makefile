@@ -252,60 +252,6 @@ Cursor.cpp.s:
 	cd /home/pablo/Documents/Programming/C++/ChatApp/build && $(MAKE) -f SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/build.make SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Cursor.cpp.s
 .PHONY : Cursor.cpp.s
 
-EGLCheck.o: EGLCheck.cpp.o
-
-.PHONY : EGLCheck.o
-
-# target to build an object file
-EGLCheck.cpp.o:
-	cd /home/pablo/Documents/Programming/C++/ChatApp/build && $(MAKE) -f SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/build.make SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/EGLCheck.cpp.o
-.PHONY : EGLCheck.cpp.o
-
-EGLCheck.i: EGLCheck.cpp.i
-
-.PHONY : EGLCheck.i
-
-# target to preprocess a source file
-EGLCheck.cpp.i:
-	cd /home/pablo/Documents/Programming/C++/ChatApp/build && $(MAKE) -f SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/build.make SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/EGLCheck.cpp.i
-.PHONY : EGLCheck.cpp.i
-
-EGLCheck.s: EGLCheck.cpp.s
-
-.PHONY : EGLCheck.s
-
-# target to generate assembly for a file
-EGLCheck.cpp.s:
-	cd /home/pablo/Documents/Programming/C++/ChatApp/build && $(MAKE) -f SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/build.make SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/EGLCheck.cpp.s
-.PHONY : EGLCheck.cpp.s
-
-EglContext.o: EglContext.cpp.o
-
-.PHONY : EglContext.o
-
-# target to build an object file
-EglContext.cpp.o:
-	cd /home/pablo/Documents/Programming/C++/ChatApp/build && $(MAKE) -f SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/build.make SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/EglContext.cpp.o
-.PHONY : EglContext.cpp.o
-
-EglContext.i: EglContext.cpp.i
-
-.PHONY : EglContext.i
-
-# target to preprocess a source file
-EglContext.cpp.i:
-	cd /home/pablo/Documents/Programming/C++/ChatApp/build && $(MAKE) -f SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/build.make SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/EglContext.cpp.i
-.PHONY : EglContext.cpp.i
-
-EglContext.s: EglContext.cpp.s
-
-.PHONY : EglContext.s
-
-# target to generate assembly for a file
-EglContext.cpp.s:
-	cd /home/pablo/Documents/Programming/C++/ChatApp/build && $(MAKE) -f SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/build.make SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/EglContext.cpp.s
-.PHONY : EglContext.cpp.s
-
 GlContext.o: GlContext.cpp.o
 
 .PHONY : GlContext.o
@@ -657,6 +603,33 @@ Unix/GlxContext.cpp.s:
 	cd /home/pablo/Documents/Programming/C++/ChatApp/build && $(MAKE) -f SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/build.make SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Unix/GlxContext.cpp.s
 .PHONY : Unix/GlxContext.cpp.s
 
+Unix/GlxExtensions.o: Unix/GlxExtensions.cpp.o
+
+.PHONY : Unix/GlxExtensions.o
+
+# target to build an object file
+Unix/GlxExtensions.cpp.o:
+	cd /home/pablo/Documents/Programming/C++/ChatApp/build && $(MAKE) -f SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/build.make SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Unix/GlxExtensions.cpp.o
+.PHONY : Unix/GlxExtensions.cpp.o
+
+Unix/GlxExtensions.i: Unix/GlxExtensions.cpp.i
+
+.PHONY : Unix/GlxExtensions.i
+
+# target to preprocess a source file
+Unix/GlxExtensions.cpp.i:
+	cd /home/pablo/Documents/Programming/C++/ChatApp/build && $(MAKE) -f SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/build.make SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Unix/GlxExtensions.cpp.i
+.PHONY : Unix/GlxExtensions.cpp.i
+
+Unix/GlxExtensions.s: Unix/GlxExtensions.cpp.s
+
+.PHONY : Unix/GlxExtensions.s
+
+# target to generate assembly for a file
+Unix/GlxExtensions.cpp.s:
+	cd /home/pablo/Documents/Programming/C++/ChatApp/build && $(MAKE) -f SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/build.make SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Unix/GlxExtensions.cpp.s
+.PHONY : Unix/GlxExtensions.cpp.s
+
 Unix/InputImpl.o: Unix/InputImpl.cpp.o
 
 .PHONY : Unix/InputImpl.o
@@ -765,33 +738,6 @@ Unix/VideoModeImpl.cpp.s:
 	cd /home/pablo/Documents/Programming/C++/ChatApp/build && $(MAKE) -f SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/build.make SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Unix/VideoModeImpl.cpp.s
 .PHONY : Unix/VideoModeImpl.cpp.s
 
-Unix/VulkanImplX11.o: Unix/VulkanImplX11.cpp.o
-
-.PHONY : Unix/VulkanImplX11.o
-
-# target to build an object file
-Unix/VulkanImplX11.cpp.o:
-	cd /home/pablo/Documents/Programming/C++/ChatApp/build && $(MAKE) -f SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/build.make SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Unix/VulkanImplX11.cpp.o
-.PHONY : Unix/VulkanImplX11.cpp.o
-
-Unix/VulkanImplX11.i: Unix/VulkanImplX11.cpp.i
-
-.PHONY : Unix/VulkanImplX11.i
-
-# target to preprocess a source file
-Unix/VulkanImplX11.cpp.i:
-	cd /home/pablo/Documents/Programming/C++/ChatApp/build && $(MAKE) -f SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/build.make SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Unix/VulkanImplX11.cpp.i
-.PHONY : Unix/VulkanImplX11.cpp.i
-
-Unix/VulkanImplX11.s: Unix/VulkanImplX11.cpp.s
-
-.PHONY : Unix/VulkanImplX11.s
-
-# target to generate assembly for a file
-Unix/VulkanImplX11.cpp.s:
-	cd /home/pablo/Documents/Programming/C++/ChatApp/build && $(MAKE) -f SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/build.make SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Unix/VulkanImplX11.cpp.s
-.PHONY : Unix/VulkanImplX11.cpp.s
-
 Unix/WindowImplX11.o: Unix/WindowImplX11.cpp.o
 
 .PHONY : Unix/WindowImplX11.o
@@ -846,33 +792,6 @@ VideoMode.cpp.s:
 	cd /home/pablo/Documents/Programming/C++/ChatApp/build && $(MAKE) -f SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/build.make SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/VideoMode.cpp.s
 .PHONY : VideoMode.cpp.s
 
-Vulkan.o: Vulkan.cpp.o
-
-.PHONY : Vulkan.o
-
-# target to build an object file
-Vulkan.cpp.o:
-	cd /home/pablo/Documents/Programming/C++/ChatApp/build && $(MAKE) -f SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/build.make SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Vulkan.cpp.o
-.PHONY : Vulkan.cpp.o
-
-Vulkan.i: Vulkan.cpp.i
-
-.PHONY : Vulkan.i
-
-# target to preprocess a source file
-Vulkan.cpp.i:
-	cd /home/pablo/Documents/Programming/C++/ChatApp/build && $(MAKE) -f SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/build.make SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Vulkan.cpp.i
-.PHONY : Vulkan.cpp.i
-
-Vulkan.s: Vulkan.cpp.s
-
-.PHONY : Vulkan.s
-
-# target to generate assembly for a file
-Vulkan.cpp.s:
-	cd /home/pablo/Documents/Programming/C++/ChatApp/build && $(MAKE) -f SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/build.make SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Vulkan.cpp.s
-.PHONY : Vulkan.cpp.s
-
 Window.o: Window.cpp.o
 
 .PHONY : Window.o
@@ -899,33 +818,6 @@ Window.s: Window.cpp.s
 Window.cpp.s:
 	cd /home/pablo/Documents/Programming/C++/ChatApp/build && $(MAKE) -f SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/build.make SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/Window.cpp.s
 .PHONY : Window.cpp.s
-
-WindowBase.o: WindowBase.cpp.o
-
-.PHONY : WindowBase.o
-
-# target to build an object file
-WindowBase.cpp.o:
-	cd /home/pablo/Documents/Programming/C++/ChatApp/build && $(MAKE) -f SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/build.make SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/WindowBase.cpp.o
-.PHONY : WindowBase.cpp.o
-
-WindowBase.i: WindowBase.cpp.i
-
-.PHONY : WindowBase.i
-
-# target to preprocess a source file
-WindowBase.cpp.i:
-	cd /home/pablo/Documents/Programming/C++/ChatApp/build && $(MAKE) -f SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/build.make SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/WindowBase.cpp.i
-.PHONY : WindowBase.cpp.i
-
-WindowBase.s: WindowBase.cpp.s
-
-.PHONY : WindowBase.s
-
-# target to generate assembly for a file
-WindowBase.cpp.s:
-	cd /home/pablo/Documents/Programming/C++/ChatApp/build && $(MAKE) -f SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/build.make SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/WindowBase.cpp.s
-.PHONY : WindowBase.cpp.s
 
 WindowImpl.o: WindowImpl.cpp.o
 
@@ -976,12 +868,6 @@ help:
 	@echo "... Cursor.o"
 	@echo "... Cursor.i"
 	@echo "... Cursor.s"
-	@echo "... EGLCheck.o"
-	@echo "... EGLCheck.i"
-	@echo "... EGLCheck.s"
-	@echo "... EglContext.o"
-	@echo "... EglContext.i"
-	@echo "... EglContext.s"
 	@echo "... GlContext.o"
 	@echo "... GlContext.i"
 	@echo "... GlContext.s"
@@ -1021,6 +907,9 @@ help:
 	@echo "... Unix/GlxContext.o"
 	@echo "... Unix/GlxContext.i"
 	@echo "... Unix/GlxContext.s"
+	@echo "... Unix/GlxExtensions.o"
+	@echo "... Unix/GlxExtensions.i"
+	@echo "... Unix/GlxExtensions.s"
 	@echo "... Unix/InputImpl.o"
 	@echo "... Unix/InputImpl.i"
 	@echo "... Unix/InputImpl.s"
@@ -1033,24 +922,15 @@ help:
 	@echo "... Unix/VideoModeImpl.o"
 	@echo "... Unix/VideoModeImpl.i"
 	@echo "... Unix/VideoModeImpl.s"
-	@echo "... Unix/VulkanImplX11.o"
-	@echo "... Unix/VulkanImplX11.i"
-	@echo "... Unix/VulkanImplX11.s"
 	@echo "... Unix/WindowImplX11.o"
 	@echo "... Unix/WindowImplX11.i"
 	@echo "... Unix/WindowImplX11.s"
 	@echo "... VideoMode.o"
 	@echo "... VideoMode.i"
 	@echo "... VideoMode.s"
-	@echo "... Vulkan.o"
-	@echo "... Vulkan.i"
-	@echo "... Vulkan.s"
 	@echo "... Window.o"
 	@echo "... Window.i"
 	@echo "... Window.s"
-	@echo "... WindowBase.o"
-	@echo "... WindowBase.i"
-	@echo "... WindowBase.s"
 	@echo "... WindowImpl.o"
 	@echo "... WindowImpl.i"
 	@echo "... WindowImpl.s"
