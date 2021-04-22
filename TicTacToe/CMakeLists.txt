@@ -18,6 +18,7 @@ target_link_options(
 target_sources(
 	server PUBLIC
 	${SRC_DIR}/ClientClass.cpp	
+	${SRC_DIR}/WaitingClient.cpp
 )
 
 

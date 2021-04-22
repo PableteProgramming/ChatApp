@@ -5,7 +5,12 @@ TicTacToe/CMakeFiles/server.dir/src/ClientClass.cpp.o: ../TicTacToe/include/Clie
 TicTacToe/CMakeFiles/server.dir/src/ClientClass.cpp.o: ../TicTacToe/include/includes.h
 TicTacToe/CMakeFiles/server.dir/src/ClientClass.cpp.o: ../TicTacToe/src/ClientClass.cpp
 
+TicTacToe/CMakeFiles/server.dir/src/WaitingClient.cpp.o: ../TicTacToe/include/WaitingClient.hpp
+TicTacToe/CMakeFiles/server.dir/src/WaitingClient.cpp.o: ../TicTacToe/include/includes.h
+TicTacToe/CMakeFiles/server.dir/src/WaitingClient.cpp.o: ../TicTacToe/src/WaitingClient.cpp
+
 TicTacToe/CMakeFiles/server.dir/src/server.cpp.o: ../TicTacToe/include/ClientClass.hpp
+TicTacToe/CMakeFiles/server.dir/src/server.cpp.o: ../TicTacToe/include/WaitingClient.hpp
 TicTacToe/CMakeFiles/server.dir/src/server.cpp.o: ../TicTacToe/include/includes.h
 TicTacToe/CMakeFiles/server.dir/src/server.cpp.o: ../TicTacToe/include/main.hpp
 TicTacToe/CMakeFiles/server.dir/src/server.cpp.o: ../TicTacToe/src/server.cpp

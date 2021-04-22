@@ -48,6 +48,37 @@ int main(int argc, char** argv)
 
 	std::cout << startMessage << std::endl;
 	send(sock, name.c_str(), strlen(name.c_str()), 0);
+	char CUsernameExists[1024]={0};
+	read(sock,CUsernameExists,sizeof(CUsernameExists));
+	std::string UserNameExists(CUsernameExists);
+	if(UserNameExists=="Y"){
+		std::cout<<"Username "<<name<<" already exists !"<<std::endl;
+		return 1;
+	}
+	else{
+		std::cout<<"valid Username"<<std::endl;
+	}
+	if(argc == 4){
+		send(sock,"N",strlen("N"),0);
+		char temp[1024]={0};
+		read(sock, temp, sizeof(temp));
+		send(sock,argv[3],strlen(argv[3]),0);
+		char userExists[1024] = {0};
+		read( sock , userExists, sizeof(userExists));
+		std::string exists(userExists);
+		if(exists=="N"){
+			std::cout<<"Username "<<argv[3]<<" doesn't exists !"<<std::endl;
+			std::cout<<"Try again!"<<std::endl;
+			return 1;
+		}
+	}
+	else{
+		send(sock,"Y",strlen("Y"),0);
+		std::cout<<"In the Waiting room..."<<std::endl;
+		char temp[1024] = {0};
+		read( sock , temp, sizeof(temp));	
+
+	}
 	
 	bool running = true;
 	while (running)

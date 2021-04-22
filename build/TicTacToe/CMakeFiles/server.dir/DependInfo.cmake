@@ -5,6 +5,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
   "/home/pablo/Documents/Programming/C++/ChatApp/TicTacToe/src/ClientClass.cpp" "/home/pablo/Documents/Programming/C++/ChatApp/build/TicTacToe/CMakeFiles/server.dir/src/ClientClass.cpp.o"
+  "/home/pablo/Documents/Programming/C++/ChatApp/TicTacToe/src/WaitingClient.cpp" "/home/pablo/Documents/Programming/C++/ChatApp/build/TicTacToe/CMakeFiles/server.dir/src/WaitingClient.cpp.o"
   "/home/pablo/Documents/Programming/C++/ChatApp/TicTacToe/src/server.cpp" "/home/pablo/Documents/Programming/C++/ChatApp/build/TicTacToe/CMakeFiles/server.dir/src/server.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")

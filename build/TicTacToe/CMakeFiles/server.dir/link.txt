@@ -1,1 +1,1 @@
-/usr/bin/c++    -pthread CMakeFiles/server.dir/src/server.cpp.o CMakeFiles/server.dir/src/ClientClass.cpp.o  -o server 
+/usr/bin/c++    -pthread CMakeFiles/server.dir/src/server.cpp.o CMakeFiles/server.dir/src/ClientClass.cpp.o CMakeFiles/server.dir/src/WaitingClient.cpp.o  -o server 

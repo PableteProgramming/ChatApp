@@ -10,6 +10,10 @@
 includes.h
 ../TicTacToe/include/includes.h
 
+../TicTacToe/include/WaitingClient.hpp
+includes.h
+../TicTacToe/include/includes.h
+
 ../TicTacToe/include/includes.h
 unistd.h
 -
@@ -39,10 +43,8 @@ pthread.h
 ../TicTacToe/include/main.hpp
 ClientClass.hpp
 ../TicTacToe/include/ClientClass.hpp
-
-/home/pablo/Documents/Programming/C++/ChatApp/TicTacToe/src/ClientClass.cpp
-ClientClass.hpp
--
+WaitingClient.hpp
+../TicTacToe/include/WaitingClient.hpp
 
 /home/pablo/Documents/Programming/C++/ChatApp/TicTacToe/src/server.cpp
 main.hpp

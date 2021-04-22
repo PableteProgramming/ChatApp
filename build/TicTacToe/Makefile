@@ -228,6 +228,33 @@ src/ClientClass.cpp.s:
 	cd /home/pablo/Documents/Programming/C++/ChatApp/build && $(MAKE) -f TicTacToe/CMakeFiles/server.dir/build.make TicTacToe/CMakeFiles/server.dir/src/ClientClass.cpp.s
 .PHONY : src/ClientClass.cpp.s
 
+src/WaitingClient.o: src/WaitingClient.cpp.o
+
+.PHONY : src/WaitingClient.o
+
+# target to build an object file
+src/WaitingClient.cpp.o:
+	cd /home/pablo/Documents/Programming/C++/ChatApp/build && $(MAKE) -f TicTacToe/CMakeFiles/server.dir/build.make TicTacToe/CMakeFiles/server.dir/src/WaitingClient.cpp.o
+.PHONY : src/WaitingClient.cpp.o
+
+src/WaitingClient.i: src/WaitingClient.cpp.i
+
+.PHONY : src/WaitingClient.i
+
+# target to preprocess a source file
+src/WaitingClient.cpp.i:
+	cd /home/pablo/Documents/Programming/C++/ChatApp/build && $(MAKE) -f TicTacToe/CMakeFiles/server.dir/build.make TicTacToe/CMakeFiles/server.dir/src/WaitingClient.cpp.i
+.PHONY : src/WaitingClient.cpp.i
+
+src/WaitingClient.s: src/WaitingClient.cpp.s
+
+.PHONY : src/WaitingClient.s
+
+# target to generate assembly for a file
+src/WaitingClient.cpp.s:
+	cd /home/pablo/Documents/Programming/C++/ChatApp/build && $(MAKE) -f TicTacToe/CMakeFiles/server.dir/build.make TicTacToe/CMakeFiles/server.dir/src/WaitingClient.cpp.s
+.PHONY : src/WaitingClient.cpp.s
+
 src/client.o: src/client.cpp.o
 
 .PHONY : src/client.o
@@ -327,6 +354,9 @@ help:
 	@echo "... src/ClientClass.o"
 	@echo "... src/ClientClass.i"
 	@echo "... src/ClientClass.s"
+	@echo "... src/WaitingClient.o"
+	@echo "... src/WaitingClient.i"
+	@echo "... src/WaitingClient.s"
 	@echo "... src/client.o"
 	@echo "... src/client.i"
 	@echo "... src/client.s"
