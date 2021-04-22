@@ -114,6 +114,7 @@ int main(){
 						send(client,"Y",strlen("Y"),0);
 						std::cout<<"Client "<<nameMessage<<" accepted"<<std::endl;
 						std::cout<<"Client "<<waitingroom[index].GetName()<<" is now active"<<std::endl;
+						send(waitingroom[index].GetId(),"T",strlen("T"),0);
 						clients.push_back(ClientClass(waitingroom[index].GetId(),waitingroom[index].GetName(),nameMessage));
 						clients.push_back(ClientClass(client, nameMessage,waitingroom[index].GetName()));
 					}

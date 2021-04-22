@@ -30,6 +30,10 @@ target_include_directories(
 	${INCLUDE_DIR}	
 )
 
+target_link_options(
+	client PUBLIC
+	-pthread
+)
 
 add_executable(window ${SRC_DIR}/window.cpp)
 

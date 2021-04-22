@@ -1,5 +1,14 @@
 #include <main.hpp>
 
+void ClientRead(int sock,bool* running){
+	while((*running)){
+		char receivedMessage[1024]={0};
+		read(sock,receivedMessage,sizeof(receivedMessage));
+		std::cout<<receivedMessage<<std::endl;
+	}
+}
+
+
 int main(int argc, char** argv)
 {
 	std::string ipAddress;
@@ -77,10 +86,10 @@ int main(int argc, char** argv)
 		std::cout<<"In the Waiting room..."<<std::endl;
 		char temp[1024] = {0};
 		read( sock , temp, sizeof(temp));	
-
 	}
-	
-	bool running = true;
+
+	bool running=true;
+	std::thread reading(ClientRead,sock,&running);	
 	while (running)
 	{
 		std::cout<<"\033[31m[You] > \033[0m";
@@ -92,5 +101,6 @@ int main(int argc, char** argv)
 			running = false;
 			
 	}
+	//reading.join();
 	return 0;
 }
