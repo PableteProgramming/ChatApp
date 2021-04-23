@@ -7,11 +7,12 @@ void ExitClients(){
 		std::vector<int> pending;
 		pending.clear();
 		for(int i=0; i<clients.size();i++){
-			if(clients[i].GetExit()){
+			if(clients[i].exit){
 				pending.push_back(i);
 			}	
 		}
 		for(int i=0; i<pending.size();i++){
+			std::cout<<"client "<<clients[pending[i]].GetName()<<" exits!"<<std::endl;
 			clients.erase(clients.begin()+pending[i]);
 		}
 	}
@@ -115,8 +116,11 @@ int main(){
 						std::cout<<"Client "<<nameMessage<<" accepted"<<std::endl;
 						std::cout<<"Client "<<waitingroom[index].GetName()<<" is now active"<<std::endl;
 						send(waitingroom[index].GetId(),"T",strlen("T"),0);
-						clients.push_back(ClientClass(waitingroom[index].GetId(),waitingroom[index].GetName(),nameMessage));
-						clients.push_back(ClientClass(client, nameMessage,waitingroom[index].GetName()));
+						clients.push_back(ClientClass(waitingroom[index].GetId(),waitingroom[index].GetName()));
+						clients.push_back(ClientClass(client, nameMessage));
+						clients[clients.size()-2].StartThread(&clients[clients.size()-1]);
+						clients[clients.size()-1].StartThread(&clients[clients.size()-2]);
+
 					}
 					else{
 						send(client,"N",strlen("N"),0);
@@ -128,7 +132,7 @@ int main(){
 	return 0;
 }
 
-void Read(bool* exit,int id, std::string name,std::string friendName){
+void Read(bool* exit,int id, std::string name,ClientClass* Friend){
 	while(!(*exit)){
 		char receivedMessage[1024] = {0};
 		read( id , receivedMessage, sizeof(receivedMessage));	
@@ -136,17 +140,14 @@ void Read(bool* exit,int id, std::string name,std::string friendName){
 		if(message=="exit"){
 			send(id,message.c_str(),strlen(message.c_str()),0);
 			(*exit)=true;
+			send(Friend->GetId(), message.c_str(),strlen(message.c_str()),0);
+			Friend->exit=true;
 		}
 		else{
 			if(message!=""){	
 				std::string toSend = "\033[34m[" + name + "] > \033[0m" + message;;
 				std::cout<<toSend<<std::endl;
-				for(int i=0; i< clients.size();i++){
-					if(clients[i].GetName()==friendName){
-						send(clients[i].GetId(),toSend.c_str(),strlen(toSend.c_str()),0);
-						break;
-					}
-				}	
+				send(Friend->GetId(), toSend.c_str(),strlen(toSend.c_str()),0);	
 			}
 		}	
 	}

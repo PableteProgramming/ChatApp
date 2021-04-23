@@ -1,17 +1,17 @@
 #include "includes.h"
-
-void Read(bool*,int, std::string,std::string);
+class ClientClass;
+void Read(bool*,int, std::string,ClientClass*);
 
 class ClientClass{
 private:
 	std::string name;
 	std::thread* reading;
-	std::string friendName;
-	bool exit;	
+	ClientClass* Friend;
 	int id;
 public:
-	ClientClass(int, std::string,std::string);
-	bool GetExit(){return exit;};
+	bool exit;
+	ClientClass(int, std::string);
 	std::string GetName(){return name;};
 	int GetId(){return id;};
+	void StartThread(ClientClass*);
 };

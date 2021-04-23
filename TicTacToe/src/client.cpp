@@ -4,8 +4,13 @@ void ClientRead(int sock,bool* running){
 	while((*running)){
 		char receivedMessage[1024]={0};
 		read(sock,receivedMessage,sizeof(receivedMessage));
+		std::string message(receivedMessage);
+		if(message=="exit"){
+			(*running)=false;
+			break;
+		}
 		if((*running)){	
-			std::cout<<receivedMessage<<std::endl;
+			std::cout<<message<<std::endl;
 		}
 	}
 }
