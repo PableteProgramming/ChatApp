@@ -10,5 +10,5 @@ ClientClass::ClientClass(int _id, std::string _name){
 void ClientClass::StartThread(ClientClass* FriendClass){
 	Friend= FriendClass;
 	std::cout<<name<<" => "<<Friend->GetName()<<std::endl;
-	reading= new std::thread(Read,&exit,id,name,Friend);
+	reading= new std::thread(Read,this);
 }

@@ -1,5 +1,5 @@
 #include <main.hpp>
-std::vector<ClientClass> clients;
+std::vector<ClientClass*> clients;
 std::vector<WaitingClient> waitingroom;
 
 void ExitClients(){
@@ -7,13 +7,14 @@ void ExitClients(){
 		std::vector<int> pending;
 		pending.clear();
 		for(int i=0; i<clients.size();i++){
-			if(clients[i].exit){
+			if(clients[i]->exit){
 				pending.push_back(i);
-			}	
+			}
 		}
 		for(int i=0; i<pending.size();i++){
-			std::cout<<"client "<<clients[pending[i]].GetName()<<" exits!"<<std::endl;
+			std::cout<<"client "<<clients[pending[i]]->GetName()<<" exits!"<<std::endl;
 			clients.erase(clients.begin()+pending[i]);
+			std::cout<<clients.size()<<std::endl;
 		}
 	}
 }
@@ -77,7 +78,7 @@ int main(){
 			std::string nameMessage(receivedMessage);
 			bool UsernameExists=false;
 			for(int i=0; i<clients.size();i++){
-				if(clients[i].GetName()==nameMessage){
+				if(clients[i]->GetName()==nameMessage){
 					UsernameExists=true;
 					break;
 				}
@@ -115,11 +116,15 @@ int main(){
 						send(client,"Y",strlen("Y"),0);
 						std::cout<<"Client "<<nameMessage<<" accepted"<<std::endl;
 						std::cout<<"Client "<<waitingroom[index].GetName()<<" is now active"<<std::endl;
-						send(waitingroom[index].GetId(),"T",strlen("T"),0);
-						clients.push_back(ClientClass(waitingroom[index].GetId(),waitingroom[index].GetName()));
-						clients.push_back(ClientClass(client, nameMessage));
-						clients[clients.size()-2].StartThread(&clients[clients.size()-1]);
-						clients[clients.size()-1].StartThread(&clients[clients.size()-2]);
+
+						ClientClass* temp= new ClientClass(waitingroom[index].GetId(),waitingroom[index].GetName());
+						ClientClass* newclient= new ClientClass(client,nameMessage);
+						send(temp->GetId(),"T",strlen("T"),0);
+						clients.push_back(temp);
+						clients.push_back(newclient);
+						temp->StartThread(newclient);
+						newclient->StartThread(temp);
+						waitingroom.erase(waitingroom.begin()+index);
 
 					}
 					else{
@@ -132,22 +137,22 @@ int main(){
 	return 0;
 }
 
-void Read(bool* exit,int id, std::string name,ClientClass* Friend){
-	while(!(*exit)){
+void Read(ClientClass* client){
+	while(!client->exit){
 		char receivedMessage[1024] = {0};
-		read( id , receivedMessage, sizeof(receivedMessage));	
+		read( client->GetId() , receivedMessage, sizeof(receivedMessage));	
 		std::string message(receivedMessage);
 		if(message=="exit"){
-			send(id,message.c_str(),strlen(message.c_str()),0);
-			(*exit)=true;
-			send(Friend->GetId(), message.c_str(),strlen(message.c_str()),0);
-			Friend->exit=true;
+			send(client->GetId(),message.c_str(),strlen(message.c_str()),0);
+			client->exit=true;
+			send(client->GetFriend()->GetId(), message.c_str(),strlen(message.c_str()),0);
+			client->GetFriend()->exit=true;
 		}
 		else{
 			if(message!=""){	
-				std::string toSend = "\033[34m[" + name + "] > \033[0m" + message;;
+				std::string toSend = "\033[34m[" + client->GetName() + "] > \033[0m" + message;;
 				std::cout<<toSend<<std::endl;
-				send(Friend->GetId(), toSend.c_str(),strlen(toSend.c_str()),0);	
+				send(client->GetFriend()->GetId(), toSend.c_str(),strlen(toSend.c_str()),0);	
 			}
 		}	
 	}

@@ -1,0 +1,4 @@
+All working fine:
+- when one user exits, his friend too
+- no core dumped errors
+- Changing client from std::vector<ClientClass> to std::vector<ClientClass*>

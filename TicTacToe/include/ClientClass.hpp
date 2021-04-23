@@ -1,6 +1,6 @@
 #include "includes.h"
 class ClientClass;
-void Read(bool*,int, std::string,ClientClass*);
+void Read(ClientClass*);
 
 class ClientClass{
 private:
@@ -14,4 +14,5 @@ public:
 	std::string GetName(){return name;};
 	int GetId(){return id;};
 	void StartThread(ClientClass*);
+	ClientClass* GetFriend(){return Friend;};
 };
