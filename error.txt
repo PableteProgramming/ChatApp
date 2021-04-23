@@ -1,3 +1,5 @@
+THIS ERRORS DOESN'T SEEM TO HAPPEND ON LOCALHOST...
+
 errors:
 - core dumped when multiples pairs
 - server stops
