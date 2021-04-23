@@ -1,0 +1,3 @@
+errors:
+- core dumped when multiples pairs
+- server stops
