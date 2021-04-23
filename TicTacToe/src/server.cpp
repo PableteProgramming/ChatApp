@@ -134,6 +134,7 @@ void Read(bool* exit,int id, std::string name,std::string friendName){
 		read( id , receivedMessage, sizeof(receivedMessage));	
 		std::string message(receivedMessage);
 		if(message=="exit"){
+			send(id,message.c_str(),strlen(message.c_str()),0);
 			(*exit)=true;
 		}
 		else{

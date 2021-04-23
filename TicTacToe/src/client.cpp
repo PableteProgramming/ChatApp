@@ -4,7 +4,9 @@ void ClientRead(int sock,bool* running){
 	while((*running)){
 		char receivedMessage[1024]={0};
 		read(sock,receivedMessage,sizeof(receivedMessage));
-		std::cout<<receivedMessage<<std::endl;
+		if((*running)){	
+			std::cout<<receivedMessage<<std::endl;
+		}
 	}
 }
 
@@ -101,6 +103,6 @@ int main(int argc, char** argv)
 			running = false;
 			
 	}
-	//reading.join();
+	reading.join();
 	return 0;
 }
