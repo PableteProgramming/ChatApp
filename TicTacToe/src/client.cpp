@@ -1,10 +1,13 @@
 #include <main.hpp>
 
-void ClientRead(int sock,bool* running){
+#ifdef __linux__
+	void ClientRead(int sock,bool* running)
+#else
+	void ClientRead(SOCKET sock,bool* running)
+#endif
+{
 	while((*running)){
-		char receivedMessage[1024]={0};
-		read(sock,receivedMessage,sizeof(receivedMessage));
-		std::string message(receivedMessage);
+		std::string message = SocketRead(sock);
 		if(message=="exit"){
 			(*running)=false;
 			break;
@@ -15,14 +18,13 @@ void ClientRead(int sock,bool* running){
 	}
 }
 
-
 int main(int argc, char** argv)
 {
 	std::string ipAddress;
 	std::string name;
 	if (argc < 3)
 	{
-		std::cout << "Please pass a parameter" << std::endl;
+		std::cout << "Please pass a parameter!" << std::endl;
 		return 0;
 	}
 	else
@@ -58,15 +60,11 @@ int main(int argc, char** argv)
 		return -1;
 	}
 
-	char receivedMessage[1024] = {0};
-	read( sock , receivedMessage, sizeof(receivedMessage));	
-	std::string startMessage(receivedMessage);
+	std::string startMessage = SocketRead(sock);
 
 	std::cout << startMessage << std::endl;
-	send(sock, name.c_str(), strlen(name.c_str()), 0);
-	char CUsernameExists[1024]={0};
-	read(sock,CUsernameExists,sizeof(CUsernameExists));
-	std::string UserNameExists(CUsernameExists);
+	SocketSend(sock, name);
+	std::string UserNameExists = SocketRead(sock);
 	if(UserNameExists=="Y"){
 		std::cout<<"Username "<<name<<" already exists !"<<std::endl;
 		return 1;
@@ -75,13 +73,10 @@ int main(int argc, char** argv)
 		std::cout<<"valid Username"<<std::endl;
 	}
 	if(argc == 4){
-		send(sock,"N",strlen("N"),0);
-		char temp[1024]={0};
-		read(sock, temp, sizeof(temp));
-		send(sock,argv[3],strlen(argv[3]),0);
-		char userExists[1024] = {0};
-		read( sock , userExists, sizeof(userExists));
-		std::string exists(userExists);
+		SocketSend(sock, "N");
+		std::string temp = SocketRead(sock);
+		SocketSend(sock, std::string(argv[3]));
+		std::string exists = SocketRead(sock);
 		if(exists=="N"){
 			std::cout<<"Username "<<argv[3]<<" doesn't exists !"<<std::endl;
 			std::cout<<"Try again!"<<std::endl;
@@ -89,10 +84,9 @@ int main(int argc, char** argv)
 		}
 	}
 	else{
-		send(sock,"Y",strlen("Y"),0);
+		SocketSend(sock,"Y");
 		std::cout<<"In the Waiting room..."<<std::endl;
-		char temp[1024] = {0};
-		read( sock , temp, sizeof(temp));	
+		std::string temp = SocketRead(sock);	
 	}
 
 	bool running=true;
@@ -102,7 +96,7 @@ int main(int argc, char** argv)
 		std::cout<<"\033[31m[You] > \033[0m";
 		std::getline(std::cin, message);
 
-		send(sock , message.c_str() , strlen(message.c_str()) , 0 );
+		SocketSend(sock, message);
 
 		if (message == "exit")
 			running = false;

@@ -19,15 +19,19 @@ target_sources(
 	server PUBLIC
 	${SRC_DIR}/ClientClass.cpp	
 	${SRC_DIR}/WaitingClient.cpp
+	${SRC_DIR}/main.cpp
 )
-
-
 
 add_executable(client ${SRC_DIR}/client.cpp)
 
 target_include_directories(
 	client PUBLIC
 	${INCLUDE_DIR}	
+)
+
+target_sources(
+	client PUBLIC
+	${SRC_DIR}/main.cpp
 )
 
 target_link_options(

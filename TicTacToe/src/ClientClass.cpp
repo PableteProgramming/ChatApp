@@ -1,10 +1,15 @@
 #include <ClientClass.hpp>
 
-ClientClass::ClientClass(int _id, std::string _name){
+#ifdef __linux__
+	ClientClass::ClientClass(int _id, std::string _name)
+#else
+	ClientClass::ClientClass(SOCKET _id, std::string _name)
+#endif
+{
 	id=_id;
 	name = _name;
 	exit=false;
-	reading= NULL;//new std::thread(Read,&exit,id, name,friendName);
+	reading= NULL; // new std::thread(Read,&exit,id, name,friendName);
 }
 
 void ClientClass::StartThread(ClientClass* FriendClass){

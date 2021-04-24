@@ -1,10 +1,18 @@
 #include "includes.h"
 class WaitingClient{
 private:
-	int id;
 	std::string name;
+#ifdef __linux__
+	int id;
 public:
 	WaitingClient(int,std::string);
-	std::string GetName(){return name;};
 	int GetId(){return id;};
+#else
+	SOCKET id;
+public:
+	WaitingClient(SOCKET,std::string);
+	SOCKET GetId(){return id;};
+#endif
+public:
+	std::string GetName(){return name;};
 };

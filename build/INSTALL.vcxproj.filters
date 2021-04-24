@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="P:\C++\ChatApp\build\CMakeFiles\c5597655d0791598fff295cc9d414b7e\INSTALL_force.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{F8EC2763-6B1F-3C97-8658-CBE02ABCA0DA}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
