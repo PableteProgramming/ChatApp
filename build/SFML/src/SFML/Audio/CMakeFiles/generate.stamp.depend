@@ -2,6 +2,6 @@
 C:/Program Files/CMake/share/cmake-3.19/Modules/FindOpenAL.cmake
 C:/Program Files/CMake/share/cmake-3.19/Modules/FindPackageHandleStandardArgs.cmake
 C:/Program Files/CMake/share/cmake-3.19/Modules/FindPackageMessage.cmake
-P:/C++/ChatApp/SFML/cmake/Modules/FindFLAC.cmake
-P:/C++/ChatApp/SFML/cmake/Modules/FindVorbis.cmake
-P:/C++/ChatApp/SFML/src/SFML/Audio/CMakeLists.txt
+C:/Users/curro.LAPTOP-DUBBS74R/OneDrive/Documentos/Programming/C++/chatapp/SFML/cmake/Modules/FindFLAC.cmake
+C:/Users/curro.LAPTOP-DUBBS74R/OneDrive/Documentos/Programming/C++/chatapp/SFML/cmake/Modules/FindVorbis.cmake
+C:/Users/curro.LAPTOP-DUBBS74R/OneDrive/Documentos/Programming/C++/chatapp/SFML/src/SFML/Audio/CMakeLists.txt

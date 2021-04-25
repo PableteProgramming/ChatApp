@@ -1,0 +1,10 @@
+^C:\USERS\CURRO.LAPTOP-DUBBS74R\ONEDRIVE\DOCUMENTOS\PROGRAMMING\C++\CHATAPP\BUILD\CMAKEFILES\0714FD29BB3C09DB2439601D23D5D84D\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/curro.LAPTOP-DUBBS74R/OneDrive/Documentos/Programming/C++/chatapp -BC:/Users/curro.LAPTOP-DUBBS74R/OneDrive/Documentos/Programming/C++/chatapp/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/curro.LAPTOP-DUBBS74R/OneDrive/Documentos/Programming/C++/chatapp/build/TicTacToe.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

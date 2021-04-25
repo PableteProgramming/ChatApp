@@ -1,6 +1,5 @@
 #include <main.hpp>
 
-
 std::vector<ClientClass*> clients;
 std::vector<WaitingClient> waitingroom;
 
@@ -22,21 +21,22 @@ void ExitClients(){
 }
 
 int main(){
-	int server_fd, client;
+#ifdef __linux__
+	int sock, client;
 	struct sockaddr_in socketObj;
 	int opt = 1;
 	int socketObjSize = sizeof(socketObj);
 	std::string message = "Hello from server";
 
 	// Creating socket file descriptor
-	if ((server_fd = socket(AF_INET, SOCK_STREAM, 0)) == 0)
+	if ((sock = socket(AF_INET, SOCK_STREAM, 0)) == 0)
 	{
 		perror("socket failed");
 		exit(EXIT_FAILURE);
 	}
 
 	// Forcefully attaching socket to the port 8080
-	if (setsockopt(server_fd, SOL_SOCKET, SO_REUSEADDR | SO_REUSEPORT,&opt, sizeof(opt)))
+	if (setsockopt(sock, SOL_SOCKET, SO_REUSEADDR | SO_REUSEPORT,&opt, sizeof(opt)))
 	{
 		perror("setsockopt");
 		exit(EXIT_FAILURE);
@@ -47,37 +47,107 @@ int main(){
 	socketObj.sin_port = htons( PORT );
 
 	// Forcefully attaching socket to the port 8080
-	if (bind(server_fd, (struct sockaddr *)&socketObj, 
+	if (bind(sock, (struct sockaddr *)&socketObj, 
 				 sizeof(socketObj))<0)
 	{
 		perror("bind failed");
 		exit(EXIT_FAILURE);
 	}
 
-	if (listen(server_fd, 3) < 0)
+	if (listen(sock, 3) < 0)
 	{
 		perror("listen");
 		exit(EXIT_FAILURE);
 	}
-
+#else
+	#define WIN32_LEAN_AND_MEAN
+	#pragma comment (lib, "Ws2_32.lib")
 	
+	WSADATA wsaData;
+    int iResult;
+
+    SOCKET sock = INVALID_SOCKET;
+    SOCKET client = INVALID_SOCKET;
+
+    struct addrinfo *result = NULL;
+    struct addrinfo hints;
+    
+    // Initialize Winsock
+    iResult = WSAStartup(MAKEWORD(2,2), &wsaData);
+    if (iResult != 0) {
+        printf("WSAStartup failed with error: %d\n", iResult);
+        return 1;
+    }
+
+    ZeroMemory(&hints, sizeof(hints));
+    hints.ai_family = AF_INET;
+    hints.ai_socktype = SOCK_STREAM;
+    hints.ai_protocol = IPPROTO_TCP;
+    hints.ai_flags = AI_PASSIVE;
+
+    // Resolve the server address and port
+    iResult = getaddrinfo(NULL, std::to_string(PORT).c_str(), &hints, &result);
+    if ( iResult != 0 ) {
+        printf("getaddrinfo failed with error: %d\n", iResult);
+        WSACleanup();
+        return 1;
+    }
+
+    // Create a SOCKET for connecting to server
+    sock = socket(result->ai_family, result->ai_socktype, result->ai_protocol);
+    if (sock == INVALID_SOCKET) {
+        printf("socket failed with error: %ld\n", WSAGetLastError());
+        freeaddrinfo(result);
+        WSACleanup();
+        return 1;
+    }
+
+    // Setup the TCP listening socket
+    iResult = bind( sock, result->ai_addr, (int)result->ai_addrlen);
+    if (iResult == SOCKET_ERROR) {
+        printf("bind failed with error: %d\n", WSAGetLastError());
+        freeaddrinfo(result);
+        closesocket(sock);
+        WSACleanup();
+        return 1;
+    }
+
+    freeaddrinfo(result);
+
+    iResult = listen(sock, SOMAXCONN);
+    if (iResult == SOCKET_ERROR) {
+        printf("listen failed with error: %d\n", WSAGetLastError());
+        closesocket(sock);
+        WSACleanup();
+        return 1;
+    }
+#endif
+
 	bool running = true;
 	std::thread exitclients(ExitClients);
 	while (running)
 	{
+#ifdef __linux__
 		client = accept(server_fd, (struct sockaddr *)&socketObj, (socklen_t*)&socketObjSize);
 		if (client < 0)
 		{
 			perror("accept");
 			exit(EXIT_FAILURE);
 		}
+#else
+		client = accept(sock, NULL, NULL);
+		if (client == INVALID_SOCKET) {
+			printf("accept failed with error: %d\n", WSAGetLastError());
+			closesocket(sock);
+			WSACleanup();
+			return 1;
+		}
+#endif
 		else
 		{
-			message = "\033[32mWelcome to the server!\033[0m";
-			send(client , message.c_str() , strlen(message.c_str()) , 0 );
-			char receivedMessage[1024] = {0};
-			read( client , receivedMessage, sizeof(receivedMessage));	
-			std::string nameMessage(receivedMessage);
+			std::string message = "\033[32mWelcome to the server!\033[0m";
+			SocketSend(client, message);
+			std::string nameMessage= SocketRead(client);
 			bool UsernameExists=false;
 			for(int i=0; i<clients.size();i++){
 				if(clients[i]->GetName()==nameMessage){
@@ -87,23 +157,19 @@ int main(){
 			}
 
 			if(UsernameExists){
-				send(client,"Y",strlen("Y"),0);				
+				SocketSend(client,"Y");				
 			}
 			else{
-				send(client,"N",strlen("N"),0);
-				memset(receivedMessage,0,1024);
-				read(client, receivedMessage,sizeof(receivedMessage));
-				std::string isWaiting(receivedMessage);
+				SocketSend(client,"N");
+				std::string isWaiting= SocketRead(client);
 				if(isWaiting=="Y"){
 					waitingroom.push_back(WaitingClient(client,nameMessage));
 				}
 				else{
-					send(client,"T",strlen("T"),0);
-					char friendName[1024]={0};
+					SocketSend(client,"T");
 					std::cout<<"Waiting friend name"<<std::endl;
-					read(client,friendName,sizeof(friendName));
 					std::cout<<"Lets see what appends..."<<std::endl;
-					std::string sFriendName(friendName);
+					std::string sFriendName= SocketRead(client);
 					bool friendNameExists=false;
 					int index=-1;
 					for(int i=0;i<waitingroom.size();i++){
@@ -115,22 +181,21 @@ int main(){
 					}
 					if(friendNameExists){
 						std::cout<<"Friend name exists"<<std::endl;
-						send(client,"Y",strlen("Y"),0);
+						SocketSend(client,"Y");
 						std::cout<<"Client "<<nameMessage<<" accepted"<<std::endl;
 						std::cout<<"Client "<<waitingroom[index].GetName()<<" is now active"<<std::endl;
 
 						ClientClass* temp= new ClientClass(waitingroom[index].GetId(),waitingroom[index].GetName());
 						ClientClass* newclient= new ClientClass(client,nameMessage);
-						send(temp->GetId(),"T",strlen("T"),0);
+						SocketSend(temp->GetId(),"T");
 						clients.push_back(temp);
 						clients.push_back(newclient);
 						temp->StartThread(newclient);
 						newclient->StartThread(temp);
 						waitingroom.erase(waitingroom.begin()+index);
-
 					}
 					else{
-						send(client,"N",strlen("N"),0);
+						SocketSend(client,"N");
 					}
 				}		
 			}
@@ -141,20 +206,18 @@ int main(){
 
 void Read(ClientClass* client){
 	while(!client->exit){
-		char receivedMessage[1024] = {0};
-		read( client->GetId() , receivedMessage, sizeof(receivedMessage));	
-		std::string message(receivedMessage);
+		std::string message= SocketRead(client->GetId());
 		if(message=="exit"){
-			send(client->GetId(),message.c_str(),strlen(message.c_str()),0);
+			SocketSend(client->GetId(),message);
 			client->exit=true;
-			send(client->GetFriend()->GetId(), message.c_str(),strlen(message.c_str()),0);
+			SocketSend(client->GetFriend()->GetId(), message);
 			client->GetFriend()->exit=true;
 		}
 		else{
 			if(message!=""){	
 				std::string toSend = "\033[34m[" + client->GetName() + "] > \033[0m" + message;;
 				std::cout<<toSend<<std::endl;
-				send(client->GetFriend()->GetId(), toSend.c_str(),strlen(toSend.c_str()),0);	
+				SocketSend(client->GetFriend()->GetId(), toSend);
 			}
 		}	
 	}

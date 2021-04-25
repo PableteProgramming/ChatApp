@@ -3,6 +3,9 @@
 #ifdef __linux__
 	void ClientRead(int sock,bool* running)
 #else
+	#pragma comment (lib, "Ws2_32.lib")
+	#pragma comment (lib, "Mswsock.lib")
+	#pragma comment (lib, "AdvApi32.lib")
 	void ClientRead(SOCKET sock,bool* running)
 #endif
 {
@@ -33,11 +36,10 @@ int main(int argc, char** argv)
 		name = argv[2];
 	}
 
-	int sock = 0, valread;
+#ifdef __linux__
+	int sock = 0;
 	struct sockaddr_in server_info;
-	std::string message;
-	char messageBuffer[1024] = {0};
-	
+
 	if ((sock = socket(AF_INET, SOCK_STREAM, 0)) < 0)
 	{
 		printf("\n Socket creation error \n");
@@ -59,6 +61,61 @@ int main(int argc, char** argv)
 		printf("\nConnection Failed \n");
 		return -1;
 	}
+
+#else
+	WSADATA wsaData;
+	SOCKET sock = INVALID_SOCKET;
+	struct addrinfo *result= NULL;
+	struct addrinfo *ptr= NULL;
+	struct addrinfo hints;
+	int iResult= WSAStartup(MAKEWORD(2,2), &wsaData);
+	if(iResult!=0){
+		printf("Error when init WSAStartup!\n");
+		exit(1);
+	}
+	ZeroMemory(&hints,sizeof(hints));
+	hints.ai_family= AF_UNSPEC;
+	hints.ai_socktype= SOCK_STREAM;
+	hints.ai_protocol= IPPROTO_TCP;
+
+	iResult = getaddrinfo(argv[1], std::to_string(PORT).c_str(), &hints, &result);
+    if ( iResult != 0 ) {
+        printf("getaddrinfo failed with error: %d\n", iResult);
+        WSACleanup();
+        return 1;
+    }
+
+    // Attempt to connect to an address until one succeeds
+    for(ptr=result; ptr != NULL ;ptr=ptr->ai_next) {
+
+        // Create a SOCKET for connecting to server
+        sock = socket(ptr->ai_family, ptr->ai_socktype, 
+            ptr->ai_protocol);
+        if (sock == INVALID_SOCKET) {
+            printf("socket failed with error: %ld\n", WSAGetLastError());
+            WSACleanup();
+            return 1;
+        }
+
+        // Connect to server.
+        iResult = connect( sock, ptr->ai_addr, (int)ptr->ai_addrlen);
+        if (iResult == SOCKET_ERROR) {
+            closesocket(sock);
+            sock = INVALID_SOCKET;
+            continue;
+        }
+        break;
+    }
+
+	freeaddrinfo(result);
+
+    if (sock == INVALID_SOCKET) {
+        printf("Unable to connect to server!\n");
+        WSACleanup();
+        return 1;
+    }
+
+#endif
 
 	std::string startMessage = SocketRead(sock);
 
@@ -94,6 +151,7 @@ int main(int argc, char** argv)
 	while (running)
 	{
 		std::cout<<"\033[31m[You] > \033[0m";
+		std::string message;
 		std::getline(std::cin, message);
 
 		SocketSend(sock, message);

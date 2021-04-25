@@ -51,3 +51,10 @@ target_link_libraries(
 	window PUBLIC
 	${LIBS}
 )
+
+if(CMAKE_CXX_COMPILER_ID STREQUAL "MSVC")
+    target_compile_options(
+        window PUBLIC
+        "/MTd"
+    )
+endif()
