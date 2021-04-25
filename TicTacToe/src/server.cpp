@@ -128,7 +128,7 @@ int main(){
 	while (running)
 	{
 #ifdef __linux__
-		client = accept(server_fd, (struct sockaddr *)&socketObj, (socklen_t*)&socketObjSize);
+		client = accept(sock, (struct sockaddr *)&socketObj, (socklen_t*)&socketObjSize);
 		if (client < 0)
 		{
 			perror("accept");
