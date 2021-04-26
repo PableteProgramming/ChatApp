@@ -12,7 +12,7 @@ void ExitClients(){
 				pending.push_back(i);
 			}
 		}
-		for(int i=0; i<pending.size();i++){
+		for(int i=pending.size()-1; i>=0;i--){
 			std::cout<<"client "<<clients[pending[i]]->GetName()<<" exits!"<<std::endl;
 			clients.erase(clients.begin()+pending[i]);
 			std::cout<<clients.size()<<std::endl;
