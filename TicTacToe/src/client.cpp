@@ -149,8 +149,21 @@ int main(int argc, char** argv)
 
 	bool running=true;
 	std::thread reading(ClientRead,sock,&running);	
+	sf::RenderWindow window(sf::VideoMode(550,700), "Flappy Bird", sf::Style::Titlebar | sf::Style::Close);
 	while (running)
 	{
+		sf::Event event;
+       	while (window.pollEvent(event))
+		{
+			if (event.type == sf::Event::Closed)
+				window.close();
+		}
+
+	 	window.clear();
+
+	 	window.display();
+	 
+
 		std::cout<<"\033[31m[You] > \033[0m";
 		std::string message;
 		std::getline(std::cin, message);
@@ -159,8 +172,10 @@ int main(int argc, char** argv)
 
 		if (message == "exit")
 			running = false;
-			
+
 	}
+
+	window.close();
 	reading.join();
 	return 0;
 }

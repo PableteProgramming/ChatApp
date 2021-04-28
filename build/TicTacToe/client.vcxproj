@@ -94,15 +94,15 @@
       <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
       <Optimization>Disabled</Optimization>
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
-      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
       <RuntimeTypeInfo>true</RuntimeTypeInfo>
       <UseFullPaths>false</UseFullPaths>
       <WarningLevel>Level3</WarningLevel>
-      <PreprocessorDefinitions>WIN32;_WINDOWS;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;SFML_STATIC;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ObjectFileName>$(IntDir)</ObjectFileName>
     </ClCompile>
     <ResourceCompile>
-      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;SFML_STATIC;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <AdditionalIncludeDirectories>P:\C++\ChatApp\TicTacToe\include;P:\C++\ChatApp\SFML\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
@@ -114,7 +114,7 @@
       <ProxyFileName>%(Filename)_p.c</ProxyFileName>
     </Midl>
     <Link>
-      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalDependencies>..\SFML\lib\Debug\sfml-graphics-s-d.lib;..\SFML\lib\Debug\sfml-window-s-d.lib;..\SFML\lib\Debug\sfml-system-s-d.lib;..\SFML\lib\Debug\sfml-audio-s-d.lib;opengl32.lib;glu32.lib;gdi32.lib;opengl32.lib;glu32.lib;..\..\SFML\extlibs\libs-msvc-universal\x64\freetype.lib;..\SFML\lib\Debug\sfml-system-s-d.lib;winmm.lib;..\..\SFML\extlibs\libs-msvc-universal\x64\openal32.lib;..\..\SFML\extlibs\libs-msvc-universal\x64\vorbisenc.lib;..\..\SFML\extlibs\libs-msvc-universal\x64\vorbisfile.lib;..\..\SFML\extlibs\libs-msvc-universal\x64\vorbis.lib;..\..\SFML\extlibs\libs-msvc-universal\x64\ogg.lib;..\..\SFML\extlibs\libs-msvc-universal\x64\flac.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
       <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalOptions>%(AdditionalOptions) /machine:x64 -pthread</AdditionalOptions>
       <GenerateDebugInformation>true</GenerateDebugInformation>
@@ -135,17 +135,17 @@
       <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
       <Optimization>MaxSpeed</Optimization>
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
-      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
       <RuntimeTypeInfo>true</RuntimeTypeInfo>
       <UseFullPaths>false</UseFullPaths>
       <WarningLevel>Level3</WarningLevel>
-      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;SFML_STATIC;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ObjectFileName>$(IntDir)</ObjectFileName>
       <DebugInformationFormat>
       </DebugInformationFormat>
     </ClCompile>
     <ResourceCompile>
-      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;SFML_STATIC;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <AdditionalIncludeDirectories>P:\C++\ChatApp\TicTacToe\include;P:\C++\ChatApp\SFML\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
@@ -157,7 +157,7 @@
       <ProxyFileName>%(Filename)_p.c</ProxyFileName>
     </Midl>
     <Link>
-      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalDependencies>..\SFML\lib\Release\sfml-graphics-s.lib;..\SFML\lib\Release\sfml-window-s.lib;..\SFML\lib\Release\sfml-system-s.lib;..\SFML\lib\Release\sfml-audio-s.lib;opengl32.lib;glu32.lib;gdi32.lib;opengl32.lib;glu32.lib;..\..\SFML\extlibs\libs-msvc-universal\x64\freetype.lib;..\SFML\lib\Release\sfml-system-s.lib;winmm.lib;..\..\SFML\extlibs\libs-msvc-universal\x64\openal32.lib;..\..\SFML\extlibs\libs-msvc-universal\x64\vorbisenc.lib;..\..\SFML\extlibs\libs-msvc-universal\x64\vorbisfile.lib;..\..\SFML\extlibs\libs-msvc-universal\x64\vorbis.lib;..\..\SFML\extlibs\libs-msvc-universal\x64\ogg.lib;..\..\SFML\extlibs\libs-msvc-universal\x64\flac.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
       <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalOptions>%(AdditionalOptions) /machine:x64 -pthread</AdditionalOptions>
       <GenerateDebugInformation>false</GenerateDebugInformation>
@@ -178,17 +178,17 @@
       <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
       <Optimization>MinSpace</Optimization>
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
-      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
       <RuntimeTypeInfo>true</RuntimeTypeInfo>
       <UseFullPaths>false</UseFullPaths>
       <WarningLevel>Level3</WarningLevel>
-      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;SFML_STATIC;CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ObjectFileName>$(IntDir)</ObjectFileName>
       <DebugInformationFormat>
       </DebugInformationFormat>
     </ClCompile>
     <ResourceCompile>
-      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;SFML_STATIC;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <AdditionalIncludeDirectories>P:\C++\ChatApp\TicTacToe\include;P:\C++\ChatApp\SFML\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
@@ -200,7 +200,7 @@
       <ProxyFileName>%(Filename)_p.c</ProxyFileName>
     </Midl>
     <Link>
-      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalDependencies>..\SFML\lib\MinSizeRel\sfml-graphics-s.lib;..\SFML\lib\MinSizeRel\sfml-window-s.lib;..\SFML\lib\MinSizeRel\sfml-system-s.lib;..\SFML\lib\MinSizeRel\sfml-audio-s.lib;opengl32.lib;glu32.lib;gdi32.lib;opengl32.lib;glu32.lib;..\..\SFML\extlibs\libs-msvc-universal\x64\freetype.lib;..\SFML\lib\MinSizeRel\sfml-system-s.lib;winmm.lib;..\..\SFML\extlibs\libs-msvc-universal\x64\openal32.lib;..\..\SFML\extlibs\libs-msvc-universal\x64\vorbisenc.lib;..\..\SFML\extlibs\libs-msvc-universal\x64\vorbisfile.lib;..\..\SFML\extlibs\libs-msvc-universal\x64\vorbis.lib;..\..\SFML\extlibs\libs-msvc-universal\x64\ogg.lib;..\..\SFML\extlibs\libs-msvc-universal\x64\flac.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
       <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalOptions>%(AdditionalOptions) /machine:x64 -pthread</AdditionalOptions>
       <GenerateDebugInformation>false</GenerateDebugInformation>
@@ -222,15 +222,15 @@
       <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
       <Optimization>MaxSpeed</Optimization>
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
-      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
       <RuntimeTypeInfo>true</RuntimeTypeInfo>
       <UseFullPaths>false</UseFullPaths>
       <WarningLevel>Level3</WarningLevel>
-      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;SFML_STATIC;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ObjectFileName>$(IntDir)</ObjectFileName>
     </ClCompile>
     <ResourceCompile>
-      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;SFML_STATIC;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <AdditionalIncludeDirectories>P:\C++\ChatApp\TicTacToe\include;P:\C++\ChatApp\SFML\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
@@ -242,7 +242,7 @@
       <ProxyFileName>%(Filename)_p.c</ProxyFileName>
     </Midl>
     <Link>
-      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalDependencies>..\SFML\lib\RelWithDebInfo\sfml-graphics-s.lib;..\SFML\lib\RelWithDebInfo\sfml-window-s.lib;..\SFML\lib\RelWithDebInfo\sfml-system-s.lib;..\SFML\lib\RelWithDebInfo\sfml-audio-s.lib;opengl32.lib;glu32.lib;gdi32.lib;opengl32.lib;glu32.lib;..\..\SFML\extlibs\libs-msvc-universal\x64\freetype.lib;..\SFML\lib\RelWithDebInfo\sfml-system-s.lib;winmm.lib;..\..\SFML\extlibs\libs-msvc-universal\x64\openal32.lib;..\..\SFML\extlibs\libs-msvc-universal\x64\vorbisenc.lib;..\..\SFML\extlibs\libs-msvc-universal\x64\vorbisfile.lib;..\..\SFML\extlibs\libs-msvc-universal\x64\vorbis.lib;..\..\SFML\extlibs\libs-msvc-universal\x64\ogg.lib;..\..\SFML\extlibs\libs-msvc-universal\x64\flac.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
       <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <AdditionalOptions>%(AdditionalOptions) /machine:x64 -pthread</AdditionalOptions>
       <GenerateDebugInformation>true</GenerateDebugInformation>
@@ -322,6 +322,22 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <Name>ZERO_CHECK</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="P:\C++\ChatApp\build\SFML\src\SFML\Audio\sfml-audio.vcxproj">
+      <Project>{F62E9991-F780-3527-BF91-0D2FEB94B3BF}</Project>
+      <Name>sfml-audio</Name>
+    </ProjectReference>
+    <ProjectReference Include="P:\C++\ChatApp\build\SFML\src\SFML\Graphics\sfml-graphics.vcxproj">
+      <Project>{EC08DA11-17A2-3516-A413-B931492A549B}</Project>
+      <Name>sfml-graphics</Name>
+    </ProjectReference>
+    <ProjectReference Include="P:\C++\ChatApp\build\SFML\src\SFML\System\sfml-system.vcxproj">
+      <Project>{1C6463BC-612E-3E0B-BD11-B851F635FEE3}</Project>
+      <Name>sfml-system</Name>
+    </ProjectReference>
+    <ProjectReference Include="P:\C++\ChatApp\build\SFML\src\SFML\Window\sfml-window.vcxproj">
+      <Project>{E4430E9C-87E1-3CA8-A694-FC46C367D2C4}</Project>
+      <Name>sfml-window</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

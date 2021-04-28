@@ -35,6 +35,11 @@ target_sources(
 	${SRC_DIR}/main.cpp
 )
 
+target_link_libraries(
+	client PUBLIC
+	${LIBS}
+)
+
 target_link_options(
 	client PUBLIC
 	-pthread
@@ -56,6 +61,10 @@ target_link_libraries(
 if(CMAKE_CXX_COMPILER_ID STREQUAL "MSVC")
     target_compile_options(
         window PUBLIC
+        "/MTd"
+    )
+	target_compile_options(
+        client PUBLIC
         "/MTd"
     )
 endif()
