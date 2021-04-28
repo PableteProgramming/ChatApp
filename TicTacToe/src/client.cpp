@@ -1,4 +1,5 @@
 #include <main.hpp>
+#include <SFML/Graphics.hpp>
 
 #ifdef __linux__
 	void ClientRead(int sock,bool* running)

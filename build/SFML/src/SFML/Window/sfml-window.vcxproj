@@ -4,48 +4,48 @@
     <PreferredToolArchitecture>x64</PreferredToolArchitecture>
   </PropertyGroup>
   <ItemGroup Label="ProjectConfigurations">
-    <ProjectConfiguration Include="Debug|WIN32">
+    <ProjectConfiguration Include="Debug|x64">
       <Configuration>Debug</Configuration>
-      <Platform>WIN32</Platform>
+      <Platform>x64</Platform>
     </ProjectConfiguration>
-    <ProjectConfiguration Include="Release|WIN32">
+    <ProjectConfiguration Include="Release|x64">
       <Configuration>Release</Configuration>
-      <Platform>WIN32</Platform>
+      <Platform>x64</Platform>
     </ProjectConfiguration>
-    <ProjectConfiguration Include="MinSizeRel|WIN32">
+    <ProjectConfiguration Include="MinSizeRel|x64">
       <Configuration>MinSizeRel</Configuration>
-      <Platform>WIN32</Platform>
+      <Platform>x64</Platform>
     </ProjectConfiguration>
-    <ProjectConfiguration Include="RelWithDebInfo|WIN32">
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
       <Configuration>RelWithDebInfo</Configuration>
-      <Platform>WIN32</Platform>
+      <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{95E818DF-AC91-3BBF-B0B2-B539A14071A9}</ProjectGuid>
+    <ProjectGuid>{E4430E9C-87E1-3CA8-A694-FC46C367D2C4}</ProjectGuid>
     <WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
     <Keyword>Win32Proj</Keyword>
-    <Platform>WIN32</Platform>
+    <Platform>x64</Platform>
     <ProjectName>sfml-window</ProjectName>
     <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
-  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|WIN32'" Label="Configuration">
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
     <ConfigurationType>StaticLibrary</ConfigurationType>
     <CharacterSet>Unicode</CharacterSet>
     <PlatformToolset>v142</PlatformToolset>
   </PropertyGroup>
-  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|WIN32'" Label="Configuration">
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
     <ConfigurationType>StaticLibrary</ConfigurationType>
     <CharacterSet>Unicode</CharacterSet>
     <PlatformToolset>v142</PlatformToolset>
   </PropertyGroup>
-  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|WIN32'" Label="Configuration">
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
     <ConfigurationType>StaticLibrary</ConfigurationType>
     <CharacterSet>Unicode</CharacterSet>
     <PlatformToolset>v142</PlatformToolset>
   </PropertyGroup>
-  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|WIN32'" Label="Configuration">
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
     <ConfigurationType>StaticLibrary</ConfigurationType>
     <CharacterSet>Unicode</CharacterSet>
     <PlatformToolset>v142</PlatformToolset>
@@ -59,26 +59,26 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup>
     <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|WIN32'">C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\ChatApp\build\SFML\lib\Debug\</OutDir>
-    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|WIN32'">sfml-window.dir\Debug\</IntDir>
-    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|WIN32'">sfml-window-s-d</TargetName>
-    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|WIN32'">.lib</TargetExt>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|WIN32'">C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\ChatApp\build\SFML\lib\Release\</OutDir>
-    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|WIN32'">sfml-window.dir\Release\</IntDir>
-    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|WIN32'">sfml-window-s</TargetName>
-    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|WIN32'">.lib</TargetExt>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|WIN32'">C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\ChatApp\build\SFML\lib\MinSizeRel\</OutDir>
-    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|WIN32'">sfml-window.dir\MinSizeRel\</IntDir>
-    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|WIN32'">sfml-window-s</TargetName>
-    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|WIN32'">.lib</TargetExt>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|WIN32'">C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\ChatApp\build\SFML\lib\RelWithDebInfo\</OutDir>
-    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|WIN32'">sfml-window.dir\RelWithDebInfo\</IntDir>
-    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|WIN32'">sfml-window-s</TargetName>
-    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|WIN32'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">P:\C++\ChatApp\build\SFML\lib\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">sfml-window.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">sfml-window-s-d</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">P:\C++\ChatApp\build\SFML\lib\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">sfml-window.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">sfml-window-s</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">P:\C++\ChatApp\build\SFML\lib\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">sfml-window.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">sfml-window-s</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.lib</TargetExt>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">P:\C++\ChatApp\build\SFML\lib\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">sfml-window.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">sfml-window-s</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.lib</TargetExt>
   </PropertyGroup>
-  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|WIN32'">
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\ChatApp\SFML\include;C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\ChatApp\SFML\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>P:\C++\ChatApp\SFML\include;P:\C++\ChatApp\SFML\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
@@ -92,14 +92,14 @@
       <WarningLevel>Level3</WarningLevel>
       <PreprocessorDefinitions>WIN32;_WINDOWS;SFML_STATIC;_CRT_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;UNICODE;_UNICODE;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ObjectFileName>$(IntDir)</ObjectFileName>
-      <ProgramDataBaseFileName>C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\ChatApp\build\SFML\lib\Debug\sfml-window-s.pdb</ProgramDataBaseFileName>
+      <ProgramDataBaseFileName>P:\C++\ChatApp\build\SFML\lib\Debug\sfml-window-s-d.pdb</ProgramDataBaseFileName>
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;SFML_STATIC;_CRT_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;UNICODE;_UNICODE;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\ChatApp\SFML\include;C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\ChatApp\SFML\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>P:\C++\ChatApp\SFML\include;P:\C++\ChatApp\SFML\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\ChatApp\SFML\include;C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\ChatApp\SFML\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>P:\C++\ChatApp\SFML\include;P:\C++\ChatApp\SFML\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -107,12 +107,12 @@
       <ProxyFileName>%(Filename)_p.c</ProxyFileName>
     </Midl>
     <Lib>
-      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
     </Lib>
   </ItemDefinitionGroup>
-  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|WIN32'">
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\ChatApp\SFML\include;C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\ChatApp\SFML\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>P:\C++\ChatApp\SFML\include;P:\C++\ChatApp\SFML\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <ExceptionHandling>Sync</ExceptionHandling>
       <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
@@ -126,14 +126,14 @@
       <ObjectFileName>$(IntDir)</ObjectFileName>
       <DebugInformationFormat>
       </DebugInformationFormat>
-      <ProgramDataBaseFileName>C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\ChatApp\build\SFML\lib\Release\sfml-window-s.pdb</ProgramDataBaseFileName>
+      <ProgramDataBaseFileName>P:\C++\ChatApp\build\SFML\lib\Release\sfml-window-s-d.pdb</ProgramDataBaseFileName>
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;SFML_STATIC;_CRT_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;UNICODE;_UNICODE;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\ChatApp\SFML\include;C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\ChatApp\SFML\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>P:\C++\ChatApp\SFML\include;P:\C++\ChatApp\SFML\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\ChatApp\SFML\include;C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\ChatApp\SFML\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>P:\C++\ChatApp\SFML\include;P:\C++\ChatApp\SFML\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -141,12 +141,12 @@
       <ProxyFileName>%(Filename)_p.c</ProxyFileName>
     </Midl>
     <Lib>
-      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
     </Lib>
   </ItemDefinitionGroup>
-  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|WIN32'">
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\ChatApp\SFML\include;C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\ChatApp\SFML\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>P:\C++\ChatApp\SFML\include;P:\C++\ChatApp\SFML\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <ExceptionHandling>Sync</ExceptionHandling>
       <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
@@ -160,14 +160,14 @@
       <ObjectFileName>$(IntDir)</ObjectFileName>
       <DebugInformationFormat>
       </DebugInformationFormat>
-      <ProgramDataBaseFileName>C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\ChatApp\build\SFML\lib\MinSizeRel\sfml-window-s.pdb</ProgramDataBaseFileName>
+      <ProgramDataBaseFileName>P:\C++\ChatApp\build\SFML\lib\MinSizeRel\sfml-window-s-d.pdb</ProgramDataBaseFileName>
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;SFML_STATIC;_CRT_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;UNICODE;_UNICODE;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\ChatApp\SFML\include;C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\ChatApp\SFML\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>P:\C++\ChatApp\SFML\include;P:\C++\ChatApp\SFML\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\ChatApp\SFML\include;C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\ChatApp\SFML\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>P:\C++\ChatApp\SFML\include;P:\C++\ChatApp\SFML\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -175,12 +175,12 @@
       <ProxyFileName>%(Filename)_p.c</ProxyFileName>
     </Midl>
     <Lib>
-      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
     </Lib>
   </ItemDefinitionGroup>
-  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|WIN32'">
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\ChatApp\SFML\include;C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\ChatApp\SFML\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>P:\C++\ChatApp\SFML\include;P:\C++\ChatApp\SFML\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
       <ExceptionHandling>Sync</ExceptionHandling>
@@ -193,14 +193,14 @@
       <WarningLevel>Level3</WarningLevel>
       <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;SFML_STATIC;_CRT_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;UNICODE;_UNICODE;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ObjectFileName>$(IntDir)</ObjectFileName>
-      <ProgramDataBaseFileName>C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\ChatApp\build\SFML\lib\RelWithDebInfo\sfml-window-s.pdb</ProgramDataBaseFileName>
+      <ProgramDataBaseFileName>P:\C++\ChatApp\build\SFML\lib\RelWithDebInfo\sfml-window-s-d.pdb</ProgramDataBaseFileName>
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;SFML_STATIC;_CRT_SECURE_NO_DEPRECATE;_SCL_SECURE_NO_WARNINGS;UNICODE;_UNICODE;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\ChatApp\SFML\include;C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\ChatApp\SFML\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>P:\C++\ChatApp\SFML\include;P:\C++\ChatApp\SFML\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\ChatApp\SFML\include;C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\ChatApp\SFML\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>P:\C++\ChatApp\SFML\include;P:\C++\ChatApp\SFML\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -208,15 +208,15 @@
       <ProxyFileName>%(Filename)_p.c</ProxyFileName>
     </Midl>
     <Lib>
-      <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
     </Lib>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\ChatApp\SFML\src\SFML\Window\CMakeLists.txt">
+    <CustomBuild Include="P:\C++\ChatApp\SFML\src\SFML\Window\CMakeLists.txt">
       <StdOutEncoding>UTF-8</StdOutEncoding>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|WIN32'">Building Custom Rule C:/Users/curro.LAPTOP-DUBBS74R/OneDrive/Documentos/Programming/C++/ChatApp/SFML/src/SFML/Window/CMakeLists.txt</Message>
-      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|WIN32'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/curro.LAPTOP-DUBBS74R/OneDrive/Documentos/Programming/C++/ChatApp -BC:/Users/curro.LAPTOP-DUBBS74R/OneDrive/Documentos/Programming/C++/ChatApp/build --check-stamp-file C:/Users/curro.LAPTOP-DUBBS74R/OneDrive/Documentos/Programming/C++/ChatApp/build/SFML/src/SFML/Window/CMakeFiles/generate.stamp
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule P:/C++/ChatApp/SFML/src/SFML/Window/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SP:/C++/ChatApp -BP:/C++/ChatApp/build --check-stamp-file P:/C++/ChatApp/build/SFML/src/SFML/Window/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -224,12 +224,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|WIN32'">C:\Program Files\CMake\share\cmake-3.19\Modules\FindOpenGL.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\FindPackageMessage.cmake;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|WIN32'">C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\ChatApp\build\SFML\src\SFML\Window\CMakeFiles\generate.stamp</Outputs>
-      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|WIN32'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Release|WIN32'">Building Custom Rule C:/Users/curro.LAPTOP-DUBBS74R/OneDrive/Documentos/Programming/C++/ChatApp/SFML/src/SFML/Window/CMakeLists.txt</Message>
-      <Command Condition="'$(Configuration)|$(Platform)'=='Release|WIN32'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/curro.LAPTOP-DUBBS74R/OneDrive/Documentos/Programming/C++/ChatApp -BC:/Users/curro.LAPTOP-DUBBS74R/OneDrive/Documentos/Programming/C++/ChatApp/build --check-stamp-file C:/Users/curro.LAPTOP-DUBBS74R/OneDrive/Documentos/Programming/C++/ChatApp/build/SFML/src/SFML/Window/CMakeFiles/generate.stamp
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake\share\cmake-3.19\Modules\FindOpenGL.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\FindPackageMessage.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">P:\C++\ChatApp\build\SFML\src\SFML\Window\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule P:/C++/ChatApp/SFML/src/SFML/Window/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SP:/C++/ChatApp -BP:/C++/ChatApp/build --check-stamp-file P:/C++/ChatApp/build/SFML/src/SFML/Window/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -237,12 +237,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|WIN32'">C:\Program Files\CMake\share\cmake-3.19\Modules\FindOpenGL.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\FindPackageMessage.cmake;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|WIN32'">C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\ChatApp\build\SFML\src\SFML\Window\CMakeFiles\generate.stamp</Outputs>
-      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|WIN32'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|WIN32'">Building Custom Rule C:/Users/curro.LAPTOP-DUBBS74R/OneDrive/Documentos/Programming/C++/ChatApp/SFML/src/SFML/Window/CMakeLists.txt</Message>
-      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|WIN32'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/curro.LAPTOP-DUBBS74R/OneDrive/Documentos/Programming/C++/ChatApp -BC:/Users/curro.LAPTOP-DUBBS74R/OneDrive/Documentos/Programming/C++/ChatApp/build --check-stamp-file C:/Users/curro.LAPTOP-DUBBS74R/OneDrive/Documentos/Programming/C++/ChatApp/build/SFML/src/SFML/Window/CMakeFiles/generate.stamp
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\CMake\share\cmake-3.19\Modules\FindOpenGL.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\FindPackageMessage.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">P:\C++\ChatApp\build\SFML\src\SFML\Window\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule P:/C++/ChatApp/SFML/src/SFML/Window/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SP:/C++/ChatApp -BP:/C++/ChatApp/build --check-stamp-file P:/C++/ChatApp/build/SFML/src/SFML/Window/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -250,12 +250,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|WIN32'">C:\Program Files\CMake\share\cmake-3.19\Modules\FindOpenGL.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\FindPackageMessage.cmake;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|WIN32'">C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\ChatApp\build\SFML\src\SFML\Window\CMakeFiles\generate.stamp</Outputs>
-      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|WIN32'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|WIN32'">Building Custom Rule C:/Users/curro.LAPTOP-DUBBS74R/OneDrive/Documentos/Programming/C++/ChatApp/SFML/src/SFML/Window/CMakeLists.txt</Message>
-      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|WIN32'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/curro.LAPTOP-DUBBS74R/OneDrive/Documentos/Programming/C++/ChatApp -BC:/Users/curro.LAPTOP-DUBBS74R/OneDrive/Documentos/Programming/C++/ChatApp/build --check-stamp-file C:/Users/curro.LAPTOP-DUBBS74R/OneDrive/Documentos/Programming/C++/ChatApp/build/SFML/src/SFML/Window/CMakeFiles/generate.stamp
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Program Files\CMake\share\cmake-3.19\Modules\FindOpenGL.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\FindPackageMessage.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">P:\C++\ChatApp\build\SFML\src\SFML\Window\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule P:/C++/ChatApp/SFML/src/SFML/Window/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SP:/C++/ChatApp -BP:/C++/ChatApp/build --check-stamp-file P:/C++/ChatApp/build/SFML/src/SFML/Window/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -263,80 +263,80 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|WIN32'">C:\Program Files\CMake\share\cmake-3.19\Modules\FindOpenGL.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\FindPackageMessage.cmake;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|WIN32'">C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\ChatApp\build\SFML\src\SFML\Window\CMakeFiles\generate.stamp</Outputs>
-      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|WIN32'">false</LinkObjects>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files\CMake\share\cmake-3.19\Modules\FindOpenGL.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\FindPackageMessage.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">P:\C++\ChatApp\build\SFML\src\SFML\Window\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\ChatApp\SFML\include\SFML\Window\Clipboard.hpp" />
-    <ClCompile Include="C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\ChatApp\SFML\src\SFML\Window\Clipboard.cpp" />
-    <ClInclude Include="C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\ChatApp\SFML\src\SFML\Window\ClipboardImpl.hpp" />
-    <ClCompile Include="C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\ChatApp\SFML\src\SFML\Window\Context.cpp" />
-    <ClInclude Include="C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\ChatApp\SFML\include\SFML\Window\Context.hpp" />
-    <ClCompile Include="C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\ChatApp\SFML\src\SFML\Window\Cursor.cpp" />
-    <ClInclude Include="C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\ChatApp\SFML\include\SFML\Window\Cursor.hpp" />
-    <ClInclude Include="C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\ChatApp\SFML\src\SFML\Window\CursorImpl.hpp" />
-    <ClInclude Include="C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\ChatApp\SFML\include\SFML\Window\Export.hpp" />
-    <ClCompile Include="C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\ChatApp\SFML\src\SFML\Window\GlContext.cpp" />
-    <ClInclude Include="C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\ChatApp\SFML\src\SFML\Window\GlContext.hpp" />
-    <ClCompile Include="C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\ChatApp\SFML\src\SFML\Window\GlResource.cpp" />
-    <ClInclude Include="C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\ChatApp\SFML\include\SFML\Window\GlResource.hpp" />
-    <ClInclude Include="C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\ChatApp\SFML\include\SFML\Window\ContextSettings.hpp" />
-    <ClInclude Include="C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\ChatApp\SFML\include\SFML\Window\Event.hpp" />
-    <ClInclude Include="C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\ChatApp\SFML\src\SFML\Window\InputImpl.hpp" />
-    <ClInclude Include="C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\ChatApp\SFML\include\SFML\Window\Joystick.hpp" />
-    <ClCompile Include="C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\ChatApp\SFML\src\SFML\Window\Joystick.cpp" />
-    <ClInclude Include="C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\ChatApp\SFML\src\SFML\Window\JoystickImpl.hpp" />
-    <ClCompile Include="C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\ChatApp\SFML\src\SFML\Window\JoystickManager.cpp" />
-    <ClInclude Include="C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\ChatApp\SFML\src\SFML\Window\JoystickManager.hpp" />
-    <ClInclude Include="C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\ChatApp\SFML\include\SFML\Window\Keyboard.hpp" />
-    <ClCompile Include="C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\ChatApp\SFML\src\SFML\Window\Keyboard.cpp" />
-    <ClInclude Include="C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\ChatApp\SFML\include\SFML\Window\Mouse.hpp" />
-    <ClCompile Include="C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\ChatApp\SFML\src\SFML\Window\Mouse.cpp" />
-    <ClInclude Include="C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\ChatApp\SFML\include\SFML\Window\Touch.hpp" />
-    <ClCompile Include="C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\ChatApp\SFML\src\SFML\Window\Touch.cpp" />
-    <ClInclude Include="C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\ChatApp\SFML\include\SFML\Window\Sensor.hpp" />
-    <ClCompile Include="C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\ChatApp\SFML\src\SFML\Window\Sensor.cpp" />
-    <ClInclude Include="C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\ChatApp\SFML\src\SFML\Window\SensorImpl.hpp" />
-    <ClCompile Include="C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\ChatApp\SFML\src\SFML\Window\SensorManager.cpp" />
-    <ClInclude Include="C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\ChatApp\SFML\src\SFML\Window\SensorManager.hpp" />
-    <ClCompile Include="C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\ChatApp\SFML\src\SFML\Window\VideoMode.cpp" />
-    <ClInclude Include="C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\ChatApp\SFML\include\SFML\Window\VideoMode.hpp" />
-    <ClInclude Include="C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\ChatApp\SFML\src\SFML\Window\VideoModeImpl.hpp" />
-    <ClCompile Include="C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\ChatApp\SFML\src\SFML\Window\Window.cpp" />
-    <ClInclude Include="C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\ChatApp\SFML\include\SFML\Window\Window.hpp" />
-    <ClInclude Include="C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\ChatApp\SFML\include\SFML\Window\WindowHandle.hpp" />
-    <ClCompile Include="C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\ChatApp\SFML\src\SFML\Window\WindowImpl.cpp" />
-    <ClInclude Include="C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\ChatApp\SFML\src\SFML\Window\WindowImpl.hpp" />
-    <ClInclude Include="C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\ChatApp\SFML\include\SFML\Window\WindowStyle.hpp" />
-    <ClInclude Include="C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\ChatApp\SFML\src\SFML\Window\Win32\CursorImpl.hpp" />
-    <ClCompile Include="C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\ChatApp\SFML\src\SFML\Window\Win32\CursorImpl.cpp" />
-    <ClInclude Include="C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\ChatApp\SFML\src\SFML\Window\Win32\ClipboardImpl.hpp" />
-    <ClCompile Include="C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\ChatApp\SFML\src\SFML\Window\Win32\ClipboardImpl.cpp" />
-    <ClCompile Include="C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\ChatApp\SFML\src\SFML\Window\Win32\WglContext.cpp" />
-    <ClInclude Include="C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\ChatApp\SFML\src\SFML\Window\Win32\WglContext.hpp" />
-    <ClCompile Include="C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\ChatApp\SFML\src\SFML\Window\Win32\WglExtensions.cpp" />
-    <ClInclude Include="C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\ChatApp\SFML\src\SFML\Window\Win32\WglExtensions.hpp" />
-    <ClCompile Include="C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\ChatApp\SFML\src\SFML\Window\Win32\InputImpl.cpp" />
-    <ClInclude Include="C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\ChatApp\SFML\src\SFML\Window\Win32\InputImpl.hpp" />
-    <ClCompile Include="C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\ChatApp\SFML\src\SFML\Window\Win32\JoystickImpl.cpp" />
-    <ClInclude Include="C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\ChatApp\SFML\src\SFML\Window\Win32\JoystickImpl.hpp" />
-    <ClInclude Include="C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\ChatApp\SFML\src\SFML\Window\Win32\SensorImpl.hpp" />
-    <ClCompile Include="C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\ChatApp\SFML\src\SFML\Window\Win32\SensorImpl.cpp" />
-    <ClCompile Include="C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\ChatApp\SFML\src\SFML\Window\Win32\VideoModeImpl.cpp" />
-    <ClCompile Include="C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\ChatApp\SFML\src\SFML\Window\Win32\WindowImplWin32.cpp" />
-    <ClInclude Include="C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\ChatApp\SFML\src\SFML\Window\Win32\WindowImplWin32.hpp" />
+    <ClInclude Include="P:\C++\ChatApp\SFML\include\SFML\Window\Clipboard.hpp" />
+    <ClCompile Include="P:\C++\ChatApp\SFML\src\SFML\Window\Clipboard.cpp" />
+    <ClInclude Include="P:\C++\ChatApp\SFML\src\SFML\Window\ClipboardImpl.hpp" />
+    <ClCompile Include="P:\C++\ChatApp\SFML\src\SFML\Window\Context.cpp" />
+    <ClInclude Include="P:\C++\ChatApp\SFML\include\SFML\Window\Context.hpp" />
+    <ClCompile Include="P:\C++\ChatApp\SFML\src\SFML\Window\Cursor.cpp" />
+    <ClInclude Include="P:\C++\ChatApp\SFML\include\SFML\Window\Cursor.hpp" />
+    <ClInclude Include="P:\C++\ChatApp\SFML\src\SFML\Window\CursorImpl.hpp" />
+    <ClInclude Include="P:\C++\ChatApp\SFML\include\SFML\Window\Export.hpp" />
+    <ClCompile Include="P:\C++\ChatApp\SFML\src\SFML\Window\GlContext.cpp" />
+    <ClInclude Include="P:\C++\ChatApp\SFML\src\SFML\Window\GlContext.hpp" />
+    <ClCompile Include="P:\C++\ChatApp\SFML\src\SFML\Window\GlResource.cpp" />
+    <ClInclude Include="P:\C++\ChatApp\SFML\include\SFML\Window\GlResource.hpp" />
+    <ClInclude Include="P:\C++\ChatApp\SFML\include\SFML\Window\ContextSettings.hpp" />
+    <ClInclude Include="P:\C++\ChatApp\SFML\include\SFML\Window\Event.hpp" />
+    <ClInclude Include="P:\C++\ChatApp\SFML\src\SFML\Window\InputImpl.hpp" />
+    <ClInclude Include="P:\C++\ChatApp\SFML\include\SFML\Window\Joystick.hpp" />
+    <ClCompile Include="P:\C++\ChatApp\SFML\src\SFML\Window\Joystick.cpp" />
+    <ClInclude Include="P:\C++\ChatApp\SFML\src\SFML\Window\JoystickImpl.hpp" />
+    <ClCompile Include="P:\C++\ChatApp\SFML\src\SFML\Window\JoystickManager.cpp" />
+    <ClInclude Include="P:\C++\ChatApp\SFML\src\SFML\Window\JoystickManager.hpp" />
+    <ClInclude Include="P:\C++\ChatApp\SFML\include\SFML\Window\Keyboard.hpp" />
+    <ClCompile Include="P:\C++\ChatApp\SFML\src\SFML\Window\Keyboard.cpp" />
+    <ClInclude Include="P:\C++\ChatApp\SFML\include\SFML\Window\Mouse.hpp" />
+    <ClCompile Include="P:\C++\ChatApp\SFML\src\SFML\Window\Mouse.cpp" />
+    <ClInclude Include="P:\C++\ChatApp\SFML\include\SFML\Window\Touch.hpp" />
+    <ClCompile Include="P:\C++\ChatApp\SFML\src\SFML\Window\Touch.cpp" />
+    <ClInclude Include="P:\C++\ChatApp\SFML\include\SFML\Window\Sensor.hpp" />
+    <ClCompile Include="P:\C++\ChatApp\SFML\src\SFML\Window\Sensor.cpp" />
+    <ClInclude Include="P:\C++\ChatApp\SFML\src\SFML\Window\SensorImpl.hpp" />
+    <ClCompile Include="P:\C++\ChatApp\SFML\src\SFML\Window\SensorManager.cpp" />
+    <ClInclude Include="P:\C++\ChatApp\SFML\src\SFML\Window\SensorManager.hpp" />
+    <ClCompile Include="P:\C++\ChatApp\SFML\src\SFML\Window\VideoMode.cpp" />
+    <ClInclude Include="P:\C++\ChatApp\SFML\include\SFML\Window\VideoMode.hpp" />
+    <ClInclude Include="P:\C++\ChatApp\SFML\src\SFML\Window\VideoModeImpl.hpp" />
+    <ClCompile Include="P:\C++\ChatApp\SFML\src\SFML\Window\Window.cpp" />
+    <ClInclude Include="P:\C++\ChatApp\SFML\include\SFML\Window\Window.hpp" />
+    <ClInclude Include="P:\C++\ChatApp\SFML\include\SFML\Window\WindowHandle.hpp" />
+    <ClCompile Include="P:\C++\ChatApp\SFML\src\SFML\Window\WindowImpl.cpp" />
+    <ClInclude Include="P:\C++\ChatApp\SFML\src\SFML\Window\WindowImpl.hpp" />
+    <ClInclude Include="P:\C++\ChatApp\SFML\include\SFML\Window\WindowStyle.hpp" />
+    <ClInclude Include="P:\C++\ChatApp\SFML\src\SFML\Window\Win32\CursorImpl.hpp" />
+    <ClCompile Include="P:\C++\ChatApp\SFML\src\SFML\Window\Win32\CursorImpl.cpp" />
+    <ClInclude Include="P:\C++\ChatApp\SFML\src\SFML\Window\Win32\ClipboardImpl.hpp" />
+    <ClCompile Include="P:\C++\ChatApp\SFML\src\SFML\Window\Win32\ClipboardImpl.cpp" />
+    <ClCompile Include="P:\C++\ChatApp\SFML\src\SFML\Window\Win32\WglContext.cpp" />
+    <ClInclude Include="P:\C++\ChatApp\SFML\src\SFML\Window\Win32\WglContext.hpp" />
+    <ClCompile Include="P:\C++\ChatApp\SFML\src\SFML\Window\Win32\WglExtensions.cpp" />
+    <ClInclude Include="P:\C++\ChatApp\SFML\src\SFML\Window\Win32\WglExtensions.hpp" />
+    <ClCompile Include="P:\C++\ChatApp\SFML\src\SFML\Window\Win32\InputImpl.cpp" />
+    <ClInclude Include="P:\C++\ChatApp\SFML\src\SFML\Window\Win32\InputImpl.hpp" />
+    <ClCompile Include="P:\C++\ChatApp\SFML\src\SFML\Window\Win32\JoystickImpl.cpp" />
+    <ClInclude Include="P:\C++\ChatApp\SFML\src\SFML\Window\Win32\JoystickImpl.hpp" />
+    <ClInclude Include="P:\C++\ChatApp\SFML\src\SFML\Window\Win32\SensorImpl.hpp" />
+    <ClCompile Include="P:\C++\ChatApp\SFML\src\SFML\Window\Win32\SensorImpl.cpp" />
+    <ClCompile Include="P:\C++\ChatApp\SFML\src\SFML\Window\Win32\VideoModeImpl.cpp" />
+    <ClCompile Include="P:\C++\ChatApp\SFML\src\SFML\Window\Win32\WindowImplWin32.cpp" />
+    <ClInclude Include="P:\C++\ChatApp\SFML\src\SFML\Window\Win32\WindowImplWin32.hpp" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\ChatApp\build\ZERO_CHECK.vcxproj">
-      <Project>{620DD6C1-460B-3974-A1F0-3EE6C6AC7CE3}</Project>
+    <ProjectReference Include="P:\C++\ChatApp\build\ZERO_CHECK.vcxproj">
+      <Project>{38858051-D86F-38B8-BB1A-0C4AB08D2B42}</Project>
       <Name>ZERO_CHECK</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\ChatApp\build\SFML\src\SFML\System\sfml-system.vcxproj">
-      <Project>{782B53D1-B855-37CD-94B7-E5268FF57EAC}</Project>
+    <ProjectReference Include="P:\C++\ChatApp\build\SFML\src\SFML\System\sfml-system.vcxproj">
+      <Project>{1C6463BC-612E-3E0B-BD11-B851F635FEE3}</Project>
       <Name>sfml-system</Name>
     </ProjectReference>
   </ItemGroup>

@@ -1,0 +1,64 @@
+{
+	"backtrace" : 0,
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : 
+		[
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"id" : "sfml-network::@5e97341f5bcfe5d6b699"
+		},
+		{
+			"id" : "sfml-system::@f1fd4bce49687b53ec1b"
+		},
+		{
+			"id" : "sfml-window::@0daf25d7b5dd386fd904"
+		},
+		{
+			"id" : "sfml-main::@c6bfd72d0b1e1f066d8b"
+		},
+		{
+			"id" : "sfml-audio::@e9b1b5e9e6d4f50c4d9b"
+		},
+		{
+			"id" : "server::@972fc8d941b091d9f2b5"
+		},
+		{
+			"id" : "window::@972fc8d941b091d9f2b5"
+		},
+		{
+			"id" : "client::@972fc8d941b091d9f2b5"
+		},
+		{
+			"id" : "sfml-graphics::@b5d161fc85c1c0dd9373"
+		},
+		{
+			"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df"
+		}
+	],
+	"folder" : 
+	{
+		"name" : "CMake"
+	},
+	"id" : "ALL_BUILD::@6890427a1f51a3e7e1df",
+	"isGeneratorProvided" : true,
+	"name" : "ALL_BUILD",
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	},
+	"sources" : [],
+	"type" : "UTILITY"
+}

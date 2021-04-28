@@ -4,48 +4,48 @@
     <PreferredToolArchitecture>x64</PreferredToolArchitecture>
   </PropertyGroup>
   <ItemGroup Label="ProjectConfigurations">
-    <ProjectConfiguration Include="Debug|WIN32">
+    <ProjectConfiguration Include="Debug|x64">
       <Configuration>Debug</Configuration>
-      <Platform>WIN32</Platform>
+      <Platform>x64</Platform>
     </ProjectConfiguration>
-    <ProjectConfiguration Include="Release|WIN32">
+    <ProjectConfiguration Include="Release|x64">
       <Configuration>Release</Configuration>
-      <Platform>WIN32</Platform>
+      <Platform>x64</Platform>
     </ProjectConfiguration>
-    <ProjectConfiguration Include="MinSizeRel|WIN32">
+    <ProjectConfiguration Include="MinSizeRel|x64">
       <Configuration>MinSizeRel</Configuration>
-      <Platform>WIN32</Platform>
+      <Platform>x64</Platform>
     </ProjectConfiguration>
-    <ProjectConfiguration Include="RelWithDebInfo|WIN32">
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
       <Configuration>RelWithDebInfo</Configuration>
-      <Platform>WIN32</Platform>
+      <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{AC0485A7-9DDD-3D7F-AE7F-3041469E6DEF}</ProjectGuid>
+    <ProjectGuid>{E93DFCA6-3A9D-3A32-9EB5-FA2FD8C0A6FF}</ProjectGuid>
     <WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
     <Keyword>Win32Proj</Keyword>
-    <Platform>WIN32</Platform>
+    <Platform>x64</Platform>
     <ProjectName>ALL_BUILD</ProjectName>
     <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
-  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|WIN32'" Label="Configuration">
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
     <ConfigurationType>Utility</ConfigurationType>
     <CharacterSet>MultiByte</CharacterSet>
     <PlatformToolset>v142</PlatformToolset>
   </PropertyGroup>
-  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|WIN32'" Label="Configuration">
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
     <ConfigurationType>Utility</ConfigurationType>
     <CharacterSet>MultiByte</CharacterSet>
     <PlatformToolset>v142</PlatformToolset>
   </PropertyGroup>
-  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|WIN32'" Label="Configuration">
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
     <ConfigurationType>Utility</ConfigurationType>
     <CharacterSet>MultiByte</CharacterSet>
     <PlatformToolset>v142</PlatformToolset>
   </PropertyGroup>
-  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|WIN32'" Label="Configuration">
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
     <ConfigurationType>Utility</ConfigurationType>
     <CharacterSet>MultiByte</CharacterSet>
     <PlatformToolset>v142</PlatformToolset>
@@ -59,12 +59,12 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup>
     <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
-    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|WIN32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
-    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|WIN32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
-    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|WIN32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
-    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|WIN32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
   </PropertyGroup>
-  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|WIN32'">
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <Midl>
       <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
@@ -74,7 +74,7 @@
       <ProxyFileName>%(Filename)_p.c</ProxyFileName>
     </Midl>
   </ItemDefinitionGroup>
-  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|WIN32'">
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <Midl>
       <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
@@ -84,7 +84,7 @@
       <ProxyFileName>%(Filename)_p.c</ProxyFileName>
     </Midl>
   </ItemDefinitionGroup>
-  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|WIN32'">
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
     <Midl>
       <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
@@ -94,7 +94,7 @@
       <ProxyFileName>%(Filename)_p.c</ProxyFileName>
     </Midl>
   </ItemDefinitionGroup>
-  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|WIN32'">
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
     <Midl>
       <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
@@ -105,11 +105,11 @@
     </Midl>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\ChatApp\SFML\CMakeLists.txt">
+    <CustomBuild Include="P:\C++\ChatApp\SFML\CMakeLists.txt">
       <StdOutEncoding>UTF-8</StdOutEncoding>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|WIN32'">Building Custom Rule C:/Users/curro.LAPTOP-DUBBS74R/OneDrive/Documentos/Programming/C++/ChatApp/SFML/CMakeLists.txt</Message>
-      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|WIN32'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/curro.LAPTOP-DUBBS74R/OneDrive/Documentos/Programming/C++/ChatApp -BC:/Users/curro.LAPTOP-DUBBS74R/OneDrive/Documentos/Programming/C++/ChatApp/build --check-stamp-file C:/Users/curro.LAPTOP-DUBBS74R/OneDrive/Documentos/Programming/C++/ChatApp/build/SFML/CMakeFiles/generate.stamp
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule P:/C++/ChatApp/SFML/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SP:/C++/ChatApp -BP:/C++/ChatApp/build --check-stamp-file P:/C++/ChatApp/build/SFML/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -117,12 +117,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|WIN32'">C:\Program Files\CMake\share\cmake-3.19\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CheckIncludeFileCXX.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CheckTypeSize.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\WriteBasicConfigVersionFile.cmake;C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\ChatApp\SFML\cmake\Config.cmake;C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\ChatApp\SFML\cmake\SFMLConfig.cmake.in;C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\ChatApp\SFML\cmake\SFMLConfigDependencies.cmake.in;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|WIN32'">C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\ChatApp\build\SFML\CMakeFiles\generate.stamp</Outputs>
-      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|WIN32'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Release|WIN32'">Building Custom Rule C:/Users/curro.LAPTOP-DUBBS74R/OneDrive/Documentos/Programming/C++/ChatApp/SFML/CMakeLists.txt</Message>
-      <Command Condition="'$(Configuration)|$(Platform)'=='Release|WIN32'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/curro.LAPTOP-DUBBS74R/OneDrive/Documentos/Programming/C++/ChatApp -BC:/Users/curro.LAPTOP-DUBBS74R/OneDrive/Documentos/Programming/C++/ChatApp/build --check-stamp-file C:/Users/curro.LAPTOP-DUBBS74R/OneDrive/Documentos/Programming/C++/ChatApp/build/SFML/CMakeFiles/generate.stamp
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Program Files\CMake\share\cmake-3.19\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CheckIncludeFileCXX.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CheckTypeSize.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\WriteBasicConfigVersionFile.cmake;P:\C++\ChatApp\SFML\cmake\Config.cmake;P:\C++\ChatApp\SFML\cmake\SFMLConfig.cmake.in;P:\C++\ChatApp\SFML\cmake\SFMLConfigDependencies.cmake.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">P:\C++\ChatApp\build\SFML\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule P:/C++/ChatApp/SFML/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SP:/C++/ChatApp -BP:/C++/ChatApp/build --check-stamp-file P:/C++/ChatApp/build/SFML/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -130,12 +130,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|WIN32'">C:\Program Files\CMake\share\cmake-3.19\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CheckIncludeFileCXX.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CheckTypeSize.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\WriteBasicConfigVersionFile.cmake;C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\ChatApp\SFML\cmake\Config.cmake;C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\ChatApp\SFML\cmake\SFMLConfig.cmake.in;C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\ChatApp\SFML\cmake\SFMLConfigDependencies.cmake.in;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|WIN32'">C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\ChatApp\build\SFML\CMakeFiles\generate.stamp</Outputs>
-      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|WIN32'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|WIN32'">Building Custom Rule C:/Users/curro.LAPTOP-DUBBS74R/OneDrive/Documentos/Programming/C++/ChatApp/SFML/CMakeLists.txt</Message>
-      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|WIN32'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/curro.LAPTOP-DUBBS74R/OneDrive/Documentos/Programming/C++/ChatApp -BC:/Users/curro.LAPTOP-DUBBS74R/OneDrive/Documentos/Programming/C++/ChatApp/build --check-stamp-file C:/Users/curro.LAPTOP-DUBBS74R/OneDrive/Documentos/Programming/C++/ChatApp/build/SFML/CMakeFiles/generate.stamp
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Program Files\CMake\share\cmake-3.19\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CheckIncludeFileCXX.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CheckTypeSize.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\WriteBasicConfigVersionFile.cmake;P:\C++\ChatApp\SFML\cmake\Config.cmake;P:\C++\ChatApp\SFML\cmake\SFMLConfig.cmake.in;P:\C++\ChatApp\SFML\cmake\SFMLConfigDependencies.cmake.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">P:\C++\ChatApp\build\SFML\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule P:/C++/ChatApp/SFML/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SP:/C++/ChatApp -BP:/C++/ChatApp/build --check-stamp-file P:/C++/ChatApp/build/SFML/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -143,12 +143,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|WIN32'">C:\Program Files\CMake\share\cmake-3.19\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CheckIncludeFileCXX.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CheckTypeSize.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\WriteBasicConfigVersionFile.cmake;C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\ChatApp\SFML\cmake\Config.cmake;C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\ChatApp\SFML\cmake\SFMLConfig.cmake.in;C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\ChatApp\SFML\cmake\SFMLConfigDependencies.cmake.in;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|WIN32'">C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\ChatApp\build\SFML\CMakeFiles\generate.stamp</Outputs>
-      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|WIN32'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|WIN32'">Building Custom Rule C:/Users/curro.LAPTOP-DUBBS74R/OneDrive/Documentos/Programming/C++/ChatApp/SFML/CMakeLists.txt</Message>
-      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|WIN32'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/curro.LAPTOP-DUBBS74R/OneDrive/Documentos/Programming/C++/ChatApp -BC:/Users/curro.LAPTOP-DUBBS74R/OneDrive/Documentos/Programming/C++/ChatApp/build --check-stamp-file C:/Users/curro.LAPTOP-DUBBS74R/OneDrive/Documentos/Programming/C++/ChatApp/build/SFML/CMakeFiles/generate.stamp
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Program Files\CMake\share\cmake-3.19\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CheckIncludeFileCXX.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CheckTypeSize.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\WriteBasicConfigVersionFile.cmake;P:\C++\ChatApp\SFML\cmake\Config.cmake;P:\C++\ChatApp\SFML\cmake\SFMLConfig.cmake.in;P:\C++\ChatApp\SFML\cmake\SFMLConfigDependencies.cmake.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">P:\C++\ChatApp\build\SFML\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule P:/C++/ChatApp/SFML/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SP:/C++/ChatApp -BP:/C++/ChatApp/build --check-stamp-file P:/C++/ChatApp/build/SFML/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -156,42 +156,42 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|WIN32'">C:\Program Files\CMake\share\cmake-3.19\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CheckIncludeFileCXX.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CheckTypeSize.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\WriteBasicConfigVersionFile.cmake;C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\ChatApp\SFML\cmake\Config.cmake;C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\ChatApp\SFML\cmake\SFMLConfig.cmake.in;C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\ChatApp\SFML\cmake\SFMLConfigDependencies.cmake.in;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|WIN32'">C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\ChatApp\build\SFML\CMakeFiles\generate.stamp</Outputs>
-      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|WIN32'">false</LinkObjects>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Program Files\CMake\share\cmake-3.19\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;C:\Program Files\CMake\share\cmake-3.19\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CheckIncludeFileCXX.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\CheckTypeSize.cmake;C:\Program Files\CMake\share\cmake-3.19\Modules\WriteBasicConfigVersionFile.cmake;P:\C++\ChatApp\SFML\cmake\Config.cmake;P:\C++\ChatApp\SFML\cmake\SFMLConfig.cmake.in;P:\C++\ChatApp\SFML\cmake\SFMLConfigDependencies.cmake.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">P:\C++\ChatApp\build\SFML\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\ChatApp\build\ZERO_CHECK.vcxproj">
-      <Project>{620DD6C1-460B-3974-A1F0-3EE6C6AC7CE3}</Project>
+    <ProjectReference Include="P:\C++\ChatApp\build\ZERO_CHECK.vcxproj">
+      <Project>{38858051-D86F-38B8-BB1A-0C4AB08D2B42}</Project>
       <Name>ZERO_CHECK</Name>
       <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\ChatApp\build\SFML\src\SFML\Audio\sfml-audio.vcxproj">
-      <Project>{3936C576-0C7B-3082-A370-20EB003B316F}</Project>
+    <ProjectReference Include="P:\C++\ChatApp\build\SFML\src\SFML\Audio\sfml-audio.vcxproj">
+      <Project>{F62E9991-F780-3527-BF91-0D2FEB94B3BF}</Project>
       <Name>sfml-audio</Name>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\ChatApp\build\SFML\src\SFML\Graphics\sfml-graphics.vcxproj">
-      <Project>{32974A6E-B086-3411-B7B7-977FD2864E8C}</Project>
+    <ProjectReference Include="P:\C++\ChatApp\build\SFML\src\SFML\Graphics\sfml-graphics.vcxproj">
+      <Project>{EC08DA11-17A2-3516-A413-B931492A549B}</Project>
       <Name>sfml-graphics</Name>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\ChatApp\build\SFML\src\SFML\Main\sfml-main.vcxproj">
-      <Project>{6FFE5E70-93C7-3CF9-A3F3-7CCEA5D2AA1E}</Project>
+    <ProjectReference Include="P:\C++\ChatApp\build\SFML\src\SFML\Main\sfml-main.vcxproj">
+      <Project>{BD102C82-AB63-3569-A12F-9FDFE58B5F8B}</Project>
       <Name>sfml-main</Name>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\ChatApp\build\SFML\src\SFML\Network\sfml-network.vcxproj">
-      <Project>{B8F5E571-A49D-3A6A-9086-ED2400B27DD8}</Project>
+    <ProjectReference Include="P:\C++\ChatApp\build\SFML\src\SFML\Network\sfml-network.vcxproj">
+      <Project>{DE83CAD5-7D5D-3315-A873-A5B411C15E38}</Project>
       <Name>sfml-network</Name>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\ChatApp\build\SFML\src\SFML\System\sfml-system.vcxproj">
-      <Project>{782B53D1-B855-37CD-94B7-E5268FF57EAC}</Project>
+    <ProjectReference Include="P:\C++\ChatApp\build\SFML\src\SFML\System\sfml-system.vcxproj">
+      <Project>{1C6463BC-612E-3E0B-BD11-B851F635FEE3}</Project>
       <Name>sfml-system</Name>
     </ProjectReference>
-    <ProjectReference Include="C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\ChatApp\build\SFML\src\SFML\Window\sfml-window.vcxproj">
-      <Project>{95E818DF-AC91-3BBF-B0B2-B539A14071A9}</Project>
+    <ProjectReference Include="P:\C++\ChatApp\build\SFML\src\SFML\Window\sfml-window.vcxproj">
+      <Project>{E4430E9C-87E1-3CA8-A694-FC46C367D2C4}</Project>
       <Name>sfml-window</Name>
     </ProjectReference>
   </ItemGroup>

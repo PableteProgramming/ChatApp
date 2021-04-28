@@ -26,7 +26,8 @@ add_executable(client ${SRC_DIR}/client.cpp)
 
 target_include_directories(
 	client PUBLIC
-	${INCLUDE_DIR}	
+	${INCLUDE_DIR}
+	${SFML_INCLUDE_PATH}	
 )
 
 target_sources(
