@@ -1,21 +1,22 @@
 #include <main.hpp>
 
-std::vector<ClientClass*> clients;
+//std::vector<ClientClass*> clients;
 std::vector<WaitingClient> waitingroom;
+std::vector<Player*> players;
 
 void ExitClients(){
 	while(true){
 		std::vector<int> pending;
 		pending.clear();
-		for(int i=0; i<clients.size();i++){
-			if(clients[i]->exit){
+		for(int i=0; i<players.size();i++){
+			if(players[i]->client->exit){
 				pending.push_back(i);
 			}
 		}
 		for(int i=pending.size()-1; i>=0;i--){
-			std::cout<<"client "<<clients[pending[i]]->GetName()<<" exits!"<<std::endl;
-			clients.erase(clients.begin()+pending[i]);
-			std::cout<<clients.size()<<std::endl;
+			std::cout<<"client "<<players[pending[i]]->client->GetName()<<" exits!"<<std::endl;
+			players.erase(players.begin()+pending[i]);
+			std::cout<<players.size()<<std::endl;
 		}
 	}
 }
@@ -149,8 +150,8 @@ int main(){
 			SocketSend(client, message);
 			std::string nameMessage= SocketRead(client);
 			bool UsernameExists=false;
-			for(int i=0; i<clients.size();i++){
-				if(clients[i]->GetName()==nameMessage){
+			for(int i=0; i<players.size();i++){
+				if(players[i]->client->GetName()==nameMessage){
 					UsernameExists=true;
 					break;
 				}
@@ -188,8 +189,10 @@ int main(){
 						ClientClass* temp= new ClientClass(waitingroom[index].GetId(),waitingroom[index].GetName());
 						ClientClass* newclient= new ClientClass(client,nameMessage);
 						SocketSend(temp->GetId(),"T");
-						clients.push_back(temp);
-						clients.push_back(newclient);
+						Player* player1= new Player('x',true,temp);
+						Player* player2= new Player('o',false,newclient);
+						players.push_back(player1);
+						players.push_back(player2);
 						temp->StartThread(newclient);
 						newclient->StartThread(temp);
 						waitingroom.erase(waitingroom.begin()+index);

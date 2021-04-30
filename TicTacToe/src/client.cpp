@@ -5,6 +5,7 @@
 std::thread *GameThread=NULL;
 bool running=true;
 bool waitingroom=true;
+bool turn=false;
 
 #ifdef __linux__
 	void ClientRead(int sock,bool* running)
@@ -20,6 +21,9 @@ bool waitingroom=true;
 		if(message=="exit"){
 			(*running)=false;
 			break;
+		}
+		else{
+			turn=true;
 		}
 		if((*running)){	
 			std::cout<<message<<std::endl;
@@ -145,22 +149,24 @@ int main(int argc, char** argv)
 			std::cout<<"Try again!"<<std::endl;
 			return 1;
 		}
+		turn=false;
 		running=true;
 		waitingroom=false;
-		GameThread= new std::thread(RunWindow,&waitingroom,&running);
+		GameThread= new std::thread(RunWindow,sock);
 	}
 	else{
 		SocketSend(sock,"Y");
+		turn=true;
 		std::cout<<"In the Waiting room..."<<std::endl;
 		running=true;
 		waitingroom=true;
-		GameThread= new std::thread(RunWindow,&waitingroom,&running);
+		GameThread= new std::thread(RunWindow,sock);
 		SocketRead(sock);
 		waitingroom=false;	
 	}
 
 	std::thread reading(ClientRead,sock,&running);
-	Sleep(4000);
+	while(running){}
 	SocketSend(sock,"exit");
 	running=false;
 	reading.join();
@@ -168,7 +174,11 @@ int main(int argc, char** argv)
 	return 0;
 }
 
-void RunWindow(bool* waitingroom, bool* running){
+#ifdef __linux__
+void RunWindow(int sock){
+#else
+void RunWindow(SOCKET sock){
+#endif
 	sf::RenderWindow window(sf::VideoMode(550,700), "Flappy Bird", sf::Style::Titlebar | sf::Style::Close);
 	sf::Texture w;
 	w.loadFromFile("wr.jpg");
@@ -176,13 +186,16 @@ void RunWindow(bool* waitingroom, bool* running){
 	sf::Texture g;
 	g.loadFromFile("t.png");
 	sf::Sprite gs(g);
-	while ((*waitingroom))
+	while (waitingroom)
 	{
 		sf::Event event;
        	while (window.pollEvent(event))
 		{
-			if (event.type == sf::Event::Closed)
+			if (event.type == sf::Event::Closed){
 				window.close();
+				running=false;
+				waitingroom=false;
+			}
 		}
 
 	 	window.clear();
@@ -191,18 +204,28 @@ void RunWindow(bool* waitingroom, bool* running){
 	 	window.display();
 	}
 
-	while ((*running))
+	while (running)
 	{
 		sf::Event event;
        	while (window.pollEvent(event))
 		{
-			if (event.type == sf::Event::Closed)
+			if (event.type == sf::Event::Closed){
 				window.close();
+				running=false;
+			}
+			if(event.type== sf::Event::KeyReleased && event.key.code== sf::Keyboard::Enter){
+				if(turn){
+					turn=false;
+					SocketSend(sock,"C");
+				}
+			}
 		}
 
 	 	window.clear();
 		//do game
-		window.draw(gs);
+		if(turn){
+			window.draw(gs);
+		}
 	 	window.display();
 	}
 	window.close();

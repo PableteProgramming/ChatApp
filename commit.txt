@@ -1,2 +1,0 @@
-Adapting client.cpp for windows.
-Server.cpp not done yet.

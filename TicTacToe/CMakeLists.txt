@@ -20,6 +20,7 @@ target_sources(
 	${SRC_DIR}/ClientClass.cpp	
 	${SRC_DIR}/WaitingClient.cpp
 	${SRC_DIR}/main.cpp
+	${SRC_DIR}/Player.cpp
 )
 
 add_executable(client ${SRC_DIR}/client.cpp)

@@ -11,10 +11,12 @@ void Player::ClearGrid()
     }
 }
 
-Player::Player(char s)
+Player::Player(char s,bool t,ClientClass* c)
 {
     ClearGrid();
     sign = s;
+    turn= t;
+    client=c;
 }
 
 void Player::SetPos(int x, int y)
