@@ -1,5 +1,10 @@
 #include <main.hpp>
+#include <client.hpp>
 #include <SFML/Graphics.hpp>
+
+std::thread *GameThread=NULL;
+bool running=true;
+bool waitingroom=true;
 
 #ifdef __linux__
 	void ClientRead(int sock,bool* running)
@@ -140,17 +145,38 @@ int main(int argc, char** argv)
 			std::cout<<"Try again!"<<std::endl;
 			return 1;
 		}
+		running=true;
+		waitingroom=false;
+		GameThread= new std::thread(RunWindow,&waitingroom,&running);
 	}
 	else{
 		SocketSend(sock,"Y");
 		std::cout<<"In the Waiting room..."<<std::endl;
-		std::string temp = SocketRead(sock);	
+		running=true;
+		waitingroom=true;
+		GameThread= new std::thread(RunWindow,&waitingroom,&running);
+		SocketRead(sock);
+		waitingroom=false;	
 	}
 
-	bool running=true;
-	std::thread reading(ClientRead,sock,&running);	
+	std::thread reading(ClientRead,sock,&running);
+	Sleep(4000);
+	SocketSend(sock,"exit");
+	running=false;
+	reading.join();
+	GameThread->join();
+	return 0;
+}
+
+void RunWindow(bool* waitingroom, bool* running){
 	sf::RenderWindow window(sf::VideoMode(550,700), "Flappy Bird", sf::Style::Titlebar | sf::Style::Close);
-	while (running)
+	sf::Texture w;
+	w.loadFromFile("wr.jpg");
+	sf::Sprite ws(w);
+	sf::Texture g;
+	g.loadFromFile("t.png");
+	sf::Sprite gs(g);
+	while ((*waitingroom))
 	{
 		sf::Event event;
        	while (window.pollEvent(event))
@@ -160,22 +186,24 @@ int main(int argc, char** argv)
 		}
 
 	 	window.clear();
-
+		//display message
+		window.draw(ws);
 	 	window.display();
-	 
-
-		std::cout<<"\033[31m[You] > \033[0m";
-		std::string message;
-		std::getline(std::cin, message);
-
-		SocketSend(sock, message);
-
-		if (message == "exit")
-			running = false;
-
 	}
 
+	while ((*running))
+	{
+		sf::Event event;
+       	while (window.pollEvent(event))
+		{
+			if (event.type == sf::Event::Closed)
+				window.close();
+		}
+
+	 	window.clear();
+		//do game
+		window.draw(gs);
+	 	window.display();
+	}
 	window.close();
-	reading.join();
-	return 0;
 }
