@@ -215,8 +215,8 @@ int main(){
 						players.push_back(player2);
 						temp->StartThread(newclient);
 						newclient->StartThread(temp);
-						waitingroom[index]->waiting = false;
-						waitingroom[index]->JoinThread();
+						//waitingroom[index]->waiting = false;
+						//waitingroom[index]->JoinThread();
 						//waitingroom.erase(waitingroom.begin()+index);
 					}
 					else{

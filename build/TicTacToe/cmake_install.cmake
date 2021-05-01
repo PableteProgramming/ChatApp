@@ -1,4 +1,4 @@
-# Install script for directory: P:/C++/ChatApp/TicTacToe
+# Install script for directory: C:/Users/curro.LAPTOP-DUBBS74R/OneDrive/Documentos/Programming/C++/ChatApp/TicTacToe
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

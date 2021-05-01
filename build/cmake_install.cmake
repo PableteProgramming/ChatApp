@@ -1,4 +1,4 @@
-# Install script for directory: P:/C++/ChatApp
+# Install script for directory: C:/Users/curro.LAPTOP-DUBBS74R/OneDrive/Documentos/Programming/C++/ChatApp
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,8 +34,8 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("P:/C++/ChatApp/build/SFML/cmake_install.cmake")
-  include("P:/C++/ChatApp/build/TicTacToe/cmake_install.cmake")
+  include("C:/Users/curro.LAPTOP-DUBBS74R/OneDrive/Documentos/Programming/C++/ChatApp/build/SFML/cmake_install.cmake")
+  include("C:/Users/curro.LAPTOP-DUBBS74R/OneDrive/Documentos/Programming/C++/ChatApp/build/TicTacToe/cmake_install.cmake")
 
 endif()
 
@@ -47,5 +47,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "P:/C++/ChatApp/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "C:/Users/curro.LAPTOP-DUBBS74R/OneDrive/Documentos/Programming/C++/ChatApp/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

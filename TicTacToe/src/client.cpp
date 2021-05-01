@@ -163,7 +163,8 @@ int main(int argc, char** argv)
 		waitingroom=true;
 		GameThread= new std::thread(RunWindow,sock);
 		SocketRead(sock);
-		waitingroom=false;	
+		waitingroom=false;
+		SocketSend(sock,"exit");
 	}
 
 	//while(running){}

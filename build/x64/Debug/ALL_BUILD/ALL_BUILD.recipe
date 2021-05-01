@@ -2,19 +2,19 @@
 <Project>
   <ProjectOutputs>
     <ProjectOutput>
-      <FullPath>P:\C++\ChatApp\build\x64\Debug\ZERO_CHECK</FullPath>
+      <FullPath>C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\ChatApp\build\x64\Debug\ZERO_CHECK</FullPath>
     </ProjectOutput>
     <ProjectOutput>
-      <FullPath>P:\C++\ChatApp\build\TicTacToe\Debug\client.exe</FullPath>
+      <FullPath>C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\ChatApp\build\TicTacToe\Debug\client.exe</FullPath>
     </ProjectOutput>
     <ProjectOutput>
-      <FullPath>P:\C++\ChatApp\build\TicTacToe\Debug\server.exe</FullPath>
+      <FullPath>C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\ChatApp\build\TicTacToe\Debug\server.exe</FullPath>
     </ProjectOutput>
     <ProjectOutput>
-      <FullPath>P:\C++\ChatApp\build\TicTacToe\Debug\window.exe</FullPath>
+      <FullPath>C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\ChatApp\build\TicTacToe\Debug\window.exe</FullPath>
     </ProjectOutput>
     <ProjectOutput>
-      <FullPath>P:\C++\ChatApp\build\x64\Debug\ALL_BUILD</FullPath>
+      <FullPath>C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\ChatApp\build\x64\Debug\ALL_BUILD</FullPath>
     </ProjectOutput>
   </ProjectOutputs>
   <ContentFiles />

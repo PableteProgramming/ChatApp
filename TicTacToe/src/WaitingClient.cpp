@@ -14,26 +14,21 @@
 
 void WaitingClient::StartThread()
 {
-	reading = new std::thread(WaitingClientRead, id, &waiting);
+	reading = new std::thread(WaitingClientRead, this);
 }
 
-void WaitingClient::JoinThread()
-{
-	reading->join();
-}
-
-#ifdef __linux__
-	void WaitingClientRead(int _socket, bool* waiting)
-#else
-	void WaitingClientRead(SOCKET _socket, bool* waiting)
-#endif
-	{
-		std::cout << "Starting thread..." << std::endl;
-		std::string message = "notexit";
-        while(message!="exit"){
-			std::cout << "Waiting message" << std::endl;
-            message = SocketRead(_socket);
+void WaitingClientRead(WaitingClient* client){
+	std::cout << "Starting thread..." << std::endl;
+	while(client->waiting){
+		std::cout << "Waiting message" << std::endl;
+		std::string message = SocketRead(client->GetId());
+		if(message=="exit"){
+			client->waiting=false;
+			std::cout<<"Client wants to exit form the waiting room"<<std::endl;
+		}
+		else{
 			std::cout << message << std::endl;
-        }
-		(*waiting) = false;
-    }
+		}
+	}
+	std::cout<<"Waiting room finished"<<std::endl;
+}

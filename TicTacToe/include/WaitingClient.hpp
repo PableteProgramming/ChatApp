@@ -29,11 +29,6 @@ public:
 	bool waiting;
 	std::string GetName(){return name;};
 	void StartThread();
-	void JoinThread();
 };
 
-#ifdef __linux__
-    void WaitingClientRead(int, bool*);
-#else
-	void WaitingClientRead(SOCKET, bool*);
-#endif
+void WaitingClientRead(WaitingClient*);
