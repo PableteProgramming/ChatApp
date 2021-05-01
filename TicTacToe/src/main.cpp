@@ -10,8 +10,8 @@
     }
     void SocketSend(int _socket, std::string _message)
     {
-		send(_socket , _message.c_str() , strlen(_message.c_str()) , 0 );
-    }   
+		    send(_socket , _message.c_str() , strlen(_message.c_str()) , 0 );
+    }  
 #else
     std::string SocketRead(SOCKET _socket)
     {
@@ -21,6 +21,6 @@
     }
     void SocketSend(SOCKET _socket, std::string _message)
     {
-		send(_socket , _message.c_str() , strlen(_message.c_str()) , 0 );
+		    send(_socket , _message.c_str() , strlen(_message.c_str()) , 0 );
     }
 #endif

@@ -1,8 +1,25 @@
 #include <main.hpp>
 
 //std::vector<ClientClass*> clients;
-std::vector<WaitingClient> waitingroom;
+std::vector<WaitingClient*> waitingroom;
 std::vector<Player*> players;
+
+void ExitWaitingClients()
+{
+	while(true){
+		std::vector<int> pending;
+		pending.clear();
+		for(int i=0; i<waitingroom.size();i++){
+			if(!waitingroom[i]->waiting){
+				pending.push_back(i);
+			}
+		}
+		for(int i=pending.size()-1; i>=0;i--){
+			waitingroom.erase(waitingroom.begin()+pending[i]);
+			std::cout<<waitingroom.size()<<std::endl;
+		}
+	}
+}
 
 void ExitClients(){
 	while(true){
@@ -126,6 +143,7 @@ int main(){
 
 	bool running = true;
 	std::thread exitclients(ExitClients);
+	std::thread exitWaitingClients(ExitWaitingClients);
 	while (running)
 	{
 #ifdef __linux__
@@ -164,7 +182,9 @@ int main(){
 				SocketSend(client,"N");
 				std::string isWaiting= SocketRead(client);
 				if(isWaiting=="Y"){
-					waitingroom.push_back(WaitingClient(client,nameMessage));
+					WaitingClient* newWaitingClient = new WaitingClient(client, nameMessage);
+					waitingroom.push_back(newWaitingClient);
+					newWaitingClient->StartThread();
 				}
 				else{
 					SocketSend(client,"T");
@@ -174,7 +194,7 @@ int main(){
 					bool friendNameExists=false;
 					int index=-1;
 					for(int i=0;i<waitingroom.size();i++){
-						if(waitingroom[i].GetName()==sFriendName){
+						if(waitingroom[i]->GetName()==sFriendName){
 							friendNameExists=true;
 							index=i;
 							break;
@@ -184,9 +204,9 @@ int main(){
 						std::cout<<"Friend name exists"<<std::endl;
 						SocketSend(client,"Y");
 						std::cout<<"Client "<<nameMessage<<" accepted"<<std::endl;
-						std::cout<<"Client "<<waitingroom[index].GetName()<<" is now active"<<std::endl;
+						std::cout<<"Client "<<waitingroom[index]->GetName()<<" is now active"<<std::endl;
 
-						ClientClass* temp= new ClientClass(waitingroom[index].GetId(),waitingroom[index].GetName());
+						ClientClass* temp= new ClientClass(waitingroom[index]->GetId(),waitingroom[index]->GetName());
 						ClientClass* newclient= new ClientClass(client,nameMessage);
 						SocketSend(temp->GetId(),"T");
 						Player* player1= new Player('x',true,temp);
@@ -195,7 +215,9 @@ int main(){
 						players.push_back(player2);
 						temp->StartThread(newclient);
 						newclient->StartThread(temp);
-						waitingroom.erase(waitingroom.begin()+index);
+						waitingroom[index]->waiting = false;
+						waitingroom[index]->JoinThread();
+						//waitingroom.erase(waitingroom.begin()+index);
 					}
 					else{
 						SocketSend(client,"N");

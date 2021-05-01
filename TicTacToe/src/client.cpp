@@ -17,6 +17,7 @@ bool turn=false;
 #endif
 {
 	while((*running)){
+		std::cout << "Waiting message" << std::endl;
 		std::string message = SocketRead(sock);
 		if(message=="exit"){
 			(*running)=false;
@@ -165,12 +166,9 @@ int main(int argc, char** argv)
 		waitingroom=false;	
 	}
 
-	std::thread reading(ClientRead,sock,&running);
-	while(running){}
-	SocketSend(sock,"exit");
-	running=false;
-	reading.join();
+	//while(running){}
 	GameThread->join();
+	//running=false;
 	return 0;
 }
 
@@ -179,6 +177,7 @@ void RunWindow(int sock){
 #else
 void RunWindow(SOCKET sock){
 #endif
+	std::thread* reading = NULL;
 	sf::RenderWindow window(sf::VideoMode(550,700), "Flappy Bird", sf::Style::Titlebar | sf::Style::Close);
 	sf::Texture w;
 	w.loadFromFile("wr.jpg");
@@ -195,6 +194,7 @@ void RunWindow(SOCKET sock){
 				window.close();
 				running=false;
 				waitingroom=false;
+				//break;
 			}
 		}
 
@@ -204,6 +204,12 @@ void RunWindow(SOCKET sock){
 	 	window.display();
 	}
 
+	if (running)
+	{
+		std::cout << "Starting reading thread" << std::endl;
+		reading = new std::thread(ClientRead,sock,&running);
+	}
+	
 	while (running)
 	{
 		sf::Event event;
@@ -229,4 +235,18 @@ void RunWindow(SOCKET sock){
 	 	window.display();
 	}
 	window.close();
+
+	std::cout << "Sending exit" << std::endl;
+	SocketSend(sock,"exit");
+
+	if (reading != NULL)
+	{
+		std::cout << "Joining reading" << std::endl;
+		reading->join();
+	}
+	else
+	{
+		std::cout << "EXIT" << std::endl;
+		exit(0);
+	}
 }
