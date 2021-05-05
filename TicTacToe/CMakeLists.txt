@@ -7,6 +7,7 @@ add_executable(server ${SRC_DIR}/server.cpp)
 
 target_include_directories(
 	server PUBLIC
+	${SFML_INCLUDE_PATH}
 	${INCLUDE_DIR}	
 )
 

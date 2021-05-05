@@ -7,7 +7,7 @@ bool waitingroom=true;
 bool turn=false;
 
 #ifdef __linux__
-	void ClientRead(int sock,bool* running)
+	void ClientRead(int sock,bool* running,Player* player)
 #else
 	#pragma comment (lib, "Ws2_32.lib")
 	#pragma comment (lib, "Mswsock.lib")
@@ -206,7 +206,7 @@ void RunWindow(SOCKET sock){
 	while (waitingroom)
 	{
 		sf::Event event;
-       	while (window.pollEvent(event))
+       		while (window.pollEvent(event))
 		{
 			if (event.type == sf::Event::Closed){
 				window.close();
@@ -231,7 +231,7 @@ void RunWindow(SOCKET sock){
 	while (running)
 	{
 		sf::Event event;
-       	while (window.pollEvent(event))
+	       	while (window.pollEvent(event))
 		{
 			if (event.type == sf::Event::Closed){
 				window.close();
@@ -240,6 +240,12 @@ void RunWindow(SOCKET sock){
 		}
 
 		if(sf::Mouse::isButtonPressed(sf::Mouse::Left)){
+			if(turn){
+				window.setTitle("its your turn");
+			}
+			else{
+				window.setTitle("its not your turn");
+			}
 			if(turn){
 				sf::Vector2i mPos = sf::Mouse::getPosition(window);
 				
@@ -258,12 +264,8 @@ void RunWindow(SOCKET sock){
 			}
 		}
 
-	 	window.clear();
-		//do game
-		// if(turn){
-		// 	window.draw(gs);
-		// }
-
+	 	window.clear();	
+		
 		player.DrawGrid(window);
 
 	 	window.display();
