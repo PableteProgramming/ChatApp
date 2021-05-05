@@ -4,4 +4,4 @@ void RunWindow(int);
 void RunWindow(SOCKET);
 #endif
 
-const int scale = 100;
+const int scale = 200;

@@ -1,3 +1,4 @@
+#include <SFML/Graphics.hpp>
 #include "WaitingClient.hpp"
 #include "ClientClass.hpp"
 const int PORT = 8080;

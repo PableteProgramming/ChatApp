@@ -202,10 +202,6 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <Project>{E4430E9C-87E1-3CA8-A694-FC46C367D2C4}</Project>
       <Name>sfml-window</Name>
     </ProjectReference>
-    <ProjectReference Include="P:\C++\ChatApp\build\TicTacToe\window.vcxproj">
-      <Project>{33E84BDE-501A-3E75-B594-C1FD21FD04CB}</Project>
-      <Name>window</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

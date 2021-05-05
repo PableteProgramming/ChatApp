@@ -1,6 +1,5 @@
 #include <main.hpp>
 #include <client.hpp>
-#include <SFML/Graphics.hpp>
 
 std::thread *GameThread=NULL;
 bool running=true;
@@ -195,7 +194,7 @@ void RunWindow(SOCKET sock){
 		sign = 'o';
 	}
 
-	Player player(sign, turn);
+	Player player(sign, turn, scale);
 	std::thread* reading = NULL;
 	sf::RenderWindow window(sf::VideoMode(scale * 3,scale * 3), "TicTacToe", sf::Style::Titlebar | sf::Style::Close);
 	sf::Texture w;
@@ -261,9 +260,12 @@ void RunWindow(SOCKET sock){
 
 	 	window.clear();
 		//do game
-		if(turn){
-			window.draw(gs);
-		}
+		// if(turn){
+		// 	window.draw(gs);
+		// }
+
+		player.DrawGrid(window);
+
 	 	window.display();
 	}
 	window.close();

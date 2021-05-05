@@ -4,10 +4,10 @@
     <ClCompile Include="P:\C++\ChatApp\TicTacToe\src\client.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="P:\C++\ChatApp\TicTacToe\src\main.cpp">
+    <ClCompile Include="P:\C++\ChatApp\TicTacToe\src\Player.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="P:\C++\ChatApp\TicTacToe\src\Player.cpp">
+    <ClCompile Include="P:\C++\ChatApp\TicTacToe\src\main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

@@ -26,19 +26,8 @@ add_executable(client ${SRC_DIR}/client.cpp)
 
 target_include_directories(
 	client PUBLIC
-	${INCLUDE_DIR}
 	${SFML_INCLUDE_PATH}	
-)
-
-target_sources(
-	client PUBLIC
-	${SRC_DIR}/main.cpp
-	${SRC_DIR}/Player.cpp
-)
-
-target_link_libraries(
-	client PUBLIC
-	${LIBS}
+	${INCLUDE_DIR}
 )
 
 target_link_options(
@@ -46,24 +35,18 @@ target_link_options(
 	-pthread
 )
 
-add_executable(window ${SRC_DIR}/window.cpp)
-
-target_include_directories(
-	window PUBLIC
-	${INCLUDE_DIR}	
-	${SFML_INCLUDE_PATH}
+target_sources(
+	client PUBLIC
+	${SRC_DIR}/Player.cpp
+	${SRC_DIR}/main.cpp
 )
 
 target_link_libraries(
-	window PUBLIC
+	client PUBLIC
 	${LIBS}
 )
 
 if(CMAKE_CXX_COMPILER_ID STREQUAL "MSVC")
-    target_compile_options(
-        window PUBLIC
-        "/MTd"
-    )
 	target_compile_options(
         client PUBLIC
         "/MTd"

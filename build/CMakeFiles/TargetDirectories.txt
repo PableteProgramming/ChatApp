@@ -18,5 +18,4 @@ P:/C++/ChatApp/build/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir
 P:/C++/ChatApp/build/SFML/src/SFML/Audio/CMakeFiles/INSTALL.dir
 P:/C++/ChatApp/build/TicTacToe/CMakeFiles/server.dir
 P:/C++/ChatApp/build/TicTacToe/CMakeFiles/client.dir
-P:/C++/ChatApp/build/TicTacToe/CMakeFiles/window.dir
 P:/C++/ChatApp/build/TicTacToe/CMakeFiles/INSTALL.dir
