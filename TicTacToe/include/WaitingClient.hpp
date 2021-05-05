@@ -1,12 +1,12 @@
 #include "includes.h"
-
+#include "Player.hpp"
 #ifdef __linux__
     std::string SocketRead(int);
-    void ClientRead(int, bool*);
+    void ClientRead(int, bool*, Player*);
     void SocketSend(int, std::string);
 #else
     std::string SocketRead(SOCKET);
-    void ClientRead(SOCKET, bool*);
+    void ClientRead(SOCKET, bool*, Player*);
     void SocketSend(SOCKET, std::string);
 #endif
 

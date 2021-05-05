@@ -1,4 +1,4 @@
-#include "ClientClass.hpp"
+#include "includes.h"
 class Player
 {
 private:
@@ -7,7 +7,7 @@ private:
     void ClearGrid();
 public:
     bool turn;
-    ClientClass* client;
-    Player(char,bool,ClientClass*);
+    Player(char,bool);
     void SetPos(int, int);
+    bool PosOK(int, int);
 };

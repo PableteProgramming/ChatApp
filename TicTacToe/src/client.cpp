@@ -13,7 +13,7 @@ bool turn=false;
 	#pragma comment (lib, "Ws2_32.lib")
 	#pragma comment (lib, "Mswsock.lib")
 	#pragma comment (lib, "AdvApi32.lib")
-	void ClientRead(SOCKET sock,bool* running)
+	void ClientRead(SOCKET sock,bool* running, Player* player)
 #endif
 {
 	while((*running)){
@@ -25,6 +25,12 @@ bool turn=false;
 		}
 		else{
 			turn=true;
+			// Parsing message
+			char sx = message[0];
+			char sy = message[1];
+			int x = std::atoi(std::string(1, sx).c_str());
+			int y = std::atoi(std::string(1, sy).c_str());
+			player->SetPos(x, y);
 		}
 		if((*running)){	
 			std::cout<<message<<std::endl;
@@ -178,8 +184,20 @@ void RunWindow(int sock){
 #else
 void RunWindow(SOCKET sock){
 #endif
+	char sign;
+
+	if (waitingroom)
+	{
+		sign = 'x';
+	}
+	else
+	{
+		sign = 'o';
+	}
+
+	Player player(sign, turn);
 	std::thread* reading = NULL;
-	sf::RenderWindow window(sf::VideoMode(550,700), "Flappy Bird", sf::Style::Titlebar | sf::Style::Close);
+	sf::RenderWindow window(sf::VideoMode(scale * 3,scale * 3), "TicTacToe", sf::Style::Titlebar | sf::Style::Close);
 	sf::Texture w;
 	w.loadFromFile("wr.jpg");
 	sf::Sprite ws(w);
@@ -208,7 +226,7 @@ void RunWindow(SOCKET sock){
 	if (running)
 	{
 		std::cout << "Starting reading thread" << std::endl;
-		reading = new std::thread(ClientRead,sock,&running);
+		reading = new std::thread(ClientRead,sock,&running, &player);
 	}
 	
 	while (running)
@@ -220,10 +238,23 @@ void RunWindow(SOCKET sock){
 				window.close();
 				running=false;
 			}
-			if(event.type== sf::Event::KeyReleased && event.key.code== sf::Keyboard::Enter){
-				if(turn){
-					turn=false;
-					SocketSend(sock,"C");
+		}
+
+		if(sf::Mouse::isButtonPressed(sf::Mouse::Left)){
+			if(turn){
+				sf::Vector2i mPos = sf::Mouse::getPosition(window);
+				
+				int wx = mPos.x;
+				int wy = mPos.y;
+
+				int x  = wx / scale;
+				int y = wy / scale;
+
+				if (player.PosOK(x, y))
+				{
+					turn = false;
+					std::string pos = std::to_string(x) + std::to_string(y);
+					SocketSend(sock, pos);
 				}
 			}
 		}

@@ -11,15 +11,26 @@ void Player::ClearGrid()
     }
 }
 
-Player::Player(char s,bool t,ClientClass* c)
+Player::Player(char s,bool t)
 {
     ClearGrid();
     sign = s;
     turn= t;
-    client=c;
 }
 
 void Player::SetPos(int x, int y)
 {
     grid[y][x] = sign;
+}
+
+bool Player::PosOK(int x, int y)
+{
+    if (x < 3 && y < 3) 
+    {
+        if (grid[y][x] == '0')
+        {
+            return true;
+        }
+    }
+    return false;
 }

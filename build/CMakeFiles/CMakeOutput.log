@@ -6,43 +6,43 @@ Id flags:
 
 The output was:
 0
-Microsoft (R) Build Engine versión 16.9.0+57a23d249 para .NET Framework
-Copyright (C) Microsoft Corporation. Todos los derechos reservados.
+Microsoft (R) Build Engine version 16.9.0+5e4b48a27 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
 
-Compilación iniciada a las 01/05/2021 12:50:05.
-Proyecto "C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\ChatApp\build\CMakeFiles\3.19.3\CompilerIdC\CompilerIdC.vcxproj" en nodo 1 (destinos predeterminados).
+Build started 5/5/2021 7:34:17 PM.
+Project "P:\C++\ChatApp\build\CMakeFiles\3.19.3\CompilerIdC\CompilerIdC.vcxproj" on node 1 (default targets).
 PrepareForBuild:
-  Creando directorio "Debug\".
-  Creando directorio "Debug\CompilerIdC.tlog\".
+  Creating directory "Debug\".
+  Creating directory "Debug\CompilerIdC.tlog\".
 InitializeBuildStatus:
-  Se creará "Debug\CompilerIdC.tlog\unsuccessfulbuild" porque se especificó "AlwaysCreate".
+  Creating "Debug\CompilerIdC.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
 ClCompile:
   C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\bin\HostX64\x64\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc142.pdb" /Gd /TC /FC /errorReport:queue CMakeCCompilerId.c
   CMakeCCompilerId.c
 Link:
   C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\bin\HostX64\x64\link.exe /ERRORREPORT:QUEUE /OUT:".\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\CompilerIdC.lib" /MACHINE:X64 Debug\CMakeCCompilerId.obj
-  CompilerIdC.vcxproj -> C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\ChatApp\build\CMakeFiles\3.19.3\CompilerIdC\CompilerIdC.exe
+  CompilerIdC.vcxproj -> P:\C++\ChatApp\build\CMakeFiles\3.19.3\CompilerIdC\CompilerIdC.exe
 PostBuildEvent:
   for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
   :VCEnd
   CMAKE_C_COMPILER=C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\bin\Hostx64\x64\cl.exe
 FinalizeBuildStatus:
-  Se eliminará el archivo "Debug\CompilerIdC.tlog\unsuccessfulbuild".
-  Aplicando tarea Touch a "Debug\CompilerIdC.tlog\CompilerIdC.lastbuildstate".
-Compilación del proyecto terminada "C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\ChatApp\build\CMakeFiles\3.19.3\CompilerIdC\CompilerIdC.vcxproj" (destinos predeterminados).
+  Deleting file "Debug\CompilerIdC.tlog\unsuccessfulbuild".
+  Touching "Debug\CompilerIdC.tlog\CompilerIdC.lastbuildstate".
+Done Building Project "P:\C++\ChatApp\build\CMakeFiles\3.19.3\CompilerIdC\CompilerIdC.vcxproj" (default targets).
 
-Compilación correcta.
-    0 Advertencia(s)
-    0 Errores
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
 
-Tiempo transcurrido 00:00:03.09
+Time Elapsed 00:00:00.71
 
 
 Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
 
 Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
 
-The C compiler identification is MSVC, found in "C:/Users/curro.LAPTOP-DUBBS74R/OneDrive/Documentos/Programming/C++/ChatApp/build/CMakeFiles/3.19.3/CompilerIdC/CompilerIdC.exe"
+The C compiler identification is MSVC, found in "P:/C++/ChatApp/build/CMakeFiles/3.19.3/CompilerIdC/CompilerIdC.exe"
 
 Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
 Compiler:  
@@ -51,125 +51,125 @@ Id flags:
 
 The output was:
 0
-Microsoft (R) Build Engine versión 16.9.0+57a23d249 para .NET Framework
-Copyright (C) Microsoft Corporation. Todos los derechos reservados.
+Microsoft (R) Build Engine version 16.9.0+5e4b48a27 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
 
-Compilación iniciada a las 01/05/2021 12:50:09.
-Proyecto "C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\ChatApp\build\CMakeFiles\3.19.3\CompilerIdCXX\CompilerIdCXX.vcxproj" en nodo 1 (destinos predeterminados).
+Build started 5/5/2021 7:34:18 PM.
+Project "P:\C++\ChatApp\build\CMakeFiles\3.19.3\CompilerIdCXX\CompilerIdCXX.vcxproj" on node 1 (default targets).
 PrepareForBuild:
-  Creando directorio "Debug\".
-  Creando directorio "Debug\CompilerIdCXX.tlog\".
+  Creating directory "Debug\".
+  Creating directory "Debug\CompilerIdCXX.tlog\".
 InitializeBuildStatus:
-  Se creará "Debug\CompilerIdCXX.tlog\unsuccessfulbuild" porque se especificó "AlwaysCreate".
+  Creating "Debug\CompilerIdCXX.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
 ClCompile:
   C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\bin\HostX64\x64\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\" /Fd"Debug\vc142.pdb" /Gd /TP /FC /errorReport:queue CMakeCXXCompilerId.cpp
   CMakeCXXCompilerId.cpp
 Link:
   C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\bin\HostX64\x64\link.exe /ERRORREPORT:QUEUE /OUT:".\CompilerIdCXX.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\CompilerIdCXX.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\CompilerIdCXX.lib" /MACHINE:X64 Debug\CMakeCXXCompilerId.obj
-  CompilerIdCXX.vcxproj -> C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\ChatApp\build\CMakeFiles\3.19.3\CompilerIdCXX\CompilerIdCXX.exe
+  CompilerIdCXX.vcxproj -> P:\C++\ChatApp\build\CMakeFiles\3.19.3\CompilerIdCXX\CompilerIdCXX.exe
 PostBuildEvent:
   for %%i in (cl.exe) do @echo CMAKE_CXX_COMPILER=%%~$PATH:i
   :VCEnd
   CMAKE_CXX_COMPILER=C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910\bin\Hostx64\x64\cl.exe
 FinalizeBuildStatus:
-  Se eliminará el archivo "Debug\CompilerIdCXX.tlog\unsuccessfulbuild".
-  Aplicando tarea Touch a "Debug\CompilerIdCXX.tlog\CompilerIdCXX.lastbuildstate".
-Compilación del proyecto terminada "C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\ChatApp\build\CMakeFiles\3.19.3\CompilerIdCXX\CompilerIdCXX.vcxproj" (destinos predeterminados).
+  Deleting file "Debug\CompilerIdCXX.tlog\unsuccessfulbuild".
+  Touching "Debug\CompilerIdCXX.tlog\CompilerIdCXX.lastbuildstate".
+Done Building Project "P:\C++\ChatApp\build\CMakeFiles\3.19.3\CompilerIdCXX\CompilerIdCXX.vcxproj" (default targets).
 
-Compilación correcta.
-    0 Advertencia(s)
-    0 Errores
+Build succeeded.
+    0 Warning(s)
+    0 Error(s)
 
-Tiempo transcurrido 00:00:01.30
+Time Elapsed 00:00:00.58
 
 
 Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
 
 Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.vcxproj"
 
-The CXX compiler identification is MSVC, found in "C:/Users/curro.LAPTOP-DUBBS74R/OneDrive/Documentos/Programming/C++/ChatApp/build/CMakeFiles/3.19.3/CompilerIdCXX/CompilerIdCXX.exe"
+The CXX compiler identification is MSVC, found in "P:/C++/ChatApp/build/CMakeFiles/3.19.3/CompilerIdCXX/CompilerIdCXX.exe"
 
 Detecting C compiler ABI info compiled with the following output:
-Change Dir: C:/Users/curro.LAPTOP-DUBBS74R/OneDrive/Documentos/Programming/C++/ChatApp/build/CMakeFiles/CMakeTmp
+Change Dir: P:/C++/ChatApp/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_fb294.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine versión 16.9.0+57a23d249 para .NET Framework
-Copyright (C) Microsoft Corporation. Todos los derechos reservados.
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_0e285.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.9.0+5e4b48a27 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
 
-  Compilador de optimización de C/C++ de Microsoft (R) versión 19.28.29912 para x64
-  (C) Microsoft Corporation. Todos los derechos reservados.
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.28.29913 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
   CMakeCCompilerABI.c
-  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_fb294.dir\Debug\\" /Fd"cmTC_fb294.dir\Debug\vc142.pdb" /Gd /TC /errorReport:queue "C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeCCompilerABI.c"
-  cmTC_fb294.vcxproj -> C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\ChatApp\build\CMakeFiles\CMakeTmp\Debug\cmTC_fb294.exe
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_0e285.dir\Debug\\" /Fd"cmTC_0e285.dir\Debug\vc142.pdb" /Gd /TC /errorReport:queue "C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeCCompilerABI.c"
+  cmTC_0e285.vcxproj -> P:\C++\ChatApp\build\CMakeFiles\CMakeTmp\Debug\cmTC_0e285.exe
 
 
 
 Detecting CXX compiler ABI info compiled with the following output:
-Change Dir: C:/Users/curro.LAPTOP-DUBBS74R/OneDrive/Documentos/Programming/C++/ChatApp/build/CMakeFiles/CMakeTmp
+Change Dir: P:/C++/ChatApp/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_b0f30.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine versión 16.9.0+57a23d249 para .NET Framework
-Copyright (C) Microsoft Corporation. Todos los derechos reservados.
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_c097c.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.9.0+5e4b48a27 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
 
-  Compilador de optimización de C/C++ de Microsoft (R) versión 19.28.29912 para x64
-  (C) Microsoft Corporation. Todos los derechos reservados.
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.28.29913 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
   CMakeCXXCompilerABI.cpp
-  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_b0f30.dir\Debug\\" /Fd"cmTC_b0f30.dir\Debug\vc142.pdb" /Gd /TP /errorReport:queue "C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeCXXCompilerABI.cpp"
-  cmTC_b0f30.vcxproj -> C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\ChatApp\build\CMakeFiles\CMakeTmp\Debug\cmTC_b0f30.exe
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_c097c.dir\Debug\\" /Fd"cmTC_c097c.dir\Debug\vc142.pdb" /Gd /TP /errorReport:queue "C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeCXXCompilerABI.cpp"
+  cmTC_c097c.vcxproj -> P:\C++\ChatApp\build\CMakeFiles\CMakeTmp\Debug\cmTC_c097c.exe
 
 
 
 Determining if the include file sys/types.h exists passed with the following output:
-Change Dir: C:/Users/curro.LAPTOP-DUBBS74R/OneDrive/Documentos/Programming/C++/ChatApp/build/CMakeFiles/CMakeTmp
+Change Dir: P:/C++/ChatApp/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_a0167.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine versión 16.9.0+57a23d249 para .NET Framework
-Copyright (C) Microsoft Corporation. Todos los derechos reservados.
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_cd294.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.9.0+5e4b48a27 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
 
-  Compilador de optimización de C/C++ de Microsoft (R) versión 19.28.29912 para x64
-  (C) Microsoft Corporation. Todos los derechos reservados.
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.28.29913 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
   CheckIncludeFile.c
-  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_a0167.dir\Debug\\" /Fd"cmTC_a0167.dir\Debug\vc142.pdb" /Gd /TC /errorReport:queue "C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\ChatApp\build\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
-  cmTC_a0167.vcxproj -> C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\ChatApp\build\CMakeFiles\CMakeTmp\Debug\cmTC_a0167.exe
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_cd294.dir\Debug\\" /Fd"cmTC_cd294.dir\Debug\vc142.pdb" /Gd /TC /errorReport:queue P:\C++\ChatApp\build\CMakeFiles\CMakeTmp\CheckIncludeFile.c
+  cmTC_cd294.vcxproj -> P:\C++\ChatApp\build\CMakeFiles\CMakeTmp\Debug\cmTC_cd294.exe
 
 
 
 Determining if the include file stdint.h exists passed with the following output:
-Change Dir: C:/Users/curro.LAPTOP-DUBBS74R/OneDrive/Documentos/Programming/C++/ChatApp/build/CMakeFiles/CMakeTmp
+Change Dir: P:/C++/ChatApp/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_48e85.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine versión 16.9.0+57a23d249 para .NET Framework
-Copyright (C) Microsoft Corporation. Todos los derechos reservados.
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_de049.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.9.0+5e4b48a27 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
 
-  Compilador de optimización de C/C++ de Microsoft (R) versión 19.28.29912 para x64
-  (C) Microsoft Corporation. Todos los derechos reservados.
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.28.29913 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
   CheckIncludeFile.c
-  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_48e85.dir\Debug\\" /Fd"cmTC_48e85.dir\Debug\vc142.pdb" /Gd /TC /errorReport:queue "C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\ChatApp\build\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
-  cmTC_48e85.vcxproj -> C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\ChatApp\build\CMakeFiles\CMakeTmp\Debug\cmTC_48e85.exe
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_de049.dir\Debug\\" /Fd"cmTC_de049.dir\Debug\vc142.pdb" /Gd /TC /errorReport:queue P:\C++\ChatApp\build\CMakeFiles\CMakeTmp\CheckIncludeFile.c
+  cmTC_de049.vcxproj -> P:\C++\ChatApp\build\CMakeFiles\CMakeTmp\Debug\cmTC_de049.exe
 
 
 
 Determining if the include file stddef.h exists passed with the following output:
-Change Dir: C:/Users/curro.LAPTOP-DUBBS74R/OneDrive/Documentos/Programming/C++/ChatApp/build/CMakeFiles/CMakeTmp
+Change Dir: P:/C++/ChatApp/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_e6ce8.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine versión 16.9.0+57a23d249 para .NET Framework
-Copyright (C) Microsoft Corporation. Todos los derechos reservados.
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_2499d.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.9.0+5e4b48a27 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
 
-  Compilador de optimización de C/C++ de Microsoft (R) versión 19.28.29912 para x64
-  (C) Microsoft Corporation. Todos los derechos reservados.
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.28.29913 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
   CheckIncludeFile.c
-  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_e6ce8.dir\Debug\\" /Fd"cmTC_e6ce8.dir\Debug\vc142.pdb" /Gd /TC /errorReport:queue "C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\ChatApp\build\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
-  cmTC_e6ce8.vcxproj -> C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\ChatApp\build\CMakeFiles\CMakeTmp\Debug\cmTC_e6ce8.exe
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_2499d.dir\Debug\\" /Fd"cmTC_2499d.dir\Debug\vc142.pdb" /Gd /TC /errorReport:queue P:\C++\ChatApp\build\CMakeFiles\CMakeTmp\CheckIncludeFile.c
+  cmTC_2499d.vcxproj -> P:\C++\ChatApp\build\CMakeFiles\CMakeTmp\Debug\cmTC_2499d.exe
 
 
 
 Determining size of void* passed with the following output:
-Change Dir: C:/Users/curro.LAPTOP-DUBBS74R/OneDrive/Documentos/Programming/C++/ChatApp/build/CMakeFiles/CMakeTmp
+Change Dir: P:/C++/ChatApp/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_497c3.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine versión 16.9.0+57a23d249 para .NET Framework
-Copyright (C) Microsoft Corporation. Todos los derechos reservados.
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_e5bb5.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.9.0+5e4b48a27 for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
 
-  Compilador de optimización de C/C++ de Microsoft (R) versión 19.28.29912 para x64
-  (C) Microsoft Corporation. Todos los derechos reservados.
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.28.29913 for x64
+  Copyright (C) Microsoft Corporation.  All rights reserved.
   SIZEOF_VOID_PTR.c
-  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_497c3.dir\Debug\\" /Fd"cmTC_497c3.dir\Debug\vc142.pdb" /Gd /TC /errorReport:queue "C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\ChatApp\build\CMakeFiles\CheckTypeSize\SIZEOF_VOID_PTR.c"
-  cmTC_497c3.vcxproj -> C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\ChatApp\build\CMakeFiles\CMakeTmp\Debug\cmTC_497c3.exe
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_e5bb5.dir\Debug\\" /Fd"cmTC_e5bb5.dir\Debug\vc142.pdb" /Gd /TC /errorReport:queue P:\C++\ChatApp\build\CMakeFiles\CheckTypeSize\SIZEOF_VOID_PTR.c
+  cmTC_e5bb5.vcxproj -> P:\C++\ChatApp\build\CMakeFiles\CMakeTmp\Debug\cmTC_e5bb5.exe
 
 
 
