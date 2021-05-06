@@ -16,7 +16,7 @@ bool turn=false;
 #endif
 {
 	while((*running)){
-		std::cout << "Waiting message" << std::endl;
+		//std::cout << "Waiting message" << std::endl;
 		std::string message = SocketRead(sock);
 		if(message=="exit"){
 			(*running)=false;
@@ -31,9 +31,9 @@ bool turn=false;
 			int y = std::atoi(std::string(1, sy).c_str());
 			player->SetPos(x, y);
 		}
-		if((*running)){	
+		/*if((*running)){	
 			std::cout<<message<<std::endl;
-		}
+		}*/
 	}
 }
 
@@ -259,7 +259,9 @@ void RunWindow(SOCKET sock){
 				{
 					turn = false;
 					std::string pos = std::to_string(x) + std::to_string(y);
-					SocketSend(sock, pos);
+					window.setTitle(pos);
+					std::cout<<pos<<std::endl;
+					SocketSend(sock,pos);
 				}
 			}
 		}

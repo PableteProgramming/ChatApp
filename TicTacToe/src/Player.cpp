@@ -27,7 +27,7 @@ void Player::SetPos(int x, int y)
 
 bool Player::PosOK(int x, int y)
 {
-    if (x < 3 && y < 3) 
+    if (x < 3 && x>=0 && y < 3 && y>=0) 
     {
         if (grid[y][x] == '0')
         {
