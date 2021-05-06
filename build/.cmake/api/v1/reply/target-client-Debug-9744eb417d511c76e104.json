@@ -2,10 +2,10 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "TicTacToe/RelWithDebInfo/client.exe"
+			"path" : "TicTacToe/Debug/client.exe"
 		},
 		{
-			"path" : "TicTacToe/RelWithDebInfo/client.pdb"
+			"path" : "TicTacToe/Debug/client.pdb"
 		}
 	],
 	"backtrace" : 1,
@@ -73,7 +73,7 @@
 			"compileCommandFragments" : 
 			[
 				{
-					"fragment" : "/DWIN32 /D_WINDOWS /W3 /GR /EHsc /MD /Zi /O2 /Ob1 /DNDEBUG"
+					"fragment" : "/DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1"
 				},
 				{
 					"backtrace" : 4,
@@ -111,6 +111,10 @@
 	[
 		{
 			"backtrace" : 3,
+			"id" : "sfml-audio::@e9b1b5e9e6d4f50c4d9b"
+		},
+		{
+			"backtrace" : 3,
 			"id" : "sfml-graphics::@b5d161fc85c1c0dd9373"
 		},
 		{
@@ -122,10 +126,6 @@
 			"id" : "sfml-system::@f1fd4bce49687b53ec1b"
 		},
 		{
-			"backtrace" : 3,
-			"id" : "sfml-audio::@e9b1b5e9e6d4f50c4d9b"
-		},
-		{
 			"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df"
 		}
 	],
@@ -135,7 +135,7 @@
 		"commandFragments" : 
 		[
 			{
-				"fragment" : "/DWIN32 /D_WINDOWS /W3 /GR /EHsc /MD /Zi /O2 /Ob1 /DNDEBUG",
+				"fragment" : "/DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1",
 				"role" : "flags"
 			},
 			{
@@ -149,22 +149,22 @@
 			},
 			{
 				"backtrace" : 3,
-				"fragment" : "..\\SFML\\lib\\RelWithDebInfo\\sfml-graphics-s.lib",
+				"fragment" : "..\\SFML\\lib\\Debug\\sfml-graphics-s-d.lib",
 				"role" : "libraries"
 			},
 			{
 				"backtrace" : 3,
-				"fragment" : "..\\SFML\\lib\\RelWithDebInfo\\sfml-window-s.lib",
+				"fragment" : "..\\SFML\\lib\\Debug\\sfml-window-s-d.lib",
 				"role" : "libraries"
 			},
 			{
 				"backtrace" : 3,
-				"fragment" : "..\\SFML\\lib\\RelWithDebInfo\\sfml-system-s.lib",
+				"fragment" : "..\\SFML\\lib\\Debug\\sfml-system-s-d.lib",
 				"role" : "libraries"
 			},
 			{
 				"backtrace" : 3,
-				"fragment" : "..\\SFML\\lib\\RelWithDebInfo\\sfml-audio-s.lib",
+				"fragment" : "..\\SFML\\lib\\Debug\\sfml-audio-s-d.lib",
 				"role" : "libraries"
 			},
 			{
@@ -197,7 +197,7 @@
 			},
 			{
 				"backtrace" : 3,
-				"fragment" : "..\\SFML\\lib\\RelWithDebInfo\\sfml-system-s.lib",
+				"fragment" : "..\\SFML\\lib\\Debug\\sfml-system-s-d.lib",
 				"role" : "libraries"
 			},
 			{

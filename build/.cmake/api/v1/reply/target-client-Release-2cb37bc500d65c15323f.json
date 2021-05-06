@@ -111,6 +111,10 @@
 	[
 		{
 			"backtrace" : 3,
+			"id" : "sfml-audio::@e9b1b5e9e6d4f50c4d9b"
+		},
+		{
+			"backtrace" : 3,
 			"id" : "sfml-graphics::@b5d161fc85c1c0dd9373"
 		},
 		{
@@ -120,10 +124,6 @@
 		{
 			"backtrace" : 3,
 			"id" : "sfml-system::@f1fd4bce49687b53ec1b"
-		},
-		{
-			"backtrace" : 3,
-			"id" : "sfml-audio::@e9b1b5e9e6d4f50c4d9b"
 		},
 		{
 			"id" : "ZERO_CHECK::@6890427a1f51a3e7e1df"
