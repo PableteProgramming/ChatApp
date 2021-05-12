@@ -76,18 +76,26 @@ void Player::DrawXO(sf::RenderWindow& window){
                 window.draw(Line2);
             }
             if(grid[y][x]=='o'){
-                sf::VertexArray Line1(sf::LinesStrip, 2);
-                Line1[0].position = sf::Vector2f(x*scale,y*scale);
-                Line1[1].position = sf::Vector2f((x+1)*scale, (y+1)*scale);
-                Line1[0].color= sf::Color::Red;
-                Line1[1].color= sf::Color::Red;
-                sf::VertexArray Line2(sf::LinesStrip, 2);
-                Line2[0].position = sf::Vector2f(x*scale,(y+1)*scale);
-                Line2[1].position = sf::Vector2f((x+1)*scale, y*scale);
-                Line2[0].color= sf::Color::Red;
-                Line2[1].color= sf::Color::Red;
-                window.draw(Line1);
-                window.draw(Line2);
+                // sf::VertexArray Line1(sf::LinesStrip, 2);
+                // Line1[0].position = sf::Vector2f(x*scale,y*scale);
+                // Line1[1].position = sf::Vector2f((x+1)*scale, (y+1)*scale);
+                // Line1[0].color= sf::Color::Red;
+                // Line1[1].color= sf::Color::Red;
+                // sf::VertexArray Line2(sf::LinesStrip, 2);
+                // Line2[0].position = sf::Vector2f(x*scale,(y+1)*scale);
+                // Line2[1].position = sf::Vector2f((x+1)*scale, y*scale);
+                // Line2[0].color= sf::Color::Red;
+                // Line2[1].color= sf::Color::Red;
+                // window.draw(Line1);
+                // window.draw(Line2);
+
+                sf::CircleShape circle;
+                circle.setRadius(scale / 2);
+                circle.setPosition(x * scale, y * scale);
+                circle.setOutlineColor(sf::Color::Red);
+                circle.setFillColor(sf::Color::Transparent);
+                circle.setOutlineThickness(2);
+                window.draw(circle);
             }
         }
     }
