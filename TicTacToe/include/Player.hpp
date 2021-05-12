@@ -17,4 +17,5 @@ public:
     void DrawGrid(sf::RenderWindow&);
     char GetSign(){return sign;};
     char GetOppositeSign();
+    int Win();
 };

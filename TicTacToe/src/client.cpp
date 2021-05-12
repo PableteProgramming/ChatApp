@@ -5,9 +5,10 @@ std::thread *GameThread=NULL;
 bool running=true;
 bool waitingroom=true;
 bool turn=false;
+bool needDraw = true;
 
 #ifdef __linux__
-	void ClientRead(int sock,bool* running,Player* player)
+	void ClientRead(int sock, bool* running, Player* player)
 #else
 	#pragma comment (lib, "Ws2_32.lib")
 	#pragma comment (lib, "Mswsock.lib")
@@ -31,6 +32,13 @@ bool turn=false;
 			int y = std::atoi(std::string(1, sy).c_str());
 			std::cout << x << y << std::endl;
 			player->SetPos(x, y,player->GetOppositeSign());
+			int temp = player->Win();
+			if (temp >= -1 && temp <= 1)
+			{
+				//running = false;
+				std::cout << temp << std::endl;
+			}
+			needDraw = true;
 		}
 		/*if((*running)){	
 			std::cout<<message<<std::endl;
@@ -243,11 +251,6 @@ void RunWindow(SOCKET sock){
 		if(sf::Mouse::isButtonPressed(sf::Mouse::Left)){
 			if(turn){
 				window.setTitle("its your turn");
-			}
-			else{
-				window.setTitle("its not your turn");
-			}
-			if(turn){
 				sf::Vector2i mPos = sf::Mouse::getPosition(window);
 				
 				int wx = mPos.x;
@@ -264,15 +267,28 @@ void RunWindow(SOCKET sock){
 					//std::cout<<pos<<std::endl;
 					SocketSend(sock,pos);
 					player.SetPos(x,y,player.GetSign());
+
+					int temp = player.Win();
+					if (temp >= -1 && temp <= 1)
+					{
+						//running = false;
+						std::cout << temp << std::endl;
+					}
+					needDraw = true;
 				}
+			}
+			else{
+				window.setTitle("its not your turn");
 			}
 		}
 
-	 	window.clear();	
-		
-		player.DrawGrid(window);
-
-	 	window.display();
+		if (needDraw)
+		{
+			window.clear();	
+			player.DrawGrid(window);
+			window.display();
+			needDraw = false;
+		}
 	}
 	window.close();
 

@@ -107,3 +107,113 @@ char Player::GetOppositeSign(){
     }
     return 'x';
 }
+
+int Player::Win()
+{
+    bool aligned = true;
+    char s;
+
+    // Lines
+    for (int y = 0; y < 3; y++){
+        s = grid[y][0];
+        if (s == '0')
+        {
+            aligned = false;
+            break;
+        }
+        for (int x = 0; x < 3; x++)
+        {
+            if (s != grid[y][x])
+            {
+                aligned = false;
+                break;
+            }
+        }
+    }
+
+    if (aligned)
+    {
+        if (s == sign)
+        {
+            return 1;
+        }
+        else
+        {
+            return -1;
+        }
+    }
+
+    // Columns
+    for (int x = 0; x < 3; x++){
+        s = grid[0][x];
+        if (s == '0')
+        {
+            aligned = false;
+            break;
+        }
+        for (int y = 0; y < 3; y++)
+        {
+            if (s != grid[y][x])
+            {
+                aligned = false;
+                break;
+            }
+        }
+    }
+
+    if (aligned)
+    {
+        if (s == sign)
+        {
+            return 1;
+        }
+        else
+        {
+            return -1;
+        }
+    }
+
+    // Diagonals
+    // [0][0] ; [1][1] ; [2][2]
+    // [0][2] ; [1][1] ; [2][0]
+    if (grid[1][1] != '0')
+    {
+        if ((grid[0][0] == grid[2][2] && grid[0][0] == grid[1][1]) || (grid[0][2] == grid[2][0] && grid[0][2] == grid[1][1]))
+        {
+            s = grid[1][1];
+            aligned = true;
+        }
+    }
+
+    if (aligned)
+    {
+        if (s == sign)
+        {
+            return 1;
+        }
+        else
+        {
+            return -1;
+        }
+    }
+    else
+    {
+        bool full = true;
+        for (int y = 0; y < 3; y++)
+        {
+            for (int x = 0; x < 3; x++)
+            {
+                if (grid[y][x] == '0')
+                {
+                    full = false;
+                    break;
+                }
+            }
+        }
+        if (full)
+        {
+            return 0;
+        }
+        return 404;
+    }
+}

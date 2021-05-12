@@ -9,7 +9,7 @@ The output was:
 Microsoft (R) Build Engine version 16.9.0+5e4b48a27 for .NET Framework
 Copyright (C) Microsoft Corporation. All rights reserved.
 
-Build started 5/12/2021 4:36:47 PM.
+Build started 5/12/2021 5:55:57 PM.
 Project "P:\C++\ChatApp\build\CMakeFiles\3.19.3\CompilerIdC\CompilerIdC.vcxproj" on node 1 (default targets).
 PrepareForBuild:
   Creating directory "Debug\".
@@ -35,7 +35,7 @@ Build succeeded.
     0 Warning(s)
     0 Error(s)
 
-Time Elapsed 00:00:00.81
+Time Elapsed 00:00:00.64
 
 
 Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
@@ -54,7 +54,7 @@ The output was:
 Microsoft (R) Build Engine version 16.9.0+5e4b48a27 for .NET Framework
 Copyright (C) Microsoft Corporation. All rights reserved.
 
-Build started 5/12/2021 4:36:48 PM.
+Build started 5/12/2021 5:55:58 PM.
 Project "P:\C++\ChatApp\build\CMakeFiles\3.19.3\CompilerIdCXX\CompilerIdCXX.vcxproj" on node 1 (default targets).
 PrepareForBuild:
   Creating directory "Debug\".
@@ -80,7 +80,7 @@ Build succeeded.
     0 Warning(s)
     0 Error(s)
 
-Time Elapsed 00:00:00.57
+Time Elapsed 00:00:00.52
 
 
 Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
@@ -92,84 +92,84 @@ The CXX compiler identification is MSVC, found in "P:/C++/ChatApp/build/CMakeFil
 Detecting C compiler ABI info compiled with the following output:
 Change Dir: P:/C++/ChatApp/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_b069b.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.9.0+5e4b48a27 for .NET Framework
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_29b8e.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.9.0+5e4b48a27 for .NET Framework
 Copyright (C) Microsoft Corporation. All rights reserved.
 
   Microsoft (R) C/C++ Optimizing Compiler Version 19.28.29913 for x64
   Copyright (C) Microsoft Corporation.  All rights reserved.
   CMakeCCompilerABI.c
-  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_b069b.dir\Debug\\" /Fd"cmTC_b069b.dir\Debug\vc142.pdb" /Gd /TC /errorReport:queue "C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeCCompilerABI.c"
-  cmTC_b069b.vcxproj -> P:\C++\ChatApp\build\CMakeFiles\CMakeTmp\Debug\cmTC_b069b.exe
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_29b8e.dir\Debug\\" /Fd"cmTC_29b8e.dir\Debug\vc142.pdb" /Gd /TC /errorReport:queue "C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeCCompilerABI.c"
+  cmTC_29b8e.vcxproj -> P:\C++\ChatApp\build\CMakeFiles\CMakeTmp\Debug\cmTC_29b8e.exe
 
 
 
 Detecting CXX compiler ABI info compiled with the following output:
 Change Dir: P:/C++/ChatApp/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_db2ba.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.9.0+5e4b48a27 for .NET Framework
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_4489b.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.9.0+5e4b48a27 for .NET Framework
 Copyright (C) Microsoft Corporation. All rights reserved.
 
   Microsoft (R) C/C++ Optimizing Compiler Version 19.28.29913 for x64
   Copyright (C) Microsoft Corporation.  All rights reserved.
   CMakeCXXCompilerABI.cpp
-  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_db2ba.dir\Debug\\" /Fd"cmTC_db2ba.dir\Debug\vc142.pdb" /Gd /TP /errorReport:queue "C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeCXXCompilerABI.cpp"
-  cmTC_db2ba.vcxproj -> P:\C++\ChatApp\build\CMakeFiles\CMakeTmp\Debug\cmTC_db2ba.exe
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_4489b.dir\Debug\\" /Fd"cmTC_4489b.dir\Debug\vc142.pdb" /Gd /TP /errorReport:queue "C:\Program Files\CMake\share\cmake-3.19\Modules\CMakeCXXCompilerABI.cpp"
+  cmTC_4489b.vcxproj -> P:\C++\ChatApp\build\CMakeFiles\CMakeTmp\Debug\cmTC_4489b.exe
 
 
 
 Determining if the include file sys/types.h exists passed with the following output:
 Change Dir: P:/C++/ChatApp/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_b18bf.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.9.0+5e4b48a27 for .NET Framework
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_5a1f1.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.9.0+5e4b48a27 for .NET Framework
 Copyright (C) Microsoft Corporation. All rights reserved.
 
   Microsoft (R) C/C++ Optimizing Compiler Version 19.28.29913 for x64
   Copyright (C) Microsoft Corporation.  All rights reserved.
   CheckIncludeFile.c
-  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_b18bf.dir\Debug\\" /Fd"cmTC_b18bf.dir\Debug\vc142.pdb" /Gd /TC /errorReport:queue P:\C++\ChatApp\build\CMakeFiles\CMakeTmp\CheckIncludeFile.c
-  cmTC_b18bf.vcxproj -> P:\C++\ChatApp\build\CMakeFiles\CMakeTmp\Debug\cmTC_b18bf.exe
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_5a1f1.dir\Debug\\" /Fd"cmTC_5a1f1.dir\Debug\vc142.pdb" /Gd /TC /errorReport:queue P:\C++\ChatApp\build\CMakeFiles\CMakeTmp\CheckIncludeFile.c
+  cmTC_5a1f1.vcxproj -> P:\C++\ChatApp\build\CMakeFiles\CMakeTmp\Debug\cmTC_5a1f1.exe
 
 
 
 Determining if the include file stdint.h exists passed with the following output:
 Change Dir: P:/C++/ChatApp/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_9e01b.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.9.0+5e4b48a27 for .NET Framework
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_3d98c.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.9.0+5e4b48a27 for .NET Framework
 Copyright (C) Microsoft Corporation. All rights reserved.
 
   Microsoft (R) C/C++ Optimizing Compiler Version 19.28.29913 for x64
   Copyright (C) Microsoft Corporation.  All rights reserved.
   CheckIncludeFile.c
-  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_9e01b.dir\Debug\\" /Fd"cmTC_9e01b.dir\Debug\vc142.pdb" /Gd /TC /errorReport:queue P:\C++\ChatApp\build\CMakeFiles\CMakeTmp\CheckIncludeFile.c
-  cmTC_9e01b.vcxproj -> P:\C++\ChatApp\build\CMakeFiles\CMakeTmp\Debug\cmTC_9e01b.exe
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_3d98c.dir\Debug\\" /Fd"cmTC_3d98c.dir\Debug\vc142.pdb" /Gd /TC /errorReport:queue P:\C++\ChatApp\build\CMakeFiles\CMakeTmp\CheckIncludeFile.c
+  cmTC_3d98c.vcxproj -> P:\C++\ChatApp\build\CMakeFiles\CMakeTmp\Debug\cmTC_3d98c.exe
 
 
 
 Determining if the include file stddef.h exists passed with the following output:
 Change Dir: P:/C++/ChatApp/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_9b88b.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.9.0+5e4b48a27 for .NET Framework
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_be2c7.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.9.0+5e4b48a27 for .NET Framework
 Copyright (C) Microsoft Corporation. All rights reserved.
 
   Microsoft (R) C/C++ Optimizing Compiler Version 19.28.29913 for x64
   Copyright (C) Microsoft Corporation.  All rights reserved.
   CheckIncludeFile.c
-  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_9b88b.dir\Debug\\" /Fd"cmTC_9b88b.dir\Debug\vc142.pdb" /Gd /TC /errorReport:queue P:\C++\ChatApp\build\CMakeFiles\CMakeTmp\CheckIncludeFile.c
-  cmTC_9b88b.vcxproj -> P:\C++\ChatApp\build\CMakeFiles\CMakeTmp\Debug\cmTC_9b88b.exe
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_be2c7.dir\Debug\\" /Fd"cmTC_be2c7.dir\Debug\vc142.pdb" /Gd /TC /errorReport:queue P:\C++\ChatApp\build\CMakeFiles\CMakeTmp\CheckIncludeFile.c
+  cmTC_be2c7.vcxproj -> P:\C++\ChatApp\build\CMakeFiles\CMakeTmp\Debug\cmTC_be2c7.exe
 
 
 
 Determining size of void* passed with the following output:
 Change Dir: P:/C++/ChatApp/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_43b6b.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.9.0+5e4b48a27 for .NET Framework
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_88506.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft (R) Build Engine version 16.9.0+5e4b48a27 for .NET Framework
 Copyright (C) Microsoft Corporation. All rights reserved.
 
   Microsoft (R) C/C++ Optimizing Compiler Version 19.28.29913 for x64
   Copyright (C) Microsoft Corporation.  All rights reserved.
   SIZEOF_VOID_PTR.c
-  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_43b6b.dir\Debug\\" /Fd"cmTC_43b6b.dir\Debug\vc142.pdb" /Gd /TC /errorReport:queue P:\C++\ChatApp\build\CMakeFiles\CheckTypeSize\SIZEOF_VOID_PTR.c
-  cmTC_43b6b.vcxproj -> P:\C++\ChatApp\build\CMakeFiles\CMakeTmp\Debug\cmTC_43b6b.exe
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_88506.dir\Debug\\" /Fd"cmTC_88506.dir\Debug\vc142.pdb" /Gd /TC /errorReport:queue P:\C++\ChatApp\build\CMakeFiles\CheckTypeSize\SIZEOF_VOID_PTR.c
+  cmTC_88506.vcxproj -> P:\C++\ChatApp\build\CMakeFiles\CMakeTmp\Debug\cmTC_88506.exe
 
 
 
