@@ -1,6 +1,6 @@
-^C:\USERS\CURRO.LAPTOP-DUBBS74R\ONEDRIVE\DOCUMENTOS\PROGRAMMING\C++\CHATAPP\BUILD\CMAKEFILES\5CBCA4C99E465D511EE1388DD961FCA5\GENERATE.STAMP.RULE
+^P:\C++\CHATAPP\BUILD\CMAKEFILES\C5597655D0791598FFF295CC9D414B7E\GENERATE.STAMP.RULE
 setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/curro.LAPTOP-DUBBS74R/OneDrive/Documentos/Programming/C++/ChatApp -BC:/Users/curro.LAPTOP-DUBBS74R/OneDrive/Documentos/Programming/C++/ChatApp/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/curro.LAPTOP-DUBBS74R/OneDrive/Documentos/Programming/C++/ChatApp/build/TicTacToe.sln
+"C:\Program Files\CMake\bin\cmake.exe" -SP:/C++/ChatApp -BP:/C++/ChatApp/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file P:/C++/ChatApp/build/TicTacToe.sln
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone

@@ -29,6 +29,7 @@ bool turn=false;
 			char sy = message[1];
 			int x = std::atoi(std::string(1, sx).c_str());
 			int y = std::atoi(std::string(1, sy).c_str());
+			std::cout << x << y << std::endl;
 			player->SetPos(x, y,player->GetOppositeSign());
 		}
 		/*if((*running)){	
@@ -260,7 +261,7 @@ void RunWindow(SOCKET sock){
 					turn = false;
 					std::string pos = std::to_string(x) + std::to_string(y);
 					window.setTitle(pos);
-					std::cout<<pos<<std::endl;
+					//std::cout<<pos<<std::endl;
 					SocketSend(sock,pos);
 					player.SetPos(x,y,player.GetSign());
 				}

@@ -238,7 +238,7 @@ void Read(ClientClass* client){
 		}
 		else{
 			if(message!=""){	
-				std::string toSend = "\033[34m[" + client->GetName() + "] > \033[0m" + message;;
+				std::string toSend = /*\033[34m[" + client->GetName() + "] > \033[0m" + */message;;
 				std::cout<<toSend<<std::endl;
 				SocketSend(client->GetFriend()->GetId(), toSend);
 			}

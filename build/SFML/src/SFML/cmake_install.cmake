@@ -1,8 +1,8 @@
-# Install script for directory: C:/Users/curro.LAPTOP-DUBBS74R/OneDrive/Documentos/Programming/C++/ChatApp/SFML/src/SFML
+# Install script for directory: P:/C++/ChatApp/SFML/src/SFML
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "C:/Program Files/TicTacToe")
+  set(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/TicTacToe")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -34,12 +34,12 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("C:/Users/curro.LAPTOP-DUBBS74R/OneDrive/Documentos/Programming/C++/ChatApp/build/SFML/src/SFML/System/cmake_install.cmake")
-  include("C:/Users/curro.LAPTOP-DUBBS74R/OneDrive/Documentos/Programming/C++/ChatApp/build/SFML/src/SFML/Main/cmake_install.cmake")
-  include("C:/Users/curro.LAPTOP-DUBBS74R/OneDrive/Documentos/Programming/C++/ChatApp/build/SFML/src/SFML/Window/cmake_install.cmake")
-  include("C:/Users/curro.LAPTOP-DUBBS74R/OneDrive/Documentos/Programming/C++/ChatApp/build/SFML/src/SFML/Network/cmake_install.cmake")
-  include("C:/Users/curro.LAPTOP-DUBBS74R/OneDrive/Documentos/Programming/C++/ChatApp/build/SFML/src/SFML/Graphics/cmake_install.cmake")
-  include("C:/Users/curro.LAPTOP-DUBBS74R/OneDrive/Documentos/Programming/C++/ChatApp/build/SFML/src/SFML/Audio/cmake_install.cmake")
+  include("P:/C++/ChatApp/build/SFML/src/SFML/System/cmake_install.cmake")
+  include("P:/C++/ChatApp/build/SFML/src/SFML/Main/cmake_install.cmake")
+  include("P:/C++/ChatApp/build/SFML/src/SFML/Window/cmake_install.cmake")
+  include("P:/C++/ChatApp/build/SFML/src/SFML/Network/cmake_install.cmake")
+  include("P:/C++/ChatApp/build/SFML/src/SFML/Graphics/cmake_install.cmake")
+  include("P:/C++/ChatApp/build/SFML/src/SFML/Audio/cmake_install.cmake")
 
 endif()
 

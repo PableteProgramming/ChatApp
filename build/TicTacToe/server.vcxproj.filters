@@ -1,25 +1,25 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\ChatApp\TicTacToe\src\server.cpp">
+    <ClCompile Include="P:\C++\ChatApp\TicTacToe\src\server.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\ChatApp\TicTacToe\src\ClientClass.cpp">
+    <ClCompile Include="P:\C++\ChatApp\TicTacToe\src\ClientClass.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\ChatApp\TicTacToe\src\WaitingClient.cpp">
+    <ClCompile Include="P:\C++\ChatApp\TicTacToe\src\WaitingClient.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\ChatApp\TicTacToe\src\main.cpp">
+    <ClCompile Include="P:\C++\ChatApp\TicTacToe\src\main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\ChatApp\TicTacToe\CMakeLists.txt" />
+    <CustomBuild Include="P:\C++\ChatApp\TicTacToe\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Source Files">
-      <UniqueIdentifier>{68D058B2-A2CB-3622-8CCE-A07972CC75A7}</UniqueIdentifier>
+      <UniqueIdentifier>{AD79E604-36D1-3AD8-B1CE-B8933D41E7D7}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>
