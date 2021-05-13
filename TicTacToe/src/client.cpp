@@ -6,6 +6,7 @@ bool running=true;
 bool waitingroom=true;
 bool turn=false;
 bool needDraw = true;
+int win=404;
 
 #ifdef __linux__
 	void ClientRead(int sock, bool* running, Player* player)
@@ -37,12 +38,11 @@ bool needDraw = true;
 			{
 				//running = false;
 				std::cout << temp << std::endl;
+				win=temp;
+				running=false;
 			}
 			needDraw = true;
 		}
-		/*if((*running)){	
-			std::cout<<message<<std::endl;
-		}*/
 	}
 }
 
@@ -215,7 +215,7 @@ void RunWindow(SOCKET sock){
 	while (waitingroom)
 	{
 		sf::Event event;
-       		while (window.pollEvent(event))
+       	while (window.pollEvent(event))
 		{
 			if (event.type == sf::Event::Closed){
 				window.close();
@@ -240,7 +240,7 @@ void RunWindow(SOCKET sock){
 	while (running)
 	{
 		sf::Event event;
-	       	while (window.pollEvent(event))
+	    while (window.pollEvent(event))
 		{
 			if (event.type == sf::Event::Closed){
 				window.close();
@@ -273,6 +273,8 @@ void RunWindow(SOCKET sock){
 					{
 						//running = false;
 						std::cout << temp << std::endl;
+						win=temp;
+						running=false;
 					}
 					needDraw = true;
 				}
@@ -290,7 +292,6 @@ void RunWindow(SOCKET sock){
 			needDraw = false;
 		}
 	}
-	window.close();
 
 	std::cout << "Sending exit" << std::endl;
 	SocketSend(sock,"exit");
@@ -305,4 +306,43 @@ void RunWindow(SOCKET sock){
 		std::cout << "EXIT" << std::endl;
 		exit(0);
 	}
+
+	switch (win)
+	{
+		case -1:{
+			//you lose
+			window.setTitle("You lose");
+			break;
+		}
+		case 0:{
+			//draw
+			window.setTitle("It's a draw");
+			break;
+		}
+		case 1:{
+			//you win
+			window.setTitle("You win !");
+			break;
+		}
+		default:{
+			window.setTitle("I don't know what happend");
+			break;
+		}
+	}
+
+	bool exiting=true;
+
+	while (exiting){
+		sf::Event event;
+	    while (window.pollEvent(event))
+		{
+			if (event.type == sf::Event::Closed){
+				//window.close();
+				exiting=false;
+			}
+		}
+		window.clear();
+		window.display();
+	}
+	window.close();
 }

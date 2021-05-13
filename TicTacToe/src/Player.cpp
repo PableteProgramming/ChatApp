@@ -76,19 +76,6 @@ void Player::DrawXO(sf::RenderWindow& window){
                 window.draw(Line2);
             }
             if(grid[y][x]=='o'){
-                // sf::VertexArray Line1(sf::LinesStrip, 2);
-                // Line1[0].position = sf::Vector2f(x*scale,y*scale);
-                // Line1[1].position = sf::Vector2f((x+1)*scale, (y+1)*scale);
-                // Line1[0].color= sf::Color::Red;
-                // Line1[1].color= sf::Color::Red;
-                // sf::VertexArray Line2(sf::LinesStrip, 2);
-                // Line2[0].position = sf::Vector2f(x*scale,(y+1)*scale);
-                // Line2[1].position = sf::Vector2f((x+1)*scale, y*scale);
-                // Line2[0].color= sf::Color::Red;
-                // Line2[1].color= sf::Color::Red;
-                // window.draw(Line1);
-                // window.draw(Line2);
-
                 sf::CircleShape circle;
                 circle.setRadius(scale / 2);
                 circle.setPosition(x * scale, y * scale);
@@ -115,6 +102,7 @@ int Player::Win()
 
     // Lines
     for (int y = 0; y < 3; y++){
+        aligned=true;
         s = grid[y][0];
         if (s == '0')
         {
@@ -128,6 +116,9 @@ int Player::Win()
                 aligned = false;
                 break;
             }
+        }
+        if (aligned){
+            break;
         }
     }
 
@@ -145,6 +136,7 @@ int Player::Win()
 
     // Columns
     for (int x = 0; x < 3; x++){
+        aligned=true;
         s = grid[0][x];
         if (s == '0')
         {
@@ -158,6 +150,9 @@ int Player::Win()
                 aligned = false;
                 break;
             }
+        }
+        if(aligned){
+            break;
         }
     }
 
@@ -176,6 +171,7 @@ int Player::Win()
     // Diagonals
     // [0][0] ; [1][1] ; [2][2]
     // [0][2] ; [1][1] ; [2][0]
+    aligned=false;
     if (grid[1][1] != '0')
     {
         if ((grid[0][0] == grid[2][2] && grid[0][0] == grid[1][1]) || (grid[0][2] == grid[2][0] && grid[0][2] == grid[1][1]))
