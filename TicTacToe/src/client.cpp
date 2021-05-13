@@ -14,14 +14,14 @@ int win=404;
 	#pragma comment (lib, "Ws2_32.lib")
 	#pragma comment (lib, "Mswsock.lib")
 	#pragma comment (lib, "AdvApi32.lib")
-	void ClientRead(SOCKET sock,bool* running, Player* player)
+	void ClientRead(SOCKET sock, Player* player)
 #endif
 {
-	while((*running)){
+	while(running){
 		//std::cout << "Waiting message" << std::endl;
 		std::string message = SocketRead(sock);
 		if(message=="exit"){
-			(*running)=false;
+			running=false;
 			break;
 		}
 		else{
@@ -31,13 +31,13 @@ int win=404;
 			char sy = message[1];
 			int x = std::atoi(std::string(1, sx).c_str());
 			int y = std::atoi(std::string(1, sy).c_str());
-			std::cout << x << y << std::endl;
+			//std::cout << x << y << std::endl;
 			player->SetPos(x, y,player->GetOppositeSign());
 			int temp = player->Win();
 			if (temp >= -1 && temp <= 1)
 			{
 				//running = false;
-				std::cout << temp << std::endl;
+				//std::cout << temp << std::endl;
 				win=temp;
 				running=false;
 			}
@@ -212,6 +212,7 @@ void RunWindow(SOCKET sock){
 	sf::Texture g;
 	g.loadFromFile("t.png");
 	sf::Sprite gs(g);
+
 	while (waitingroom)
 	{
 		sf::Event event;
@@ -233,10 +234,17 @@ void RunWindow(SOCKET sock){
 
 	if (running)
 	{
-		std::cout << "Starting reading thread" << std::endl;
-		reading = new std::thread(ClientRead,sock,&running, &player);
+		//std::cout << "Starting reading thread" << std::endl;
+		reading = new std::thread(ClientRead,sock, &player);
 	}
 	
+	if(turn){
+		window.setTitle("its your turn");
+	}
+	else{
+		window.setTitle("its not your turn");
+	}
+
 	while (running)
 	{
 		sf::Event event;
@@ -263,7 +271,7 @@ void RunWindow(SOCKET sock){
 				{
 					turn = false;
 					std::string pos = std::to_string(x) + std::to_string(y);
-					window.setTitle(pos);
+					//window.setTitle(pos);
 					//std::cout<<pos<<std::endl;
 					SocketSend(sock,pos);
 					player.SetPos(x,y,player.GetSign());
@@ -272,7 +280,7 @@ void RunWindow(SOCKET sock){
 					if (temp >= -1 && temp <= 1)
 					{
 						//running = false;
-						std::cout << temp << std::endl;
+						//std::cout << temp << std::endl;
 						win=temp;
 						running=false;
 					}
@@ -293,17 +301,17 @@ void RunWindow(SOCKET sock){
 		}
 	}
 
-	std::cout << "Sending exit" << std::endl;
+	//std::cout << "Sending exit" << std::endl;
 	SocketSend(sock,"exit");
 
 	if (reading != NULL)
 	{
-		std::cout << "Joining reading" << std::endl;
+		//std::cout << "Joining reading" << std::endl;
 		reading->join();
 	}
 	else
 	{
-		std::cout << "EXIT" << std::endl;
+		//std::cout << "EXIT" << std::endl;
 		exit(0);
 	}
 
