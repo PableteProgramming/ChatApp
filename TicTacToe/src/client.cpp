@@ -9,7 +9,7 @@ bool needDraw = true;
 int win=404;
 
 #ifdef __linux__
-	void ClientRead(int sock, bool* running, Player* player)
+	void ClientRead(int sock, Player* player)
 #else
 	#pragma comment (lib, "Ws2_32.lib")
 	#pragma comment (lib, "Mswsock.lib")

@@ -97,6 +97,25 @@ char Player::GetOppositeSign(){
 
 int Player::Win()
 {
+    //we first have to check if they are not all empty
+    bool empty=true;
+    for(int y=0; y<3;y++){
+        for(int x=0; x<3;x++){
+            if(grid[y][x]!='0'){
+                empty=false;
+                break;
+            }
+            if (!empty){
+                break;
+            }
+        }
+    }
+    
+    if (empty){
+        return 404;
+    }
+    //end
+
     bool aligned = true;
     char s;
 
