@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/pablo/Documents/Programming/C++/ChatApp
+CMAKE_SOURCE_DIR = /home/pablo/Documents/Programming/C++/OnlineTicTacToe
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/pablo/Documents/Programming/C++/ChatApp/build
+CMAKE_BINARY_DIR = /home/pablo/Documents/Programming/C++/OnlineTicTacToe/build
 
 # Include any dependencies generated for this target.
 include SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/depend.make
@@ -59,406 +59,406 @@ include SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/flags.make
 
 SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/BlendMode.cpp.o: SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/flags.make
 SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/BlendMode.cpp.o: ../SFML/src/SFML/Graphics/BlendMode.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pablo/Documents/Programming/C++/ChatApp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/BlendMode.cpp.o"
-	cd /home/pablo/Documents/Programming/C++/ChatApp/build/SFML/src/SFML/Graphics && /bin/g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sfml-graphics.dir/BlendMode.cpp.o -c /home/pablo/Documents/Programming/C++/ChatApp/SFML/src/SFML/Graphics/BlendMode.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pablo/Documents/Programming/C++/OnlineTicTacToe/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/BlendMode.cpp.o"
+	cd /home/pablo/Documents/Programming/C++/OnlineTicTacToe/build/SFML/src/SFML/Graphics && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sfml-graphics.dir/BlendMode.cpp.o -c /home/pablo/Documents/Programming/C++/OnlineTicTacToe/SFML/src/SFML/Graphics/BlendMode.cpp
 
 SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/BlendMode.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sfml-graphics.dir/BlendMode.cpp.i"
-	cd /home/pablo/Documents/Programming/C++/ChatApp/build/SFML/src/SFML/Graphics && /bin/g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pablo/Documents/Programming/C++/ChatApp/SFML/src/SFML/Graphics/BlendMode.cpp > CMakeFiles/sfml-graphics.dir/BlendMode.cpp.i
+	cd /home/pablo/Documents/Programming/C++/OnlineTicTacToe/build/SFML/src/SFML/Graphics && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pablo/Documents/Programming/C++/OnlineTicTacToe/SFML/src/SFML/Graphics/BlendMode.cpp > CMakeFiles/sfml-graphics.dir/BlendMode.cpp.i
 
 SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/BlendMode.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sfml-graphics.dir/BlendMode.cpp.s"
-	cd /home/pablo/Documents/Programming/C++/ChatApp/build/SFML/src/SFML/Graphics && /bin/g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pablo/Documents/Programming/C++/ChatApp/SFML/src/SFML/Graphics/BlendMode.cpp -o CMakeFiles/sfml-graphics.dir/BlendMode.cpp.s
+	cd /home/pablo/Documents/Programming/C++/OnlineTicTacToe/build/SFML/src/SFML/Graphics && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pablo/Documents/Programming/C++/OnlineTicTacToe/SFML/src/SFML/Graphics/BlendMode.cpp -o CMakeFiles/sfml-graphics.dir/BlendMode.cpp.s
 
 SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Color.cpp.o: SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/flags.make
 SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Color.cpp.o: ../SFML/src/SFML/Graphics/Color.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pablo/Documents/Programming/C++/ChatApp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Color.cpp.o"
-	cd /home/pablo/Documents/Programming/C++/ChatApp/build/SFML/src/SFML/Graphics && /bin/g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sfml-graphics.dir/Color.cpp.o -c /home/pablo/Documents/Programming/C++/ChatApp/SFML/src/SFML/Graphics/Color.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pablo/Documents/Programming/C++/OnlineTicTacToe/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Color.cpp.o"
+	cd /home/pablo/Documents/Programming/C++/OnlineTicTacToe/build/SFML/src/SFML/Graphics && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sfml-graphics.dir/Color.cpp.o -c /home/pablo/Documents/Programming/C++/OnlineTicTacToe/SFML/src/SFML/Graphics/Color.cpp
 
 SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Color.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sfml-graphics.dir/Color.cpp.i"
-	cd /home/pablo/Documents/Programming/C++/ChatApp/build/SFML/src/SFML/Graphics && /bin/g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pablo/Documents/Programming/C++/ChatApp/SFML/src/SFML/Graphics/Color.cpp > CMakeFiles/sfml-graphics.dir/Color.cpp.i
+	cd /home/pablo/Documents/Programming/C++/OnlineTicTacToe/build/SFML/src/SFML/Graphics && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pablo/Documents/Programming/C++/OnlineTicTacToe/SFML/src/SFML/Graphics/Color.cpp > CMakeFiles/sfml-graphics.dir/Color.cpp.i
 
 SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Color.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sfml-graphics.dir/Color.cpp.s"
-	cd /home/pablo/Documents/Programming/C++/ChatApp/build/SFML/src/SFML/Graphics && /bin/g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pablo/Documents/Programming/C++/ChatApp/SFML/src/SFML/Graphics/Color.cpp -o CMakeFiles/sfml-graphics.dir/Color.cpp.s
+	cd /home/pablo/Documents/Programming/C++/OnlineTicTacToe/build/SFML/src/SFML/Graphics && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pablo/Documents/Programming/C++/OnlineTicTacToe/SFML/src/SFML/Graphics/Color.cpp -o CMakeFiles/sfml-graphics.dir/Color.cpp.s
 
 SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Font.cpp.o: SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/flags.make
 SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Font.cpp.o: ../SFML/src/SFML/Graphics/Font.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pablo/Documents/Programming/C++/ChatApp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Font.cpp.o"
-	cd /home/pablo/Documents/Programming/C++/ChatApp/build/SFML/src/SFML/Graphics && /bin/g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sfml-graphics.dir/Font.cpp.o -c /home/pablo/Documents/Programming/C++/ChatApp/SFML/src/SFML/Graphics/Font.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pablo/Documents/Programming/C++/OnlineTicTacToe/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Font.cpp.o"
+	cd /home/pablo/Documents/Programming/C++/OnlineTicTacToe/build/SFML/src/SFML/Graphics && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sfml-graphics.dir/Font.cpp.o -c /home/pablo/Documents/Programming/C++/OnlineTicTacToe/SFML/src/SFML/Graphics/Font.cpp
 
 SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Font.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sfml-graphics.dir/Font.cpp.i"
-	cd /home/pablo/Documents/Programming/C++/ChatApp/build/SFML/src/SFML/Graphics && /bin/g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pablo/Documents/Programming/C++/ChatApp/SFML/src/SFML/Graphics/Font.cpp > CMakeFiles/sfml-graphics.dir/Font.cpp.i
+	cd /home/pablo/Documents/Programming/C++/OnlineTicTacToe/build/SFML/src/SFML/Graphics && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pablo/Documents/Programming/C++/OnlineTicTacToe/SFML/src/SFML/Graphics/Font.cpp > CMakeFiles/sfml-graphics.dir/Font.cpp.i
 
 SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Font.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sfml-graphics.dir/Font.cpp.s"
-	cd /home/pablo/Documents/Programming/C++/ChatApp/build/SFML/src/SFML/Graphics && /bin/g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pablo/Documents/Programming/C++/ChatApp/SFML/src/SFML/Graphics/Font.cpp -o CMakeFiles/sfml-graphics.dir/Font.cpp.s
+	cd /home/pablo/Documents/Programming/C++/OnlineTicTacToe/build/SFML/src/SFML/Graphics && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pablo/Documents/Programming/C++/OnlineTicTacToe/SFML/src/SFML/Graphics/Font.cpp -o CMakeFiles/sfml-graphics.dir/Font.cpp.s
 
 SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Glsl.cpp.o: SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/flags.make
 SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Glsl.cpp.o: ../SFML/src/SFML/Graphics/Glsl.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pablo/Documents/Programming/C++/ChatApp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Glsl.cpp.o"
-	cd /home/pablo/Documents/Programming/C++/ChatApp/build/SFML/src/SFML/Graphics && /bin/g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sfml-graphics.dir/Glsl.cpp.o -c /home/pablo/Documents/Programming/C++/ChatApp/SFML/src/SFML/Graphics/Glsl.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pablo/Documents/Programming/C++/OnlineTicTacToe/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Glsl.cpp.o"
+	cd /home/pablo/Documents/Programming/C++/OnlineTicTacToe/build/SFML/src/SFML/Graphics && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sfml-graphics.dir/Glsl.cpp.o -c /home/pablo/Documents/Programming/C++/OnlineTicTacToe/SFML/src/SFML/Graphics/Glsl.cpp
 
 SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Glsl.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sfml-graphics.dir/Glsl.cpp.i"
-	cd /home/pablo/Documents/Programming/C++/ChatApp/build/SFML/src/SFML/Graphics && /bin/g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pablo/Documents/Programming/C++/ChatApp/SFML/src/SFML/Graphics/Glsl.cpp > CMakeFiles/sfml-graphics.dir/Glsl.cpp.i
+	cd /home/pablo/Documents/Programming/C++/OnlineTicTacToe/build/SFML/src/SFML/Graphics && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pablo/Documents/Programming/C++/OnlineTicTacToe/SFML/src/SFML/Graphics/Glsl.cpp > CMakeFiles/sfml-graphics.dir/Glsl.cpp.i
 
 SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Glsl.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sfml-graphics.dir/Glsl.cpp.s"
-	cd /home/pablo/Documents/Programming/C++/ChatApp/build/SFML/src/SFML/Graphics && /bin/g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pablo/Documents/Programming/C++/ChatApp/SFML/src/SFML/Graphics/Glsl.cpp -o CMakeFiles/sfml-graphics.dir/Glsl.cpp.s
+	cd /home/pablo/Documents/Programming/C++/OnlineTicTacToe/build/SFML/src/SFML/Graphics && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pablo/Documents/Programming/C++/OnlineTicTacToe/SFML/src/SFML/Graphics/Glsl.cpp -o CMakeFiles/sfml-graphics.dir/Glsl.cpp.s
 
 SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/GLCheck.cpp.o: SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/flags.make
 SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/GLCheck.cpp.o: ../SFML/src/SFML/Graphics/GLCheck.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pablo/Documents/Programming/C++/ChatApp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/GLCheck.cpp.o"
-	cd /home/pablo/Documents/Programming/C++/ChatApp/build/SFML/src/SFML/Graphics && /bin/g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sfml-graphics.dir/GLCheck.cpp.o -c /home/pablo/Documents/Programming/C++/ChatApp/SFML/src/SFML/Graphics/GLCheck.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pablo/Documents/Programming/C++/OnlineTicTacToe/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/GLCheck.cpp.o"
+	cd /home/pablo/Documents/Programming/C++/OnlineTicTacToe/build/SFML/src/SFML/Graphics && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sfml-graphics.dir/GLCheck.cpp.o -c /home/pablo/Documents/Programming/C++/OnlineTicTacToe/SFML/src/SFML/Graphics/GLCheck.cpp
 
 SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/GLCheck.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sfml-graphics.dir/GLCheck.cpp.i"
-	cd /home/pablo/Documents/Programming/C++/ChatApp/build/SFML/src/SFML/Graphics && /bin/g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pablo/Documents/Programming/C++/ChatApp/SFML/src/SFML/Graphics/GLCheck.cpp > CMakeFiles/sfml-graphics.dir/GLCheck.cpp.i
+	cd /home/pablo/Documents/Programming/C++/OnlineTicTacToe/build/SFML/src/SFML/Graphics && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pablo/Documents/Programming/C++/OnlineTicTacToe/SFML/src/SFML/Graphics/GLCheck.cpp > CMakeFiles/sfml-graphics.dir/GLCheck.cpp.i
 
 SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/GLCheck.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sfml-graphics.dir/GLCheck.cpp.s"
-	cd /home/pablo/Documents/Programming/C++/ChatApp/build/SFML/src/SFML/Graphics && /bin/g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pablo/Documents/Programming/C++/ChatApp/SFML/src/SFML/Graphics/GLCheck.cpp -o CMakeFiles/sfml-graphics.dir/GLCheck.cpp.s
+	cd /home/pablo/Documents/Programming/C++/OnlineTicTacToe/build/SFML/src/SFML/Graphics && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pablo/Documents/Programming/C++/OnlineTicTacToe/SFML/src/SFML/Graphics/GLCheck.cpp -o CMakeFiles/sfml-graphics.dir/GLCheck.cpp.s
 
 SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/GLExtensions.cpp.o: SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/flags.make
 SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/GLExtensions.cpp.o: ../SFML/src/SFML/Graphics/GLExtensions.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pablo/Documents/Programming/C++/ChatApp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/GLExtensions.cpp.o"
-	cd /home/pablo/Documents/Programming/C++/ChatApp/build/SFML/src/SFML/Graphics && /bin/g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sfml-graphics.dir/GLExtensions.cpp.o -c /home/pablo/Documents/Programming/C++/ChatApp/SFML/src/SFML/Graphics/GLExtensions.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pablo/Documents/Programming/C++/OnlineTicTacToe/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/GLExtensions.cpp.o"
+	cd /home/pablo/Documents/Programming/C++/OnlineTicTacToe/build/SFML/src/SFML/Graphics && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sfml-graphics.dir/GLExtensions.cpp.o -c /home/pablo/Documents/Programming/C++/OnlineTicTacToe/SFML/src/SFML/Graphics/GLExtensions.cpp
 
 SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/GLExtensions.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sfml-graphics.dir/GLExtensions.cpp.i"
-	cd /home/pablo/Documents/Programming/C++/ChatApp/build/SFML/src/SFML/Graphics && /bin/g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pablo/Documents/Programming/C++/ChatApp/SFML/src/SFML/Graphics/GLExtensions.cpp > CMakeFiles/sfml-graphics.dir/GLExtensions.cpp.i
+	cd /home/pablo/Documents/Programming/C++/OnlineTicTacToe/build/SFML/src/SFML/Graphics && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pablo/Documents/Programming/C++/OnlineTicTacToe/SFML/src/SFML/Graphics/GLExtensions.cpp > CMakeFiles/sfml-graphics.dir/GLExtensions.cpp.i
 
 SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/GLExtensions.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sfml-graphics.dir/GLExtensions.cpp.s"
-	cd /home/pablo/Documents/Programming/C++/ChatApp/build/SFML/src/SFML/Graphics && /bin/g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pablo/Documents/Programming/C++/ChatApp/SFML/src/SFML/Graphics/GLExtensions.cpp -o CMakeFiles/sfml-graphics.dir/GLExtensions.cpp.s
+	cd /home/pablo/Documents/Programming/C++/OnlineTicTacToe/build/SFML/src/SFML/Graphics && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pablo/Documents/Programming/C++/OnlineTicTacToe/SFML/src/SFML/Graphics/GLExtensions.cpp -o CMakeFiles/sfml-graphics.dir/GLExtensions.cpp.s
 
 SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Image.cpp.o: SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/flags.make
 SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Image.cpp.o: ../SFML/src/SFML/Graphics/Image.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pablo/Documents/Programming/C++/ChatApp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Image.cpp.o"
-	cd /home/pablo/Documents/Programming/C++/ChatApp/build/SFML/src/SFML/Graphics && /bin/g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sfml-graphics.dir/Image.cpp.o -c /home/pablo/Documents/Programming/C++/ChatApp/SFML/src/SFML/Graphics/Image.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pablo/Documents/Programming/C++/OnlineTicTacToe/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Image.cpp.o"
+	cd /home/pablo/Documents/Programming/C++/OnlineTicTacToe/build/SFML/src/SFML/Graphics && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sfml-graphics.dir/Image.cpp.o -c /home/pablo/Documents/Programming/C++/OnlineTicTacToe/SFML/src/SFML/Graphics/Image.cpp
 
 SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Image.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sfml-graphics.dir/Image.cpp.i"
-	cd /home/pablo/Documents/Programming/C++/ChatApp/build/SFML/src/SFML/Graphics && /bin/g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pablo/Documents/Programming/C++/ChatApp/SFML/src/SFML/Graphics/Image.cpp > CMakeFiles/sfml-graphics.dir/Image.cpp.i
+	cd /home/pablo/Documents/Programming/C++/OnlineTicTacToe/build/SFML/src/SFML/Graphics && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pablo/Documents/Programming/C++/OnlineTicTacToe/SFML/src/SFML/Graphics/Image.cpp > CMakeFiles/sfml-graphics.dir/Image.cpp.i
 
 SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Image.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sfml-graphics.dir/Image.cpp.s"
-	cd /home/pablo/Documents/Programming/C++/ChatApp/build/SFML/src/SFML/Graphics && /bin/g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pablo/Documents/Programming/C++/ChatApp/SFML/src/SFML/Graphics/Image.cpp -o CMakeFiles/sfml-graphics.dir/Image.cpp.s
+	cd /home/pablo/Documents/Programming/C++/OnlineTicTacToe/build/SFML/src/SFML/Graphics && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pablo/Documents/Programming/C++/OnlineTicTacToe/SFML/src/SFML/Graphics/Image.cpp -o CMakeFiles/sfml-graphics.dir/Image.cpp.s
 
 SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/ImageLoader.cpp.o: SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/flags.make
 SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/ImageLoader.cpp.o: ../SFML/src/SFML/Graphics/ImageLoader.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pablo/Documents/Programming/C++/ChatApp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/ImageLoader.cpp.o"
-	cd /home/pablo/Documents/Programming/C++/ChatApp/build/SFML/src/SFML/Graphics && /bin/g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -fno-strict-aliasing -o CMakeFiles/sfml-graphics.dir/ImageLoader.cpp.o -c /home/pablo/Documents/Programming/C++/ChatApp/SFML/src/SFML/Graphics/ImageLoader.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pablo/Documents/Programming/C++/OnlineTicTacToe/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/ImageLoader.cpp.o"
+	cd /home/pablo/Documents/Programming/C++/OnlineTicTacToe/build/SFML/src/SFML/Graphics && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -fno-strict-aliasing -o CMakeFiles/sfml-graphics.dir/ImageLoader.cpp.o -c /home/pablo/Documents/Programming/C++/OnlineTicTacToe/SFML/src/SFML/Graphics/ImageLoader.cpp
 
 SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/ImageLoader.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sfml-graphics.dir/ImageLoader.cpp.i"
-	cd /home/pablo/Documents/Programming/C++/ChatApp/build/SFML/src/SFML/Graphics && /bin/g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -fno-strict-aliasing -E /home/pablo/Documents/Programming/C++/ChatApp/SFML/src/SFML/Graphics/ImageLoader.cpp > CMakeFiles/sfml-graphics.dir/ImageLoader.cpp.i
+	cd /home/pablo/Documents/Programming/C++/OnlineTicTacToe/build/SFML/src/SFML/Graphics && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -fno-strict-aliasing -E /home/pablo/Documents/Programming/C++/OnlineTicTacToe/SFML/src/SFML/Graphics/ImageLoader.cpp > CMakeFiles/sfml-graphics.dir/ImageLoader.cpp.i
 
 SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/ImageLoader.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sfml-graphics.dir/ImageLoader.cpp.s"
-	cd /home/pablo/Documents/Programming/C++/ChatApp/build/SFML/src/SFML/Graphics && /bin/g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -fno-strict-aliasing -S /home/pablo/Documents/Programming/C++/ChatApp/SFML/src/SFML/Graphics/ImageLoader.cpp -o CMakeFiles/sfml-graphics.dir/ImageLoader.cpp.s
+	cd /home/pablo/Documents/Programming/C++/OnlineTicTacToe/build/SFML/src/SFML/Graphics && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -fno-strict-aliasing -S /home/pablo/Documents/Programming/C++/OnlineTicTacToe/SFML/src/SFML/Graphics/ImageLoader.cpp -o CMakeFiles/sfml-graphics.dir/ImageLoader.cpp.s
 
 SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/RenderStates.cpp.o: SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/flags.make
 SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/RenderStates.cpp.o: ../SFML/src/SFML/Graphics/RenderStates.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pablo/Documents/Programming/C++/ChatApp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/RenderStates.cpp.o"
-	cd /home/pablo/Documents/Programming/C++/ChatApp/build/SFML/src/SFML/Graphics && /bin/g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sfml-graphics.dir/RenderStates.cpp.o -c /home/pablo/Documents/Programming/C++/ChatApp/SFML/src/SFML/Graphics/RenderStates.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pablo/Documents/Programming/C++/OnlineTicTacToe/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/RenderStates.cpp.o"
+	cd /home/pablo/Documents/Programming/C++/OnlineTicTacToe/build/SFML/src/SFML/Graphics && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sfml-graphics.dir/RenderStates.cpp.o -c /home/pablo/Documents/Programming/C++/OnlineTicTacToe/SFML/src/SFML/Graphics/RenderStates.cpp
 
 SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/RenderStates.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sfml-graphics.dir/RenderStates.cpp.i"
-	cd /home/pablo/Documents/Programming/C++/ChatApp/build/SFML/src/SFML/Graphics && /bin/g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pablo/Documents/Programming/C++/ChatApp/SFML/src/SFML/Graphics/RenderStates.cpp > CMakeFiles/sfml-graphics.dir/RenderStates.cpp.i
+	cd /home/pablo/Documents/Programming/C++/OnlineTicTacToe/build/SFML/src/SFML/Graphics && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pablo/Documents/Programming/C++/OnlineTicTacToe/SFML/src/SFML/Graphics/RenderStates.cpp > CMakeFiles/sfml-graphics.dir/RenderStates.cpp.i
 
 SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/RenderStates.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sfml-graphics.dir/RenderStates.cpp.s"
-	cd /home/pablo/Documents/Programming/C++/ChatApp/build/SFML/src/SFML/Graphics && /bin/g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pablo/Documents/Programming/C++/ChatApp/SFML/src/SFML/Graphics/RenderStates.cpp -o CMakeFiles/sfml-graphics.dir/RenderStates.cpp.s
+	cd /home/pablo/Documents/Programming/C++/OnlineTicTacToe/build/SFML/src/SFML/Graphics && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pablo/Documents/Programming/C++/OnlineTicTacToe/SFML/src/SFML/Graphics/RenderStates.cpp -o CMakeFiles/sfml-graphics.dir/RenderStates.cpp.s
 
 SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/RenderTexture.cpp.o: SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/flags.make
 SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/RenderTexture.cpp.o: ../SFML/src/SFML/Graphics/RenderTexture.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pablo/Documents/Programming/C++/ChatApp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/RenderTexture.cpp.o"
-	cd /home/pablo/Documents/Programming/C++/ChatApp/build/SFML/src/SFML/Graphics && /bin/g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sfml-graphics.dir/RenderTexture.cpp.o -c /home/pablo/Documents/Programming/C++/ChatApp/SFML/src/SFML/Graphics/RenderTexture.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pablo/Documents/Programming/C++/OnlineTicTacToe/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/RenderTexture.cpp.o"
+	cd /home/pablo/Documents/Programming/C++/OnlineTicTacToe/build/SFML/src/SFML/Graphics && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sfml-graphics.dir/RenderTexture.cpp.o -c /home/pablo/Documents/Programming/C++/OnlineTicTacToe/SFML/src/SFML/Graphics/RenderTexture.cpp
 
 SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/RenderTexture.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sfml-graphics.dir/RenderTexture.cpp.i"
-	cd /home/pablo/Documents/Programming/C++/ChatApp/build/SFML/src/SFML/Graphics && /bin/g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pablo/Documents/Programming/C++/ChatApp/SFML/src/SFML/Graphics/RenderTexture.cpp > CMakeFiles/sfml-graphics.dir/RenderTexture.cpp.i
+	cd /home/pablo/Documents/Programming/C++/OnlineTicTacToe/build/SFML/src/SFML/Graphics && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pablo/Documents/Programming/C++/OnlineTicTacToe/SFML/src/SFML/Graphics/RenderTexture.cpp > CMakeFiles/sfml-graphics.dir/RenderTexture.cpp.i
 
 SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/RenderTexture.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sfml-graphics.dir/RenderTexture.cpp.s"
-	cd /home/pablo/Documents/Programming/C++/ChatApp/build/SFML/src/SFML/Graphics && /bin/g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pablo/Documents/Programming/C++/ChatApp/SFML/src/SFML/Graphics/RenderTexture.cpp -o CMakeFiles/sfml-graphics.dir/RenderTexture.cpp.s
+	cd /home/pablo/Documents/Programming/C++/OnlineTicTacToe/build/SFML/src/SFML/Graphics && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pablo/Documents/Programming/C++/OnlineTicTacToe/SFML/src/SFML/Graphics/RenderTexture.cpp -o CMakeFiles/sfml-graphics.dir/RenderTexture.cpp.s
 
 SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/RenderTarget.cpp.o: SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/flags.make
 SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/RenderTarget.cpp.o: ../SFML/src/SFML/Graphics/RenderTarget.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pablo/Documents/Programming/C++/ChatApp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/RenderTarget.cpp.o"
-	cd /home/pablo/Documents/Programming/C++/ChatApp/build/SFML/src/SFML/Graphics && /bin/g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sfml-graphics.dir/RenderTarget.cpp.o -c /home/pablo/Documents/Programming/C++/ChatApp/SFML/src/SFML/Graphics/RenderTarget.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pablo/Documents/Programming/C++/OnlineTicTacToe/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/RenderTarget.cpp.o"
+	cd /home/pablo/Documents/Programming/C++/OnlineTicTacToe/build/SFML/src/SFML/Graphics && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sfml-graphics.dir/RenderTarget.cpp.o -c /home/pablo/Documents/Programming/C++/OnlineTicTacToe/SFML/src/SFML/Graphics/RenderTarget.cpp
 
 SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/RenderTarget.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sfml-graphics.dir/RenderTarget.cpp.i"
-	cd /home/pablo/Documents/Programming/C++/ChatApp/build/SFML/src/SFML/Graphics && /bin/g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pablo/Documents/Programming/C++/ChatApp/SFML/src/SFML/Graphics/RenderTarget.cpp > CMakeFiles/sfml-graphics.dir/RenderTarget.cpp.i
+	cd /home/pablo/Documents/Programming/C++/OnlineTicTacToe/build/SFML/src/SFML/Graphics && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pablo/Documents/Programming/C++/OnlineTicTacToe/SFML/src/SFML/Graphics/RenderTarget.cpp > CMakeFiles/sfml-graphics.dir/RenderTarget.cpp.i
 
 SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/RenderTarget.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sfml-graphics.dir/RenderTarget.cpp.s"
-	cd /home/pablo/Documents/Programming/C++/ChatApp/build/SFML/src/SFML/Graphics && /bin/g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pablo/Documents/Programming/C++/ChatApp/SFML/src/SFML/Graphics/RenderTarget.cpp -o CMakeFiles/sfml-graphics.dir/RenderTarget.cpp.s
+	cd /home/pablo/Documents/Programming/C++/OnlineTicTacToe/build/SFML/src/SFML/Graphics && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pablo/Documents/Programming/C++/OnlineTicTacToe/SFML/src/SFML/Graphics/RenderTarget.cpp -o CMakeFiles/sfml-graphics.dir/RenderTarget.cpp.s
 
 SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/RenderWindow.cpp.o: SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/flags.make
 SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/RenderWindow.cpp.o: ../SFML/src/SFML/Graphics/RenderWindow.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pablo/Documents/Programming/C++/ChatApp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/RenderWindow.cpp.o"
-	cd /home/pablo/Documents/Programming/C++/ChatApp/build/SFML/src/SFML/Graphics && /bin/g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sfml-graphics.dir/RenderWindow.cpp.o -c /home/pablo/Documents/Programming/C++/ChatApp/SFML/src/SFML/Graphics/RenderWindow.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pablo/Documents/Programming/C++/OnlineTicTacToe/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/RenderWindow.cpp.o"
+	cd /home/pablo/Documents/Programming/C++/OnlineTicTacToe/build/SFML/src/SFML/Graphics && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sfml-graphics.dir/RenderWindow.cpp.o -c /home/pablo/Documents/Programming/C++/OnlineTicTacToe/SFML/src/SFML/Graphics/RenderWindow.cpp
 
 SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/RenderWindow.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sfml-graphics.dir/RenderWindow.cpp.i"
-	cd /home/pablo/Documents/Programming/C++/ChatApp/build/SFML/src/SFML/Graphics && /bin/g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pablo/Documents/Programming/C++/ChatApp/SFML/src/SFML/Graphics/RenderWindow.cpp > CMakeFiles/sfml-graphics.dir/RenderWindow.cpp.i
+	cd /home/pablo/Documents/Programming/C++/OnlineTicTacToe/build/SFML/src/SFML/Graphics && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pablo/Documents/Programming/C++/OnlineTicTacToe/SFML/src/SFML/Graphics/RenderWindow.cpp > CMakeFiles/sfml-graphics.dir/RenderWindow.cpp.i
 
 SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/RenderWindow.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sfml-graphics.dir/RenderWindow.cpp.s"
-	cd /home/pablo/Documents/Programming/C++/ChatApp/build/SFML/src/SFML/Graphics && /bin/g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pablo/Documents/Programming/C++/ChatApp/SFML/src/SFML/Graphics/RenderWindow.cpp -o CMakeFiles/sfml-graphics.dir/RenderWindow.cpp.s
+	cd /home/pablo/Documents/Programming/C++/OnlineTicTacToe/build/SFML/src/SFML/Graphics && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pablo/Documents/Programming/C++/OnlineTicTacToe/SFML/src/SFML/Graphics/RenderWindow.cpp -o CMakeFiles/sfml-graphics.dir/RenderWindow.cpp.s
 
 SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Shader.cpp.o: SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/flags.make
 SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Shader.cpp.o: ../SFML/src/SFML/Graphics/Shader.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pablo/Documents/Programming/C++/ChatApp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Shader.cpp.o"
-	cd /home/pablo/Documents/Programming/C++/ChatApp/build/SFML/src/SFML/Graphics && /bin/g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sfml-graphics.dir/Shader.cpp.o -c /home/pablo/Documents/Programming/C++/ChatApp/SFML/src/SFML/Graphics/Shader.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pablo/Documents/Programming/C++/OnlineTicTacToe/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Shader.cpp.o"
+	cd /home/pablo/Documents/Programming/C++/OnlineTicTacToe/build/SFML/src/SFML/Graphics && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sfml-graphics.dir/Shader.cpp.o -c /home/pablo/Documents/Programming/C++/OnlineTicTacToe/SFML/src/SFML/Graphics/Shader.cpp
 
 SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Shader.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sfml-graphics.dir/Shader.cpp.i"
-	cd /home/pablo/Documents/Programming/C++/ChatApp/build/SFML/src/SFML/Graphics && /bin/g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pablo/Documents/Programming/C++/ChatApp/SFML/src/SFML/Graphics/Shader.cpp > CMakeFiles/sfml-graphics.dir/Shader.cpp.i
+	cd /home/pablo/Documents/Programming/C++/OnlineTicTacToe/build/SFML/src/SFML/Graphics && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pablo/Documents/Programming/C++/OnlineTicTacToe/SFML/src/SFML/Graphics/Shader.cpp > CMakeFiles/sfml-graphics.dir/Shader.cpp.i
 
 SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Shader.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sfml-graphics.dir/Shader.cpp.s"
-	cd /home/pablo/Documents/Programming/C++/ChatApp/build/SFML/src/SFML/Graphics && /bin/g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pablo/Documents/Programming/C++/ChatApp/SFML/src/SFML/Graphics/Shader.cpp -o CMakeFiles/sfml-graphics.dir/Shader.cpp.s
+	cd /home/pablo/Documents/Programming/C++/OnlineTicTacToe/build/SFML/src/SFML/Graphics && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pablo/Documents/Programming/C++/OnlineTicTacToe/SFML/src/SFML/Graphics/Shader.cpp -o CMakeFiles/sfml-graphics.dir/Shader.cpp.s
 
 SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Texture.cpp.o: SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/flags.make
 SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Texture.cpp.o: ../SFML/src/SFML/Graphics/Texture.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pablo/Documents/Programming/C++/ChatApp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Texture.cpp.o"
-	cd /home/pablo/Documents/Programming/C++/ChatApp/build/SFML/src/SFML/Graphics && /bin/g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sfml-graphics.dir/Texture.cpp.o -c /home/pablo/Documents/Programming/C++/ChatApp/SFML/src/SFML/Graphics/Texture.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pablo/Documents/Programming/C++/OnlineTicTacToe/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Texture.cpp.o"
+	cd /home/pablo/Documents/Programming/C++/OnlineTicTacToe/build/SFML/src/SFML/Graphics && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sfml-graphics.dir/Texture.cpp.o -c /home/pablo/Documents/Programming/C++/OnlineTicTacToe/SFML/src/SFML/Graphics/Texture.cpp
 
 SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Texture.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sfml-graphics.dir/Texture.cpp.i"
-	cd /home/pablo/Documents/Programming/C++/ChatApp/build/SFML/src/SFML/Graphics && /bin/g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pablo/Documents/Programming/C++/ChatApp/SFML/src/SFML/Graphics/Texture.cpp > CMakeFiles/sfml-graphics.dir/Texture.cpp.i
+	cd /home/pablo/Documents/Programming/C++/OnlineTicTacToe/build/SFML/src/SFML/Graphics && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pablo/Documents/Programming/C++/OnlineTicTacToe/SFML/src/SFML/Graphics/Texture.cpp > CMakeFiles/sfml-graphics.dir/Texture.cpp.i
 
 SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Texture.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sfml-graphics.dir/Texture.cpp.s"
-	cd /home/pablo/Documents/Programming/C++/ChatApp/build/SFML/src/SFML/Graphics && /bin/g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pablo/Documents/Programming/C++/ChatApp/SFML/src/SFML/Graphics/Texture.cpp -o CMakeFiles/sfml-graphics.dir/Texture.cpp.s
+	cd /home/pablo/Documents/Programming/C++/OnlineTicTacToe/build/SFML/src/SFML/Graphics && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pablo/Documents/Programming/C++/OnlineTicTacToe/SFML/src/SFML/Graphics/Texture.cpp -o CMakeFiles/sfml-graphics.dir/Texture.cpp.s
 
 SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/TextureSaver.cpp.o: SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/flags.make
 SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/TextureSaver.cpp.o: ../SFML/src/SFML/Graphics/TextureSaver.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pablo/Documents/Programming/C++/ChatApp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/TextureSaver.cpp.o"
-	cd /home/pablo/Documents/Programming/C++/ChatApp/build/SFML/src/SFML/Graphics && /bin/g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sfml-graphics.dir/TextureSaver.cpp.o -c /home/pablo/Documents/Programming/C++/ChatApp/SFML/src/SFML/Graphics/TextureSaver.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pablo/Documents/Programming/C++/OnlineTicTacToe/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/TextureSaver.cpp.o"
+	cd /home/pablo/Documents/Programming/C++/OnlineTicTacToe/build/SFML/src/SFML/Graphics && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sfml-graphics.dir/TextureSaver.cpp.o -c /home/pablo/Documents/Programming/C++/OnlineTicTacToe/SFML/src/SFML/Graphics/TextureSaver.cpp
 
 SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/TextureSaver.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sfml-graphics.dir/TextureSaver.cpp.i"
-	cd /home/pablo/Documents/Programming/C++/ChatApp/build/SFML/src/SFML/Graphics && /bin/g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pablo/Documents/Programming/C++/ChatApp/SFML/src/SFML/Graphics/TextureSaver.cpp > CMakeFiles/sfml-graphics.dir/TextureSaver.cpp.i
+	cd /home/pablo/Documents/Programming/C++/OnlineTicTacToe/build/SFML/src/SFML/Graphics && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pablo/Documents/Programming/C++/OnlineTicTacToe/SFML/src/SFML/Graphics/TextureSaver.cpp > CMakeFiles/sfml-graphics.dir/TextureSaver.cpp.i
 
 SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/TextureSaver.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sfml-graphics.dir/TextureSaver.cpp.s"
-	cd /home/pablo/Documents/Programming/C++/ChatApp/build/SFML/src/SFML/Graphics && /bin/g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pablo/Documents/Programming/C++/ChatApp/SFML/src/SFML/Graphics/TextureSaver.cpp -o CMakeFiles/sfml-graphics.dir/TextureSaver.cpp.s
+	cd /home/pablo/Documents/Programming/C++/OnlineTicTacToe/build/SFML/src/SFML/Graphics && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pablo/Documents/Programming/C++/OnlineTicTacToe/SFML/src/SFML/Graphics/TextureSaver.cpp -o CMakeFiles/sfml-graphics.dir/TextureSaver.cpp.s
 
 SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Transform.cpp.o: SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/flags.make
 SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Transform.cpp.o: ../SFML/src/SFML/Graphics/Transform.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pablo/Documents/Programming/C++/ChatApp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Transform.cpp.o"
-	cd /home/pablo/Documents/Programming/C++/ChatApp/build/SFML/src/SFML/Graphics && /bin/g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sfml-graphics.dir/Transform.cpp.o -c /home/pablo/Documents/Programming/C++/ChatApp/SFML/src/SFML/Graphics/Transform.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pablo/Documents/Programming/C++/OnlineTicTacToe/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Transform.cpp.o"
+	cd /home/pablo/Documents/Programming/C++/OnlineTicTacToe/build/SFML/src/SFML/Graphics && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sfml-graphics.dir/Transform.cpp.o -c /home/pablo/Documents/Programming/C++/OnlineTicTacToe/SFML/src/SFML/Graphics/Transform.cpp
 
 SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Transform.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sfml-graphics.dir/Transform.cpp.i"
-	cd /home/pablo/Documents/Programming/C++/ChatApp/build/SFML/src/SFML/Graphics && /bin/g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pablo/Documents/Programming/C++/ChatApp/SFML/src/SFML/Graphics/Transform.cpp > CMakeFiles/sfml-graphics.dir/Transform.cpp.i
+	cd /home/pablo/Documents/Programming/C++/OnlineTicTacToe/build/SFML/src/SFML/Graphics && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pablo/Documents/Programming/C++/OnlineTicTacToe/SFML/src/SFML/Graphics/Transform.cpp > CMakeFiles/sfml-graphics.dir/Transform.cpp.i
 
 SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Transform.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sfml-graphics.dir/Transform.cpp.s"
-	cd /home/pablo/Documents/Programming/C++/ChatApp/build/SFML/src/SFML/Graphics && /bin/g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pablo/Documents/Programming/C++/ChatApp/SFML/src/SFML/Graphics/Transform.cpp -o CMakeFiles/sfml-graphics.dir/Transform.cpp.s
+	cd /home/pablo/Documents/Programming/C++/OnlineTicTacToe/build/SFML/src/SFML/Graphics && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pablo/Documents/Programming/C++/OnlineTicTacToe/SFML/src/SFML/Graphics/Transform.cpp -o CMakeFiles/sfml-graphics.dir/Transform.cpp.s
 
 SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Transformable.cpp.o: SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/flags.make
 SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Transformable.cpp.o: ../SFML/src/SFML/Graphics/Transformable.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pablo/Documents/Programming/C++/ChatApp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Transformable.cpp.o"
-	cd /home/pablo/Documents/Programming/C++/ChatApp/build/SFML/src/SFML/Graphics && /bin/g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sfml-graphics.dir/Transformable.cpp.o -c /home/pablo/Documents/Programming/C++/ChatApp/SFML/src/SFML/Graphics/Transformable.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pablo/Documents/Programming/C++/OnlineTicTacToe/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Transformable.cpp.o"
+	cd /home/pablo/Documents/Programming/C++/OnlineTicTacToe/build/SFML/src/SFML/Graphics && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sfml-graphics.dir/Transformable.cpp.o -c /home/pablo/Documents/Programming/C++/OnlineTicTacToe/SFML/src/SFML/Graphics/Transformable.cpp
 
 SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Transformable.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sfml-graphics.dir/Transformable.cpp.i"
-	cd /home/pablo/Documents/Programming/C++/ChatApp/build/SFML/src/SFML/Graphics && /bin/g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pablo/Documents/Programming/C++/ChatApp/SFML/src/SFML/Graphics/Transformable.cpp > CMakeFiles/sfml-graphics.dir/Transformable.cpp.i
+	cd /home/pablo/Documents/Programming/C++/OnlineTicTacToe/build/SFML/src/SFML/Graphics && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pablo/Documents/Programming/C++/OnlineTicTacToe/SFML/src/SFML/Graphics/Transformable.cpp > CMakeFiles/sfml-graphics.dir/Transformable.cpp.i
 
 SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Transformable.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sfml-graphics.dir/Transformable.cpp.s"
-	cd /home/pablo/Documents/Programming/C++/ChatApp/build/SFML/src/SFML/Graphics && /bin/g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pablo/Documents/Programming/C++/ChatApp/SFML/src/SFML/Graphics/Transformable.cpp -o CMakeFiles/sfml-graphics.dir/Transformable.cpp.s
+	cd /home/pablo/Documents/Programming/C++/OnlineTicTacToe/build/SFML/src/SFML/Graphics && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pablo/Documents/Programming/C++/OnlineTicTacToe/SFML/src/SFML/Graphics/Transformable.cpp -o CMakeFiles/sfml-graphics.dir/Transformable.cpp.s
 
 SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/View.cpp.o: SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/flags.make
 SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/View.cpp.o: ../SFML/src/SFML/Graphics/View.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pablo/Documents/Programming/C++/ChatApp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/View.cpp.o"
-	cd /home/pablo/Documents/Programming/C++/ChatApp/build/SFML/src/SFML/Graphics && /bin/g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sfml-graphics.dir/View.cpp.o -c /home/pablo/Documents/Programming/C++/ChatApp/SFML/src/SFML/Graphics/View.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pablo/Documents/Programming/C++/OnlineTicTacToe/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/View.cpp.o"
+	cd /home/pablo/Documents/Programming/C++/OnlineTicTacToe/build/SFML/src/SFML/Graphics && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sfml-graphics.dir/View.cpp.o -c /home/pablo/Documents/Programming/C++/OnlineTicTacToe/SFML/src/SFML/Graphics/View.cpp
 
 SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/View.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sfml-graphics.dir/View.cpp.i"
-	cd /home/pablo/Documents/Programming/C++/ChatApp/build/SFML/src/SFML/Graphics && /bin/g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pablo/Documents/Programming/C++/ChatApp/SFML/src/SFML/Graphics/View.cpp > CMakeFiles/sfml-graphics.dir/View.cpp.i
+	cd /home/pablo/Documents/Programming/C++/OnlineTicTacToe/build/SFML/src/SFML/Graphics && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pablo/Documents/Programming/C++/OnlineTicTacToe/SFML/src/SFML/Graphics/View.cpp > CMakeFiles/sfml-graphics.dir/View.cpp.i
 
 SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/View.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sfml-graphics.dir/View.cpp.s"
-	cd /home/pablo/Documents/Programming/C++/ChatApp/build/SFML/src/SFML/Graphics && /bin/g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pablo/Documents/Programming/C++/ChatApp/SFML/src/SFML/Graphics/View.cpp -o CMakeFiles/sfml-graphics.dir/View.cpp.s
+	cd /home/pablo/Documents/Programming/C++/OnlineTicTacToe/build/SFML/src/SFML/Graphics && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pablo/Documents/Programming/C++/OnlineTicTacToe/SFML/src/SFML/Graphics/View.cpp -o CMakeFiles/sfml-graphics.dir/View.cpp.s
 
 SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Vertex.cpp.o: SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/flags.make
 SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Vertex.cpp.o: ../SFML/src/SFML/Graphics/Vertex.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pablo/Documents/Programming/C++/ChatApp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Vertex.cpp.o"
-	cd /home/pablo/Documents/Programming/C++/ChatApp/build/SFML/src/SFML/Graphics && /bin/g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sfml-graphics.dir/Vertex.cpp.o -c /home/pablo/Documents/Programming/C++/ChatApp/SFML/src/SFML/Graphics/Vertex.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pablo/Documents/Programming/C++/OnlineTicTacToe/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Vertex.cpp.o"
+	cd /home/pablo/Documents/Programming/C++/OnlineTicTacToe/build/SFML/src/SFML/Graphics && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sfml-graphics.dir/Vertex.cpp.o -c /home/pablo/Documents/Programming/C++/OnlineTicTacToe/SFML/src/SFML/Graphics/Vertex.cpp
 
 SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Vertex.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sfml-graphics.dir/Vertex.cpp.i"
-	cd /home/pablo/Documents/Programming/C++/ChatApp/build/SFML/src/SFML/Graphics && /bin/g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pablo/Documents/Programming/C++/ChatApp/SFML/src/SFML/Graphics/Vertex.cpp > CMakeFiles/sfml-graphics.dir/Vertex.cpp.i
+	cd /home/pablo/Documents/Programming/C++/OnlineTicTacToe/build/SFML/src/SFML/Graphics && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pablo/Documents/Programming/C++/OnlineTicTacToe/SFML/src/SFML/Graphics/Vertex.cpp > CMakeFiles/sfml-graphics.dir/Vertex.cpp.i
 
 SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Vertex.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sfml-graphics.dir/Vertex.cpp.s"
-	cd /home/pablo/Documents/Programming/C++/ChatApp/build/SFML/src/SFML/Graphics && /bin/g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pablo/Documents/Programming/C++/ChatApp/SFML/src/SFML/Graphics/Vertex.cpp -o CMakeFiles/sfml-graphics.dir/Vertex.cpp.s
+	cd /home/pablo/Documents/Programming/C++/OnlineTicTacToe/build/SFML/src/SFML/Graphics && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pablo/Documents/Programming/C++/OnlineTicTacToe/SFML/src/SFML/Graphics/Vertex.cpp -o CMakeFiles/sfml-graphics.dir/Vertex.cpp.s
 
 SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/GLLoader.cpp.o: SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/flags.make
 SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/GLLoader.cpp.o: ../SFML/src/SFML/Graphics/GLLoader.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pablo/Documents/Programming/C++/ChatApp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/GLLoader.cpp.o"
-	cd /home/pablo/Documents/Programming/C++/ChatApp/build/SFML/src/SFML/Graphics && /bin/g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sfml-graphics.dir/GLLoader.cpp.o -c /home/pablo/Documents/Programming/C++/ChatApp/SFML/src/SFML/Graphics/GLLoader.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pablo/Documents/Programming/C++/OnlineTicTacToe/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/GLLoader.cpp.o"
+	cd /home/pablo/Documents/Programming/C++/OnlineTicTacToe/build/SFML/src/SFML/Graphics && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sfml-graphics.dir/GLLoader.cpp.o -c /home/pablo/Documents/Programming/C++/OnlineTicTacToe/SFML/src/SFML/Graphics/GLLoader.cpp
 
 SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/GLLoader.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sfml-graphics.dir/GLLoader.cpp.i"
-	cd /home/pablo/Documents/Programming/C++/ChatApp/build/SFML/src/SFML/Graphics && /bin/g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pablo/Documents/Programming/C++/ChatApp/SFML/src/SFML/Graphics/GLLoader.cpp > CMakeFiles/sfml-graphics.dir/GLLoader.cpp.i
+	cd /home/pablo/Documents/Programming/C++/OnlineTicTacToe/build/SFML/src/SFML/Graphics && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pablo/Documents/Programming/C++/OnlineTicTacToe/SFML/src/SFML/Graphics/GLLoader.cpp > CMakeFiles/sfml-graphics.dir/GLLoader.cpp.i
 
 SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/GLLoader.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sfml-graphics.dir/GLLoader.cpp.s"
-	cd /home/pablo/Documents/Programming/C++/ChatApp/build/SFML/src/SFML/Graphics && /bin/g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pablo/Documents/Programming/C++/ChatApp/SFML/src/SFML/Graphics/GLLoader.cpp -o CMakeFiles/sfml-graphics.dir/GLLoader.cpp.s
+	cd /home/pablo/Documents/Programming/C++/OnlineTicTacToe/build/SFML/src/SFML/Graphics && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pablo/Documents/Programming/C++/OnlineTicTacToe/SFML/src/SFML/Graphics/GLLoader.cpp -o CMakeFiles/sfml-graphics.dir/GLLoader.cpp.s
 
 SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Shape.cpp.o: SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/flags.make
 SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Shape.cpp.o: ../SFML/src/SFML/Graphics/Shape.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pablo/Documents/Programming/C++/ChatApp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Shape.cpp.o"
-	cd /home/pablo/Documents/Programming/C++/ChatApp/build/SFML/src/SFML/Graphics && /bin/g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sfml-graphics.dir/Shape.cpp.o -c /home/pablo/Documents/Programming/C++/ChatApp/SFML/src/SFML/Graphics/Shape.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pablo/Documents/Programming/C++/OnlineTicTacToe/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Shape.cpp.o"
+	cd /home/pablo/Documents/Programming/C++/OnlineTicTacToe/build/SFML/src/SFML/Graphics && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sfml-graphics.dir/Shape.cpp.o -c /home/pablo/Documents/Programming/C++/OnlineTicTacToe/SFML/src/SFML/Graphics/Shape.cpp
 
 SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Shape.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sfml-graphics.dir/Shape.cpp.i"
-	cd /home/pablo/Documents/Programming/C++/ChatApp/build/SFML/src/SFML/Graphics && /bin/g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pablo/Documents/Programming/C++/ChatApp/SFML/src/SFML/Graphics/Shape.cpp > CMakeFiles/sfml-graphics.dir/Shape.cpp.i
+	cd /home/pablo/Documents/Programming/C++/OnlineTicTacToe/build/SFML/src/SFML/Graphics && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pablo/Documents/Programming/C++/OnlineTicTacToe/SFML/src/SFML/Graphics/Shape.cpp > CMakeFiles/sfml-graphics.dir/Shape.cpp.i
 
 SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Shape.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sfml-graphics.dir/Shape.cpp.s"
-	cd /home/pablo/Documents/Programming/C++/ChatApp/build/SFML/src/SFML/Graphics && /bin/g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pablo/Documents/Programming/C++/ChatApp/SFML/src/SFML/Graphics/Shape.cpp -o CMakeFiles/sfml-graphics.dir/Shape.cpp.s
+	cd /home/pablo/Documents/Programming/C++/OnlineTicTacToe/build/SFML/src/SFML/Graphics && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pablo/Documents/Programming/C++/OnlineTicTacToe/SFML/src/SFML/Graphics/Shape.cpp -o CMakeFiles/sfml-graphics.dir/Shape.cpp.s
 
 SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/CircleShape.cpp.o: SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/flags.make
 SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/CircleShape.cpp.o: ../SFML/src/SFML/Graphics/CircleShape.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pablo/Documents/Programming/C++/ChatApp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/CircleShape.cpp.o"
-	cd /home/pablo/Documents/Programming/C++/ChatApp/build/SFML/src/SFML/Graphics && /bin/g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sfml-graphics.dir/CircleShape.cpp.o -c /home/pablo/Documents/Programming/C++/ChatApp/SFML/src/SFML/Graphics/CircleShape.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pablo/Documents/Programming/C++/OnlineTicTacToe/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/CircleShape.cpp.o"
+	cd /home/pablo/Documents/Programming/C++/OnlineTicTacToe/build/SFML/src/SFML/Graphics && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sfml-graphics.dir/CircleShape.cpp.o -c /home/pablo/Documents/Programming/C++/OnlineTicTacToe/SFML/src/SFML/Graphics/CircleShape.cpp
 
 SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/CircleShape.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sfml-graphics.dir/CircleShape.cpp.i"
-	cd /home/pablo/Documents/Programming/C++/ChatApp/build/SFML/src/SFML/Graphics && /bin/g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pablo/Documents/Programming/C++/ChatApp/SFML/src/SFML/Graphics/CircleShape.cpp > CMakeFiles/sfml-graphics.dir/CircleShape.cpp.i
+	cd /home/pablo/Documents/Programming/C++/OnlineTicTacToe/build/SFML/src/SFML/Graphics && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pablo/Documents/Programming/C++/OnlineTicTacToe/SFML/src/SFML/Graphics/CircleShape.cpp > CMakeFiles/sfml-graphics.dir/CircleShape.cpp.i
 
 SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/CircleShape.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sfml-graphics.dir/CircleShape.cpp.s"
-	cd /home/pablo/Documents/Programming/C++/ChatApp/build/SFML/src/SFML/Graphics && /bin/g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pablo/Documents/Programming/C++/ChatApp/SFML/src/SFML/Graphics/CircleShape.cpp -o CMakeFiles/sfml-graphics.dir/CircleShape.cpp.s
+	cd /home/pablo/Documents/Programming/C++/OnlineTicTacToe/build/SFML/src/SFML/Graphics && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pablo/Documents/Programming/C++/OnlineTicTacToe/SFML/src/SFML/Graphics/CircleShape.cpp -o CMakeFiles/sfml-graphics.dir/CircleShape.cpp.s
 
 SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/RectangleShape.cpp.o: SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/flags.make
 SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/RectangleShape.cpp.o: ../SFML/src/SFML/Graphics/RectangleShape.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pablo/Documents/Programming/C++/ChatApp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/RectangleShape.cpp.o"
-	cd /home/pablo/Documents/Programming/C++/ChatApp/build/SFML/src/SFML/Graphics && /bin/g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sfml-graphics.dir/RectangleShape.cpp.o -c /home/pablo/Documents/Programming/C++/ChatApp/SFML/src/SFML/Graphics/RectangleShape.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pablo/Documents/Programming/C++/OnlineTicTacToe/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/RectangleShape.cpp.o"
+	cd /home/pablo/Documents/Programming/C++/OnlineTicTacToe/build/SFML/src/SFML/Graphics && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sfml-graphics.dir/RectangleShape.cpp.o -c /home/pablo/Documents/Programming/C++/OnlineTicTacToe/SFML/src/SFML/Graphics/RectangleShape.cpp
 
 SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/RectangleShape.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sfml-graphics.dir/RectangleShape.cpp.i"
-	cd /home/pablo/Documents/Programming/C++/ChatApp/build/SFML/src/SFML/Graphics && /bin/g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pablo/Documents/Programming/C++/ChatApp/SFML/src/SFML/Graphics/RectangleShape.cpp > CMakeFiles/sfml-graphics.dir/RectangleShape.cpp.i
+	cd /home/pablo/Documents/Programming/C++/OnlineTicTacToe/build/SFML/src/SFML/Graphics && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pablo/Documents/Programming/C++/OnlineTicTacToe/SFML/src/SFML/Graphics/RectangleShape.cpp > CMakeFiles/sfml-graphics.dir/RectangleShape.cpp.i
 
 SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/RectangleShape.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sfml-graphics.dir/RectangleShape.cpp.s"
-	cd /home/pablo/Documents/Programming/C++/ChatApp/build/SFML/src/SFML/Graphics && /bin/g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pablo/Documents/Programming/C++/ChatApp/SFML/src/SFML/Graphics/RectangleShape.cpp -o CMakeFiles/sfml-graphics.dir/RectangleShape.cpp.s
+	cd /home/pablo/Documents/Programming/C++/OnlineTicTacToe/build/SFML/src/SFML/Graphics && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pablo/Documents/Programming/C++/OnlineTicTacToe/SFML/src/SFML/Graphics/RectangleShape.cpp -o CMakeFiles/sfml-graphics.dir/RectangleShape.cpp.s
 
 SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/ConvexShape.cpp.o: SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/flags.make
 SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/ConvexShape.cpp.o: ../SFML/src/SFML/Graphics/ConvexShape.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pablo/Documents/Programming/C++/ChatApp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/ConvexShape.cpp.o"
-	cd /home/pablo/Documents/Programming/C++/ChatApp/build/SFML/src/SFML/Graphics && /bin/g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sfml-graphics.dir/ConvexShape.cpp.o -c /home/pablo/Documents/Programming/C++/ChatApp/SFML/src/SFML/Graphics/ConvexShape.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pablo/Documents/Programming/C++/OnlineTicTacToe/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/ConvexShape.cpp.o"
+	cd /home/pablo/Documents/Programming/C++/OnlineTicTacToe/build/SFML/src/SFML/Graphics && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sfml-graphics.dir/ConvexShape.cpp.o -c /home/pablo/Documents/Programming/C++/OnlineTicTacToe/SFML/src/SFML/Graphics/ConvexShape.cpp
 
 SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/ConvexShape.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sfml-graphics.dir/ConvexShape.cpp.i"
-	cd /home/pablo/Documents/Programming/C++/ChatApp/build/SFML/src/SFML/Graphics && /bin/g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pablo/Documents/Programming/C++/ChatApp/SFML/src/SFML/Graphics/ConvexShape.cpp > CMakeFiles/sfml-graphics.dir/ConvexShape.cpp.i
+	cd /home/pablo/Documents/Programming/C++/OnlineTicTacToe/build/SFML/src/SFML/Graphics && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pablo/Documents/Programming/C++/OnlineTicTacToe/SFML/src/SFML/Graphics/ConvexShape.cpp > CMakeFiles/sfml-graphics.dir/ConvexShape.cpp.i
 
 SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/ConvexShape.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sfml-graphics.dir/ConvexShape.cpp.s"
-	cd /home/pablo/Documents/Programming/C++/ChatApp/build/SFML/src/SFML/Graphics && /bin/g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pablo/Documents/Programming/C++/ChatApp/SFML/src/SFML/Graphics/ConvexShape.cpp -o CMakeFiles/sfml-graphics.dir/ConvexShape.cpp.s
+	cd /home/pablo/Documents/Programming/C++/OnlineTicTacToe/build/SFML/src/SFML/Graphics && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pablo/Documents/Programming/C++/OnlineTicTacToe/SFML/src/SFML/Graphics/ConvexShape.cpp -o CMakeFiles/sfml-graphics.dir/ConvexShape.cpp.s
 
 SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Sprite.cpp.o: SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/flags.make
 SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Sprite.cpp.o: ../SFML/src/SFML/Graphics/Sprite.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pablo/Documents/Programming/C++/ChatApp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Sprite.cpp.o"
-	cd /home/pablo/Documents/Programming/C++/ChatApp/build/SFML/src/SFML/Graphics && /bin/g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sfml-graphics.dir/Sprite.cpp.o -c /home/pablo/Documents/Programming/C++/ChatApp/SFML/src/SFML/Graphics/Sprite.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pablo/Documents/Programming/C++/OnlineTicTacToe/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Sprite.cpp.o"
+	cd /home/pablo/Documents/Programming/C++/OnlineTicTacToe/build/SFML/src/SFML/Graphics && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sfml-graphics.dir/Sprite.cpp.o -c /home/pablo/Documents/Programming/C++/OnlineTicTacToe/SFML/src/SFML/Graphics/Sprite.cpp
 
 SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Sprite.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sfml-graphics.dir/Sprite.cpp.i"
-	cd /home/pablo/Documents/Programming/C++/ChatApp/build/SFML/src/SFML/Graphics && /bin/g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pablo/Documents/Programming/C++/ChatApp/SFML/src/SFML/Graphics/Sprite.cpp > CMakeFiles/sfml-graphics.dir/Sprite.cpp.i
+	cd /home/pablo/Documents/Programming/C++/OnlineTicTacToe/build/SFML/src/SFML/Graphics && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pablo/Documents/Programming/C++/OnlineTicTacToe/SFML/src/SFML/Graphics/Sprite.cpp > CMakeFiles/sfml-graphics.dir/Sprite.cpp.i
 
 SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Sprite.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sfml-graphics.dir/Sprite.cpp.s"
-	cd /home/pablo/Documents/Programming/C++/ChatApp/build/SFML/src/SFML/Graphics && /bin/g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pablo/Documents/Programming/C++/ChatApp/SFML/src/SFML/Graphics/Sprite.cpp -o CMakeFiles/sfml-graphics.dir/Sprite.cpp.s
+	cd /home/pablo/Documents/Programming/C++/OnlineTicTacToe/build/SFML/src/SFML/Graphics && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pablo/Documents/Programming/C++/OnlineTicTacToe/SFML/src/SFML/Graphics/Sprite.cpp -o CMakeFiles/sfml-graphics.dir/Sprite.cpp.s
 
 SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Text.cpp.o: SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/flags.make
 SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Text.cpp.o: ../SFML/src/SFML/Graphics/Text.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pablo/Documents/Programming/C++/ChatApp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Text.cpp.o"
-	cd /home/pablo/Documents/Programming/C++/ChatApp/build/SFML/src/SFML/Graphics && /bin/g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sfml-graphics.dir/Text.cpp.o -c /home/pablo/Documents/Programming/C++/ChatApp/SFML/src/SFML/Graphics/Text.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pablo/Documents/Programming/C++/OnlineTicTacToe/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Text.cpp.o"
+	cd /home/pablo/Documents/Programming/C++/OnlineTicTacToe/build/SFML/src/SFML/Graphics && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sfml-graphics.dir/Text.cpp.o -c /home/pablo/Documents/Programming/C++/OnlineTicTacToe/SFML/src/SFML/Graphics/Text.cpp
 
 SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Text.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sfml-graphics.dir/Text.cpp.i"
-	cd /home/pablo/Documents/Programming/C++/ChatApp/build/SFML/src/SFML/Graphics && /bin/g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pablo/Documents/Programming/C++/ChatApp/SFML/src/SFML/Graphics/Text.cpp > CMakeFiles/sfml-graphics.dir/Text.cpp.i
+	cd /home/pablo/Documents/Programming/C++/OnlineTicTacToe/build/SFML/src/SFML/Graphics && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pablo/Documents/Programming/C++/OnlineTicTacToe/SFML/src/SFML/Graphics/Text.cpp > CMakeFiles/sfml-graphics.dir/Text.cpp.i
 
 SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Text.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sfml-graphics.dir/Text.cpp.s"
-	cd /home/pablo/Documents/Programming/C++/ChatApp/build/SFML/src/SFML/Graphics && /bin/g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pablo/Documents/Programming/C++/ChatApp/SFML/src/SFML/Graphics/Text.cpp -o CMakeFiles/sfml-graphics.dir/Text.cpp.s
+	cd /home/pablo/Documents/Programming/C++/OnlineTicTacToe/build/SFML/src/SFML/Graphics && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pablo/Documents/Programming/C++/OnlineTicTacToe/SFML/src/SFML/Graphics/Text.cpp -o CMakeFiles/sfml-graphics.dir/Text.cpp.s
 
 SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/VertexArray.cpp.o: SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/flags.make
 SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/VertexArray.cpp.o: ../SFML/src/SFML/Graphics/VertexArray.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pablo/Documents/Programming/C++/ChatApp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/VertexArray.cpp.o"
-	cd /home/pablo/Documents/Programming/C++/ChatApp/build/SFML/src/SFML/Graphics && /bin/g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sfml-graphics.dir/VertexArray.cpp.o -c /home/pablo/Documents/Programming/C++/ChatApp/SFML/src/SFML/Graphics/VertexArray.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pablo/Documents/Programming/C++/OnlineTicTacToe/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/VertexArray.cpp.o"
+	cd /home/pablo/Documents/Programming/C++/OnlineTicTacToe/build/SFML/src/SFML/Graphics && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sfml-graphics.dir/VertexArray.cpp.o -c /home/pablo/Documents/Programming/C++/OnlineTicTacToe/SFML/src/SFML/Graphics/VertexArray.cpp
 
 SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/VertexArray.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sfml-graphics.dir/VertexArray.cpp.i"
-	cd /home/pablo/Documents/Programming/C++/ChatApp/build/SFML/src/SFML/Graphics && /bin/g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pablo/Documents/Programming/C++/ChatApp/SFML/src/SFML/Graphics/VertexArray.cpp > CMakeFiles/sfml-graphics.dir/VertexArray.cpp.i
+	cd /home/pablo/Documents/Programming/C++/OnlineTicTacToe/build/SFML/src/SFML/Graphics && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pablo/Documents/Programming/C++/OnlineTicTacToe/SFML/src/SFML/Graphics/VertexArray.cpp > CMakeFiles/sfml-graphics.dir/VertexArray.cpp.i
 
 SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/VertexArray.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sfml-graphics.dir/VertexArray.cpp.s"
-	cd /home/pablo/Documents/Programming/C++/ChatApp/build/SFML/src/SFML/Graphics && /bin/g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pablo/Documents/Programming/C++/ChatApp/SFML/src/SFML/Graphics/VertexArray.cpp -o CMakeFiles/sfml-graphics.dir/VertexArray.cpp.s
+	cd /home/pablo/Documents/Programming/C++/OnlineTicTacToe/build/SFML/src/SFML/Graphics && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pablo/Documents/Programming/C++/OnlineTicTacToe/SFML/src/SFML/Graphics/VertexArray.cpp -o CMakeFiles/sfml-graphics.dir/VertexArray.cpp.s
 
 SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/VertexBuffer.cpp.o: SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/flags.make
 SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/VertexBuffer.cpp.o: ../SFML/src/SFML/Graphics/VertexBuffer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pablo/Documents/Programming/C++/ChatApp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building CXX object SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/VertexBuffer.cpp.o"
-	cd /home/pablo/Documents/Programming/C++/ChatApp/build/SFML/src/SFML/Graphics && /bin/g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sfml-graphics.dir/VertexBuffer.cpp.o -c /home/pablo/Documents/Programming/C++/ChatApp/SFML/src/SFML/Graphics/VertexBuffer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pablo/Documents/Programming/C++/OnlineTicTacToe/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building CXX object SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/VertexBuffer.cpp.o"
+	cd /home/pablo/Documents/Programming/C++/OnlineTicTacToe/build/SFML/src/SFML/Graphics && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sfml-graphics.dir/VertexBuffer.cpp.o -c /home/pablo/Documents/Programming/C++/OnlineTicTacToe/SFML/src/SFML/Graphics/VertexBuffer.cpp
 
 SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/VertexBuffer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sfml-graphics.dir/VertexBuffer.cpp.i"
-	cd /home/pablo/Documents/Programming/C++/ChatApp/build/SFML/src/SFML/Graphics && /bin/g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pablo/Documents/Programming/C++/ChatApp/SFML/src/SFML/Graphics/VertexBuffer.cpp > CMakeFiles/sfml-graphics.dir/VertexBuffer.cpp.i
+	cd /home/pablo/Documents/Programming/C++/OnlineTicTacToe/build/SFML/src/SFML/Graphics && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pablo/Documents/Programming/C++/OnlineTicTacToe/SFML/src/SFML/Graphics/VertexBuffer.cpp > CMakeFiles/sfml-graphics.dir/VertexBuffer.cpp.i
 
 SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/VertexBuffer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sfml-graphics.dir/VertexBuffer.cpp.s"
-	cd /home/pablo/Documents/Programming/C++/ChatApp/build/SFML/src/SFML/Graphics && /bin/g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pablo/Documents/Programming/C++/ChatApp/SFML/src/SFML/Graphics/VertexBuffer.cpp -o CMakeFiles/sfml-graphics.dir/VertexBuffer.cpp.s
+	cd /home/pablo/Documents/Programming/C++/OnlineTicTacToe/build/SFML/src/SFML/Graphics && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pablo/Documents/Programming/C++/OnlineTicTacToe/SFML/src/SFML/Graphics/VertexBuffer.cpp -o CMakeFiles/sfml-graphics.dir/VertexBuffer.cpp.s
 
 SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/RenderTextureImpl.cpp.o: SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/flags.make
 SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/RenderTextureImpl.cpp.o: ../SFML/src/SFML/Graphics/RenderTextureImpl.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pablo/Documents/Programming/C++/ChatApp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building CXX object SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/RenderTextureImpl.cpp.o"
-	cd /home/pablo/Documents/Programming/C++/ChatApp/build/SFML/src/SFML/Graphics && /bin/g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sfml-graphics.dir/RenderTextureImpl.cpp.o -c /home/pablo/Documents/Programming/C++/ChatApp/SFML/src/SFML/Graphics/RenderTextureImpl.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pablo/Documents/Programming/C++/OnlineTicTacToe/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building CXX object SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/RenderTextureImpl.cpp.o"
+	cd /home/pablo/Documents/Programming/C++/OnlineTicTacToe/build/SFML/src/SFML/Graphics && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sfml-graphics.dir/RenderTextureImpl.cpp.o -c /home/pablo/Documents/Programming/C++/OnlineTicTacToe/SFML/src/SFML/Graphics/RenderTextureImpl.cpp
 
 SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/RenderTextureImpl.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sfml-graphics.dir/RenderTextureImpl.cpp.i"
-	cd /home/pablo/Documents/Programming/C++/ChatApp/build/SFML/src/SFML/Graphics && /bin/g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pablo/Documents/Programming/C++/ChatApp/SFML/src/SFML/Graphics/RenderTextureImpl.cpp > CMakeFiles/sfml-graphics.dir/RenderTextureImpl.cpp.i
+	cd /home/pablo/Documents/Programming/C++/OnlineTicTacToe/build/SFML/src/SFML/Graphics && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pablo/Documents/Programming/C++/OnlineTicTacToe/SFML/src/SFML/Graphics/RenderTextureImpl.cpp > CMakeFiles/sfml-graphics.dir/RenderTextureImpl.cpp.i
 
 SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/RenderTextureImpl.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sfml-graphics.dir/RenderTextureImpl.cpp.s"
-	cd /home/pablo/Documents/Programming/C++/ChatApp/build/SFML/src/SFML/Graphics && /bin/g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pablo/Documents/Programming/C++/ChatApp/SFML/src/SFML/Graphics/RenderTextureImpl.cpp -o CMakeFiles/sfml-graphics.dir/RenderTextureImpl.cpp.s
+	cd /home/pablo/Documents/Programming/C++/OnlineTicTacToe/build/SFML/src/SFML/Graphics && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pablo/Documents/Programming/C++/OnlineTicTacToe/SFML/src/SFML/Graphics/RenderTextureImpl.cpp -o CMakeFiles/sfml-graphics.dir/RenderTextureImpl.cpp.s
 
 SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/RenderTextureImplFBO.cpp.o: SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/flags.make
 SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/RenderTextureImplFBO.cpp.o: ../SFML/src/SFML/Graphics/RenderTextureImplFBO.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pablo/Documents/Programming/C++/ChatApp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building CXX object SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/RenderTextureImplFBO.cpp.o"
-	cd /home/pablo/Documents/Programming/C++/ChatApp/build/SFML/src/SFML/Graphics && /bin/g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sfml-graphics.dir/RenderTextureImplFBO.cpp.o -c /home/pablo/Documents/Programming/C++/ChatApp/SFML/src/SFML/Graphics/RenderTextureImplFBO.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pablo/Documents/Programming/C++/OnlineTicTacToe/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building CXX object SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/RenderTextureImplFBO.cpp.o"
+	cd /home/pablo/Documents/Programming/C++/OnlineTicTacToe/build/SFML/src/SFML/Graphics && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sfml-graphics.dir/RenderTextureImplFBO.cpp.o -c /home/pablo/Documents/Programming/C++/OnlineTicTacToe/SFML/src/SFML/Graphics/RenderTextureImplFBO.cpp
 
 SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/RenderTextureImplFBO.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sfml-graphics.dir/RenderTextureImplFBO.cpp.i"
-	cd /home/pablo/Documents/Programming/C++/ChatApp/build/SFML/src/SFML/Graphics && /bin/g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pablo/Documents/Programming/C++/ChatApp/SFML/src/SFML/Graphics/RenderTextureImplFBO.cpp > CMakeFiles/sfml-graphics.dir/RenderTextureImplFBO.cpp.i
+	cd /home/pablo/Documents/Programming/C++/OnlineTicTacToe/build/SFML/src/SFML/Graphics && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pablo/Documents/Programming/C++/OnlineTicTacToe/SFML/src/SFML/Graphics/RenderTextureImplFBO.cpp > CMakeFiles/sfml-graphics.dir/RenderTextureImplFBO.cpp.i
 
 SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/RenderTextureImplFBO.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sfml-graphics.dir/RenderTextureImplFBO.cpp.s"
-	cd /home/pablo/Documents/Programming/C++/ChatApp/build/SFML/src/SFML/Graphics && /bin/g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pablo/Documents/Programming/C++/ChatApp/SFML/src/SFML/Graphics/RenderTextureImplFBO.cpp -o CMakeFiles/sfml-graphics.dir/RenderTextureImplFBO.cpp.s
+	cd /home/pablo/Documents/Programming/C++/OnlineTicTacToe/build/SFML/src/SFML/Graphics && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pablo/Documents/Programming/C++/OnlineTicTacToe/SFML/src/SFML/Graphics/RenderTextureImplFBO.cpp -o CMakeFiles/sfml-graphics.dir/RenderTextureImplFBO.cpp.s
 
 SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/RenderTextureImplDefault.cpp.o: SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/flags.make
 SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/RenderTextureImplDefault.cpp.o: ../SFML/src/SFML/Graphics/RenderTextureImplDefault.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pablo/Documents/Programming/C++/ChatApp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building CXX object SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/RenderTextureImplDefault.cpp.o"
-	cd /home/pablo/Documents/Programming/C++/ChatApp/build/SFML/src/SFML/Graphics && /bin/g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sfml-graphics.dir/RenderTextureImplDefault.cpp.o -c /home/pablo/Documents/Programming/C++/ChatApp/SFML/src/SFML/Graphics/RenderTextureImplDefault.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pablo/Documents/Programming/C++/OnlineTicTacToe/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building CXX object SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/RenderTextureImplDefault.cpp.o"
+	cd /home/pablo/Documents/Programming/C++/OnlineTicTacToe/build/SFML/src/SFML/Graphics && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/sfml-graphics.dir/RenderTextureImplDefault.cpp.o -c /home/pablo/Documents/Programming/C++/OnlineTicTacToe/SFML/src/SFML/Graphics/RenderTextureImplDefault.cpp
 
 SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/RenderTextureImplDefault.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sfml-graphics.dir/RenderTextureImplDefault.cpp.i"
-	cd /home/pablo/Documents/Programming/C++/ChatApp/build/SFML/src/SFML/Graphics && /bin/g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pablo/Documents/Programming/C++/ChatApp/SFML/src/SFML/Graphics/RenderTextureImplDefault.cpp > CMakeFiles/sfml-graphics.dir/RenderTextureImplDefault.cpp.i
+	cd /home/pablo/Documents/Programming/C++/OnlineTicTacToe/build/SFML/src/SFML/Graphics && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pablo/Documents/Programming/C++/OnlineTicTacToe/SFML/src/SFML/Graphics/RenderTextureImplDefault.cpp > CMakeFiles/sfml-graphics.dir/RenderTextureImplDefault.cpp.i
 
 SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/RenderTextureImplDefault.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sfml-graphics.dir/RenderTextureImplDefault.cpp.s"
-	cd /home/pablo/Documents/Programming/C++/ChatApp/build/SFML/src/SFML/Graphics && /bin/g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pablo/Documents/Programming/C++/ChatApp/SFML/src/SFML/Graphics/RenderTextureImplDefault.cpp -o CMakeFiles/sfml-graphics.dir/RenderTextureImplDefault.cpp.s
+	cd /home/pablo/Documents/Programming/C++/OnlineTicTacToe/build/SFML/src/SFML/Graphics && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pablo/Documents/Programming/C++/OnlineTicTacToe/SFML/src/SFML/Graphics/RenderTextureImplDefault.cpp -o CMakeFiles/sfml-graphics.dir/RenderTextureImplDefault.cpp.s
 
 # Object files for target sfml-graphics
 sfml__graphics_OBJECTS = \
@@ -497,53 +497,53 @@ sfml__graphics_OBJECTS = \
 # External object files for target sfml-graphics
 sfml__graphics_EXTERNAL_OBJECTS =
 
-SFML/lib/libsfml-graphics-s-d.a: SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/BlendMode.cpp.o
-SFML/lib/libsfml-graphics-s-d.a: SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Color.cpp.o
-SFML/lib/libsfml-graphics-s-d.a: SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Font.cpp.o
-SFML/lib/libsfml-graphics-s-d.a: SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Glsl.cpp.o
-SFML/lib/libsfml-graphics-s-d.a: SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/GLCheck.cpp.o
-SFML/lib/libsfml-graphics-s-d.a: SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/GLExtensions.cpp.o
-SFML/lib/libsfml-graphics-s-d.a: SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Image.cpp.o
-SFML/lib/libsfml-graphics-s-d.a: SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/ImageLoader.cpp.o
-SFML/lib/libsfml-graphics-s-d.a: SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/RenderStates.cpp.o
-SFML/lib/libsfml-graphics-s-d.a: SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/RenderTexture.cpp.o
-SFML/lib/libsfml-graphics-s-d.a: SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/RenderTarget.cpp.o
-SFML/lib/libsfml-graphics-s-d.a: SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/RenderWindow.cpp.o
-SFML/lib/libsfml-graphics-s-d.a: SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Shader.cpp.o
-SFML/lib/libsfml-graphics-s-d.a: SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Texture.cpp.o
-SFML/lib/libsfml-graphics-s-d.a: SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/TextureSaver.cpp.o
-SFML/lib/libsfml-graphics-s-d.a: SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Transform.cpp.o
-SFML/lib/libsfml-graphics-s-d.a: SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Transformable.cpp.o
-SFML/lib/libsfml-graphics-s-d.a: SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/View.cpp.o
-SFML/lib/libsfml-graphics-s-d.a: SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Vertex.cpp.o
-SFML/lib/libsfml-graphics-s-d.a: SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/GLLoader.cpp.o
-SFML/lib/libsfml-graphics-s-d.a: SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Shape.cpp.o
-SFML/lib/libsfml-graphics-s-d.a: SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/CircleShape.cpp.o
-SFML/lib/libsfml-graphics-s-d.a: SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/RectangleShape.cpp.o
-SFML/lib/libsfml-graphics-s-d.a: SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/ConvexShape.cpp.o
-SFML/lib/libsfml-graphics-s-d.a: SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Sprite.cpp.o
-SFML/lib/libsfml-graphics-s-d.a: SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Text.cpp.o
-SFML/lib/libsfml-graphics-s-d.a: SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/VertexArray.cpp.o
-SFML/lib/libsfml-graphics-s-d.a: SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/VertexBuffer.cpp.o
-SFML/lib/libsfml-graphics-s-d.a: SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/RenderTextureImpl.cpp.o
-SFML/lib/libsfml-graphics-s-d.a: SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/RenderTextureImplFBO.cpp.o
-SFML/lib/libsfml-graphics-s-d.a: SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/RenderTextureImplDefault.cpp.o
-SFML/lib/libsfml-graphics-s-d.a: SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/build.make
-SFML/lib/libsfml-graphics-s-d.a: SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/pablo/Documents/Programming/C++/ChatApp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Linking CXX static library ../../../lib/libsfml-graphics-s-d.a"
-	cd /home/pablo/Documents/Programming/C++/ChatApp/build/SFML/src/SFML/Graphics && $(CMAKE_COMMAND) -P CMakeFiles/sfml-graphics.dir/cmake_clean_target.cmake
-	cd /home/pablo/Documents/Programming/C++/ChatApp/build/SFML/src/SFML/Graphics && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/sfml-graphics.dir/link.txt --verbose=$(VERBOSE)
+SFML/lib/libsfml-graphics.a: SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/BlendMode.cpp.o
+SFML/lib/libsfml-graphics.a: SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Color.cpp.o
+SFML/lib/libsfml-graphics.a: SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Font.cpp.o
+SFML/lib/libsfml-graphics.a: SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Glsl.cpp.o
+SFML/lib/libsfml-graphics.a: SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/GLCheck.cpp.o
+SFML/lib/libsfml-graphics.a: SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/GLExtensions.cpp.o
+SFML/lib/libsfml-graphics.a: SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Image.cpp.o
+SFML/lib/libsfml-graphics.a: SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/ImageLoader.cpp.o
+SFML/lib/libsfml-graphics.a: SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/RenderStates.cpp.o
+SFML/lib/libsfml-graphics.a: SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/RenderTexture.cpp.o
+SFML/lib/libsfml-graphics.a: SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/RenderTarget.cpp.o
+SFML/lib/libsfml-graphics.a: SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/RenderWindow.cpp.o
+SFML/lib/libsfml-graphics.a: SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Shader.cpp.o
+SFML/lib/libsfml-graphics.a: SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Texture.cpp.o
+SFML/lib/libsfml-graphics.a: SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/TextureSaver.cpp.o
+SFML/lib/libsfml-graphics.a: SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Transform.cpp.o
+SFML/lib/libsfml-graphics.a: SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Transformable.cpp.o
+SFML/lib/libsfml-graphics.a: SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/View.cpp.o
+SFML/lib/libsfml-graphics.a: SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Vertex.cpp.o
+SFML/lib/libsfml-graphics.a: SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/GLLoader.cpp.o
+SFML/lib/libsfml-graphics.a: SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Shape.cpp.o
+SFML/lib/libsfml-graphics.a: SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/CircleShape.cpp.o
+SFML/lib/libsfml-graphics.a: SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/RectangleShape.cpp.o
+SFML/lib/libsfml-graphics.a: SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/ConvexShape.cpp.o
+SFML/lib/libsfml-graphics.a: SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Sprite.cpp.o
+SFML/lib/libsfml-graphics.a: SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/Text.cpp.o
+SFML/lib/libsfml-graphics.a: SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/VertexArray.cpp.o
+SFML/lib/libsfml-graphics.a: SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/VertexBuffer.cpp.o
+SFML/lib/libsfml-graphics.a: SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/RenderTextureImpl.cpp.o
+SFML/lib/libsfml-graphics.a: SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/RenderTextureImplFBO.cpp.o
+SFML/lib/libsfml-graphics.a: SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/RenderTextureImplDefault.cpp.o
+SFML/lib/libsfml-graphics.a: SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/build.make
+SFML/lib/libsfml-graphics.a: SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/pablo/Documents/Programming/C++/OnlineTicTacToe/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Linking CXX static library ../../../lib/libsfml-graphics.a"
+	cd /home/pablo/Documents/Programming/C++/OnlineTicTacToe/build/SFML/src/SFML/Graphics && $(CMAKE_COMMAND) -P CMakeFiles/sfml-graphics.dir/cmake_clean_target.cmake
+	cd /home/pablo/Documents/Programming/C++/OnlineTicTacToe/build/SFML/src/SFML/Graphics && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/sfml-graphics.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/build: SFML/lib/libsfml-graphics-s-d.a
+SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/build: SFML/lib/libsfml-graphics.a
 
 .PHONY : SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/build
 
 SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/clean:
-	cd /home/pablo/Documents/Programming/C++/ChatApp/build/SFML/src/SFML/Graphics && $(CMAKE_COMMAND) -P CMakeFiles/sfml-graphics.dir/cmake_clean.cmake
+	cd /home/pablo/Documents/Programming/C++/OnlineTicTacToe/build/SFML/src/SFML/Graphics && $(CMAKE_COMMAND) -P CMakeFiles/sfml-graphics.dir/cmake_clean.cmake
 .PHONY : SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/clean
 
 SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/depend:
-	cd /home/pablo/Documents/Programming/C++/ChatApp/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/pablo/Documents/Programming/C++/ChatApp /home/pablo/Documents/Programming/C++/ChatApp/SFML/src/SFML/Graphics /home/pablo/Documents/Programming/C++/ChatApp/build /home/pablo/Documents/Programming/C++/ChatApp/build/SFML/src/SFML/Graphics /home/pablo/Documents/Programming/C++/ChatApp/build/SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/pablo/Documents/Programming/C++/OnlineTicTacToe/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/pablo/Documents/Programming/C++/OnlineTicTacToe /home/pablo/Documents/Programming/C++/OnlineTicTacToe/SFML/src/SFML/Graphics /home/pablo/Documents/Programming/C++/OnlineTicTacToe/build /home/pablo/Documents/Programming/C++/OnlineTicTacToe/build/SFML/src/SFML/Graphics /home/pablo/Documents/Programming/C++/OnlineTicTacToe/build/SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/depend
 

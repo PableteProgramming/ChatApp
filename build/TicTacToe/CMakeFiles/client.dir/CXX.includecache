@@ -676,11 +676,23 @@ SFML/Config.hpp
 
 ../SFML/include/SFML/Window/WindowStyle.hpp
 
+../TicTacToe/include/ClientClass.hpp
+includes.h
+../TicTacToe/include/includes.h
+
 ../TicTacToe/include/Player.hpp
 includes.h
 ../TicTacToe/include/includes.h
 SFML/Graphics.hpp
 -
+
+../TicTacToe/include/WaitingClient.hpp
+includes.h
+../TicTacToe/include/includes.h
+Player.hpp
+../TicTacToe/include/Player.hpp
+
+../TicTacToe/include/client.hpp
 
 ../TicTacToe/include/includes.h
 unistd.h
@@ -713,8 +725,18 @@ vector
 -
 thread
 -
+signal.h
+-
 
-/home/pablo/Documents/Programming/C++/ChatApp/TicTacToe/src/Player.cpp
-Player.hpp
+../TicTacToe/include/main.hpp
+WaitingClient.hpp
+../TicTacToe/include/WaitingClient.hpp
+ClientClass.hpp
+../TicTacToe/include/ClientClass.hpp
+
+/home/pablo/Documents/Programming/C++/OnlineTicTacToe/TicTacToe/src/client.cpp
+main.hpp
+-
+client.hpp
 -
 

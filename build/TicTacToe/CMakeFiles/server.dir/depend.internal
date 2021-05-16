@@ -4,7 +4,7 @@
 TicTacToe/CMakeFiles/server.dir/src/ClientClass.cpp.o
  ../TicTacToe/include/ClientClass.hpp
  ../TicTacToe/include/includes.h
- /home/pablo/Documents/Programming/C++/ChatApp/TicTacToe/src/ClientClass.cpp
+ /home/pablo/Documents/Programming/C++/OnlineTicTacToe/TicTacToe/src/ClientClass.cpp
 TicTacToe/CMakeFiles/server.dir/src/WaitingClient.cpp.o
  ../SFML/include/SFML/Config.hpp
  ../SFML/include/SFML/Graphics.hpp
@@ -83,7 +83,7 @@ TicTacToe/CMakeFiles/server.dir/src/WaitingClient.cpp.o
  ../TicTacToe/include/Player.hpp
  ../TicTacToe/include/WaitingClient.hpp
  ../TicTacToe/include/includes.h
- /home/pablo/Documents/Programming/C++/ChatApp/TicTacToe/src/WaitingClient.cpp
+ /home/pablo/Documents/Programming/C++/OnlineTicTacToe/TicTacToe/src/WaitingClient.cpp
 TicTacToe/CMakeFiles/server.dir/src/main.cpp.o
  ../SFML/include/SFML/Config.hpp
  ../SFML/include/SFML/Graphics.hpp
@@ -164,7 +164,7 @@ TicTacToe/CMakeFiles/server.dir/src/main.cpp.o
  ../TicTacToe/include/WaitingClient.hpp
  ../TicTacToe/include/includes.h
  ../TicTacToe/include/main.hpp
- /home/pablo/Documents/Programming/C++/ChatApp/TicTacToe/src/main.cpp
+ /home/pablo/Documents/Programming/C++/OnlineTicTacToe/TicTacToe/src/main.cpp
 TicTacToe/CMakeFiles/server.dir/src/server.cpp.o
  ../SFML/include/SFML/Config.hpp
  ../SFML/include/SFML/Graphics.hpp
@@ -245,4 +245,4 @@ TicTacToe/CMakeFiles/server.dir/src/server.cpp.o
  ../TicTacToe/include/WaitingClient.hpp
  ../TicTacToe/include/includes.h
  ../TicTacToe/include/main.hpp
- /home/pablo/Documents/Programming/C++/ChatApp/TicTacToe/src/server.cpp
+ /home/pablo/Documents/Programming/C++/OnlineTicTacToe/TicTacToe/src/server.cpp

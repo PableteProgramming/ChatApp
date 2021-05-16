@@ -4,9 +4,9 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/pablo/Documents/Programming/C++/ChatApp/TicTacToe/src/Player.cpp" "/home/pablo/Documents/Programming/C++/ChatApp/build/TicTacToe/CMakeFiles/client.dir/src/Player.cpp.o"
-  "/home/pablo/Documents/Programming/C++/ChatApp/TicTacToe/src/client.cpp" "/home/pablo/Documents/Programming/C++/ChatApp/build/TicTacToe/CMakeFiles/client.dir/src/client.cpp.o"
-  "/home/pablo/Documents/Programming/C++/ChatApp/TicTacToe/src/main.cpp" "/home/pablo/Documents/Programming/C++/ChatApp/build/TicTacToe/CMakeFiles/client.dir/src/main.cpp.o"
+  "/home/pablo/Documents/Programming/C++/OnlineTicTacToe/TicTacToe/src/Player.cpp" "/home/pablo/Documents/Programming/C++/OnlineTicTacToe/build/TicTacToe/CMakeFiles/client.dir/src/Player.cpp.o"
+  "/home/pablo/Documents/Programming/C++/OnlineTicTacToe/TicTacToe/src/client.cpp" "/home/pablo/Documents/Programming/C++/OnlineTicTacToe/build/TicTacToe/CMakeFiles/client.dir/src/client.cpp.o"
+  "/home/pablo/Documents/Programming/C++/OnlineTicTacToe/TicTacToe/src/main.cpp" "/home/pablo/Documents/Programming/C++/OnlineTicTacToe/build/TicTacToe/CMakeFiles/client.dir/src/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -23,10 +23,10 @@ set(CMAKE_CXX_TARGET_INCLUDE_PATH
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/pablo/Documents/Programming/C++/ChatApp/build/SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/DependInfo.cmake"
-  "/home/pablo/Documents/Programming/C++/ChatApp/build/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/DependInfo.cmake"
-  "/home/pablo/Documents/Programming/C++/ChatApp/build/SFML/src/SFML/System/CMakeFiles/sfml-system.dir/DependInfo.cmake"
-  "/home/pablo/Documents/Programming/C++/ChatApp/build/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/DependInfo.cmake"
+  "/home/pablo/Documents/Programming/C++/OnlineTicTacToe/build/SFML/src/SFML/Graphics/CMakeFiles/sfml-graphics.dir/DependInfo.cmake"
+  "/home/pablo/Documents/Programming/C++/OnlineTicTacToe/build/SFML/src/SFML/Window/CMakeFiles/sfml-window.dir/DependInfo.cmake"
+  "/home/pablo/Documents/Programming/C++/OnlineTicTacToe/build/SFML/src/SFML/System/CMakeFiles/sfml-system.dir/DependInfo.cmake"
+  "/home/pablo/Documents/Programming/C++/OnlineTicTacToe/build/SFML/src/SFML/Audio/CMakeFiles/sfml-audio.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

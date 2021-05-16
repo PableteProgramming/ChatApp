@@ -147,7 +147,7 @@ int main(int argc, char** argv)
 
 #endif
 	signal(SIGINT, Client_Terminate_Handler);
-	signal(SIGBREAK, Client_Terminate_Handler);
+	//signal(SIGBREAK, Client_Terminate_Handler);
 
 	std::string startMessage = SocketRead(sock);
 	std::cout << startMessage << std::endl;

@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/pablo/Documents/Programming/C++/ChatApp
+CMAKE_SOURCE_DIR = /home/pablo/Documents/Programming/C++/OnlineTicTacToe
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/pablo/Documents/Programming/C++/ChatApp/build
+CMAKE_BINARY_DIR = /home/pablo/Documents/Programming/C++/OnlineTicTacToe/build
 
 # Include any dependencies generated for this target.
 include TicTacToe/CMakeFiles/server.dir/depend.make
@@ -59,55 +59,55 @@ include TicTacToe/CMakeFiles/server.dir/flags.make
 
 TicTacToe/CMakeFiles/server.dir/src/server.cpp.o: TicTacToe/CMakeFiles/server.dir/flags.make
 TicTacToe/CMakeFiles/server.dir/src/server.cpp.o: ../TicTacToe/src/server.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pablo/Documents/Programming/C++/ChatApp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object TicTacToe/CMakeFiles/server.dir/src/server.cpp.o"
-	cd /home/pablo/Documents/Programming/C++/ChatApp/build/TicTacToe && /bin/g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/server.dir/src/server.cpp.o -c /home/pablo/Documents/Programming/C++/ChatApp/TicTacToe/src/server.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pablo/Documents/Programming/C++/OnlineTicTacToe/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object TicTacToe/CMakeFiles/server.dir/src/server.cpp.o"
+	cd /home/pablo/Documents/Programming/C++/OnlineTicTacToe/build/TicTacToe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/server.dir/src/server.cpp.o -c /home/pablo/Documents/Programming/C++/OnlineTicTacToe/TicTacToe/src/server.cpp
 
 TicTacToe/CMakeFiles/server.dir/src/server.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/server.dir/src/server.cpp.i"
-	cd /home/pablo/Documents/Programming/C++/ChatApp/build/TicTacToe && /bin/g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pablo/Documents/Programming/C++/ChatApp/TicTacToe/src/server.cpp > CMakeFiles/server.dir/src/server.cpp.i
+	cd /home/pablo/Documents/Programming/C++/OnlineTicTacToe/build/TicTacToe && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pablo/Documents/Programming/C++/OnlineTicTacToe/TicTacToe/src/server.cpp > CMakeFiles/server.dir/src/server.cpp.i
 
 TicTacToe/CMakeFiles/server.dir/src/server.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/server.dir/src/server.cpp.s"
-	cd /home/pablo/Documents/Programming/C++/ChatApp/build/TicTacToe && /bin/g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pablo/Documents/Programming/C++/ChatApp/TicTacToe/src/server.cpp -o CMakeFiles/server.dir/src/server.cpp.s
+	cd /home/pablo/Documents/Programming/C++/OnlineTicTacToe/build/TicTacToe && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pablo/Documents/Programming/C++/OnlineTicTacToe/TicTacToe/src/server.cpp -o CMakeFiles/server.dir/src/server.cpp.s
 
 TicTacToe/CMakeFiles/server.dir/src/ClientClass.cpp.o: TicTacToe/CMakeFiles/server.dir/flags.make
 TicTacToe/CMakeFiles/server.dir/src/ClientClass.cpp.o: ../TicTacToe/src/ClientClass.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pablo/Documents/Programming/C++/ChatApp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object TicTacToe/CMakeFiles/server.dir/src/ClientClass.cpp.o"
-	cd /home/pablo/Documents/Programming/C++/ChatApp/build/TicTacToe && /bin/g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/server.dir/src/ClientClass.cpp.o -c /home/pablo/Documents/Programming/C++/ChatApp/TicTacToe/src/ClientClass.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pablo/Documents/Programming/C++/OnlineTicTacToe/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object TicTacToe/CMakeFiles/server.dir/src/ClientClass.cpp.o"
+	cd /home/pablo/Documents/Programming/C++/OnlineTicTacToe/build/TicTacToe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/server.dir/src/ClientClass.cpp.o -c /home/pablo/Documents/Programming/C++/OnlineTicTacToe/TicTacToe/src/ClientClass.cpp
 
 TicTacToe/CMakeFiles/server.dir/src/ClientClass.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/server.dir/src/ClientClass.cpp.i"
-	cd /home/pablo/Documents/Programming/C++/ChatApp/build/TicTacToe && /bin/g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pablo/Documents/Programming/C++/ChatApp/TicTacToe/src/ClientClass.cpp > CMakeFiles/server.dir/src/ClientClass.cpp.i
+	cd /home/pablo/Documents/Programming/C++/OnlineTicTacToe/build/TicTacToe && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pablo/Documents/Programming/C++/OnlineTicTacToe/TicTacToe/src/ClientClass.cpp > CMakeFiles/server.dir/src/ClientClass.cpp.i
 
 TicTacToe/CMakeFiles/server.dir/src/ClientClass.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/server.dir/src/ClientClass.cpp.s"
-	cd /home/pablo/Documents/Programming/C++/ChatApp/build/TicTacToe && /bin/g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pablo/Documents/Programming/C++/ChatApp/TicTacToe/src/ClientClass.cpp -o CMakeFiles/server.dir/src/ClientClass.cpp.s
+	cd /home/pablo/Documents/Programming/C++/OnlineTicTacToe/build/TicTacToe && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pablo/Documents/Programming/C++/OnlineTicTacToe/TicTacToe/src/ClientClass.cpp -o CMakeFiles/server.dir/src/ClientClass.cpp.s
 
 TicTacToe/CMakeFiles/server.dir/src/WaitingClient.cpp.o: TicTacToe/CMakeFiles/server.dir/flags.make
 TicTacToe/CMakeFiles/server.dir/src/WaitingClient.cpp.o: ../TicTacToe/src/WaitingClient.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pablo/Documents/Programming/C++/ChatApp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object TicTacToe/CMakeFiles/server.dir/src/WaitingClient.cpp.o"
-	cd /home/pablo/Documents/Programming/C++/ChatApp/build/TicTacToe && /bin/g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/server.dir/src/WaitingClient.cpp.o -c /home/pablo/Documents/Programming/C++/ChatApp/TicTacToe/src/WaitingClient.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pablo/Documents/Programming/C++/OnlineTicTacToe/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object TicTacToe/CMakeFiles/server.dir/src/WaitingClient.cpp.o"
+	cd /home/pablo/Documents/Programming/C++/OnlineTicTacToe/build/TicTacToe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/server.dir/src/WaitingClient.cpp.o -c /home/pablo/Documents/Programming/C++/OnlineTicTacToe/TicTacToe/src/WaitingClient.cpp
 
 TicTacToe/CMakeFiles/server.dir/src/WaitingClient.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/server.dir/src/WaitingClient.cpp.i"
-	cd /home/pablo/Documents/Programming/C++/ChatApp/build/TicTacToe && /bin/g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pablo/Documents/Programming/C++/ChatApp/TicTacToe/src/WaitingClient.cpp > CMakeFiles/server.dir/src/WaitingClient.cpp.i
+	cd /home/pablo/Documents/Programming/C++/OnlineTicTacToe/build/TicTacToe && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pablo/Documents/Programming/C++/OnlineTicTacToe/TicTacToe/src/WaitingClient.cpp > CMakeFiles/server.dir/src/WaitingClient.cpp.i
 
 TicTacToe/CMakeFiles/server.dir/src/WaitingClient.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/server.dir/src/WaitingClient.cpp.s"
-	cd /home/pablo/Documents/Programming/C++/ChatApp/build/TicTacToe && /bin/g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pablo/Documents/Programming/C++/ChatApp/TicTacToe/src/WaitingClient.cpp -o CMakeFiles/server.dir/src/WaitingClient.cpp.s
+	cd /home/pablo/Documents/Programming/C++/OnlineTicTacToe/build/TicTacToe && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pablo/Documents/Programming/C++/OnlineTicTacToe/TicTacToe/src/WaitingClient.cpp -o CMakeFiles/server.dir/src/WaitingClient.cpp.s
 
 TicTacToe/CMakeFiles/server.dir/src/main.cpp.o: TicTacToe/CMakeFiles/server.dir/flags.make
 TicTacToe/CMakeFiles/server.dir/src/main.cpp.o: ../TicTacToe/src/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pablo/Documents/Programming/C++/ChatApp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object TicTacToe/CMakeFiles/server.dir/src/main.cpp.o"
-	cd /home/pablo/Documents/Programming/C++/ChatApp/build/TicTacToe && /bin/g++-9  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/server.dir/src/main.cpp.o -c /home/pablo/Documents/Programming/C++/ChatApp/TicTacToe/src/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pablo/Documents/Programming/C++/OnlineTicTacToe/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object TicTacToe/CMakeFiles/server.dir/src/main.cpp.o"
+	cd /home/pablo/Documents/Programming/C++/OnlineTicTacToe/build/TicTacToe && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/server.dir/src/main.cpp.o -c /home/pablo/Documents/Programming/C++/OnlineTicTacToe/TicTacToe/src/main.cpp
 
 TicTacToe/CMakeFiles/server.dir/src/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/server.dir/src/main.cpp.i"
-	cd /home/pablo/Documents/Programming/C++/ChatApp/build/TicTacToe && /bin/g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pablo/Documents/Programming/C++/ChatApp/TicTacToe/src/main.cpp > CMakeFiles/server.dir/src/main.cpp.i
+	cd /home/pablo/Documents/Programming/C++/OnlineTicTacToe/build/TicTacToe && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pablo/Documents/Programming/C++/OnlineTicTacToe/TicTacToe/src/main.cpp > CMakeFiles/server.dir/src/main.cpp.i
 
 TicTacToe/CMakeFiles/server.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/server.dir/src/main.cpp.s"
-	cd /home/pablo/Documents/Programming/C++/ChatApp/build/TicTacToe && /bin/g++-9 $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pablo/Documents/Programming/C++/ChatApp/TicTacToe/src/main.cpp -o CMakeFiles/server.dir/src/main.cpp.s
+	cd /home/pablo/Documents/Programming/C++/OnlineTicTacToe/build/TicTacToe && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pablo/Documents/Programming/C++/OnlineTicTacToe/TicTacToe/src/main.cpp -o CMakeFiles/server.dir/src/main.cpp.s
 
 # Object files for target server
 server_OBJECTS = \
@@ -125,8 +125,8 @@ TicTacToe/server: TicTacToe/CMakeFiles/server.dir/src/WaitingClient.cpp.o
 TicTacToe/server: TicTacToe/CMakeFiles/server.dir/src/main.cpp.o
 TicTacToe/server: TicTacToe/CMakeFiles/server.dir/build.make
 TicTacToe/server: TicTacToe/CMakeFiles/server.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/pablo/Documents/Programming/C++/ChatApp/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable server"
-	cd /home/pablo/Documents/Programming/C++/ChatApp/build/TicTacToe && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/server.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/pablo/Documents/Programming/C++/OnlineTicTacToe/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable server"
+	cd /home/pablo/Documents/Programming/C++/OnlineTicTacToe/build/TicTacToe && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/server.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 TicTacToe/CMakeFiles/server.dir/build: TicTacToe/server
@@ -134,10 +134,10 @@ TicTacToe/CMakeFiles/server.dir/build: TicTacToe/server
 .PHONY : TicTacToe/CMakeFiles/server.dir/build
 
 TicTacToe/CMakeFiles/server.dir/clean:
-	cd /home/pablo/Documents/Programming/C++/ChatApp/build/TicTacToe && $(CMAKE_COMMAND) -P CMakeFiles/server.dir/cmake_clean.cmake
+	cd /home/pablo/Documents/Programming/C++/OnlineTicTacToe/build/TicTacToe && $(CMAKE_COMMAND) -P CMakeFiles/server.dir/cmake_clean.cmake
 .PHONY : TicTacToe/CMakeFiles/server.dir/clean
 
 TicTacToe/CMakeFiles/server.dir/depend:
-	cd /home/pablo/Documents/Programming/C++/ChatApp/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/pablo/Documents/Programming/C++/ChatApp /home/pablo/Documents/Programming/C++/ChatApp/TicTacToe /home/pablo/Documents/Programming/C++/ChatApp/build /home/pablo/Documents/Programming/C++/ChatApp/build/TicTacToe /home/pablo/Documents/Programming/C++/ChatApp/build/TicTacToe/CMakeFiles/server.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/pablo/Documents/Programming/C++/OnlineTicTacToe/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/pablo/Documents/Programming/C++/OnlineTicTacToe /home/pablo/Documents/Programming/C++/OnlineTicTacToe/TicTacToe /home/pablo/Documents/Programming/C++/OnlineTicTacToe/build /home/pablo/Documents/Programming/C++/OnlineTicTacToe/build/TicTacToe /home/pablo/Documents/Programming/C++/OnlineTicTacToe/build/TicTacToe/CMakeFiles/server.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : TicTacToe/CMakeFiles/server.dir/depend
 

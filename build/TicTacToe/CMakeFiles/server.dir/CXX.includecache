@@ -723,6 +723,8 @@ vector
 -
 thread
 -
+signal.h
+-
 
 ../TicTacToe/include/main.hpp
 WaitingClient.hpp
@@ -730,21 +732,7 @@ WaitingClient.hpp
 ClientClass.hpp
 ../TicTacToe/include/ClientClass.hpp
 
-/home/pablo/Documents/Programming/C++/ChatApp/TicTacToe/src/ClientClass.cpp
-ClientClass.hpp
--
-
-/home/pablo/Documents/Programming/C++/ChatApp/TicTacToe/src/WaitingClient.cpp
-WaitingClient.hpp
--
-
-/home/pablo/Documents/Programming/C++/ChatApp/TicTacToe/src/main.cpp
-main.hpp
--
-includes.h
-/home/pablo/Documents/Programming/C++/ChatApp/TicTacToe/src/includes.h
-
-/home/pablo/Documents/Programming/C++/ChatApp/TicTacToe/src/server.cpp
+/home/pablo/Documents/Programming/C++/OnlineTicTacToe/TicTacToe/src/server.cpp
 main.hpp
 -
 

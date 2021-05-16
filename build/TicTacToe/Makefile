@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/pablo/Documents/Programming/C++/ChatApp
+CMAKE_SOURCE_DIR = /home/pablo/Documents/Programming/C++/OnlineTicTacToe
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/pablo/Documents/Programming/C++/ChatApp/build
+CMAKE_BINARY_DIR = /home/pablo/Documents/Programming/C++/OnlineTicTacToe/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -126,14 +126,14 @@ install/local/fast: preinstall/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/pablo/Documents/Programming/C++/ChatApp/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/pablo/Documents/Programming/C++/ChatApp/build/CMakeFiles /home/pablo/Documents/Programming/C++/ChatApp/build/TicTacToe/CMakeFiles/progress.marks
-	cd /home/pablo/Documents/Programming/C++/ChatApp/build && $(MAKE) -f CMakeFiles/Makefile2 TicTacToe/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/pablo/Documents/Programming/C++/ChatApp/build/CMakeFiles 0
+	cd /home/pablo/Documents/Programming/C++/OnlineTicTacToe/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/pablo/Documents/Programming/C++/OnlineTicTacToe/build/CMakeFiles /home/pablo/Documents/Programming/C++/OnlineTicTacToe/build/TicTacToe/CMakeFiles/progress.marks
+	cd /home/pablo/Documents/Programming/C++/OnlineTicTacToe/build && $(MAKE) -f CMakeFiles/Makefile2 TicTacToe/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/pablo/Documents/Programming/C++/OnlineTicTacToe/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/pablo/Documents/Programming/C++/ChatApp/build && $(MAKE) -f CMakeFiles/Makefile2 TicTacToe/clean
+	cd /home/pablo/Documents/Programming/C++/OnlineTicTacToe/build && $(MAKE) -f CMakeFiles/Makefile2 TicTacToe/clean
 .PHONY : clean
 
 # The main clean target
@@ -143,22 +143,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/pablo/Documents/Programming/C++/ChatApp/build && $(MAKE) -f CMakeFiles/Makefile2 TicTacToe/preinstall
+	cd /home/pablo/Documents/Programming/C++/OnlineTicTacToe/build && $(MAKE) -f CMakeFiles/Makefile2 TicTacToe/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/pablo/Documents/Programming/C++/ChatApp/build && $(MAKE) -f CMakeFiles/Makefile2 TicTacToe/preinstall
+	cd /home/pablo/Documents/Programming/C++/OnlineTicTacToe/build && $(MAKE) -f CMakeFiles/Makefile2 TicTacToe/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/pablo/Documents/Programming/C++/ChatApp/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/pablo/Documents/Programming/C++/OnlineTicTacToe/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 TicTacToe/CMakeFiles/client.dir/rule:
-	cd /home/pablo/Documents/Programming/C++/ChatApp/build && $(MAKE) -f CMakeFiles/Makefile2 TicTacToe/CMakeFiles/client.dir/rule
+	cd /home/pablo/Documents/Programming/C++/OnlineTicTacToe/build && $(MAKE) -f CMakeFiles/Makefile2 TicTacToe/CMakeFiles/client.dir/rule
 .PHONY : TicTacToe/CMakeFiles/client.dir/rule
 
 # Convenience name for target.
@@ -168,12 +168,12 @@ client: TicTacToe/CMakeFiles/client.dir/rule
 
 # fast build rule for target.
 client/fast:
-	cd /home/pablo/Documents/Programming/C++/ChatApp/build && $(MAKE) -f TicTacToe/CMakeFiles/client.dir/build.make TicTacToe/CMakeFiles/client.dir/build
+	cd /home/pablo/Documents/Programming/C++/OnlineTicTacToe/build && $(MAKE) -f TicTacToe/CMakeFiles/client.dir/build.make TicTacToe/CMakeFiles/client.dir/build
 .PHONY : client/fast
 
 # Convenience name for target.
 TicTacToe/CMakeFiles/server.dir/rule:
-	cd /home/pablo/Documents/Programming/C++/ChatApp/build && $(MAKE) -f CMakeFiles/Makefile2 TicTacToe/CMakeFiles/server.dir/rule
+	cd /home/pablo/Documents/Programming/C++/OnlineTicTacToe/build && $(MAKE) -f CMakeFiles/Makefile2 TicTacToe/CMakeFiles/server.dir/rule
 .PHONY : TicTacToe/CMakeFiles/server.dir/rule
 
 # Convenience name for target.
@@ -183,7 +183,7 @@ server: TicTacToe/CMakeFiles/server.dir/rule
 
 # fast build rule for target.
 server/fast:
-	cd /home/pablo/Documents/Programming/C++/ChatApp/build && $(MAKE) -f TicTacToe/CMakeFiles/server.dir/build.make TicTacToe/CMakeFiles/server.dir/build
+	cd /home/pablo/Documents/Programming/C++/OnlineTicTacToe/build && $(MAKE) -f TicTacToe/CMakeFiles/server.dir/build.make TicTacToe/CMakeFiles/server.dir/build
 .PHONY : server/fast
 
 src/ClientClass.o: src/ClientClass.cpp.o
@@ -192,7 +192,7 @@ src/ClientClass.o: src/ClientClass.cpp.o
 
 # target to build an object file
 src/ClientClass.cpp.o:
-	cd /home/pablo/Documents/Programming/C++/ChatApp/build && $(MAKE) -f TicTacToe/CMakeFiles/server.dir/build.make TicTacToe/CMakeFiles/server.dir/src/ClientClass.cpp.o
+	cd /home/pablo/Documents/Programming/C++/OnlineTicTacToe/build && $(MAKE) -f TicTacToe/CMakeFiles/server.dir/build.make TicTacToe/CMakeFiles/server.dir/src/ClientClass.cpp.o
 .PHONY : src/ClientClass.cpp.o
 
 src/ClientClass.i: src/ClientClass.cpp.i
@@ -201,7 +201,7 @@ src/ClientClass.i: src/ClientClass.cpp.i
 
 # target to preprocess a source file
 src/ClientClass.cpp.i:
-	cd /home/pablo/Documents/Programming/C++/ChatApp/build && $(MAKE) -f TicTacToe/CMakeFiles/server.dir/build.make TicTacToe/CMakeFiles/server.dir/src/ClientClass.cpp.i
+	cd /home/pablo/Documents/Programming/C++/OnlineTicTacToe/build && $(MAKE) -f TicTacToe/CMakeFiles/server.dir/build.make TicTacToe/CMakeFiles/server.dir/src/ClientClass.cpp.i
 .PHONY : src/ClientClass.cpp.i
 
 src/ClientClass.s: src/ClientClass.cpp.s
@@ -210,7 +210,7 @@ src/ClientClass.s: src/ClientClass.cpp.s
 
 # target to generate assembly for a file
 src/ClientClass.cpp.s:
-	cd /home/pablo/Documents/Programming/C++/ChatApp/build && $(MAKE) -f TicTacToe/CMakeFiles/server.dir/build.make TicTacToe/CMakeFiles/server.dir/src/ClientClass.cpp.s
+	cd /home/pablo/Documents/Programming/C++/OnlineTicTacToe/build && $(MAKE) -f TicTacToe/CMakeFiles/server.dir/build.make TicTacToe/CMakeFiles/server.dir/src/ClientClass.cpp.s
 .PHONY : src/ClientClass.cpp.s
 
 src/Player.o: src/Player.cpp.o
@@ -219,7 +219,7 @@ src/Player.o: src/Player.cpp.o
 
 # target to build an object file
 src/Player.cpp.o:
-	cd /home/pablo/Documents/Programming/C++/ChatApp/build && $(MAKE) -f TicTacToe/CMakeFiles/client.dir/build.make TicTacToe/CMakeFiles/client.dir/src/Player.cpp.o
+	cd /home/pablo/Documents/Programming/C++/OnlineTicTacToe/build && $(MAKE) -f TicTacToe/CMakeFiles/client.dir/build.make TicTacToe/CMakeFiles/client.dir/src/Player.cpp.o
 .PHONY : src/Player.cpp.o
 
 src/Player.i: src/Player.cpp.i
@@ -228,7 +228,7 @@ src/Player.i: src/Player.cpp.i
 
 # target to preprocess a source file
 src/Player.cpp.i:
-	cd /home/pablo/Documents/Programming/C++/ChatApp/build && $(MAKE) -f TicTacToe/CMakeFiles/client.dir/build.make TicTacToe/CMakeFiles/client.dir/src/Player.cpp.i
+	cd /home/pablo/Documents/Programming/C++/OnlineTicTacToe/build && $(MAKE) -f TicTacToe/CMakeFiles/client.dir/build.make TicTacToe/CMakeFiles/client.dir/src/Player.cpp.i
 .PHONY : src/Player.cpp.i
 
 src/Player.s: src/Player.cpp.s
@@ -237,7 +237,7 @@ src/Player.s: src/Player.cpp.s
 
 # target to generate assembly for a file
 src/Player.cpp.s:
-	cd /home/pablo/Documents/Programming/C++/ChatApp/build && $(MAKE) -f TicTacToe/CMakeFiles/client.dir/build.make TicTacToe/CMakeFiles/client.dir/src/Player.cpp.s
+	cd /home/pablo/Documents/Programming/C++/OnlineTicTacToe/build && $(MAKE) -f TicTacToe/CMakeFiles/client.dir/build.make TicTacToe/CMakeFiles/client.dir/src/Player.cpp.s
 .PHONY : src/Player.cpp.s
 
 src/WaitingClient.o: src/WaitingClient.cpp.o
@@ -246,7 +246,7 @@ src/WaitingClient.o: src/WaitingClient.cpp.o
 
 # target to build an object file
 src/WaitingClient.cpp.o:
-	cd /home/pablo/Documents/Programming/C++/ChatApp/build && $(MAKE) -f TicTacToe/CMakeFiles/server.dir/build.make TicTacToe/CMakeFiles/server.dir/src/WaitingClient.cpp.o
+	cd /home/pablo/Documents/Programming/C++/OnlineTicTacToe/build && $(MAKE) -f TicTacToe/CMakeFiles/server.dir/build.make TicTacToe/CMakeFiles/server.dir/src/WaitingClient.cpp.o
 .PHONY : src/WaitingClient.cpp.o
 
 src/WaitingClient.i: src/WaitingClient.cpp.i
@@ -255,7 +255,7 @@ src/WaitingClient.i: src/WaitingClient.cpp.i
 
 # target to preprocess a source file
 src/WaitingClient.cpp.i:
-	cd /home/pablo/Documents/Programming/C++/ChatApp/build && $(MAKE) -f TicTacToe/CMakeFiles/server.dir/build.make TicTacToe/CMakeFiles/server.dir/src/WaitingClient.cpp.i
+	cd /home/pablo/Documents/Programming/C++/OnlineTicTacToe/build && $(MAKE) -f TicTacToe/CMakeFiles/server.dir/build.make TicTacToe/CMakeFiles/server.dir/src/WaitingClient.cpp.i
 .PHONY : src/WaitingClient.cpp.i
 
 src/WaitingClient.s: src/WaitingClient.cpp.s
@@ -264,7 +264,7 @@ src/WaitingClient.s: src/WaitingClient.cpp.s
 
 # target to generate assembly for a file
 src/WaitingClient.cpp.s:
-	cd /home/pablo/Documents/Programming/C++/ChatApp/build && $(MAKE) -f TicTacToe/CMakeFiles/server.dir/build.make TicTacToe/CMakeFiles/server.dir/src/WaitingClient.cpp.s
+	cd /home/pablo/Documents/Programming/C++/OnlineTicTacToe/build && $(MAKE) -f TicTacToe/CMakeFiles/server.dir/build.make TicTacToe/CMakeFiles/server.dir/src/WaitingClient.cpp.s
 .PHONY : src/WaitingClient.cpp.s
 
 src/client.o: src/client.cpp.o
@@ -273,7 +273,7 @@ src/client.o: src/client.cpp.o
 
 # target to build an object file
 src/client.cpp.o:
-	cd /home/pablo/Documents/Programming/C++/ChatApp/build && $(MAKE) -f TicTacToe/CMakeFiles/client.dir/build.make TicTacToe/CMakeFiles/client.dir/src/client.cpp.o
+	cd /home/pablo/Documents/Programming/C++/OnlineTicTacToe/build && $(MAKE) -f TicTacToe/CMakeFiles/client.dir/build.make TicTacToe/CMakeFiles/client.dir/src/client.cpp.o
 .PHONY : src/client.cpp.o
 
 src/client.i: src/client.cpp.i
@@ -282,7 +282,7 @@ src/client.i: src/client.cpp.i
 
 # target to preprocess a source file
 src/client.cpp.i:
-	cd /home/pablo/Documents/Programming/C++/ChatApp/build && $(MAKE) -f TicTacToe/CMakeFiles/client.dir/build.make TicTacToe/CMakeFiles/client.dir/src/client.cpp.i
+	cd /home/pablo/Documents/Programming/C++/OnlineTicTacToe/build && $(MAKE) -f TicTacToe/CMakeFiles/client.dir/build.make TicTacToe/CMakeFiles/client.dir/src/client.cpp.i
 .PHONY : src/client.cpp.i
 
 src/client.s: src/client.cpp.s
@@ -291,7 +291,7 @@ src/client.s: src/client.cpp.s
 
 # target to generate assembly for a file
 src/client.cpp.s:
-	cd /home/pablo/Documents/Programming/C++/ChatApp/build && $(MAKE) -f TicTacToe/CMakeFiles/client.dir/build.make TicTacToe/CMakeFiles/client.dir/src/client.cpp.s
+	cd /home/pablo/Documents/Programming/C++/OnlineTicTacToe/build && $(MAKE) -f TicTacToe/CMakeFiles/client.dir/build.make TicTacToe/CMakeFiles/client.dir/src/client.cpp.s
 .PHONY : src/client.cpp.s
 
 src/main.o: src/main.cpp.o
@@ -300,8 +300,8 @@ src/main.o: src/main.cpp.o
 
 # target to build an object file
 src/main.cpp.o:
-	cd /home/pablo/Documents/Programming/C++/ChatApp/build && $(MAKE) -f TicTacToe/CMakeFiles/client.dir/build.make TicTacToe/CMakeFiles/client.dir/src/main.cpp.o
-	cd /home/pablo/Documents/Programming/C++/ChatApp/build && $(MAKE) -f TicTacToe/CMakeFiles/server.dir/build.make TicTacToe/CMakeFiles/server.dir/src/main.cpp.o
+	cd /home/pablo/Documents/Programming/C++/OnlineTicTacToe/build && $(MAKE) -f TicTacToe/CMakeFiles/client.dir/build.make TicTacToe/CMakeFiles/client.dir/src/main.cpp.o
+	cd /home/pablo/Documents/Programming/C++/OnlineTicTacToe/build && $(MAKE) -f TicTacToe/CMakeFiles/server.dir/build.make TicTacToe/CMakeFiles/server.dir/src/main.cpp.o
 .PHONY : src/main.cpp.o
 
 src/main.i: src/main.cpp.i
@@ -310,8 +310,8 @@ src/main.i: src/main.cpp.i
 
 # target to preprocess a source file
 src/main.cpp.i:
-	cd /home/pablo/Documents/Programming/C++/ChatApp/build && $(MAKE) -f TicTacToe/CMakeFiles/client.dir/build.make TicTacToe/CMakeFiles/client.dir/src/main.cpp.i
-	cd /home/pablo/Documents/Programming/C++/ChatApp/build && $(MAKE) -f TicTacToe/CMakeFiles/server.dir/build.make TicTacToe/CMakeFiles/server.dir/src/main.cpp.i
+	cd /home/pablo/Documents/Programming/C++/OnlineTicTacToe/build && $(MAKE) -f TicTacToe/CMakeFiles/client.dir/build.make TicTacToe/CMakeFiles/client.dir/src/main.cpp.i
+	cd /home/pablo/Documents/Programming/C++/OnlineTicTacToe/build && $(MAKE) -f TicTacToe/CMakeFiles/server.dir/build.make TicTacToe/CMakeFiles/server.dir/src/main.cpp.i
 .PHONY : src/main.cpp.i
 
 src/main.s: src/main.cpp.s
@@ -320,8 +320,8 @@ src/main.s: src/main.cpp.s
 
 # target to generate assembly for a file
 src/main.cpp.s:
-	cd /home/pablo/Documents/Programming/C++/ChatApp/build && $(MAKE) -f TicTacToe/CMakeFiles/client.dir/build.make TicTacToe/CMakeFiles/client.dir/src/main.cpp.s
-	cd /home/pablo/Documents/Programming/C++/ChatApp/build && $(MAKE) -f TicTacToe/CMakeFiles/server.dir/build.make TicTacToe/CMakeFiles/server.dir/src/main.cpp.s
+	cd /home/pablo/Documents/Programming/C++/OnlineTicTacToe/build && $(MAKE) -f TicTacToe/CMakeFiles/client.dir/build.make TicTacToe/CMakeFiles/client.dir/src/main.cpp.s
+	cd /home/pablo/Documents/Programming/C++/OnlineTicTacToe/build && $(MAKE) -f TicTacToe/CMakeFiles/server.dir/build.make TicTacToe/CMakeFiles/server.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
 src/server.o: src/server.cpp.o
@@ -330,7 +330,7 @@ src/server.o: src/server.cpp.o
 
 # target to build an object file
 src/server.cpp.o:
-	cd /home/pablo/Documents/Programming/C++/ChatApp/build && $(MAKE) -f TicTacToe/CMakeFiles/server.dir/build.make TicTacToe/CMakeFiles/server.dir/src/server.cpp.o
+	cd /home/pablo/Documents/Programming/C++/OnlineTicTacToe/build && $(MAKE) -f TicTacToe/CMakeFiles/server.dir/build.make TicTacToe/CMakeFiles/server.dir/src/server.cpp.o
 .PHONY : src/server.cpp.o
 
 src/server.i: src/server.cpp.i
@@ -339,7 +339,7 @@ src/server.i: src/server.cpp.i
 
 # target to preprocess a source file
 src/server.cpp.i:
-	cd /home/pablo/Documents/Programming/C++/ChatApp/build && $(MAKE) -f TicTacToe/CMakeFiles/server.dir/build.make TicTacToe/CMakeFiles/server.dir/src/server.cpp.i
+	cd /home/pablo/Documents/Programming/C++/OnlineTicTacToe/build && $(MAKE) -f TicTacToe/CMakeFiles/server.dir/build.make TicTacToe/CMakeFiles/server.dir/src/server.cpp.i
 .PHONY : src/server.cpp.i
 
 src/server.s: src/server.cpp.s
@@ -348,7 +348,7 @@ src/server.s: src/server.cpp.s
 
 # target to generate assembly for a file
 src/server.cpp.s:
-	cd /home/pablo/Documents/Programming/C++/ChatApp/build && $(MAKE) -f TicTacToe/CMakeFiles/server.dir/build.make TicTacToe/CMakeFiles/server.dir/src/server.cpp.s
+	cd /home/pablo/Documents/Programming/C++/OnlineTicTacToe/build && $(MAKE) -f TicTacToe/CMakeFiles/server.dir/build.make TicTacToe/CMakeFiles/server.dir/src/server.cpp.s
 .PHONY : src/server.cpp.s
 
 # Help Target
@@ -394,6 +394,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/pablo/Documents/Programming/C++/ChatApp/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/pablo/Documents/Programming/C++/OnlineTicTacToe/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

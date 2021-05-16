@@ -1,6 +1,6 @@
 file(REMOVE_RECURSE
-  "../../../lib/libsfml-audio-s-d.a"
-  "../../../lib/libsfml-audio-s-d.pdb"
+  "../../../lib/libsfml-audio.a"
+  "../../../lib/libsfml-audio.pdb"
   "CMakeFiles/sfml-audio.dir/ALCheck.cpp.o"
   "CMakeFiles/sfml-audio.dir/AlResource.cpp.o"
   "CMakeFiles/sfml-audio.dir/AudioDevice.cpp.o"

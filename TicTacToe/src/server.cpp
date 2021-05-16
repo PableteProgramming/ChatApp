@@ -146,7 +146,7 @@ int main(){
     }
 #endif
 	signal(SIGINT, Server_Terminate_Handler);
-	signal(SIGBREAK, Server_Terminate_Handler);
+	//signal(SIGBREAK, Server_Terminate_Handler);
 
 	running=true;
 
