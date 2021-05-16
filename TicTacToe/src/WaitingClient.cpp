@@ -18,17 +18,17 @@ void WaitingClient::StartThread()
 }
 
 void WaitingClientRead(WaitingClient* client){
-	std::cout << "Starting thread..." << std::endl;
+	//std::cout << "Starting thread..." << std::endl;
 	while(client->waiting){
-		std::cout << "Waiting message" << std::endl;
+		//std::cout << "Waiting message" << std::endl;
 		std::string message = SocketRead(client->GetId());
 		if(message=="exit"){
 			client->waiting=false;
-			std::cout<<"Client wants to exit form the waiting room"<<std::endl;
+			//std::cout<<"Client wants to exit form the waiting room"<<std::endl;
 		}
 		else{
-			std::cout << message << std::endl;
+			//std::cout << message << std::endl;
 		}
 	}
-	std::cout<<"Waiting room finished"<<std::endl;
+	//std::cout<<"Waiting room finished"<<std::endl;
 }

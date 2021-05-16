@@ -31,7 +31,7 @@ void ExitClients(){
 			}
 		}
 		for(int i=pending.size()-1; i>=0;i--){
-			std::cout<<"client "<<clients[pending[i]]->GetName()<<" exits!"<<std::endl;
+			//std::cout<<"client "<<clients[pending[i]]->GetName()<<" exits!"<<std::endl;
 			clients.erase(clients.begin()+pending[i]);
 			std::cout<<clients.size()<<std::endl;
 		}
@@ -239,7 +239,7 @@ void Read(ClientClass* client){
 		else{
 			if(message!=""){	
 				std::string toSend = /*\033[34m[" + client->GetName() + "] > \033[0m" + */message;;
-				std::cout<<toSend<<std::endl;
+				//std::cout<<toSend<<std::endl;
 				SocketSend(client->GetFriend()->GetId(), toSend);
 			}
 		}	

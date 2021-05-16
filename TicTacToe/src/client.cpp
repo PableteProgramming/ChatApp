@@ -6,21 +6,26 @@ bool running=true;
 bool waitingroom=true;
 bool turn=false;
 bool needDraw = true;
+bool exiting=true;
 int win=404;
 
 #ifdef __linux__
-	void ClientRead(int sock, Player* player)
+int sock;
+void ClientRead(Player* player)
 #else
-	#pragma comment (lib, "Ws2_32.lib")
-	#pragma comment (lib, "Mswsock.lib")
-	#pragma comment (lib, "AdvApi32.lib")
-	void ClientRead(SOCKET sock, Player* player)
+#pragma comment (lib, "Ws2_32.lib")
+#pragma comment (lib, "Mswsock.lib")
+#pragma comment (lib, "AdvApi32.lib")
+SOCKET sock;
+void ClientRead(Player* player)
 #endif
 {
 	while(running){
 		//std::cout << "Waiting message" << std::endl;
 		std::string message = SocketRead(sock);
 		if(message=="exit"){
+			std::cout<<"Connection closed..."<<std::endl;
+			exiting=false;
 			running=false;
 			break;
 		}
@@ -62,7 +67,7 @@ int main(int argc, char** argv)
 	}
 
 #ifdef __linux__
-	int sock = 0;
+	sock = 0;
 	struct sockaddr_in server_info;
 
 	if ((sock = socket(AF_INET, SOCK_STREAM, 0)) < 0)
@@ -89,7 +94,7 @@ int main(int argc, char** argv)
 
 #else
 	WSADATA wsaData;
-	SOCKET sock = INVALID_SOCKET;
+	sock = INVALID_SOCKET;
 	struct addrinfo *result= NULL;
 	struct addrinfo *ptr= NULL;
 	struct addrinfo hints;
@@ -141,9 +146,9 @@ int main(int argc, char** argv)
     }
 
 #endif
+	signal(SIGINT, Client_Ctrl_Handler);
 
 	std::string startMessage = SocketRead(sock);
-
 	std::cout << startMessage << std::endl;
 	SocketSend(sock, name);
 	std::string UserNameExists = SocketRead(sock);
@@ -192,6 +197,7 @@ void RunWindow(int sock){
 #else
 void RunWindow(SOCKET sock){
 #endif
+	exiting=true;
 	char sign;
 
 	if (waitingroom)
@@ -220,6 +226,7 @@ void RunWindow(SOCKET sock){
 		{
 			if (event.type == sf::Event::Closed){
 				window.close();
+				exiting=false;
 				running=false;
 				waitingroom=false;
 				//break;
@@ -235,7 +242,7 @@ void RunWindow(SOCKET sock){
 	if (running)
 	{
 		//std::cout << "Starting reading thread" << std::endl;
-		reading = new std::thread(ClientRead,sock, &player);
+		reading = new std::thread(ClientRead,&player);
 	}
 	
 	if(turn){
@@ -252,6 +259,7 @@ void RunWindow(SOCKET sock){
 		{
 			if (event.type == sf::Event::Closed){
 				window.close();
+				exiting=false;
 				running=false;
 			}
 		}
@@ -315,20 +323,27 @@ void RunWindow(SOCKET sock){
 		exit(0);
 	}
 
+	/*if(!exiting){
+		exit(0);
+	}*/
+
 	switch (win)
 	{
 		case -1:{
 			//you lose
 			window.setTitle("You lose");
+			exiting=true;
 			break;
 		}
 		case 0:{
 			//draw
+			exiting=true;
 			window.setTitle("It's a draw");
 			break;
 		}
 		case 1:{
 			//you win
+			exiting=true;
 			window.setTitle("You win !");
 			break;
 		}
@@ -338,8 +353,7 @@ void RunWindow(SOCKET sock){
 		}
 	}
 
-	bool exiting=true;
-
+	//exiting=true;
 	while (exiting){
 		sf::Event event;
 	    while (window.pollEvent(event))
@@ -353,4 +367,14 @@ void RunWindow(SOCKET sock){
 		window.display();
 	}
 	window.close();
+}
+
+void Client_Ctrl_Handler(int sig) {
+	if (sig == 2) {
+		//Ctrl C
+		exiting=false;
+		running = false;
+		SocketSend(sock, "exit");
+		//std::cout << "Server connection closed successfully" << std::endl;
+	}
 }

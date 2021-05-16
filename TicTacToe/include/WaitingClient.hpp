@@ -2,11 +2,11 @@
 #include "Player.hpp"
 #ifdef __linux__
     std::string SocketRead(int);
-    void ClientRead(int, Player*);
+    void ClientRead(Player*);
     void SocketSend(int, std::string);
 #else
     std::string SocketRead(SOCKET);
-    void ClientRead(SOCKET, Player*);
+    void ClientRead(Player*);
     void SocketSend(SOCKET, std::string);
 #endif
 
