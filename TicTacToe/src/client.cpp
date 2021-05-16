@@ -146,7 +146,8 @@ int main(int argc, char** argv)
     }
 
 #endif
-	signal(SIGINT, Client_Ctrl_Handler);
+	signal(SIGINT, Client_Terminate_Handler);
+	signal(SIGBREAK, Client_Terminate_Handler);
 
 	std::string startMessage = SocketRead(sock);
 	std::cout << startMessage << std::endl;
@@ -181,7 +182,11 @@ int main(int argc, char** argv)
 		running=true;
 		waitingroom=true;
 		GameThread= new std::thread(RunWindow,sock);
-		SocketRead(sock);
+		std::string response= SocketRead(sock);
+		if (response=="exit"){
+			std::cout<<"connection closed"<<std::endl;
+			exit(0);
+		}
 		waitingroom=false;
 		SocketSend(sock,"exit");
 	}
@@ -369,12 +374,12 @@ void RunWindow(SOCKET sock){
 	window.close();
 }
 
-void Client_Ctrl_Handler(int sig) {
-	if (sig == 2) {
+void Client_Terminate_Handler(int sig) {
+	//if (sig == 2) {
 		//Ctrl C
-		exiting=false;
-		running = false;
-		SocketSend(sock, "exit");
-		//std::cout << "Server connection closed successfully" << std::endl;
-	}
+	exiting=false;
+	running = false;
+	SocketSend(sock, "exit");
+	//std::cout << "Server connection closed successfully" << std::endl;
+	//}
 }

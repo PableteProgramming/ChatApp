@@ -4,9 +4,14 @@
 std::vector<WaitingClient*> waitingroom;
 std::vector<ClientClass*> clients;
 
+std::thread* exitclients=NULL;
+std::thread* exitWaitingClients=NULL;
+
+bool running = true;
+
 void ExitWaitingClients()
 {
-	while(true){
+	while(running){
 		std::vector<int> pending;
 		pending.clear();
 		for(int i=0; i<waitingroom.size();i++){
@@ -22,7 +27,7 @@ void ExitWaitingClients()
 }
 
 void ExitClients(){
-	while(true){
+	while(running){
 		std::vector<int> pending;
 		pending.clear();
 		for(int i=0; i<clients.size();i++){
@@ -140,10 +145,14 @@ int main(){
         return 1;
     }
 #endif
+	signal(SIGINT, Server_Terminate_Handler);
+	signal(SIGBREAK, Server_Terminate_Handler);
 
-	bool running = true;
-	std::thread exitclients(ExitClients);
-	std::thread exitWaitingClients(ExitWaitingClients);
+	running=true;
+
+	exitclients= new std::thread(ExitClients);
+	exitWaitingClients= new std::thread(ExitWaitingClients);
+
 	while (running)
 	{
 #ifdef __linux__
@@ -224,6 +233,10 @@ int main(){
 			}
 		}
 	}
+
+	exitclients->join();
+	exitWaitingClients->join();
+
 	return 0;
 }
 
@@ -244,4 +257,21 @@ void Read(ClientClass* client){
 			}
 		}	
 	}
+}
+
+void Server_Terminate_Handler(int sig) {
+	//if (sig == 2) {
+		//Ctrl C
+	running = false;
+	for (int i=0; i<waitingroom.size();i++){
+		SocketSend(waitingroom[i]->GetId(),"exit");
+	}
+	for (int i=0; i<clients.size();i++){
+		SocketSend(clients[i]->GetId(),"exit");
+	}
+	exitclients->join();
+	exitWaitingClients->join();
+	std::cout << "Connection closed" << std::endl;
+	exit(0);
+	//}
 }
