@@ -144,9 +144,9 @@ int main(){
         WSACleanup();
         return 1;
     }
+	signal(SIGBREAK, Server_Terminate_Handler);
 #endif
 	signal(SIGINT, Server_Terminate_Handler);
-	//signal(SIGBREAK, Server_Terminate_Handler);
 
 	running=true;
 

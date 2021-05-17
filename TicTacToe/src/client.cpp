@@ -144,10 +144,9 @@ int main(int argc, char** argv)
         WSACleanup();
         return 1;
     }
-
+	signal(SIGBREAK, Client_Terminate_Handler);
 #endif
 	signal(SIGINT, Client_Terminate_Handler);
-	//signal(SIGBREAK, Client_Terminate_Handler);
 
 	std::string startMessage = SocketRead(sock);
 	std::cout << startMessage << std::endl;
