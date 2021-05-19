@@ -2,10 +2,10 @@
 <Project>
   <ProjectOutputs>
     <ProjectOutput>
-      <FullPath>P:\C++\OnlineTicTacToe\build\x64\Debug\ZERO_CHECK</FullPath>
+      <FullPath>C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\OnlineTicTacToe\build\x64\Debug\ZERO_CHECK</FullPath>
     </ProjectOutput>
     <ProjectOutput>
-      <FullPath>P:\C++\OnlineTicTacToe\build\TicTacToe\Debug\server.exe</FullPath>
+      <FullPath>C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\OnlineTicTacToe\build\TicTacToe\Debug\server.exe</FullPath>
     </ProjectOutput>
   </ProjectOutputs>
   <ContentFiles />

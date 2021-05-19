@@ -1,4 +1,4 @@
-# Install script for directory: P:/C++/OnlineTicTacToe/SFML/src/SFML/System
+# Install script for directory: C:/Users/curro.LAPTOP-DUBBS74R/OneDrive/Documentos/Programming/C++/OnlineTicTacToe/SFML/src/SFML/System
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,13 +34,13 @@ endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xdevelx" OR NOT CMAKE_INSTALL_COMPONENT)
   if("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^([Dd][Ee][Bb][Uu][Gg])$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "P:/C++/OnlineTicTacToe/build/SFML/lib/Debug/sfml-system-s-d.lib")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "C:/Users/curro.LAPTOP-DUBBS74R/OneDrive/Documentos/Programming/C++/OnlineTicTacToe/build/SFML/lib/Debug/sfml-system-s-d.lib")
   elseif("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^([Rr][Ee][Ll][Ee][Aa][Ss][Ee])$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "P:/C++/OnlineTicTacToe/build/SFML/lib/Release/sfml-system-s.lib")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "C:/Users/curro.LAPTOP-DUBBS74R/OneDrive/Documentos/Programming/C++/OnlineTicTacToe/build/SFML/lib/Release/sfml-system-s.lib")
   elseif("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^([Mm][Ii][Nn][Ss][Ii][Zz][Ee][Rr][Ee][Ll])$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "P:/C++/OnlineTicTacToe/build/SFML/lib/MinSizeRel/sfml-system-s.lib")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "C:/Users/curro.LAPTOP-DUBBS74R/OneDrive/Documentos/Programming/C++/OnlineTicTacToe/build/SFML/lib/MinSizeRel/sfml-system-s.lib")
   elseif("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^([Rr][Ee][Ll][Ww][Ii][Tt][Hh][Dd][Ee][Bb][Ii][Nn][Ff][Oo])$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "P:/C++/OnlineTicTacToe/build/SFML/lib/RelWithDebInfo/sfml-system-s.lib")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "C:/Users/curro.LAPTOP-DUBBS74R/OneDrive/Documentos/Programming/C++/OnlineTicTacToe/build/SFML/lib/RelWithDebInfo/sfml-system-s.lib")
   endif()
 endif()
 

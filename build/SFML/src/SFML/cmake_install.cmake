@@ -1,4 +1,4 @@
-# Install script for directory: P:/C++/OnlineTicTacToe/SFML/src/SFML
+# Install script for directory: C:/Users/curro.LAPTOP-DUBBS74R/OneDrive/Documentos/Programming/C++/OnlineTicTacToe/SFML/src/SFML
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,12 +34,12 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("P:/C++/OnlineTicTacToe/build/SFML/src/SFML/System/cmake_install.cmake")
-  include("P:/C++/OnlineTicTacToe/build/SFML/src/SFML/Main/cmake_install.cmake")
-  include("P:/C++/OnlineTicTacToe/build/SFML/src/SFML/Window/cmake_install.cmake")
-  include("P:/C++/OnlineTicTacToe/build/SFML/src/SFML/Network/cmake_install.cmake")
-  include("P:/C++/OnlineTicTacToe/build/SFML/src/SFML/Graphics/cmake_install.cmake")
-  include("P:/C++/OnlineTicTacToe/build/SFML/src/SFML/Audio/cmake_install.cmake")
+  include("C:/Users/curro.LAPTOP-DUBBS74R/OneDrive/Documentos/Programming/C++/OnlineTicTacToe/build/SFML/src/SFML/System/cmake_install.cmake")
+  include("C:/Users/curro.LAPTOP-DUBBS74R/OneDrive/Documentos/Programming/C++/OnlineTicTacToe/build/SFML/src/SFML/Main/cmake_install.cmake")
+  include("C:/Users/curro.LAPTOP-DUBBS74R/OneDrive/Documentos/Programming/C++/OnlineTicTacToe/build/SFML/src/SFML/Window/cmake_install.cmake")
+  include("C:/Users/curro.LAPTOP-DUBBS74R/OneDrive/Documentos/Programming/C++/OnlineTicTacToe/build/SFML/src/SFML/Network/cmake_install.cmake")
+  include("C:/Users/curro.LAPTOP-DUBBS74R/OneDrive/Documentos/Programming/C++/OnlineTicTacToe/build/SFML/src/SFML/Graphics/cmake_install.cmake")
+  include("C:/Users/curro.LAPTOP-DUBBS74R/OneDrive/Documentos/Programming/C++/OnlineTicTacToe/build/SFML/src/SFML/Audio/cmake_install.cmake")
 
 endif()
 

@@ -1,4 +1,4 @@
-# Install script for directory: P:/C++/OnlineTicTacToe/SFML
+# Install script for directory: C:/Users/curro.LAPTOP-DUBBS74R/OneDrive/Documentos/Programming/C++/OnlineTicTacToe/SFML
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -33,34 +33,34 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xdevelx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/." TYPE DIRECTORY FILES "P:/C++/OnlineTicTacToe/SFML/include" FILES_MATCHING REGEX "/[^/]*\\.hpp$" REGEX "/[^/]*\\.inl$")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/." TYPE DIRECTORY FILES "C:/Users/curro.LAPTOP-DUBBS74R/OneDrive/Documentos/Programming/C++/OnlineTicTacToe/SFML/include" FILES_MATCHING REGEX "/[^/]*\\.hpp$" REGEX "/[^/]*\\.inl$")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xdevelx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/." TYPE DIRECTORY FILES "P:/C++/OnlineTicTacToe/build/SFML/lib" FILES_MATCHING REGEX "/[^/]*\\.pdb$")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/." TYPE DIRECTORY FILES "C:/Users/curro.LAPTOP-DUBBS74R/OneDrive/Documentos/Programming/C++/OnlineTicTacToe/build/SFML/lib" FILES_MATCHING REGEX "/[^/]*\\.pdb$")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/." TYPE FILE FILES "P:/C++/OnlineTicTacToe/SFML/license.md")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/." TYPE FILE FILES "C:/Users/curro.LAPTOP-DUBBS74R/OneDrive/Documentos/Programming/C++/OnlineTicTacToe/SFML/license.md")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/." TYPE FILE FILES "P:/C++/OnlineTicTacToe/SFML/readme.md")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/." TYPE FILE FILES "C:/Users/curro.LAPTOP-DUBBS74R/OneDrive/Documentos/Programming/C++/OnlineTicTacToe/SFML/readme.md")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/./bin" TYPE DIRECTORY FILES "P:/C++/OnlineTicTacToe/SFML/extlibs/bin/x64/")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/./bin" TYPE DIRECTORY FILES "C:/Users/curro.LAPTOP-DUBBS74R/OneDrive/Documentos/Programming/C++/OnlineTicTacToe/SFML/extlibs/bin/x64/")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/./lib" TYPE DIRECTORY FILES "P:/C++/OnlineTicTacToe/SFML/extlibs/libs-msvc-universal/x64/")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/./lib" TYPE DIRECTORY FILES "C:/Users/curro.LAPTOP-DUBBS74R/OneDrive/Documentos/Programming/C++/OnlineTicTacToe/SFML/extlibs/libs-msvc-universal/x64/")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cmake/SFML/SFMLStaticTargets.cmake")
     file(DIFFERENT EXPORT_FILE_CHANGED FILES
          "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cmake/SFML/SFMLStaticTargets.cmake"
-         "P:/C++/OnlineTicTacToe/build/SFML/CMakeFiles/Export/lib/cmake/SFML/SFMLStaticTargets.cmake")
+         "C:/Users/curro.LAPTOP-DUBBS74R/OneDrive/Documentos/Programming/C++/OnlineTicTacToe/build/SFML/CMakeFiles/Export/lib/cmake/SFML/SFMLStaticTargets.cmake")
     if(EXPORT_FILE_CHANGED)
       file(GLOB OLD_CONFIG_FILES "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/cmake/SFML/SFMLStaticTargets-*.cmake")
       if(OLD_CONFIG_FILES)
@@ -69,32 +69,32 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
       endif()
     endif()
   endif()
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/SFML" TYPE FILE FILES "P:/C++/OnlineTicTacToe/build/SFML/CMakeFiles/Export/lib/cmake/SFML/SFMLStaticTargets.cmake")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/SFML" TYPE FILE FILES "C:/Users/curro.LAPTOP-DUBBS74R/OneDrive/Documentos/Programming/C++/OnlineTicTacToe/build/SFML/CMakeFiles/Export/lib/cmake/SFML/SFMLStaticTargets.cmake")
   if("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^([Dd][Ee][Bb][Uu][Gg])$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/SFML" TYPE FILE FILES "P:/C++/OnlineTicTacToe/build/SFML/CMakeFiles/Export/lib/cmake/SFML/SFMLStaticTargets-debug.cmake")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/SFML" TYPE FILE FILES "C:/Users/curro.LAPTOP-DUBBS74R/OneDrive/Documentos/Programming/C++/OnlineTicTacToe/build/SFML/CMakeFiles/Export/lib/cmake/SFML/SFMLStaticTargets-debug.cmake")
   endif()
   if("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^([Mm][Ii][Nn][Ss][Ii][Zz][Ee][Rr][Ee][Ll])$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/SFML" TYPE FILE FILES "P:/C++/OnlineTicTacToe/build/SFML/CMakeFiles/Export/lib/cmake/SFML/SFMLStaticTargets-minsizerel.cmake")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/SFML" TYPE FILE FILES "C:/Users/curro.LAPTOP-DUBBS74R/OneDrive/Documentos/Programming/C++/OnlineTicTacToe/build/SFML/CMakeFiles/Export/lib/cmake/SFML/SFMLStaticTargets-minsizerel.cmake")
   endif()
   if("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^([Rr][Ee][Ll][Ww][Ii][Tt][Hh][Dd][Ee][Bb][Ii][Nn][Ff][Oo])$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/SFML" TYPE FILE FILES "P:/C++/OnlineTicTacToe/build/SFML/CMakeFiles/Export/lib/cmake/SFML/SFMLStaticTargets-relwithdebinfo.cmake")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/SFML" TYPE FILE FILES "C:/Users/curro.LAPTOP-DUBBS74R/OneDrive/Documentos/Programming/C++/OnlineTicTacToe/build/SFML/CMakeFiles/Export/lib/cmake/SFML/SFMLStaticTargets-relwithdebinfo.cmake")
   endif()
   if("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^([Rr][Ee][Ll][Ee][Aa][Ss][Ee])$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/SFML" TYPE FILE FILES "P:/C++/OnlineTicTacToe/build/SFML/CMakeFiles/Export/lib/cmake/SFML/SFMLStaticTargets-release.cmake")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/SFML" TYPE FILE FILES "C:/Users/curro.LAPTOP-DUBBS74R/OneDrive/Documentos/Programming/C++/OnlineTicTacToe/build/SFML/CMakeFiles/Export/lib/cmake/SFML/SFMLStaticTargets-release.cmake")
   endif()
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xdevelx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/cmake/SFML" TYPE FILE FILES
-    "P:/C++/OnlineTicTacToe/build/SFML/SFMLConfig.cmake"
-    "P:/C++/OnlineTicTacToe/build/SFML/SFMLConfigDependencies.cmake"
-    "P:/C++/OnlineTicTacToe/build/SFML/SFMLConfigVersion.cmake"
+    "C:/Users/curro.LAPTOP-DUBBS74R/OneDrive/Documentos/Programming/C++/OnlineTicTacToe/build/SFML/SFMLConfig.cmake"
+    "C:/Users/curro.LAPTOP-DUBBS74R/OneDrive/Documentos/Programming/C++/OnlineTicTacToe/build/SFML/SFMLConfigDependencies.cmake"
+    "C:/Users/curro.LAPTOP-DUBBS74R/OneDrive/Documentos/Programming/C++/OnlineTicTacToe/build/SFML/SFMLConfigVersion.cmake"
     )
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("P:/C++/OnlineTicTacToe/build/SFML/src/SFML/cmake_install.cmake")
+  include("C:/Users/curro.LAPTOP-DUBBS74R/OneDrive/Documentos/Programming/C++/OnlineTicTacToe/build/SFML/src/SFML/cmake_install.cmake")
 
 endif()
 

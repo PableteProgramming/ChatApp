@@ -8,6 +8,7 @@ bool turn=false;
 bool needDraw = true;
 bool exiting=true;
 int win=404;
+bool focused=true;
 
 #ifdef __linux__
 int sock;
@@ -250,11 +251,15 @@ void RunWindow(SOCKET sock){
 	}
 	
 	if(turn){
+		//focused=true;
 		window.setTitle("its your turn");
 	}
 	else{
+		//focused=false;
 		window.setTitle("its not your turn");
 	}
+
+	focused=false;
 
 	while (running)
 	{
@@ -266,10 +271,16 @@ void RunWindow(SOCKET sock){
 				exiting=false;
 				running=false;
 			}
+			if (event.type== sf::Event::LostFocus){
+				focused=false;
+			}
+			if (event.type== sf::Event::GainedFocus){
+				focused=true;
+			}
 		}
 
 		if(sf::Mouse::isButtonPressed(sf::Mouse::Left)){
-			if(turn){
+			if(turn && focused){
 				window.setTitle("its your turn");
 				sf::Vector2i mPos = sf::Mouse::getPosition(window);
 				
@@ -299,8 +310,11 @@ void RunWindow(SOCKET sock){
 					needDraw = true;
 				}
 			}
-			else{
+			else if (focused){
 				window.setTitle("its not your turn");
+			}
+			else if (turn){
+				window.setTitle("its your turn");
 			}
 		}
 

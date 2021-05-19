@@ -2,6 +2,6 @@
 C:/Program Files/CMake/share/cmake-3.19/Modules/FindOpenAL.cmake
 C:/Program Files/CMake/share/cmake-3.19/Modules/FindPackageHandleStandardArgs.cmake
 C:/Program Files/CMake/share/cmake-3.19/Modules/FindPackageMessage.cmake
-P:/C++/OnlineTicTacToe/SFML/cmake/Modules/FindFLAC.cmake
-P:/C++/OnlineTicTacToe/SFML/cmake/Modules/FindVorbis.cmake
-P:/C++/OnlineTicTacToe/SFML/src/SFML/Audio/CMakeLists.txt
+C:/Users/curro.LAPTOP-DUBBS74R/OneDrive/Documentos/Programming/C++/OnlineTicTacToe/SFML/cmake/Modules/FindFLAC.cmake
+C:/Users/curro.LAPTOP-DUBBS74R/OneDrive/Documentos/Programming/C++/OnlineTicTacToe/SFML/cmake/Modules/FindVorbis.cmake
+C:/Users/curro.LAPTOP-DUBBS74R/OneDrive/Documentos/Programming/C++/OnlineTicTacToe/SFML/src/SFML/Audio/CMakeLists.txt

@@ -1,13 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <CustomBuild Include="P:\C++\OnlineTicTacToe\build\CMakeFiles\8ebb8607d7c46e5f856aa929b8bb61b2\INSTALL_force.rule">
+    <CustomBuild Include="C:\Users\curro.LAPTOP-DUBBS74R\OneDrive\Documentos\Programming\C++\OnlineTicTacToe\build\CMakeFiles\2eef553dc70a5801d9e6fa7ba36e0cf1\INSTALL_force.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="CMake Rules">
-      <UniqueIdentifier>{36331B75-F509-38F6-B1C0-46C678E1CD71}</UniqueIdentifier>
+      <UniqueIdentifier>{54DCC102-80FE-3DB4-BAFA-CB6173570391}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

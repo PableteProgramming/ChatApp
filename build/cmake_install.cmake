@@ -1,4 +1,4 @@
-# Install script for directory: P:/C++/OnlineTicTacToe
+# Install script for directory: C:/Users/curro.LAPTOP-DUBBS74R/OneDrive/Documentos/Programming/C++/OnlineTicTacToe
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,8 +34,8 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("P:/C++/OnlineTicTacToe/build/SFML/cmake_install.cmake")
-  include("P:/C++/OnlineTicTacToe/build/TicTacToe/cmake_install.cmake")
+  include("C:/Users/curro.LAPTOP-DUBBS74R/OneDrive/Documentos/Programming/C++/OnlineTicTacToe/build/SFML/cmake_install.cmake")
+  include("C:/Users/curro.LAPTOP-DUBBS74R/OneDrive/Documentos/Programming/C++/OnlineTicTacToe/build/TicTacToe/cmake_install.cmake")
 
 endif()
 
@@ -47,5 +47,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "P:/C++/OnlineTicTacToe/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "C:/Users/curro.LAPTOP-DUBBS74R/OneDrive/Documentos/Programming/C++/OnlineTicTacToe/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

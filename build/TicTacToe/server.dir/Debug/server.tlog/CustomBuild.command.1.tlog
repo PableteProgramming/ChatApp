@@ -1,6 +1,6 @@
-^P:\C++\ONLINETICTACTOE\TICTACTOE\CMAKELISTS.TXT
+^C:\USERS\CURRO.LAPTOP-DUBBS74R\ONEDRIVE\DOCUMENTOS\PROGRAMMING\C++\ONLINETICTACTOE\TICTACTOE\CMAKELISTS.TXT
 setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -SP:/C++/OnlineTicTacToe -BP:/C++/OnlineTicTacToe/build --check-stamp-file P:/C++/OnlineTicTacToe/build/TicTacToe/CMakeFiles/generate.stamp
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/curro.LAPTOP-DUBBS74R/OneDrive/Documentos/Programming/C++/OnlineTicTacToe -BC:/Users/curro.LAPTOP-DUBBS74R/OneDrive/Documentos/Programming/C++/OnlineTicTacToe/build --check-stamp-file C:/Users/curro.LAPTOP-DUBBS74R/OneDrive/Documentos/Programming/C++/OnlineTicTacToe/build/TicTacToe/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
